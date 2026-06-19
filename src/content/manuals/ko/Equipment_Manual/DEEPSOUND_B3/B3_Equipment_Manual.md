@@ -33,7 +33,7 @@
 - 본체 무게가 1kg 미만(배터리 포함 시 약 1.4kg)으로 설계되어 로프 액세스 검사나 협소한 공간에서의 정밀 검사에 최적화되어 있습니다.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/B3/사진/KakaoTalk_20251231_101545706_07_1_1.png" width="500">
+  <img src="/images/03_Resources/Image/B3/photos/KakaoTalk_20251231_101545706_07_1_1.png" width="500">
   <p>DEEPSOUND B3 제품 개요</p>
 </div>
 
@@ -53,7 +53,7 @@
 - **전용 하드 케이스**: 충격 보호용 폼이 내장된 이동식 케이스
 
 <div align="center">
-  <img src="/images/03_Resources/Image/B3/사진/KakaoTalk_20251231_101545706_03_2.png" width="400">
+  <img src="/images/03_Resources/Image/B3/photos/KakaoTalk_20251231_101545706_03_2.png" width="400">
   <p>DEEPSOUND B3 본체 무게</p>
 </div>
 
@@ -81,22 +81,22 @@
 - **내장 스탠드(Kickstand)**: 접이식 스탠드를 사용하여 거치할 수 있습니다.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/B3/알리바바/KakaoTalk_20251219_093343153_1.png" width="400">
+  <img src="/images/03_Resources/Image/B3/alibaba/KakaoTalk_20251219_093343153_1.png" width="400">
   <p>DEEPSOUND B3 Front View</p>
 </div>
 
 <div align="center">
-  <img src="/images/03_Resources/Image/B3/사진/KakaoTalk_20260213_115622058_1.png" width="400">
+  <img src="/images/03_Resources/Image/B3/photos/KakaoTalk_20260213_115622058_1.png" width="400">
   <p>DEEPSOUND B3 Rear View</p>
 </div>
 
 <div align="center">
-  <img src="/images/03_Resources/Image/B3/사진/KakaoTalk_20251231_101545706_14_1.png" width="400">
+  <img src="/images/03_Resources/Image/B3/photos/KakaoTalk_20251231_101545706_14_1.png" width="400">
   <p>DEEPSOUND B3 Top Interface (PA/UT Port)</p>
 </div>
 
 <div align="center">
-  <img src="/images/03_Resources/Image/B3/사진/KakaoTalk_20251231_101545706_13_1.png" width="400">
+  <img src="/images/03_Resources/Image/B3/photos/KakaoTalk_20251231_101545706_13_1.png" width="400">
   <p>DEEPSOUND B3 Side Interface (I/O Port)</p>
 </div>
 
