@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* Google Fonts Import - 사용자님이 만족하셨던 프리미엄 폰트 세트 */
+
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  
+  /* DSPAUT 전용 세련된 블루 테마 */
+  --color-primary: #0067b8;
+  --color-primary-content: #ffffff;
+  
+  --color-base-100: #ffffff;
+  --color-base-200: #f8f9fa;
+  --color-base-300: #e9ecef;
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth antialiased;
+    font-family: var(--font-sans);
+    letter-spacing: -0.011em;
+  }
+  
+  body {
+    @apply bg-base-100 text-[#1a1a1a] min-h-screen;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+
+  /* 커스텀 스크롤바 (Stripe 스타일) */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-base-300 rounded-full hover:bg-neutral/20 transition-colors;
+  }
+}
+
+/* 프리미엄 블로그 및 매뉴얼 본문 스타일링 */
+.prose {
+  @apply max-w-none text-[16.5px] leading-[1.75];
+}
+
+/* 본문 내 이미지: 사용자님이 원하셨던 '과하지 않은' 세련된 마감 */
+article img {
+  @apply rounded-2xl border border-base-200 shadow-sm my-10 transition-all duration-500;
+}
+
+/* 블로그 리스트 카드 호버 효과 - 과하지 않게 */
+.blog-card-hover {
+  @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-primary/5;
+}

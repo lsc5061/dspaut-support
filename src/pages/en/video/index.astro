@@ -1,0 +1,273 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Sidebar from '../../../components/Sidebar.astro';
+import videoData from '../../../data/videoData.json';
+
+const lang = "en";
+
+const t = {
+  title: "VIDEO",
+  subtitle: "Watch detailed equipment operation guides, software tutorials, and ultrasonic non-destructive testing (NDT) theory videos from the official DSPAUT YouTube channel.",
+  all: "All",
+  categories: {
+    equipment: "Equipment Guide",
+    software: "Software Guide",
+    theory: "NDT Theory"
+  },
+  play: "Play",
+  duration: "Duration",
+  noVideos: "No videos found in this category."
+};
+
+// Serialize videos for Alpine.js
+const videos = videoData.map(v => ({
+  id: v.id,
+  youtubeId: v.youtubeId,
+  title: v.titleEn,
+  description: v.descriptionEn,
+  category: v.category,
+  duration: v.duration
+}));
+
+const categoryParam = Astro.url.searchParams.get('category') || 'all';
+const activeSlug = `video/${categoryParam}`;
+---
+
+<BaseLayout title={`${t.title} - DSPAUT Support`}>
+  {/* Mobile Sidebar Slot */}
+  <div slot="mobile-sidebar">
+    <Sidebar activeSlug={activeSlug} type="video" />
+  </div>
+
+  <div class="flex flex-col lg:flex-row w-full max-w-[1600px] mx-auto min-h-screen bg-base-100 text-base-content" 
+       x-data={`{
+         activeCategory: 'all',
+         modalOpen: false,
+         currentYoutubeId: '',
+         currentTitle: '',
+         videoLoading: false,
+         videos: ${JSON.stringify(videos)},
+         get filteredVideos() {
+           if (this.activeCategory === 'all') return this.videos;
+           return this.videos.filter(v => v.category === this.activeCategory);
+         },
+         openVideo(youtubeId, title) {
+           this.currentYoutubeId = youtubeId;
+           this.currentTitle = title;
+           this.videoLoading = true;
+           this.modalOpen = true;
+         },
+         closeVideo() {
+           this.modalOpen = false;
+           this.currentYoutubeId = '';
+           this.currentTitle = '';
+           this.videoLoading = false;
+         }
+       }`}
+       x-init={`(() => {
+         // 로컬 데이터 객체 바인딩 (클로저 scope 문제 해결)
+         const dataObj = $data;
+
+         // URL 파라미터 감지 및 초기화 (정적 빌드 쿼리 대응)
+         const params = new URLSearchParams(window.location.search);
+         dataObj.activeCategory = params.get('category') || 'all';
+
+         // 사이드바 하이라이트 동기화 함수 (데스크톱 및 모바일 둘 다 강제 제어)
+         const syncSidebar = (cat) => {
+           document.querySelectorAll('aside a[href*="video"], .drawer-side a[href*="video"]').forEach(link => {
+             const href = link.getAttribute('href') || '';
+             const isMatch = (cat === 'all' && !href.includes('category=')) || 
+                             (cat !== 'all' && href.includes('category=' + cat));
+             if (isMatch) {
+               link.classList.remove('text-base-content/50', 'hover:bg-base-200', 'hover:text-primary');
+               link.classList.add('text-primary', 'bg-primary/10');
+             } else {
+               link.classList.remove('text-primary', 'bg-primary/10');
+               link.classList.add('text-base-content/50', 'hover:bg-base-200', 'hover:text-primary');
+             }
+           });
+         };
+
+         // 초기 활성 상태 하이라이트 동기화
+         syncSidebar(dataObj.activeCategory);
+
+         // 상태 변화를 워칭하여 URL history와 사이드바 하이라이트 실시간 갱신
+         $watch('activeCategory', val => {
+           const newUrl = val === 'all' ? '/${lang}/video' : '/${lang}/video?category=' + val;
+           window.history.pushState({}, '', newUrl);
+           syncSidebar(val);
+         });
+
+         // 사이드바 링크 클릭 인터셉트하여 풀페이지 리로드 방지 (부드러운 카테고리 스위칭)
+         document.querySelectorAll('aside a[href*="video"], .drawer-side a[href*="video"]').forEach(link => {
+           link.addEventListener('click', (e) => {
+             const href = link.getAttribute('href') || '';
+             e.preventDefault();
+             const match = href.match(/category=([^&]+)/);
+             dataObj.activeCategory = match ? match[1] : 'all';
+
+             // 모바일 드로어가 열려있다면 닫기
+             const drawerToggle = document.getElementById('mobile-drawer');
+             if (drawerToggle && drawerToggle.checked) {
+               drawerToggle.checked = false;
+             }
+           });
+         });
+       })()`}>
+    {/* Sidebar (Desktop) */}
+    <div class="hidden lg:block w-[300px] shrink-0 border-r border-base-200">
+        <Sidebar activeSlug={activeSlug} type="video" />
+    </div>
+
+    <div class="flex-grow p-8 lg:p-14">
+      <div class="max-w-6xl mx-auto">
+        <header class="mb-14">
+            <h1 class="text-[30px] font-black text-base-content mb-3 tracking-tight">{t.title}</h1>
+            <p class="text-[16px] text-base-content/50 font-medium max-w-3xl leading-relaxed">{t.subtitle}</p>
+        </header>
+
+        {/* Categories Tabs Filter (Glassmorphic) */}
+        <div class="inline-flex flex-wrap items-center gap-1 bg-base-200/50 dark:bg-base-300/10 backdrop-blur-md border border-base-200/60 dark:border-base-100/10 p-1.5 rounded-2xl mb-10">
+          <button 
+            class="px-5 py-2 rounded-xl text-[13.5px] font-bold tracking-tight transition-all cursor-pointer"
+            @click="activeCategory = 'all'"
+            :class="activeCategory === 'all' ? 'bg-primary text-primary-content shadow-md shadow-primary/20 scale-100' : 'bg-transparent text-base-content/60 hover:text-base-content hover:bg-base-200/60 dark:hover:bg-base-300/20'"
+          >
+            {t.all}
+          </button>
+          {Object.entries(t.categories).map(([key, label]) => (
+            <button 
+              class="px-5 py-2 rounded-xl text-[13.5px] font-bold tracking-tight transition-all cursor-pointer"
+              @click={`activeCategory = '${key}'`}
+              :class={`activeCategory === '${key}' ? 'bg-primary text-primary-content shadow-md shadow-primary/20 scale-100' : 'bg-transparent text-base-content/60 hover:text-base-content hover:bg-base-200/60 dark:hover:bg-base-300/20'`}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+
+        {/* Video Cards Grid */}
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <template x-for="video in filteredVideos" :key="video.id">
+            <div class="group flex flex-col h-full bg-base-100 rounded-2xl border border-base-200 overflow-hidden hover:shadow-2xl hover:shadow-primary/5 hover:border-primary/30 hover:-translate-y-1.5 hover:scale-[1.01] transition-all duration-500">
+              {/* Thumbnail Area */}
+              <div 
+                class="relative aspect-[16/9] bg-base-300 cursor-pointer overflow-hidden"
+                @click="openVideo(video.youtubeId, video.title)"
+              >
+                <img 
+                  :src="`https://img.youtube.com/vi/${video.youtubeId}/hqdefault.jpg`" 
+                  :alt="video.title" 
+                  class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  loading="lazy"
+                />
+                {/* Dark Hover Overlay & Play Icon (Pulsing ring) */}
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <div class="w-14 h-14 bg-primary text-primary-content rounded-full flex items-center justify-center shadow-lg transform scale-75 group-hover:scale-100 transition-transform duration-300 relative">
+                    <span class="absolute inset-0 rounded-full bg-primary/40 animate-ping opacity-75"></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-current ml-1 relative z-10" viewBox="0 0 24 24">
+                      <path d="M8 5v14l11-7z"/>
+                    </svg>
+                  </div>
+                </div>
+                {/* Duration Badge */}
+                <div class="absolute bottom-3 right-3 bg-black/70 backdrop-blur-md text-white text-[10px] font-bold px-2 py-0.5 rounded border border-white/10 font-mono">
+                  <span x-text="video.duration"></span>
+                </div>
+              </div>
+
+              {/* Title & Desc */}
+              <div class="flex flex-col flex-grow p-6">
+                <span 
+                  class="inline-block self-start px-2.5 py-1 rounded-md text-[10px] font-bold tracking-wider uppercase mb-3 border backdrop-blur-md"
+                  :class="{
+                    'bg-blue-500/10 text-blue-600 border-blue-500/20 dark:bg-blue-500/20 dark:text-blue-400': video.category === 'equipment',
+                    'bg-purple-500/10 text-purple-600 border-purple-500/20 dark:bg-purple-500/20 dark:text-purple-400': video.category === 'software',
+                    'bg-emerald-500/10 text-emerald-600 border-emerald-500/20 dark:bg-emerald-500/20 dark:text-emerald-400': video.category === 'theory'
+                  }"
+                  x-text="video.category === 'equipment' ? 'Equipment Guide' : video.category === 'software' ? 'Software Guide' : 'NDT Theory'"
+                ></span>
+
+                <h3 
+                  class="text-[17px] font-bold text-base-content leading-snug mb-2 group-hover:text-primary transition-colors cursor-pointer line-clamp-2"
+                  @click="openVideo(video.youtubeId, video.title)"
+                  x-text="video.title"
+                ></h3>
+                <p class="text-[13.5px] text-base-content/50 leading-relaxed line-clamp-2 mb-4" x-text="video.description"></p>
+              </div>
+            </div>
+          </template>
+        </div>
+
+        {/* Empty State */}
+        <div class="py-20 text-center" x-show="filteredVideos.length === 0" x-cloak>
+          <div class="text-4xl mb-4">📺</div>
+          <p class="text-base-content/40 italic text-sm">{t.noVideos}</p>
+        </div>
+      </div>
+    </div>
+
+    {/* Video Modal Player (Premium backdrop blur) */}
+    <template x-if="modalOpen">
+      <div 
+        class="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/80 backdrop-blur-xl"
+        @keydown.escape.window="closeVideo()"
+      >
+        <div 
+          class="relative w-full max-w-4xl bg-base-100 rounded-3xl overflow-hidden shadow-2xl shadow-primary/10 border border-base-200 dark:border-base-100/10 animate-fade-in-up"
+          @click.away="closeVideo()"
+        >
+          {/* Header */}
+          <div class="p-6 border-b border-base-200 flex items-center justify-between bg-base-200/30">
+            <h3 class="text-lg font-bold text-base-content truncate pr-8" x-text="currentTitle"></h3>
+            <button 
+              class="btn btn-ghost btn-sm btn-circle text-base-content opacity-60 hover:opacity-100 hover:bg-base-200/50"
+              @click="closeVideo()"
+            >
+              ✕
+            </button>
+          </div>
+
+          {/* Iframe Video Container */}
+          <div class="aspect-[16/9] w-full bg-black relative">
+            {/* Loading Indicator */}
+            <div x-show="videoLoading" class="absolute inset-0 flex flex-col items-center justify-center bg-base-100 z-20">
+              <div class="loading loading-spinner loading-lg text-primary mb-3"></div>
+              <span class="text-xs text-base-content/60 font-semibold tracking-wider uppercase">Loading Video...</span>
+            </div>
+            
+            <iframe 
+              class="w-full h-full"
+              :src="`https://www.youtube.com/embed/${currentYoutubeId}?autoplay=1&rel=0`"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              @load="videoLoading = false"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </template>
+  </div>
+</BaseLayout>
+
+<style is:global>
+  @reference "../../../styles/global.css";
+  
+  [x-cloak] { display: none !important; }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(15px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .animate-fade-in-up {
+    animation: fadeInUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+</style>

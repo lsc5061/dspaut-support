@@ -1,0 +1,136 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Sidebar from '../../components/Sidebar.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+
+export async function getStaticPaths() {
+  const manuals = await getCollection('manuals');
+  return manuals.map(entry => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content, headings } = await render(entry);
+
+const lang = Astro.currentLocale || "ko";
+
+// ID에서 제목 추출하는 헬퍼 함수
+const getTitleFromId = (id: string) => {
+  const lowerId = id.toLowerCase();
+  if (lowerId.includes('dsviewer')) return 'DSViewer';
+  if (lowerId.includes('dsvision')) return 'DSVision';
+  if (lowerId.includes('b3')) return 'DEEPSOUND B3';
+  if (lowerId.includes('p5')) return 'DEEPSOUND P5';
+  if (lowerId.includes('t3')) return 'DEEPSOUND T3';
+  if (lowerId.includes('r5')) return 'DEEPSOUND R5';
+  return id.split('/').pop()?.replace(/_/g, ' ').replace('.md', '') || id;
+};
+
+const displayTitle = entry.data.title || getTitleFromId(entry.id);
+
+// 브레드크럼 데이터 준비
+const breadcrumbItems = [
+  { label: lang === 'ko' ? '매뉴얼' : 'Manual', href: `/${lang}/manual/hardware` },
+  { label: displayTitle, href: '#' }
+];
+---
+
+<BaseLayout title={`${displayTitle} - DSPAUT Support`}>
+  <div class="flex flex-col lg:flex-row w-full max-w-[1600px] mx-auto">
+    
+    <!-- Left Sidebar (Fixed Style) -->
+    <Sidebar activeSlug={entry.id} type="manual" />
+
+    <!-- Main Content Area -->
+    <div class="flex-grow min-w-0 bg-base-100 px-6 py-10 lg:px-12">
+      <div class="max-w-4xl">
+        <!-- Breadcrumbs -->
+        <Breadcrumbs items={breadcrumbItems} />
+
+        <!-- Article Header -->
+        <header class="mb-12 border-b border-base-200 pb-8">
+          <h1 class="text-4xl font-extrabold tracking-tight mb-4">{displayTitle}</h1>
+          {entry.data.description && <p class="text-xl text-base-content/60 leading-relaxed">{entry.data.description}</p>}
+        </header>
+
+        <!-- Markdown Content -->
+        <article class="prose prose-lg prose-slate dark:prose-invert max-w-none" data-pagefind-body>
+          <Content />
+        </article>
+      </div>
+    </div>
+
+    <!-- Right Sidebar (TOC) - Optional/Minimal -->
+    <aside class="hidden xl:block w-64 flex-shrink-0 p-10 border-l border-base-200 h-screen sticky top-16 overflow-y-auto">
+      <h3 class="text-xs font-bold uppercase tracking-widest text-base-content/40 mb-4">문서 목차</h3>
+      <ul class="menu menu-sm p-0 gap-2">
+        {headings.filter(h => h.depth <= 4).map(heading => (
+          <li>
+            <a 
+              href={`#${heading.slug}`} 
+              style={`padding-left: ${(heading.depth - 2) * 1}rem`}
+              class={`hover:text-primary py-1 ${heading.depth > 2 ? 'opacity-60 text-xs' : 'opacity-80'}`}
+            >
+              {heading.text}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </aside>
+  </div>
+</BaseLayout>
+
+<style is:global>
+  @reference "../../styles/global.css";
+
+  /* Microsoft Support 스타일 폰트 및 간격 최적화 */
+  .prose {
+    --tw-prose-body: currentColor;
+    --tw-prose-headings: currentColor;
+  }
+  .prose h2 {
+    @apply text-2xl font-bold mt-12 mb-6 border-b pb-2;
+  }
+  .prose h3 {
+    @apply text-xl font-bold mt-8 mb-4;
+  }
+  .prose p {
+    @apply leading-8 mb-6;
+  }
+  .prose img {
+    @apply rounded-lg shadow-sm border border-base-200 my-10;
+  }
+  /* 스크롤 오프셋 조정 */
+  [id] {
+    scroll-margin-top: 5rem;
+  }
+</style>
+
+<script>
+  // Mermaid.js 동적 로드 및 초기화
+  import mermaid from 'mermaid';
+  
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: isDark ? 'dark' : 'default',
+    securityLevel: 'loose',
+    fontFamily: 'Inter, sans-serif'
+  });
+
+  // 테마 변경 감지 시 Mermaid 다시 그리기 (선택 사항)
+  const observer = new MutationObserver((mutations) => {
+    mutations.forEach((mutation) => {
+      if (mutation.attributeName === 'data-theme') {
+        const newTheme = document.documentElement.getAttribute('data-theme');
+        // 테마 변경 시 페이지를 새로고침하거나 Mermaid를 재초기화할 수 있습니다.
+        // 여기서는 간단하게 새로고침 없이 테마 값만 업데이트합니다.
+      }
+    });
+  });
+  observer.observe(document.documentElement, { attributes: true });
+</script>

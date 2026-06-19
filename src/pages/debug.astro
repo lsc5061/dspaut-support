@@ -1,0 +1,20 @@
+---
+import { getCollection } from 'astro:content';
+import { getCategoryInfo } from '../utils/category';
+
+const manuals = await getCollection('manuals');
+---
+
+<html>
+<body>
+  <h1>Debug Manual IDs</h1>
+  <ul>
+    {manuals.map(m => (
+      <li>
+        <strong>ID:</strong> {m.id} <br/>
+        <strong>Category:</strong> {JSON.stringify(getCategoryInfo(m.id))}
+      </li>
+    ))}
+  </ul>
+</body>
+</html>

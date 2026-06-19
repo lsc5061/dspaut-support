@@ -1,0 +1,62 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Sidebar from '../../components/Sidebar.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+
+export async function getStaticPaths() {
+  const manuals = await getCollection('manuals');
+  return manuals.map(entry => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content, headings } = await render(entry);
+
+const lang = Astro.currentLocale || "ko";
+const displayTitle = entry.data.title || entry.id.replace(/_/g, ' ').replace('.md', '');
+
+const breadcrumbItems = [
+  { label: lang === 'ko' ? '매뉴얼' : 'Manual', href: `/${lang}/manual` },
+  { label: displayTitle, href: '#' }
+];
+---
+
+<BaseLayout title={`${displayTitle} - DSPAUT Support`}>
+  <div class="flex flex-col lg:flex-row w-full max-w-[1600px] mx-auto">
+    <Sidebar activeSlug={entry.id} type="manual" />
+
+    <div class="flex-grow min-w-0 bg-base-100 px-6 py-10 lg:px-12">
+      <div class="max-w-4xl">
+        <Breadcrumbs items={breadcrumbItems} />
+        <header class="mb-12 border-b border-base-200 pb-8">
+          <h1 class="text-4xl font-extrabold tracking-tight mb-4">{displayTitle}</h1>
+          {entry.data.description && <p class="text-xl text-base-content/60 leading-relaxed">{entry.data.description}</p>}
+        </header>
+        <article class="prose prose-lg prose-slate dark:prose-invert max-w-none" data-pagefind-body>
+          <Content />
+        </article>
+      </div>
+    </div>
+
+    <aside class="hidden xl:block w-64 flex-shrink-0 p-10 border-l border-base-200 h-screen sticky top-16 overflow-y-auto text-sm">
+      <h3 class="text-xs font-bold uppercase tracking-widest text-base-content/40 mb-4">문서 목차</h3>
+      <ul class="menu menu-sm p-0 gap-2">
+        {headings.filter(h => h.depth <= 3).map(heading => (
+          <li>
+            <a href={`#${heading.slug}`} class="hover:text-primary py-1 opacity-70 hover:opacity-100 transition-all">
+              {heading.text}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </aside>
+  </div>
+</BaseLayout>
+
+<style is:global>
+  @reference "../../styles/global.css";
+  [id] { scroll-margin-top: 5rem; }
+</style>

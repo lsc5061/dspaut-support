@@ -1,0 +1,107 @@
+---
+import { getCollection } from 'astro:content';
+import { getCategoryInfo } from '../utils/category';
+
+const { activeSlug, type = 'manual' } = Astro.props;
+const lang = Astro.currentLocale || "ko";
+
+// 모든 문서 가져오기
+const manuals = await getCollection('manuals');
+const blogs = await getCollection('blog');
+
+// 데이터 디버깅을 위한 보정 로직
+const items = type === 'manual' ? manuals : blogs;
+
+// 대분류 리스트 (데이터가 있으면 무조건 표시되도록 보정)
+const mainCategories = type === 'manual' 
+  ? ['Product Manual', 'Software Manual'] 
+  : ['Blog'];
+
+
+---
+
+<aside class="w-full lg:w-72 flex-shrink-0 lg:border-r border-base-200 lg:min-h-screen bg-base-100 lg:sticky lg:top-16 self-start overflow-y-auto lg:max-h-[calc(100vh-4rem)]">
+  <div class="p-6">
+    <div class="space-y-6">
+      {mainCategories.map(mainCat => {
+        const subCats = [...new Set(items
+          .filter(item => {
+            const info = getCategoryInfo(item.id);
+            return info.main.toLowerCase().trim() === mainCat.toLowerCase().trim();
+          })
+          .map(item => getCategoryInfo(item.id).sub)
+        )].sort((a, b) => {
+          // DSVision을 맨 위로, 나머지는 알파벳 순
+          if (a === 'DSVision') return -1;
+          if (b === 'DSVision') return 1;
+          return a.localeCompare(b);
+        });
+
+        if (subCats.length === 0) return null;
+
+        return (
+          <div>
+            <h2 class="text-[12px] font-bold uppercase tracking-[0.15em] text-[#555ED3] mb-4 border-b border-base-200 pb-3">
+              {mainCat}
+            </h2>
+            <div class="space-y-4">
+              {subCats.map(subCat => {
+                const subCatItems = items.filter(item => 
+                  getCategoryInfo(item.id).main === mainCat && 
+                  getCategoryInfo(item.id).sub === subCat
+                );
+                
+                // 해당 분류에 매뉴얼이 1개만 있는 경우 -> 제품명 자체를 링크로 만듦
+                if (subCatItems.length === 1) {
+                  const item = subCatItems[0];
+                  const isActive = item.id === activeSlug;
+                  return (
+                    <div class="px-2">
+                      <a 
+                        href={`/${lang}/${type === 'manual' ? 'docs' : 'blog'}/${item.id.toLowerCase().replace(/\\/g, '/')}`}
+                        class={`block text-sm font-semibold tracking-tight transition-all py-2 px-3 rounded-md ${
+                          isActive 
+                          ? 'text-[#555ED3] bg-[#555ED3]/10' 
+                          : 'text-base-content/60 hover:text-primary hover:bg-base-200'
+                        }`}
+                      >
+                        {subCat}
+                      </a>
+                    </div>
+                  );
+                }
+
+                // 여러 개가 있는 경우 (추후 확장 대비) -> 제품명 아래에 리스트 나열
+                return (
+                  <div class="px-2">
+                    <h3 class="text-[11px] font-bold text-base-content/40 mb-2 px-3 uppercase tracking-tight">{subCat}</h3>
+                    <ul class="menu menu-sm p-0 space-y-1">
+                      {subCatItems.map(item => {
+                        const isActive = item.id === activeSlug;
+                        const title = item.id.includes('DSViewer') ? 'DSViewer' : (item.data.title || item.id.split('/').pop()?.replace(/_/g, ' ').replace('.md', ''));
+                        return (
+                          <li>
+                            <a 
+                              href={`/${lang}/${type === 'manual' ? 'docs' : 'blog'}/${item.id.toLowerCase().replace(/\\/g, '/')}`}
+                              class={`rounded-md py-2 px-3 transition-all text-sm font-semibold tracking-tight ${
+                                isActive 
+                                ? 'text-[#555ED3] bg-[#555ED3]/10' 
+                                : 'text-base-content/50 hover:text-primary hover:bg-base-200'
+                              }`}
+                            >
+                              {title}
+                            </a>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  </div>
+</aside>

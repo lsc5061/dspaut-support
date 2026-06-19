@@ -1,0 +1,55 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Sidebar from '../../../components/Sidebar.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts
+    .filter(entry => entry.id.startsWith('en/'))
+    .map(entry => ({
+      params: { slug: entry.id.replace('en/', '') },
+      props: { entry },
+    }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const lang = "en";
+const displayTitle = entry.data.title;
+---
+
+<BaseLayout title={`${displayTitle} - DSPAUT Blog`}>
+  <div slot="mobile-sidebar">
+    <Sidebar activeSlug={entry.id} type="blog" />
+  </div>
+
+  <div class="flex flex-col lg:flex-row w-full max-w-[1600px] mx-auto">
+    <div class="hidden lg:block">
+      <Sidebar activeSlug={entry.id} type="blog" />
+    </div>
+
+    <div class="flex-grow min-w-0 bg-base-100 px-6 py-10 lg:px-12">
+      <div class="max-w-3xl mx-auto">
+        <header class="mb-12">
+          <div class="flex items-center gap-2 text-sm text-base-content/40 mb-4">
+            <span>{entry.data.publishDate?.toLocaleDateString()}</span>
+            {entry.data.tags?.map(tag => (
+              <span class="badge badge-sm badge-outline">{tag}</span>
+            ))}
+          </div>
+          <h1 class="text-4xl font-extrabold tracking-tight mb-8">{displayTitle}</h1>
+        </header>
+
+        <article class="prose prose-lg prose-slate dark:prose-invert max-w-none" data-pagefind-body>
+          <Content />
+        </article>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<style is:global>
+  @reference "../../../styles/global.css";
+</style>

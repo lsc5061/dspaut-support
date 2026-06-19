@@ -1,0 +1,80 @@
+---
+interface Props {
+  post: any;
+  lang: string;
+}
+
+const { post, lang } = Astro.props;
+const { title, publishDate, description, tags, category, image } = post.data;
+
+// Slug resolution: ID includes 'ko/', so we strip it if needed or use full ID
+const slug = post.id.replace(`${lang}/`, '');
+const href = `/${lang}/blog/${slug}`;
+
+// Format date
+const formattedDate = publishDate.toLocaleDateString(lang === 'ko' ? 'ko-KR' : 'en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+});
+
+// Limit tags to 2
+const displayTags = tags?.slice(0, 2) || [];
+
+// Category color mapping
+const categoryColors: Record<string, string> = {
+  "현장 사례": "bg-blue-50 text-blue-600",
+  "기술 분석": "bg-purple-50 text-purple-600",
+  "업데이트 소식": "bg-emerald-50 text-emerald-600",
+  "default": "bg-gray-50 text-gray-600"
+};
+const badgeClass = categoryColors[category] || categoryColors.default;
+---
+
+<article class="group flex flex-col h-full bg-base-100 rounded-2xl border border-base-200 overflow-hidden hover:shadow-2xl hover:shadow-primary/5 hover:border-primary/30 transition-all duration-500">
+  {/* Thumbnail Area */}
+  <a href={href} class="block overflow-hidden aspect-[16/9]">
+    <img 
+      src={image || "/images/placeholder-blog.jpg"} 
+      alt={title} 
+      class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+    />
+  </a>
+
+  {/* Content Area */}
+  <div class="flex flex-col flex-grow p-6 lg:p-8">
+    {/* Category */}
+    <div class="mb-4">
+      <span class={`inline-block px-3 py-1 rounded-full text-[11px] font-bold tracking-wider uppercase ${badgeClass}`}>
+        {category || "Uncategorized"}
+      </span>
+    </div>
+
+    {/* Title */}
+    <h2 class="text-xl font-bold text-base-content mb-3 leading-snug group-hover:text-primary transition-colors line-clamp-2">
+      <a href={href}>{title}</a>
+    </h2>
+
+    {/* Summary */}
+    <p class="text-[14.5px] text-base-content/50 leading-relaxed line-clamp-3 mb-8 flex-grow">
+      {description}
+    </p>
+
+    {/* Footer: Date & Tags */}
+    <div class="flex items-center justify-between pt-6 border-t border-base-200 mt-auto">
+      <span class="text-xs font-medium text-base-content/40">{formattedDate}</span>
+      <div class="flex gap-2">
+        {displayTags.map(tag => (
+          <span class="text-[10px] font-bold text-base-content/30 uppercase tracking-tight">#{tag}</span>
+        ))}
+      </div>
+    </div>
+  </div>
+</article>
+
+<style>
+  /* Stripe-like subtle transitions */
+  article {
+    backface-visibility: hidden;
+  }
+</style>

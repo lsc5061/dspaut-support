@@ -1,0 +1,176 @@
+---
+import { getCollection } from 'astro:content';
+import { getCategoryInfo } from '../utils/category';
+
+const { activeSlug, type = 'manual' } = Astro.props;
+const lang = Astro.currentLocale || "ko";
+
+// 모든 문서 가져오기 및 언어별 필터링
+const manuals = (await getCollection('manuals')).filter(item => item.id.startsWith(`${lang}/`));
+const blogs = (await getCollection('blog')).filter(item => item.id.startsWith(`${lang}/`));
+const studies = (await getCollection('study')).filter(item => item.id.startsWith(`${lang}/`));
+
+let items = manuals;
+let mainCategories = lang === 'ko' ? ['장비 매뉴얼', '소프트웨어 매뉴얼'] : ['Product Manual', 'Software Manual'];
+
+if (type === 'blog') {
+  items = blogs;
+  mainCategories = lang === 'ko' ? ['블로그'] : ['Blog'];
+} else if (type === 'study') {
+  items = studies;
+  mainCategories = lang === 'ko' ? ['스터디'] : ['Study'];
+} else if (type === 'video') {
+  items = [
+    { id: 'video/all', data: { title: lang === 'ko' ? '전체 보기' : 'All Videos', category: lang === 'ko' ? '비디오 가이드' : 'Video Guide', order: 1 } },
+    { id: 'video/equipment', data: { title: lang === 'ko' ? '장비 조작법' : 'Equipment Guide', category: lang === 'ko' ? '비디오 가이드' : 'Video Guide', order: 2 } },
+    { id: 'video/software', data: { title: lang === 'ko' ? '소프트웨어 가이드' : 'Software Guide', category: lang === 'ko' ? '비디오 가이드' : 'Video Guide', order: 3 } },
+    { id: 'video/theory', data: { title: lang === 'ko' ? '초음파 이론' : 'NDT Theory', category: lang === 'ko' ? '비디오 가이드' : 'Video Guide', order: 4 } }
+  ] as any;
+  mainCategories = lang === 'ko' ? ['비디오 가이드'] : ['Video Guide'];
+}
+
+// 카테고리 정보 도출 헬퍼
+const getItemCategoryInfo = (item: any) => {
+  if (type === 'study') {
+    return {
+      main: lang === 'ko' ? '스터디' : 'Study',
+      sub: item.data.category || (lang === 'ko' ? '초음파 기초 이론' : 'Ultrasound Basics')
+    };
+  }
+  if (type === 'blog') {
+    return {
+      main: lang === 'ko' ? '블로그' : 'Blog',
+      sub: item.data.category || 'General'
+    };
+  }
+  if (type === 'video') {
+    return {
+      main: lang === 'ko' ? '비디오 가이드' : 'Video Guide',
+      sub: lang === 'ko' ? '카테고리' : 'Categories'
+    };
+  }
+  const rawInfo = getCategoryInfo(item.id);
+  if (lang === 'ko') {
+    let localizedMain = rawInfo.main;
+    if (rawInfo.main === 'Product Manual') localizedMain = '장비 매뉴얼';
+    else if (rawInfo.main === 'Software Manual') localizedMain = '소프트웨어 매뉴얼';
+    return {
+      main: localizedMain,
+      sub: rawInfo.sub
+    };
+  }
+  return rawInfo;
+};
+
+// URL 구성 헬퍼
+const getUrl = (item: any) => {
+  if (type === 'video') {
+    const categoryKey = item.id.replace('video/', '');
+    return categoryKey === 'all' ? `/${lang}/video` : `/${lang}/video?category=${categoryKey}`;
+  }
+  const cleanId = item.id.replace(`${lang}/`, '').toLowerCase().replace(/\\/g, '/');
+  let pathType = type;
+  if (type === 'manual') pathType = 'docs';
+  return `/${lang}/${pathType}/${cleanId}`;
+};
+
+---
+
+<aside class="w-full lg:w-72 flex-shrink-0 lg:border-r border-base-200 lg:min-h-screen bg-base-100 lg:sticky lg:top-16 self-start overflow-y-auto lg:max-h-[calc(100vh-4rem)]">
+  <div class="p-6">
+    <div class="space-y-6">
+      {mainCategories.map(mainCat => {
+        const subCats = [...new Set(items
+          .filter(item => {
+            const info = getItemCategoryInfo(item);
+            return info.main.toLowerCase().trim() === mainCat.toLowerCase().trim();
+          })
+          .map(item => getItemCategoryInfo(item).sub)
+        )].sort((a, b) => {
+          // DSVision을 맨 위로, DSViewer를 그 다음, 나머지는 알파벳 순
+          if (a === 'DSVision') return -1;
+          if (b === 'DSVision') return 1;
+          if (a === 'DSViewer') return -1;
+          if (b === 'DSViewer') return 1;
+          return a.localeCompare(b);
+        });
+
+        if (subCats.length === 0) return null;
+
+        return (
+          <div>
+            <h2 class="text-[12px] font-bold uppercase tracking-[0.15em] text-primary mb-4 border-b border-base-200 pb-3">
+              {mainCat}
+            </h2>
+            <div class="space-y-4">
+              {subCats.map(subCat => {
+                const subCatItems = items.filter(item => {
+                  const info = getItemCategoryInfo(item);
+                  return info.main === mainCat && info.sub === subCat;
+                });
+                
+                // 순서(order) 필드가 있으면 정렬
+                subCatItems.sort((a, b) => (a.data.order || 0) - (b.data.order || 0));
+                
+                // 해당 분류에 매뉴얼이 1개만 있는 경우 -> 제품명 자체를 링크로 만듦
+                if (subCatItems.length === 1) {
+                  const item = subCatItems[0];
+                  const isActive = item.id === activeSlug;
+                  return (
+                    <div class="px-2">
+                      <a 
+                        href={getUrl(item)}
+                        class={`block text-sm font-semibold tracking-tight transition-all py-2 px-3 rounded-md ${
+                          isActive 
+                          ? 'text-primary bg-primary/10' 
+                          : 'text-base-content/60 hover:text-primary hover:bg-base-200'
+                        }`}
+                      >
+                        {subCat}
+                      </a>
+                    </div>
+                  );
+                }
+
+                // 여러 개가 있는 경우 -> 제품명 아래에 리스트 나열 (아코디언 형태)
+                return (
+                  <div class="px-2">
+                    <details class="group marker:content-['']" open>
+                      <summary class="flex items-center justify-between cursor-pointer list-none text-sm font-semibold tracking-tight transition-all py-2 px-3 rounded-md text-base-content/60 hover:text-primary hover:bg-base-200 select-none">
+                        <span>{subCat}</span>
+                        <svg class="w-4 h-4 opacity-50 group-hover:opacity-100 transition-all duration-200 group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                      </summary>
+                      <ul class="menu menu-sm p-0 space-y-1 mt-1">
+                        {subCatItems.map(item => {
+                          const isActive = item.id === activeSlug;
+                          const title = item.id.includes('DSViewer') ? 'DSViewer' : (item.data.title || item.id.split('/').pop()?.replace(/_/g, ' ').replace('.md', ''));
+                          return (
+                            <li>
+                              <a 
+                                href={getUrl(item)}
+                                class={`rounded-md py-2 px-3 transition-all text-sm font-semibold tracking-tight truncate block ${
+                                  isActive 
+                                  ? 'text-primary bg-primary/10' 
+                                  : 'text-base-content/50 hover:text-primary hover:bg-base-200'
+                                }`}
+                                title={title}
+                              >
+                                {title}
+                              </a>
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    </details>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  </div>
+</aside>

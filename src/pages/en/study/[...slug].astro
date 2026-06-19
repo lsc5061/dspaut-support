@@ -1,0 +1,192 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Sidebar from '../../../components/Sidebar.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('study');
+  return posts
+    .filter(entry => entry.id.startsWith('en/'))
+    .map(entry => ({
+      params: { slug: entry.id.replace('en/', '').toLowerCase().replace(/\\/g, '/') },
+      props: { entry },
+    }));
+}
+
+const { entry } = Astro.props;
+const { Content, headings } = await render(entry);
+
+const lang = "en";
+const displayTitle = entry.data.title || entry.id.split('/').pop()?.replace('.md', '') || '';
+
+// Fetch all posts to determine prev/next
+const allPosts = (await getCollection('study'))
+  .filter(item => item.id.startsWith(lang + '/'))
+  .sort((a, b) => (a.data.order ?? 99) - (b.data.order ?? 99));
+
+const currentIndex = allPosts.findIndex(item => item.id === entry.id);
+const prevPost = currentIndex > 0 ? allPosts[currentIndex - 1] : null;
+const nextPost = currentIndex < allPosts.length - 1 ? allPosts[currentIndex + 1] : null;
+
+const breadcrumbItems = [
+  { label: 'STUDY', href: `/${lang}/study` },
+  { label: displayTitle, href: '#' }
+];
+---
+
+<BaseLayout title={`${displayTitle} - DSPAUT Study`}>
+  <div slot="mobile-sidebar">
+    <Sidebar activeSlug={entry.id} type="study" />
+  </div>
+
+  <div class="flex flex-col lg:flex-row w-full max-w-[1600px] mx-auto">
+    <div class="hidden lg:block">
+      <Sidebar activeSlug={entry.id} type="study" />
+    </div>
+
+    <div class="flex-grow min-w-0 bg-base-100 px-6 py-10 lg:px-12">
+      <div class="max-w-4xl mx-auto">
+        <Breadcrumbs items={breadcrumbItems} />
+        <header class="mb-12 border-b border-base-200 pb-8 mt-4">
+          <h1 class="text-4xl font-extrabold tracking-tight mb-4 text-base-content leading-tight">{displayTitle}</h1>
+          {entry.data.description && <p class="text-xl text-base-content/60 leading-relaxed font-medium">{entry.data.description}</p>}
+        </header>
+        
+        <article class="prose prose-lg prose-slate dark:prose-invert max-w-none text-[15.5px]" data-pagefind-body>
+          <Content />
+        </article>
+
+        {/* Lightweight Next / Prev text navigation */}
+        <div class="flex items-center justify-between border-t border-base-200 pt-8 mt-16 text-sm">
+          {prevPost ? (
+            <a 
+              href={`/${lang}/study/${prevPost.id.replace(lang + '/', '')}`} 
+              class="flex items-center gap-1.5 text-base-content/60 hover:text-primary transition-all font-semibold"
+            >
+              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+              </svg>
+              Previous
+            </a>
+          ) : (
+            <div></div>
+          )}
+
+          {nextPost ? (
+            <a 
+              href={`/${lang}/study/${nextPost.id.replace(lang + '/', '')}`} 
+              class="flex items-center gap-1.5 text-base-content/60 hover:text-primary transition-all font-semibold"
+            >
+              Next
+              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+          ) : (
+            <div></div>
+          )}
+        </div>
+      </div>
+    </div>
+
+    {/* Right Sidebar (TOC) - exact match to manual docs */}
+    <aside class="hidden xl:block w-64 flex-shrink-0 p-10 border-l border-base-200 h-screen sticky top-16 overflow-y-auto text-sm">
+      <h3 class="text-xs font-bold uppercase tracking-widest text-base-content/40 mb-4">ON THIS PAGE</h3>
+      <nav>
+        <ul class="menu menu-sm p-0 gap-2">
+          {headings.filter(h => h.depth <= 4).map(heading => (
+            <li class={heading.depth === 3 ? "ml-4" : heading.depth === 4 ? "ml-8" : ""}>
+              <a href={`#${heading.slug}`} class={`hover:text-primary py-1 transition-all ${heading.depth > 2 ? "opacity-60 text-xs" : "opacity-80"}`}>
+                {heading.text}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </aside>
+  </div>
+</BaseLayout>
+
+<style is:global>
+  @reference "../../../styles/global.css";
+  
+  /* Microsoft 스타일 본문 및 표 디자인 */
+  .prose h1 { @apply mt-20 mb-10 text-base-content font-black border-b-4 border-base-200 pb-4; }
+  .prose h2 { @apply mt-16 mb-8 text-base-content font-bold border-l-8 border-primary/30 pl-4; }
+  .prose h3 { @apply mt-12 mb-6 text-base-content font-bold; }
+  .prose h4 { @apply mt-8 mb-4 text-base-content font-semibold; }
+  .prose p { @apply mb-6 leading-relaxed; }
+  .prose li { @apply mb-2; }
+
+  .prose img {
+    @apply mx-auto rounded-xl shadow-md border border-base-200 my-12;
+  }
+  .prose table {
+    @apply w-full border-collapse border border-base-300 my-8 text-sm;
+  }
+  .prose table thead {
+    @apply bg-base-200 border-b-2 border-base-300;
+  }
+  .prose table th {
+    @apply p-3 text-left font-bold text-base-content/80 uppercase tracking-wider border-r border-base-300;
+  }
+  .prose table td {
+    @apply p-3 border-b border-r border-base-300 align-top;
+  }
+  .prose table tr:last-child td {
+    @apply border-b-0;
+  }
+  .prose table th:last-child, .prose table td:last-child {
+    @apply border-r-0;
+  }
+  .prose table tr:nth-child(even) {
+    @apply bg-base-100/50;
+  }
+
+  /* Sticky TOC 하이라이트 스타일 */
+  .toc-active {
+    @apply text-primary font-bold border-l-2 border-primary pl-2 -ml-2 transition-all;
+  }
+
+  [id] { scroll-margin-top: 5rem; }
+</style>
+
+<script>
+  import mermaid from 'mermaid';
+  
+  // 1. Mermaid 초기화 및 렌더링
+  const initMermaid = () => {
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: isDark ? 'dark' : 'default',
+      fontFamily: 'Inter, sans-serif',
+      securityLevel: 'loose',
+    });
+  };
+
+  initMermaid();
+
+  // 2. TOC 활성화 스크립트 (Intersection Observer)
+  const observerOptions = {
+    root: null,
+    rootMargin: '0px 0px -80% 0px',
+    threshold: 0
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      const id = entry.target.getAttribute('id');
+      const tocLink = document.querySelector(`aside nav a[href="#${id}"]`);
+      if (entry.isIntersecting) {
+        document.querySelectorAll('aside nav a').forEach(el => el.classList.remove('toc-active'));
+        tocLink?.classList.add('toc-active');
+      }
+    });
+  }, observerOptions);
+
+  document.querySelectorAll('article h2, article h3').forEach((section) => {
+    observer.observe(section);
+  });
+</script>

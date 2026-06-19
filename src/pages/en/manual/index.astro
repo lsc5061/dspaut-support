@@ -1,0 +1,98 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Sidebar from '../../../components/Sidebar.astro';
+
+const lang = "en";
+
+const t = {
+  title: "MANUAL",
+  subtitle: "Technical manuals for products and software.",
+  equipmentLabel: "PRODUCT MANUAL",
+  softwareLabel: "SOFTWARE MANUAL"
+};
+
+const equipment = [
+    { id: 'en/equipment_manual/deepsound_b3/b3_equipment_manual', name: 'DEEPSOUND B3', desc: 'Detailed technical specifications and operation guide for DEEPSOUND B3.' },
+    { id: 'en/equipment_manual/deepsound_p5/p5_equipment_manual', name: 'DEEPSOUND P5', desc: 'Detailed technical specifications and operation guide for DEEPSOUND P5.' },
+    { id: 'en/equipment_manual/deepsound_r5/r5_equipment_manual', name: 'DEEPSOUND R5', desc: 'Detailed technical specifications and operation guide for DEEPSOUND R5.' },
+    { id: 'en/equipment_manual/deepsound_t3/t3_equipment_manual', name: 'DEEPSOUND T3', desc: 'Detailed technical specifications and operation guide for DEEPSOUND T3.' },
+];
+
+const software = [
+    { id: 'en/software_manual/dsvision_manual', name: 'DSVision', desc: 'Detailed technical specifications and operation guide for DSVision software.' },
+    { id: 'en/software_manual/dsviewer_manual', name: 'DSViewer', desc: 'Detailed technical specifications and operation guide for DSViewer software.' },
+    { id: 'en/software_manual/dsk_getting_started', name: 'DSK(SDK)', desc: 'Getting started guide and technical manual for Deepsound Software Development Kit (DSK).' },
+];
+
+---
+
+<BaseLayout title={t.title}>
+  <!-- Mobile Sidebar Slot -->
+  <div slot="mobile-sidebar">
+    <Sidebar type="manual" />
+  </div>
+
+  <div class="flex flex-col lg:flex-row w-full max-w-[1600px] mx-auto min-h-screen bg-base-100 text-base-content">
+    <!-- Sidebar (Desktop) -->
+    <div class="hidden lg:block w-[300px] shrink-0 border-r border-base-200">
+        <Sidebar type="manual" />
+    </div>
+    
+    <div class="flex-grow p-8 lg:p-14">
+      <div class="max-w-4xl">
+        <header class="mb-12">
+            <h1 class="text-[30px] font-bold text-base-content mb-3 tracking-tight">{t.title}</h1>
+            <p class="text-[16px] text-base-content/50 font-medium">{t.subtitle}</p>
+        </header>
+
+        <!-- Equipment Section -->
+        <section class="mb-12">
+            <div class="w-full border-t border-base-200 pt-4 mb-1">
+                <h2 class="text-[12.5px] font-bold tracking-[0.12em] text-base-content/40 uppercase">
+                    {t.equipmentLabel}
+                </h2>
+            </div>
+            <div class="flex flex-col gap-1">
+                {equipment.map(item => (
+                    <a href={`/${lang}/docs/${item.id.replace(`${lang}/`, '')}`} class="group flex items-center justify-between py-4 border-b border-base-100/50 hover:bg-base-200/50 transition-all px-4 -mx-4 rounded-xl">
+                        <div class="pr-8">
+                            <h3 class="text-[19px] font-bold text-base-content/90 mb-1.5 group-hover:text-primary transition-colors">{item.name}</h3>
+                            <p class="text-[14.5px] text-base-content/50 font-medium leading-relaxed">{item.desc}</p>
+                        </div>
+                        <div class="text-base-content/30 group-hover:text-primary transition-all transform group-hover:translate-x-1.5 shrink-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9 5l7 7-7 7" />
+                            </svg>
+                        </div>
+                    </a>
+                ))}
+            </div>
+        </section>
+
+        <!-- Software Section -->
+        <section class="mb-12">
+            <div class="w-full border-t border-base-200 pt-4 mb-1">
+                <h2 class="text-[12.5px] font-bold tracking-[0.12em] text-base-content/40 uppercase">
+                    {t.softwareLabel}
+                </h2>
+            </div>
+            <div class="flex flex-col gap-1">
+                {software.map(item => (
+                    <a href={`/${lang}/docs/${item.id.replace(`${lang}/`, '')}`} class="group flex items-center justify-between py-4 border-b border-base-100/50 hover:bg-base-200/50 transition-all px-4 -mx-4 rounded-xl">
+                        <div class="pr-8">
+                            <h3 class="text-[19px] font-bold text-base-content/90 mb-1.5 group-hover:text-primary transition-colors">{item.name}</h3>
+                            <p class="text-[14.5px] text-base-content/50 font-medium leading-relaxed">{item.desc}</p>
+                        </div>
+                        <div class="text-base-content/30 group-hover:text-primary transition-all transform group-hover:translate-x-1.5 shrink-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9 5l7 7-7 7" />
+                            </svg>
+                        </div>
+                    </a>
+                ))}
+            </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

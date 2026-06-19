@@ -1,0 +1,69 @@
+---
+import { getCollection } from 'astro:content';
+import { getCategoryInfo } from '../../utils/category';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Sidebar from '../../components/Sidebar.astro';
+
+const manuals = await getCollection('manuals');
+const lang = Astro.currentLocale || "ko";
+
+// 디버깅: 로드된 모든 매뉴얼 ID 출력
+// console.log('Loaded Manual IDs:', manuals.map(m => m.id));
+
+const t = {
+  ko: { title: "매뉴얼 센터", subtitle: "장비별 기술 매뉴얼을 확인하세요." },
+  en: { title: "Manual Center", subtitle: "Check technical manuals for each equipment." }
+}[lang as "ko" | "en"];
+---
+
+<BaseLayout title={t.title}>
+  <div class="flex flex-col lg:flex-row w-full max-w-[1600px] mx-auto">
+    <Sidebar type="manual" />
+    
+    <div class="flex-grow bg-base-100 p-8 lg:p-12">
+      <div class="max-w-4xl">
+        <h1 class="text-4xl font-extrabold mb-4">{t.title}</h1>
+        <p class="text-xl text-base-content/60 mb-12">{t.subtitle}</p>
+
+        {/* 소프트웨어 매뉴얼 섹션 */}
+        {manuals.filter(m => getCategoryInfo(m.id).main === 'Software Manual').length > 0 && (
+          <div class="mt-16">
+            <h2 class="text-xs font-black uppercase tracking-widest text-base-content/40 mb-8 border-b border-base-200 pb-4">
+              Software Manual
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {manuals
+                .filter(m => getCategoryInfo(m.id).main === 'Software Manual')
+                .sort((a, b) => {
+                  // DSVision을 우선적으로 정렬
+                  const subA = getCategoryInfo(a.id).sub;
+                  const subB = getCategoryInfo(b.id).sub;
+                  if (subA === 'DSVision') return -1;
+                  if (subB === 'DSVision') return 1;
+                  return subA.localeCompare(subB);
+                })
+                .map(manual => (
+                  <a href={`/${lang}/manual/${manual.id}`} class="group p-6 bg-base-100 border border-base-200 rounded-xl hover:shadow-lg hover:border-primary transition-all">
+                    <div class="text-xs font-bold text-primary mb-2 uppercase opacity-60">Technical Document</div>
+                    <h2 class="text-xl font-bold group-hover:text-primary transition-colors">
+                      {getCategoryInfo(manual.id).sub}
+                    </h2>
+                    <p class="mt-2 text-sm text-base-content/60 line-clamp-2">
+                      {manual.data.description || `${getCategoryInfo(manual.id).sub}의 상세 기술 사양 및 조작법 가이드입니다.`}
+                    </p>
+                    <div class="mt-6 flex items-center text-primary font-bold text-sm">
+                      View Manual
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                      </svg>
+                    </div>
+                  </a>
+                ))
+              }
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  </div>
+</BaseLayout>

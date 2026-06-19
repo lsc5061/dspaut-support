@@ -1,0 +1,55 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Sidebar from '../../components/Sidebar.astro';
+
+const posts = await getCollection('blog');
+const lang = Astro.currentLocale || "ko";
+
+const t = {
+  ko: { title: "기술 블로그", subtitle: "DSPAUT의 최신 소식과 활용 팁을 확인하세요." },
+  en: { title: "Tech Blog", subtitle: "Stay updated with DSPAUT's latest news and tips." }
+}[lang as "ko" | "en"];
+---
+
+<BaseLayout title={t.title}>
+  <div slot="mobile-sidebar">
+    <Sidebar type="blog" />
+  </div>
+
+  <div class="flex flex-col lg:flex-row w-full max-w-[1600px] mx-auto">
+    <div class="hidden lg:block">
+      <Sidebar type="blog" />
+    </div>
+    
+    <div class="flex-grow bg-base-100 p-8 lg:p-12">
+      <div class="max-w-4xl">
+        <h1 class="text-4xl font-extrabold mb-4">{t.title}</h1>
+        <p class="text-xl text-base-content/60 mb-12">{t.subtitle}</p>
+
+        <div class="space-y-8">
+          {posts.map(post => (
+            <article class="group relative flex flex-col items-start border-b border-base-200 pb-8">
+              <h2 class="text-2xl font-bold group-hover:text-primary transition-colors">
+                <a href={`/${lang}/blog/${post.id}`}>{post.data.title}</a>
+              </h2>
+              <p class="mt-3 text-base-content/60 leading-relaxed line-clamp-3">
+                {post.data.description}
+              </p>
+              <div class="mt-4 flex items-center gap-4 text-xs font-medium text-base-content/40">
+                <span>{post.data.publishDate?.toLocaleDateString()}</span>
+                {post.data.tags?.map(tag => (
+                  <span class="badge badge-sm badge-ghost">{tag}</span>
+                ))}
+              </div>
+            </article>
+          ))}
+        </div>
+
+        {posts.length === 0 && (
+          <div class="py-20 text-center opacity-40 italic">준비 중인 콘텐츠입니다.</div>
+        )}
+      </div>
+    </div>
+  </div>
+</BaseLayout>

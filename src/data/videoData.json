@@ -1,0 +1,302 @@
+[
+  {
+    "id": "deepsound-p5-cal",
+    "youtubeId": "fVyZIWM4G2c",
+    "titleKo": "DEEPSOUND P5 장비 3단계 교정 가이드 (음속, 웨지 지연, 감도)",
+    "titleEn": "DEEPSOUND P5 3-Step Calibration Guide (Velocity, Wedge Delay, Sensitivity)",
+    "descriptionKo": "DEEPSOUND P5 장비의 검증 전 필수 3단계 교정 과정(음속, 웨지 지연, 감도)을 순서대로 안내합니다.",
+    "descriptionEn": "Step-by-step instructions for essential pre-inspection calibrations on DEEPSOUND P5.",
+    "category": "equipment",
+    "duration": "01:59"
+  },
+  {
+    "id": "deepsound-b3-internal-flaw",
+    "youtubeId": "frBw9WO0Iis",
+    "titleKo": "DEEPSOUND B3를 활용한 금속 시험편 내부 결함 식별 및 실시간 시연",
+    "titleEn": "Internal Defect Identification in Metal Sample with DEEPSOUND B3",
+    "descriptionKo": "금속 내부에 위치한 미세 결함 신호를 위상배열 초음파를 통해 A/B/S-scan 화면에서 어떻게 식별하고 판정하는지 실제 시연합니다.",
+    "descriptionEn": "Real-time inspection demonstration of internal flaw signals using Phased Array UT.",
+    "category": "theory",
+    "duration": "00:38"
+  },
+  {
+    "id": "deepsound-b3-plastic-linear",
+    "youtubeId": "gPHhxOovWGU",
+    "titleKo": "DEEPSOUND B3를 활용한 플라스틱 시험편 정밀 선형 스캔 및 B/C-scan 시연",
+    "titleEn": "Precision Plastic Linear Scanning and B/C-scan Visualization with DEEPSOUND B3",
+    "descriptionKo": "플라스틱 시편 스캔을 통해 획득한 B-scan 및 C-scan 단면 데이터를 결함 크기와 함께 보여주는 실시간 시연 영상입니다.",
+    "descriptionEn": "Demonstration of plastic linear scanning and B-scan/C-scan data visualization.",
+    "category": "theory",
+    "duration": "00:30"
+  },
+  {
+    "id": "deepsound-b3-weld-flaw",
+    "youtubeId": "vLHWAINzew8",
+    "titleKo": "DEEPSOUND B3 용접부 정밀 검사 및 실시간 결함 검출 시연",
+    "titleEn": "Precision PAUT Weld Inspection and Real-time Flaw Detection with DEEPSOUND B3",
+    "descriptionKo": "용접 구조물 검사 시 위상 배열 초음파의 실시간 빔 집속을 이용하여 용접부 기공, 균열 결함을 즉시 포착하는 이론적인 스캔 과정입니다.",
+    "descriptionEn": "Demonstration of welding flaw detection using dynamic real-time phased array beam steering.",
+    "category": "theory",
+    "duration": "00:27"
+  },
+  {
+    "id": "deepsound-angle-analysis",
+    "youtubeId": "d-4WzFhnWws",
+    "titleKo": "A-scan 인덱스를 활용한 실시간 초음파 전파 각도 해석 이론",
+    "titleEn": "Real-time Angle Analysis with A-scan Index",
+    "descriptionKo": "입사 각도 변화에 따른 초음파 반사 경로의 변화 및 위상 지연 제어에 대한 비파괴검사 빔 거동 해설 영상입니다.",
+    "descriptionEn": "Instructional clip on beam behavior analysis according to refraction angle shifts in A-scan.",
+    "category": "theory",
+    "duration": "00:53"
+  },
+  {
+    "id": "deepsound-focus-optimize",
+    "youtubeId": "f_rPjqjzibk",
+    "titleKo": "위상배열 초음파의 최적 집속 위치(Focus Position) 결정 이론",
+    "titleEn": "How to Optimize Focus Position in PAUT",
+    "descriptionKo": "검사 대상의 깊이에 맞춰 초음파 빔 에너지를 한 점으로 집속시키는 포컬 로(Focal Law) 제어 및 해상도 극대화 기법입니다.",
+    "descriptionEn": "A theoretical look at focal law configuration to focus sound wave energy for peak lateral resolution.",
+    "category": "theory",
+    "duration": "00:53"
+  },
+  {
+    "id": "deepsound-t3-cal-guide",
+    "youtubeId": "fbxECFwuSpk",
+    "titleKo": "DEEPSOUND T3 | 일반 초음파(Conventional UT) 음속 및 웨지 지연 교정 가이드",
+    "titleEn": "DEEPSOUND T3 | Conventional UT Calibration Guide (Velocity & Wedge Delay)",
+    "descriptionKo": "Conventional UT 장비인 DEEPSOUND T3를 활용한 음속 및 웨지 지연 자동 교정 프로세스를 설명합니다.",
+    "descriptionEn": "Demonstrating automated velocity and wedge delay calibrations using Conventional UT on DEEPSOUND T3.",
+    "category": "equipment",
+    "duration": "03:28"
+  },
+  {
+    "id": "deepsound-t3-guide",
+    "youtubeId": "YMRw30klOHA",
+    "titleKo": "DEEPSOUND T3 종합 가이드: 외관 포트 구성 및 기본 조작법",
+    "titleEn": "DEEPSOUND T3 Total Guide: Exterior Ports & Basic Operations",
+    "descriptionKo": "초경량 Conventional UT 장비인 DEEPSOUND T3의 전면/측면 포트 레이아웃 및 기본 하드웨어 작동법을 보여줍니다.",
+    "descriptionEn": "Overview of exterior ports and basic hardware operations of the ultra-lightweight DEEPSOUND T3.",
+    "category": "equipment",
+    "duration": "02:15"
+  },
+  {
+    "id": "deepsound-depth-range",
+    "youtubeId": "b0qUwonCT4Y",
+    "titleKo": "DEEPSOUND 프로그램 Depth Start 및 Depth Range 동작 원리",
+    "titleEn": "DEEPSOUND Program General Depth start / Depth Range explanation",
+    "descriptionKo": "소프트웨어 분석 시 스캔 영역의 깊이 시작점(Depth Start) 및 측정 범위(Depth Range) 설정에 따른 2D 화면 렌더링 설명입니다.",
+    "descriptionEn": "Visual explanation of Depth Start and Depth Range parameter configurations on the program.",
+    "category": "software",
+    "duration": "00:59"
+  },
+  {
+    "id": "deepsound-t3-intro",
+    "youtubeId": "AXdmVUes5CM",
+    "titleKo": "DEEPSOUND T3 소개 | 초경량 휴대용 Conventional UT 장비",
+    "titleEn": "Introducing DEEPSOUND T3 | Portable Ultra-Lightweight Conventional UT",
+    "descriptionKo": "휴대성과 현장 기동성이 극대화된 1채널 일반 초음파 탐상 장비 DEEPSOUND T3를 소개합니다.",
+    "descriptionEn": "Introduction to DEEPSOUND T3, an ultra-lightweight and highly portable conventional ultrasonic testing device.",
+    "category": "equipment",
+    "duration": "00:41"
+  },
+  {
+    "id": "deepsound-b3-ports",
+    "youtubeId": "bgrS4KJg8hU",
+    "titleKo": "DEEPSOUND B3 상단 커넥터 연결 및 하드웨어 구성 가이드",
+    "titleEn": "DEEPSOUND B3 | Top Connector Overview & Connection Guide",
+    "descriptionKo": "DEEPSOUND B3 장비의 상단 커넥터 핀 배열 및 외장 프로브와의 안정적인 케이블 연결 방법을 소개합니다.",
+    "descriptionEn": "Introduction to top connector configuration and secure cable routing for DEEPSOUND B3.",
+    "category": "equipment",
+    "duration": "01:13"
+  },
+  {
+    "id": "deepsound-b3-power",
+    "youtubeId": "F8qC9qVpPfw",
+    "titleKo": "DEEPSOUND B3 | 안정적인 전원 제어 및 초고속 부팅 시연",
+    "titleEn": "DEEPSOUND B3 | Reliable Power Control & Fast Booting",
+    "descriptionKo": "산업 현장에서 신속한 검사 준비를 위한 전원 장치 제어 및 빠른 운영체제 부팅 속도를 보여줍니다.",
+    "descriptionEn": "Demonstration of secure power supply control and high-speed boot times for field readiness.",
+    "category": "equipment",
+    "duration": "00:40"
+  },
+  {
+    "id": "deepsound-b3-interface",
+    "youtubeId": "z19jnCQ9jvA",
+    "titleKo": "DEEPSOUND B3 휴대용 PAUT – 인터페이스 및 하드웨어 연동 가이드",
+    "titleEn": "DEEPSOUND B3 Portable PAUT – Interface & Connectivity Overview",
+    "descriptionKo": "DEEPSOUND B3 장비의 하드웨어 외부 인터페이스(USB, LAN, 프로브 포트)와 네트워크 연결 가이드입니다.",
+    "descriptionEn": "An overview of physical communication interfaces and network connectivity features on DEEPSOUND B3.",
+    "category": "equipment",
+    "duration": "00:47"
+  },
+  {
+    "id": "deepsound-b3-battery",
+    "youtubeId": "OGq6vbH-hKM",
+    "titleKo": "DEEPSOUND B3 스마트 배터리 시스템 장착 및 관리법",
+    "titleEn": "DEEPSOUND B3 Smart Battery System",
+    "descriptionKo": "외부 전원 없이 장시간 야외 검사를 수행할 수 있는 리튬 이온 스마트 배터리 팩 장착 방법입니다.",
+    "descriptionEn": "Instructions on inserting and managing the long-lasting smart battery pack for mobile inspections.",
+    "category": "equipment",
+    "duration": "00:52"
+  },
+  {
+    "id": "deepsound-b3-promo",
+    "youtubeId": "ftx1ohnWXlY",
+    "titleKo": "DEEPSOUND B3 | 2026년형 신형 휴대용 위상배열 초음파(PAUT) 시스템",
+    "titleEn": "DEEPSOUND B3 | 2026 New Portable PAUT System for Field Inspection",
+    "descriptionKo": "성능과 기동성이 획기적으로 개선된 2026년형 최신 휴대형 PAUT 탐상 장치 DEEPSOUND B3를 만나보세요.",
+    "descriptionEn": "Sneak peek of the 2026 model DEEPSOUND B3 portable Phased Array UT device for tough field environments.",
+    "category": "equipment",
+    "duration": "00:31"
+  },
+  {
+    "id": "deepsound-p5-b1-update",
+    "youtubeId": "CWQ8WWL_IhU",
+    "titleKo": "DEEPSOUND P5 & B1 장비 소프트웨어 업데이트 방법 가이드",
+    "titleEn": "How to Update the Program on DEEPSOUND P5 & B1 PAUT Devices",
+    "descriptionKo": "최신 펌웨어 및 분석 툴 기능 추가를 위해 USB 저장매체를 활용하여 소프트웨어를 안전하게 업데이트하는 과정입니다.",
+    "descriptionEn": "Instructional walkthrough on updating the analysis software on P5 and B1 via USB storage.",
+    "category": "software",
+    "duration": "02:17"
+  },
+  {
+    "id": "deepsound-encoder-cal",
+    "youtubeId": "t__mWQ3CKJM",
+    "titleKo": "DEEPSOUND 장비 엔코더(Encoder) 교정 가이드",
+    "titleEn": "Encoder Calibration Guide for DEEPSOUND PAUT Devices",
+    "descriptionKo": "스캔 시 정밀한 위치 파악 및 스캔 길이 측정을 위한 엔코더 설정 및 교정 절차를 설명합니다.",
+    "descriptionEn": "Step-by-step guide for encoder calibration to ensure precise position-based data acquisition.",
+    "category": "equipment",
+    "duration": "01:50"
+  },
+  {
+    "id": "deepsound-b1-probe-port",
+    "youtubeId": "nb2g8HsqJz4",
+    "titleKo": "DEEPSOUND B1 휴대용 PAUT 장비 – 프로브 포트 체결 시연",
+    "titleEn": "DEEPSOUND B1 Portable PAUT Device – Probe Port Demonstration",
+    "descriptionKo": "휴대용 PAUT 장비 DEEPSOUND B1의 프로브 커넥터 포트 연결법과 안전한 고정 클립 동작을 보여줍니다.",
+    "descriptionEn": "A brief visual guide showing the locking connector and latch mechanisms of the B1 PAUT probe port.",
+    "category": "equipment",
+    "duration": "00:20"
+  },
+  {
+    "id": "deepsound-p5-power-on",
+    "youtubeId": "khFR0vl7oeQ",
+    "titleKo": "DEEPSOUND P5 산업용 PAUT 장비 – 전원 켜기 및 시작 시연",
+    "titleEn": "DEEPSOUND P5 Industrial PAUT Device – Power On Demonstration",
+    "descriptionKo": "산업 현장용 대형 PAUT 장비 DEEPSOUND P5의 물리 전원 버튼 조작 및 기본 부팅 상태를 확인합니다.",
+    "descriptionEn": "Demonstration of the heavy-duty DEEPSOUND P5 industrial PAUT device booting up in the workshop.",
+    "category": "equipment",
+    "duration": "00:51"
+  },
+  {
+    "id": "deepsound-r5-automation",
+    "youtubeId": "x9Q6d2i4z-Y",
+    "titleKo": "DEEPSOUND R5 자동화 검사 시스템 PAUT & UT 데모",
+    "titleEn": "DEEPSOUND R5 Automation System PAUT & UT",
+    "descriptionKo": "대형 파이프 및 철도 검사용 자동 스캐너 연동 자동화 초음파 시스템인 DEEPSOUND R5를 소개합니다.",
+    "descriptionEn": "A quick demo of the automated scanner-compatible DEEPSOUND R5 multi-channel UT/PAUT system.",
+    "category": "equipment",
+    "duration": "00:33"
+  },
+  {
+    "id": "deepsound-sensitivity-cal",
+    "youtubeId": "0VCuvO-vUZk",
+    "titleKo": "DEEPSOUND 소프트웨어 감도(Sensitivity) 교정 셋팅 방법",
+    "titleEn": "How to Set Sensitivity Calibration in DEEPSOUND Software",
+    "descriptionKo": "비파괴 검사의 측정 정밀도를 최대화하기 위한 감도 파라미터 보정 및 기준 게이트 조작법 영상입니다.",
+    "descriptionEn": "Instructional video on calibrating sensitivity parameters and utilizing reference gates.",
+    "category": "software",
+    "duration": "03:11"
+  },
+  {
+    "id": "deepsound-skip-legs",
+    "youtubeId": "bWqiXa1bemI",
+    "titleKo": "초음파 스킵(Skip) 및 레그(Legs) 두께 설정 방법",
+    "titleEn": "How to Configure Legs (Skip) Settings in DEEPSOUND Software",
+    "descriptionKo": "용접 검사 시 빔 반사 횟수(Leg 1, Leg 2)에 따른 결함 깊이 자동 계산을 위한 두께 및 스킵 파라미터 설정법입니다.",
+    "descriptionEn": "Instructional guide on configuring skip distance and leg counts to track welding defects accurately.",
+    "category": "software",
+    "duration": "01:23"
+  },
+  {
+    "id": "deepsound-save-setup",
+    "youtubeId": "KEVvHZOY5vc",
+    "titleKo": "DEEPSOUND 장비 설정 파일(Setup File)의 가장 간편한 저장 및 적용",
+    "titleEn": "The Easiest Way to Save and Load Settings | DSPAUT",
+    "descriptionKo": "현장 설정값을 매번 초기화할 필요 없이 간편하게 셋팅 파일로 내보내고 필요할 때 즉시 가져오는 소프트웨어 기능입니다.",
+    "descriptionEn": "How to easily save setup parameters into a configuration file and reload it instantly.",
+    "category": "software",
+    "duration": "02:17"
+  },
+  {
+    "id": "deepsound-b1-flaw-detect",
+    "youtubeId": "EVRum2jY0U0",
+    "titleKo": "DEEPSOUND B1 장비를 활용한 미세 결함 탐지 시연",
+    "titleEn": "Defect Identification with DEEPSOUND B1 PAUT Device",
+    "descriptionKo": "초경량 휴대용 PAUT 장비 DEEPSOUND B1과 위상배열 프로브를 사용하여 시편 내 미세한 결함을 탐지하는 시연 영상입니다.",
+    "descriptionEn": "Demonstration of detecting hidden flaws inside an NDT test block using the portable B1 device.",
+    "category": "theory",
+    "duration": "00:57"
+  },
+  {
+    "id": "deepsound-b1-tofd-analyze",
+    "youtubeId": "jqRJ2q5tNjM",
+    "titleKo": "DEEPSOUND B1 TOFD 데이터 분석 및 화면 조작법",
+    "titleEn": "TOFD Data Analysis & Image Manipulation on DEEPSOUND B1",
+    "descriptionKo": "시간차 회절법(TOFD) 기술을 적용한 데이터 획득 후, 소프트웨어에서 측방파(Lateral Wave) 및 저면 반사파 분석을 위한 조작 데모입니다.",
+    "descriptionEn": "Demonstration of analyzing time-of-flight diffraction (TOFD) scan data on the B1 program.",
+    "category": "software",
+    "duration": "01:34"
+  },
+  {
+    "id": "deepsound-b1-battery",
+    "youtubeId": "QFOqO5XpfW0",
+    "titleKo": "DEEPSOUND B1 휴대형 장비 전용 배터리 팩 탈착 및 충전법",
+    "titleEn": "How to Install and Manage the Battery Pack on DEEPSOUND B1",
+    "descriptionKo": "B1 장비 하단에 내장되는 외장 배터리 탈착 및 잠금 레버 동작에 대한 하드웨어 가이드입니다.",
+    "descriptionEn": "Step-by-step instructions on sliding, locking, and charging the battery pack on DEEPSOUND B1.",
+    "category": "equipment",
+    "duration": "01:07"
+  },
+  {
+    "id": "deepsound-bolt-inspect",
+    "youtubeId": "JZta-mYec8g",
+    "titleKo": "볼트(Bolt) 정밀 나사산 결함 및 길이 초음파 측정법",
+    "titleEn": "Bolt Screw Thread Inspection & Length Measurement Method",
+    "descriptionKo": "고정용 볼트 결함 진단 시 프로브를 볼트 머리에 밀착하여 나사산 피치 결함 및 길이 변화를 검출하는 초음파 응용 이론 영상입니다.",
+    "descriptionEn": "Instructional video on inspecting bolt thread defects and verifying structural integrity with ultrasound.",
+    "category": "theory",
+    "duration": "01:10"
+  },
+  {
+    "id": "deepsound-accessory-encoder-adapter",
+    "youtubeId": "KTsIkTBXdDY",
+    "titleKo": "위상배열 초음파용 엔코더 커넥터 변환 어댑터 소개",
+    "titleEn": "Phased Array UT Encoder Connector Adapter Overview",
+    "descriptionKo": "서로 다른 커넥터 타입을 가진 엔코더 케이블을 DEEPSOUND 본체 포트에 맞춰 변환해주는 전용 액세서리 사용법입니다.",
+    "descriptionEn": "Introduction to the auxiliary adapter converting third-party encoder connectors for DEEPSOUND compatibility.",
+    "category": "equipment",
+    "duration": "00:38"
+  },
+  {
+    "id": "deepsound-accessory-probe-adapter",
+    "youtubeId": "f-9mFD1fANQ",
+    "titleKo": "PAUT 프로브 커넥터 변환 모델(Ipex/Hypertronics) 소개",
+    "titleEn": "PAUT Probe Connector Adapter Models (Ipex to Hypertronics)",
+    "descriptionKo": "타사 프로브 커넥터를 DEEPSOUND 표준 Hypertronics 포트에 무손실로 연동하기 위한 변환 어댑터 제품 소개 영상입니다.",
+    "descriptionEn": "Overview of adapter accessories that link IPEX or other probe connector types with Hypertronics port.",
+    "category": "equipment",
+    "duration": "00:41"
+  },
+  {
+    "id": "deepsound-tcg-cal",
+    "youtubeId": "Em7GSRhcRjg",
+    "titleKo": "DEEPSOUND 프로그램 TCG(Time Corrected Gain) 교정 및 설정 방법",
+    "titleEn": "How to Perform TCG Calibration on a DEEPSOUND Program",
+    "descriptionKo": "두께에 따른 신호 감쇠를 자동으로 정밀 보정하여 깊이별 반사 신호의 진폭을 일관되게 맞추는 소프트웨어 가이드입니다.",
+    "descriptionEn": "Guide to setting up Time Corrected Gain (TCG) in the software to compensate for signal attenuation.",
+    "category": "software",
+    "duration": "03:12"
+  }
+]
