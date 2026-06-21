@@ -153,7 +153,7 @@ const activeSlug = `video/${categoryParam}`;
               {/* Thumbnail Area */}
               <div 
                 class="relative aspect-[16/9] bg-base-300 cursor-pointer overflow-hidden"
-                @click="openVideo(video.youtubeId, video.title)"
+                @click.stop="openVideo(video.youtubeId, video.title)"
               >
                 <img 
                   :src="`https://img.youtube.com/vi/${video.youtubeId}/hqdefault.jpg`" 
@@ -190,7 +190,7 @@ const activeSlug = `video/${categoryParam}`;
 
                 <h3 
                   class="text-[17px] font-bold text-base-content leading-snug mb-2 group-hover:text-primary transition-colors cursor-pointer line-clamp-2"
-                  @click="openVideo(video.youtubeId, video.title)"
+                  @click.stop="openVideo(video.youtubeId, video.title)"
                   x-text="video.title"
                 ></h3>
                 <p class="text-[13.5px] text-base-content/50 leading-relaxed line-clamp-2 mb-4" x-text="video.description"></p>
