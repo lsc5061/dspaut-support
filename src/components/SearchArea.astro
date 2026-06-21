@@ -6,7 +6,27 @@ const t = {
 }[lang as "ko" | "en"];
 ---
 
-<div class="max-w-2xl mx-auto mb-16" x-data="{ query: '', results: [], open: false }">
+<div 
+  class="max-w-2xl mx-auto mb-16" 
+  x-data="{ query: '', results: [], open: false }"
+  x-init="
+    const urlParams = new URLSearchParams(window.location.search);
+    const q = urlParams.get('q');
+    if (q) {
+      query = q;
+      $nextTick(async () => {
+        try {
+          const pagefind = await import('/pagefind/pagefind.js');
+          const search = await pagefind.search(query);
+          results = await Promise.all(search.results.slice(0, 5).map(r => r.data()));
+          open = true;
+        } catch(e) {
+          console.log('Pagefind not yet initialized');
+        }
+      });
+    }
+  "
+>
   <div class="relative group">
     <div class="absolute inset-y-0 left-4 flex items-center pointer-events-none text-base-content/40">
       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">

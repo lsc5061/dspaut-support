@@ -9,6 +9,24 @@ const t = {
 <div 
   class="relative hidden sm:block w-32 md:w-56 lg:w-64" 
   x-data="{ query: '', results: [], open: false }"
+  x-init="
+    const urlParams = new URLSearchParams(window.location.search);
+    const q = urlParams.get('q');
+    if (q) {
+      query = q;
+      $nextTick(async () => {
+        try {
+          const pagefind = await import('/pagefind/pagefind.js');
+          const search = await pagefind.search(query);
+          results = await Promise.all(search.results.slice(0, 5).map(r => r.data()));
+          open = true;
+          $refs.navSearchInput.focus();
+        } catch(e) {
+          console.log('Pagefind not yet initialized');
+        }
+      });
+    }
+  "
   @window.keydown.slash.prevent="$refs.navSearchInput.focus()"
   @window.keydown.meta.k.prevent="$refs.navSearchInput.focus()"
   @window.keydown.ctrl.k.prevent="$refs.navSearchInput.focus()"
