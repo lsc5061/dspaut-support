@@ -134,30 +134,32 @@ const getUrl = (item: any) => {
 
                 // 여러 개가 있는 경우 -> 제품명 아래에 리스트 나열 (아코디언 형태)
                 return (
-                  <div class="px-2">
-                    <details class="group marker:content-['']" open>
-                      <summary class="flex items-center justify-between cursor-pointer list-none text-sm font-semibold tracking-tight transition-all py-2 px-3 rounded-md text-base-content/60 hover:text-primary hover:bg-base-200 select-none">
+                  <div class="px-2 w-full min-w-0">
+                    <details class="group marker:content-[''] w-full min-w-0" open>
+                      <summary class="flex items-center justify-between cursor-pointer list-none text-sm font-bold tracking-tight transition-all py-2 px-3 rounded-md text-base-content hover:text-primary hover:bg-base-200 select-none bg-base-200/30 mb-1">
                         <span>{subCat}</span>
                         <svg class="w-4 h-4 opacity-50 group-hover:opacity-100 transition-all duration-200 group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                         </svg>
                       </summary>
-                      <ul class="menu menu-sm p-0 space-y-1 mt-1">
+                      <ul class="menu menu-sm p-0 space-y-1 mt-1 w-full min-w-0">
                         {subCatItems.map(item => {
                           const isActive = item.id === activeSlug;
                           const title = item.id.includes('DSViewer') ? 'DSViewer' : (item.data.title || item.id.split('/').pop()?.replace(/_/g, ' ').replace('.md', ''));
                           return (
-                            <li>
+                            <li class="w-full min-w-0">
                               <a 
                                 href={getUrl(item)}
-                                class={`rounded-md py-2 px-3 transition-all text-sm font-semibold tracking-tight truncate block ${
+                                class={`rounded-md py-2 px-3 transition-all text-sm font-semibold tracking-tight !block !whitespace-normal lg:!whitespace-nowrap w-full min-w-0 ${
                                   isActive 
                                   ? 'text-primary bg-primary/10' 
                                   : 'text-base-content/50 hover:text-primary hover:bg-base-200'
                                 }`}
                                 title={title}
                               >
-                                {title}
+                                <span class="block w-full lg:max-w-[190px] line-clamp-2 lg:line-clamp-none lg:truncate">
+                                  {title}
+                                </span>
                               </a>
                             </li>
                           );

@@ -74,7 +74,7 @@ const activeSlug = `video/${categoryParam}`;
 
          // 사이드바 하이라이트 동기화 함수 (데스크톱 및 모바일 둘 다 강제 제어)
          const syncSidebar = (cat) => {
-           document.querySelectorAll('aside a[href*="video"], .drawer-side a[href*="video"]').forEach(link => {
+           document.querySelectorAll('aside a[href*="video"]').forEach(link => {
              const href = link.getAttribute('href') || '';
              const isMatch = (cat === 'all' && !href.includes('category=')) || 
                              (cat !== 'all' && href.includes('category=' + cat));
@@ -99,7 +99,7 @@ const activeSlug = `video/${categoryParam}`;
          });
 
          // 사이드바 링크 클릭 인터셉트하여 풀페이지 리로드 방지 (부드러운 카테고리 스위칭)
-         document.querySelectorAll('aside a[href*="video"], .drawer-side a[href*="video"]').forEach(link => {
+         document.querySelectorAll('aside a[href*="video"]').forEach(link => {
            link.addEventListener('click', (e) => {
              const href = link.getAttribute('href') || '';
              e.preventDefault();
@@ -127,23 +127,25 @@ const activeSlug = `video/${categoryParam}`;
         </header>
 
         {/* Categories Tabs Filter (Glassmorphic) */}
-        <div class="inline-flex flex-wrap items-center gap-1 bg-base-200/50 dark:bg-base-300/10 backdrop-blur-md border border-base-200/60 dark:border-base-100/10 p-1.5 rounded-2xl mb-10">
-          <button 
-            class="px-5 py-2 rounded-xl text-[13.5px] font-bold tracking-tight transition-all cursor-pointer"
-            @click="activeCategory = 'all'"
-            :class="activeCategory === 'all' ? 'bg-primary text-primary-content shadow-md shadow-primary/20 scale-100' : 'bg-transparent text-base-content/60 hover:text-base-content hover:bg-base-200/60 dark:hover:bg-base-300/20'"
-          >
-            {t.all}
-          </button>
-          {Object.entries(t.categories).map(([key, label]) => (
+        <div class="flex justify-center lg:justify-start mb-10">
+          <div class="inline-flex flex-wrap justify-center items-center gap-1 bg-base-200/50 dark:bg-base-300/10 backdrop-blur-md border border-base-200/60 dark:border-base-100/10 p-1.5 rounded-2xl">
             <button 
               class="px-5 py-2 rounded-xl text-[13.5px] font-bold tracking-tight transition-all cursor-pointer"
-              @click={`activeCategory = '${key}'`}
-              :class={`activeCategory === '${key}' ? 'bg-primary text-primary-content shadow-md shadow-primary/20 scale-100' : 'bg-transparent text-base-content/60 hover:text-base-content hover:bg-base-200/60 dark:hover:bg-base-300/20'`}
+              @click="activeCategory = 'all'"
+              :class="activeCategory === 'all' ? 'bg-primary text-primary-content shadow-md shadow-primary/20 scale-100' : 'bg-transparent text-base-content/60 hover:text-base-content hover:bg-base-200/60 dark:hover:bg-base-300/20'"
             >
-              {label}
+              {t.all}
             </button>
-          ))}
+            {Object.entries(t.categories).map(([key, label]) => (
+              <button 
+                class="px-5 py-2 rounded-xl text-[13.5px] font-bold tracking-tight transition-all cursor-pointer"
+                @click={`activeCategory = '${key}'`}
+                :class={`activeCategory === '${key}' ? 'bg-primary text-primary-content shadow-md shadow-primary/20 scale-100' : 'bg-transparent text-base-content/60 hover:text-base-content hover:bg-base-200/60 dark:hover:bg-base-300/20'`}
+              >
+                {label}
+              </button>
+            ))}
+          </div>
         </div>
 
         {/* Video Cards Grid */}
