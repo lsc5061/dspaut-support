@@ -11,7 +11,33 @@ const blogs = (await getCollection('blog')).filter(item => item.id.startsWith(`$
 const studies = (await getCollection('study')).filter(item => item.id.startsWith(`${lang}/`));
 
 let items = manuals;
-let mainCategories = lang === 'ko' ? ['장비 매뉴얼', '소프트웨어 매뉴얼'] : ['Product Manual', 'Software Manual'];
+if (type === 'manual') {
+  // B3/T3 공용 CM5 가이드 동적 다각 매핑 처리
+  const mappedItems = [];
+  for (const item of manuals) {
+    if (item.id.toLowerCase().includes('cm5')) {
+      const filename = item.id.split('/').pop();
+      if (filename) {
+        // B3용 가상 복제 아이템 추가
+        mappedItems.push({
+          ...item,
+          id: item.id.replace(filename, `DEEPSOUND_B3/${filename}`),
+          _virtualSub: 'DEEPSOUND B3'
+        });
+        // T3용 가상 복제 아이템 추가
+        mappedItems.push({
+          ...item,
+          id: item.id.replace(filename, `DEEPSOUND_T3/${filename}`),
+          _virtualSub: 'DEEPSOUND T3'
+        });
+      }
+    } else {
+      mappedItems.push(item);
+    }
+  }
+  items = mappedItems;
+}
+let mainCategories = ['Product Manual', 'Software Manual'];
 
 if (type === 'blog') {
   items = blogs;
@@ -49,16 +75,16 @@ const getItemCategoryInfo = (item: any) => {
       sub: lang === 'ko' ? '카테고리' : 'Categories'
     };
   }
-  const rawInfo = getCategoryInfo(item.id);
-  if (lang === 'ko') {
-    let localizedMain = rawInfo.main;
-    if (rawInfo.main === 'Product Manual') localizedMain = '장비 매뉴얼';
-    else if (rawInfo.main === 'Software Manual') localizedMain = '소프트웨어 매뉴얼';
+  
+  // 가상 공용 매핑 정보가 부여되어 있다면 이를 우선 사용
+  if (item._virtualSub) {
     return {
-      main: localizedMain,
-      sub: rawInfo.sub
+      main: 'Product Manual',
+      sub: item._virtualSub
     };
   }
+
+  const rawInfo = getCategoryInfo(item.id);
   return rawInfo;
 };
 

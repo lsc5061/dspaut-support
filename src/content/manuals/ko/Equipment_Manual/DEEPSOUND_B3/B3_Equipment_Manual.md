@@ -1,4 +1,13 @@
-# DEEPSOUND B3 Product Manual
+---
+title: B3 Product Manual
+description: DEEPSOUND B3 휴대용 PAUT/UT 장비의 공식 제품 매뉴얼입니다.
+version: v1.0
+releaseDate: 2026-04-29
+author: (주)성산연구소
+order: 1
+---
+
+# B3 Product Manual
 
 - **Hardware Version**: v1.0.2
 - **Manual Version**: v1.0

@@ -1,4 +1,13 @@
-# DEEPSOUND R5 Product Manual
+---
+title: R5 Product Manual
+description: Official product manual for the DEEPSOUND R5 remote-controlled PAUT system.
+version: v1.0
+releaseDate: 2026-04-30
+author: SEONGSANLAB Co., Ltd.
+order: 1
+---
+
+# R5 Product Manual
 
 - **Hardware Version**: v1.0.0
 - **Manual Version**: v1.0

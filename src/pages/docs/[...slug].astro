@@ -6,13 +6,36 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 
 export async function getStaticPaths() {
   const manuals = await getCollection('manuals');
-  return manuals.map(entry => ({
-    params: { slug: entry.id },
-    props: { entry },
-  }));
+  const paths = [];
+  
+  for (const entry of manuals) {
+    if (entry.id.toLowerCase().includes('cm5')) {
+      const filename = entry.id.split('/').pop();
+      if (filename) {
+        // B3용 가상 경로 추가
+        const b3Id = entry.id.replace(filename, `DEEPSOUND_B3/${filename}`);
+        paths.push({
+          params: { slug: b3Id },
+          props: { entry, virtualId: b3Id },
+        });
+        // T3용 가상 경로 추가
+        const t3Id = entry.id.replace(filename, `DEEPSOUND_T3/${filename}`);
+        paths.push({
+          params: { slug: t3Id },
+          props: { entry, virtualId: t3Id },
+        });
+      }
+    } else {
+      paths.push({
+        params: { slug: entry.id },
+        props: { entry },
+      });
+    }
+  }
+  return paths;
 }
 
-const { entry } = Astro.props;
+const { entry, virtualId } = Astro.props;
 const { Content, headings } = await render(entry);
 
 const lang = Astro.currentLocale || "ko";
@@ -26,7 +49,7 @@ const breadcrumbItems = [
 
 <BaseLayout title={`${displayTitle} - DSPAUT Support`}>
   <div class="flex flex-col lg:flex-row w-full max-w-[1600px] mx-auto">
-    <Sidebar activeSlug={entry.id} type="manual" />
+    <Sidebar activeSlug={virtualId || entry.id} type="manual" />
 
     <div class="flex-grow min-w-0 bg-base-100 px-6 py-10 lg:px-12">
       <div class="max-w-4xl">

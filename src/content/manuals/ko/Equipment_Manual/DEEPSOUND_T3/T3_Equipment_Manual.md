@@ -1,4 +1,13 @@
-# DEEPSOUND T3 Product Manual
+---
+title: T3 Product Manual
+description: DEEPSOUND T3 휴대용 2채널 초음파/PAUT 장비의 공식 제품 매뉴얼입니다.
+version: v1.0
+releaseDate: 2026-04-30
+author: (주)성산연구소
+order: 1
+---
+
+# T3 Product Manual
 
 - **Hardware Version**: v1.0.0
 - **Manual Version**: v1.0

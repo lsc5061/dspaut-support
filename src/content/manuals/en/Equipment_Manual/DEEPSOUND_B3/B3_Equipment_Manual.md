@@ -1,4 +1,13 @@
-# DEEPSOUND B3 Product Manual
+---
+title: B3 Product Manual
+description: Official product manual for the DEEPSOUND B3 portable PAUT/UT equipment.
+version: v1.0
+releaseDate: 2026-04-29
+author: SEONGSANLAB Co., Ltd.
+order: 1
+---
+
+# B3 Product Manual
 
 - **Hardware Version**: v1.0.2
 - **Manual Version**: v1.0

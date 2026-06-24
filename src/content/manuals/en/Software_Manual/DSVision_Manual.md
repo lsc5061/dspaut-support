@@ -625,7 +625,7 @@ Select an acquisition method suitable for inspection purpose and hardware enviro
 </div>
 
 * **One Line**: Acquisition method using only a single axis (Scan Axis) by moving the transducer in a straight line. Most commonly used for general inspections like finding defects along a weld's length.
-* **Raster**: Utilizes both Main Scan and Index axes to scan a specific area in a zigzag pattern. Essential for 평면 images confirming defect distribution over wide areas, such as in corrosion mapping.
+* **Raster**: Utilizes both Main Scan and Index axes to scan a specific area in a zigzag pattern. Essential for planar (C-scan) images confirming defect distribution over wide areas, such as in corrosion mapping.
 * **Time (Time-based)**: Used in environments without an encoder device. Acquires data at regular time intervals at a constant speed.
 
 #### **Key Parameters**

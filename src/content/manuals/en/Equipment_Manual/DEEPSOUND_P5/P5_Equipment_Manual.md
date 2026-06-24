@@ -1,4 +1,13 @@
-# DEEPSOUND P5 Product Manual
+---
+title: P5 Product Manual
+description: Official product manual for the DEEPSOUND P5 high-performance PAUT system.
+version: v1.0
+releaseDate: 2026-04-29
+author: SEONGSANLAB Co., Ltd.
+order: 1
+---
+
+# P5 Product Manual
 
 - **Hardware Version**: v3.0.5
 - **Manual Version**: v1.0
