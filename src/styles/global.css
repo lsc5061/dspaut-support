@@ -53,7 +53,9 @@
 
 /* 본문 내 이미지: 사용자님이 원하셨던 '과하지 않은' 세련된 마감 */
 article img {
-  @apply rounded-2xl border border-base-200 shadow-sm my-10 transition-all duration-500;
+  @apply rounded-2xl border border-base-200 shadow-sm my-10 transition-all duration-500 mx-auto block;
+  max-width: min(100%, 650px);
+  height: auto;
 }
 
 /* 블로그 리스트 카드 호버 효과 - 과하지 않게 */
