@@ -27,11 +27,36 @@ order: 2
 
 ### [준비 장비 및 환경 레퍼런스]
 
-| [1] USB 메모리 | [2] USB 허브 |
-| :---: | :---: |
-| <img src="/images/03_Resources/Image/B3/B3%20Install%20media/USB.png" alt="USB 메모리" width="220" style="border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); height: auto;" /> | <img src="/images/03_Resources/Image/B3/B3%20Install%20media/USB%20허브.png" alt="USB 허브" width="220" style="border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); height: auto;" /> |
-| **[3] DEEPSOUND 장비** | **[4] 인터넷 연결** |
-| <img src="/images/03_Resources/Image/B3/B3%20Install%20media/장비.png" alt="DEEPSOUND 장비" width="220" style="border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); height: auto;" /> | <img src="/images/03_Resources/Image/B3/B3%20Install%20media/인터넷.png" alt="인터넷 연결" width="220" style="border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); height: auto;" /> |
+<table style="width: 100%; border-collapse: collapse; text-align: center; border: 1px solid #e2e8f0; margin: 1.5rem 0;">
+  <thead>
+    <tr style="background-color: #f8fafc;">
+      <th style="width: 50%; padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-weight: 600; font-size: 0.95rem; color: #1e293b;">[1] USB</th>
+      <th style="width: 50%; padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-weight: 600; font-size: 0.95rem; color: #1e293b;">[2] USB 허브</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 15px; border: 1px solid #e2e8f0; background-color: #ffffff; vertical-align: middle;">
+        <img src="/images/03_Resources/Image/B3/B3%20Install%20media/USB.png" alt="USB" width="180" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
+      </td>
+      <td style="padding: 15px; border: 1px solid #e2e8f0; background-color: #ffffff; vertical-align: middle;">
+        <img src="/images/03_Resources/Image/B3/B3%20Install%20media/USB%20허브.png" alt="USB 허브" width="180" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
+      </td>
+    </tr>
+    <tr style="background-color: #f8fafc;">
+      <th style="padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-weight: 600; font-size: 0.95rem; color: #1e293b;">[3] DEEPSOUND 장비</th>
+      <th style="padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-weight: 600; font-size: 0.95rem; color: #1e293b;">[4] 인터넷 연결</th>
+    </tr>
+    <tr>
+      <td style="padding: 15px; border: 1px solid #e2e8f0; background-color: #ffffff; vertical-align: middle;">
+        <img src="/images/03_Resources/Image/B3/B3%20Install%20media/장비.png" alt="DEEPSOUND 장비" width="180" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
+      </td>
+      <td style="padding: 15px; border: 1px solid #e2e8f0; background-color: #ffffff; vertical-align: middle;">
+        <img src="/images/03_Resources/Image/B3/B3%20Install%20media/인터넷.png" alt="인터넷 연결" width="180" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
