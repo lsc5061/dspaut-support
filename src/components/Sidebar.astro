@@ -136,7 +136,17 @@ const getUrl = (item: any) => {
                 });
                 
                 // 순서(order) 필드가 있으면 정렬
-                subCatItems.sort((a, b) => (a.data.order || 0) - (b.data.order || 0));
+                subCatItems.sort((a, b) => {
+                  const orderA = typeof a.data.order === 'number' ? a.data.order : Number(a.data.order) || 0;
+                  const orderB = typeof b.data.order === 'number' ? b.data.order : Number(b.data.order) || 0;
+                  if (orderA !== orderB) return orderA - orderB;
+
+                  const titleA = (a.data.title || a.id.split('/').pop() || '').toLowerCase();
+                  const titleB = (b.data.title || b.id.split('/').pop() || '').toLowerCase();
+                  if (titleA.includes('install manual') && !titleB.includes('install manual')) return -1;
+                  if (!titleA.includes('install manual') && titleB.includes('install manual')) return 1;
+                  return titleA.localeCompare(titleB);
+                });
                 
                 // 해당 분류에 매뉴얼이 1개만 있는 경우 -> 제품명 자체를 링크로 만듦
                 if (subCatItems.length === 1) {
