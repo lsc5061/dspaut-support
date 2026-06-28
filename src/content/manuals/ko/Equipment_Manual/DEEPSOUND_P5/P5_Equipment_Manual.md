@@ -1,8 +1,3 @@
----
-title: P5 Product Manual
-order: 1
----
-
 # DEEPSOUND P5 Product Manual
 
 - **Hardware Version**: v3.0.5

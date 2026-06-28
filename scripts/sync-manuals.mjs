@@ -63,7 +63,7 @@ function copyRecursive(src, dest) {
       copyRecursive(srcPath, destPath);
     } else {
       const ext = path.extname(entry.name).toLowerCase();
-      const allowedExts = ['.md', '.jpg', '.jpeg', '.png', '.gif', '.svg', '.webp'];
+      const allowedExts = ['.md', '.jpg', '.jpeg', '.png', '.gif', '.svg', '.webp', '.pdf', '.pptx'];
       if (allowedExts.includes(ext)) {
         fs.copyFileSync(srcPath, destPath);
       }
