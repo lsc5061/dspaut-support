@@ -20,19 +20,19 @@ order: 0
 
 <div class="flex flex-wrap justify-center items-center gap-6 my-8">
   <div class="text-center flex flex-col items-center">
-    <img src="/images/03_Resources/Image/P5/Install%20Manual/장비.png" alt="DEEPSOUND P5 장비" class="rounded-lg shadow-md" style="width: 150px;" />
+    <img src="/images/03_Resources/Image/P5/Install%20Manual/p5-device.png" alt="DEEPSOUND P5 장비" class="rounded-lg shadow-md" style="width: 150px;" />
     <p class="text-xs text-base-content/60 mt-2">DEEPSOUND P5 장비</p>
   </div>
   <div class="text-center flex flex-col items-center">
-    <img src="/images/03_Resources/Image/P5/Install%20Manual/USB.png" alt="USB 드라이브" class="rounded-lg shadow-md" style="width: 80px;" />
+    <img src="/images/03_Resources/Image/P5/Install%20Manual/usb.png" alt="USB 드라이브" class="rounded-lg shadow-md" style="width: 80px;" />
     <p class="text-xs text-base-content/60 mt-2">USB 드라이브</p>
   </div>
   <div class="text-center flex flex-col items-center">
-    <img src="/images/03_Resources/Image/P5/Install%20Manual/USB%20허브.png" alt="USB 허브" class="rounded-lg shadow-md" style="width: 100px;" />
+    <img src="/images/03_Resources/Image/P5/Install%20Manual/usb-hub.png" alt="USB 허브" class="rounded-lg shadow-md" style="width: 100px;" />
     <p class="text-xs text-base-content/60 mt-2">USB 허브</p>
   </div>
   <div class="text-center flex flex-col items-center">
-    <img src="/images/03_Resources/Image/P5/Install%20Manual/프로그램%20exe.png" alt="설치 프로그램" class="rounded-lg" style="width: 60px;" />
+    <img src="/images/03_Resources/Image/P5/Install%20Manual/installation-program.png" alt="설치 프로그램" class="rounded-lg" style="width: 60px;" />
     <p class="text-xs text-base-content/60 mt-2">설치 프로그램</p>
   </div>
 </div>
@@ -51,15 +51,15 @@ order: 0
 
 <div class="flex flex-wrap justify-center items-center gap-8 my-8">
   <div class="text-center flex flex-col items-center">
-    <img src="/images/03_Resources/Image/P5/Install%20Manual/USB.png" alt="USB 드라이브" class="rounded-lg shadow-sm" style="width: 80px;" />
+    <img src="/images/03_Resources/Image/P5/Install%20Manual/usb.png" alt="USB 드라이브" class="rounded-lg shadow-sm" style="width: 80px;" />
     <p class="text-xs text-base-content/60 mt-2">USB 드라이브</p>
   </div>
   <div class="text-center flex flex-col items-center">
-    <img src="/images/03_Resources/Image/P5/Install%20Manual/USB%20허브.png" alt="USB 허브" class="rounded-lg shadow-sm" style="width: 100px;" />
+    <img src="/images/03_Resources/Image/P5/Install%20Manual/usb-hub.png" alt="USB 허브" class="rounded-lg shadow-sm" style="width: 100px;" />
     <p class="text-xs text-base-content/60 mt-2">USB 허브 연결</p>
   </div>
   <div class="text-center flex flex-col items-center">
-    <img src="/images/03_Resources/Image/P5/Install%20Manual/프로그램%20exe.png" alt="설치 프로그램" class="rounded-lg" style="width: 60px;" />
+    <img src="/images/03_Resources/Image/P5/Install%20Manual/installation-program.png" alt="설치 프로그램" class="rounded-lg" style="width: 60px;" />
     <p class="text-xs text-base-content/60 mt-2">설치 프로그램 (.exe)</p>
   </div>
 </div>
@@ -76,15 +76,15 @@ DEEPSOUND P5 프로그램은 실행 중인 상태에서 자체 환경 설정 메
 
 <div class="flex flex-col items-center gap-8 my-8">
   <div class="text-center flex flex-col items-center">
-    <img src="/images/03_Resources/Image/P5/Install%20Manual/환경설정%20아이콘.png" alt="환경설정 아이콘 클릭" class="rounded-lg shadow-sm border border-base-200" style="width: 80px;" />
+    <img src="/images/03_Resources/Image/P5/Install%20Manual/settings-icon.png" alt="환경설정 아이콘 클릭" class="rounded-lg shadow-sm border border-base-200" style="width: 80px;" />
     <p class="text-xs text-base-content/60 mt-2">1. 메인 화면 왼쪽 사이드바의 환경설정(톱니바퀴) 아이콘 클릭</p>
   </div>
   <div class="text-center flex flex-col items-center">
-    <img src="/images/03_Resources/Image/P5/Install%20Manual/환경설정%20목록.png" alt="Device 탭 선택" class="rounded-lg shadow-md border border-base-200" style="width: 550px; max-width: 100%;" />
+    <img src="/images/03_Resources/Image/P5/Install%20Manual/settings-list.png" alt="Device 탭 선택" class="rounded-lg shadow-md border border-base-200" style="width: 550px; max-width: 100%;" />
     <p class="text-xs text-base-content/60 mt-2">2. 설정 창 상단의 'Device' 탭 클릭</p>
   </div>
   <div class="text-center flex flex-col items-center">
-    <img src="/images/03_Resources/Image/P5/Install%20Manual/Device%20및%20Minimize%20선택.png" alt="Minimize 버튼 클릭" class="rounded-lg shadow-md border border-base-200" style="width: 550px; max-width: 100%;" />
+    <img src="/images/03_Resources/Image/P5/Install%20Manual/device-minimize-select.png" alt="Minimize 버튼 클릭" class="rounded-lg shadow-md border border-base-200" style="width: 550px; max-width: 100%;" />
     <p class="text-xs text-base-content/60 mt-2">3. 우측 하단의 'Minimize' 버튼을 클릭하여 바탕화면 진입</p>
   </div>
 </div>
@@ -101,7 +101,7 @@ DEEPSOUND P5 프로그램은 실행 중인 상태에서 자체 환경 설정 메
 
 <div class="flex justify-center my-8">
   <div class="text-center flex flex-col items-center">
-    <img src="/images/03_Resources/Image/P5/Install%20Manual/Close%20window.png" alt="작업 표시줄 우클릭 프로그램 종료" class="rounded-lg shadow-md border border-base-200" style="width: 250px; max-width: 100%;" />
+    <img src="/images/03_Resources/Image/P5/Install%20Manual/close-window.png" alt="작업 표시줄 우클릭 프로그램 종료" class="rounded-lg shadow-md border border-base-200" style="width: 250px; max-width: 100%;" />
     <p class="text-xs text-base-content/60 mt-2">작업 표시줄의 프로그램 아이콘 우클릭 후 'Close window' 선택</p>
   </div>
 </div>
@@ -119,11 +119,11 @@ DEEPSOUND P5 프로그램은 실행 중인 상태에서 자체 환경 설정 메
 
 <div class="flex flex-wrap justify-center items-center gap-8 my-8">
   <div class="text-center flex flex-col items-center">
-    <img src="/images/03_Resources/Image/P5/Install%20Manual/프로그램%20exe.png" alt="설치 프로그램 실행 파일" class="rounded-lg" style="width: 60px;" />
+    <img src="/images/03_Resources/Image/P5/Install%20Manual/installation-program.png" alt="설치 프로그램 실행 파일" class="rounded-lg" style="width: 60px;" />
     <p class="text-xs text-base-content/60 mt-2">설치 프로그램 실행 파일</p>
   </div>
   <div class="text-center flex flex-col items-center">
-    <img src="/images/03_Resources/Image/P5/Install%20Manual/Install%20화면.PNG" alt="설치 마법사 화면" class="rounded-lg shadow-md border border-base-200" style="width: 400px; max-width: 100%;" />
+    <img src="/images/03_Resources/Image/P5/Install%20Manual/install-screen.png" alt="설치 마법사 화면" class="rounded-lg shadow-md border border-base-200" style="width: 400px; max-width: 100%;" />
     <p class="text-xs text-base-content/60 mt-2">Install 버튼을 클릭하여 설치 진행</p>
   </div>
 </div>
@@ -142,7 +142,7 @@ DEEPSOUND P5 프로그램은 실행 중인 상태에서 자체 환경 설정 메
 
 <div class="flex justify-center my-8">
   <div class="text-center flex flex-col items-center">
-    <img src="/images/03_Resources/Image/P5/Install%20Manual/버전%20체크.PNG" alt="프로그램 버전 확인" class="rounded-lg shadow-md border border-base-200" style="width: 550px; max-width: 100%;" />
+    <img src="/images/03_Resources/Image/P5/Install%20Manual/version-check.png" alt="프로그램 버전 확인" class="rounded-lg shadow-md border border-base-200" style="width: 550px; max-width: 100%;" />
     <p class="text-xs text-base-content/60 mt-2">프로그램 실행 화면 내 버전 체크 영역</p>
   </div>
 </div>

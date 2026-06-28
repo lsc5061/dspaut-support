@@ -20,19 +20,19 @@ Before starting the installation, ensure that the following items are ready and 
 
 <div class="flex flex-wrap justify-center items-center gap-6 my-8">
   <div class="text-center flex flex-col items-center">
-    <img src="/images/03_Resources/Image/P5/Install%20Manual/장비.png" alt="DEEPSOUND P5 Device" class="rounded-lg shadow-md" style="width: 150px;" />
+    <img src="/images/03_Resources/Image/P5/Install%20Manual/p5-device.png" alt="DEEPSOUND P5 Device" class="rounded-lg shadow-md" style="width: 150px;" />
     <p class="text-xs text-base-content/60 mt-2">DEEPSOUND P5 Device</p>
   </div>
   <div class="text-center flex flex-col items-center">
-    <img src="/images/03_Resources/Image/P5/Install%20Manual/USB.png" alt="USB Drive" class="rounded-lg shadow-md" style="width: 80px;" />
+    <img src="/images/03_Resources/Image/P5/Install%20Manual/usb.png" alt="USB Drive" class="rounded-lg shadow-md" style="width: 80px;" />
     <p class="text-xs text-base-content/60 mt-2">USB Drive</p>
   </div>
   <div class="text-center flex flex-col items-center">
-    <img src="/images/03_Resources/Image/P5/Install%20Manual/USB%20허브.png" alt="USB Hub" class="rounded-lg shadow-md" style="width: 100px;" />
+    <img src="/images/03_Resources/Image/P5/Install%20Manual/usb-hub.png" alt="USB Hub" class="rounded-lg shadow-md" style="width: 100px;" />
     <p class="text-xs text-base-content/60 mt-2">USB Hub</p>
   </div>
   <div class="text-center flex flex-col items-center">
-    <img src="/images/03_Resources/Image/P5/Install%20Manual/프로그램%20exe.png" alt="Installation Program" class="rounded-lg" style="width: 60px;" />
+    <img src="/images/03_Resources/Image/P5/Install%20Manual/installation-program.png" alt="Installation Program" class="rounded-lg" style="width: 60px;" />
     <p class="text-xs text-base-content/60 mt-2">Installation Program</p>
   </div>ㅁ
 </div>
@@ -51,15 +51,15 @@ Before starting the installation, ensure that the following items are ready and 
 
 <div class="flex flex-wrap justify-center items-center gap-8 my-8">
   <div class="text-center flex flex-col items-center">
-    <img src="/images/03_Resources/Image/P5/Install%20Manual/USB.png" alt="USB Drive" class="rounded-lg shadow-sm" style="width: 80px;" />
+    <img src="/images/03_Resources/Image/P5/Install%20Manual/usb.png" alt="USB Drive" class="rounded-lg shadow-sm" style="width: 80px;" />
     <p class="text-xs text-base-content/60 mt-2">USB Drive</p>
   </div>
   <div class="text-center flex flex-col items-center">
-    <img src="/images/03_Resources/Image/P5/Install%20Manual/USB%20허브.png" alt="USB Hub" class="rounded-lg shadow-sm" style="width: 100px;" />
+    <img src="/images/03_Resources/Image/P5/Install%20Manual/usb-hub.png" alt="USB Hub" class="rounded-lg shadow-sm" style="width: 100px;" />
     <p class="text-xs text-base-content/60 mt-2">USB Hub Connection</p>
   </div>
   <div class="text-center flex flex-col items-center">
-    <img src="/images/03_Resources/Image/P5/Install%20Manual/프로그램%20exe.png" alt="Installation Program" class="rounded-lg" style="width: 60px;" />
+    <img src="/images/03_Resources/Image/P5/Install%20Manual/installation-program.png" alt="Installation Program" class="rounded-lg" style="width: 60px;" />
     <p class="text-xs text-base-content/60 mt-2">Installation Program (.exe)</p>
   </div>
 </div>
@@ -76,15 +76,15 @@ The DEEPSOUND P5 software allows users to safely access the Windows desktop usin
 
 <div class="flex flex-col items-center gap-8 my-8">
   <div class="text-center flex flex-col items-center">
-    <img src="/images/03_Resources/Image/P5/Install%20Manual/환경설정%20아이콘.png" alt="Click Settings Icon" class="rounded-lg shadow-sm border border-base-200" style="width: 80px;" />
+    <img src="/images/03_Resources/Image/P5/Install%20Manual/settings-icon.png" alt="Click Settings Icon" class="rounded-lg shadow-sm border border-base-200" style="width: 80px;" />
     <p class="text-xs text-base-content/60 mt-2">1. Click the Settings (gear) icon on the left sidebar of the main screen</p>
   </div>
   <div class="text-center flex flex-col items-center">
-    <img src="/images/03_Resources/Image/P5/Install%20Manual/환경설정%20목록.png" alt="Select Device Tab" class="rounded-lg shadow-md border border-base-200" style="width: 550px; max-width: 100%;" />
+    <img src="/images/03_Resources/Image/P5/Install%20Manual/settings-list.png" alt="Select Device Tab" class="rounded-lg shadow-md border border-base-200" style="width: 550px; max-width: 100%;" />
     <p class="text-xs text-base-content/60 mt-2">2. Click the 'Device' tab at the top of the Settings window</p>
   </div>
   <div class="text-center flex flex-col items-center">
-    <img src="/images/03_Resources/Image/P5/Install%20Manual/Device%20및%20Minimize%20선택.png" alt="Click Minimize Button" class="rounded-lg shadow-md border border-base-200" style="width: 550px; max-width: 100%;" />
+    <img src="/images/03_Resources/Image/P5/Install%20Manual/device-minimize-select.png" alt="Click Minimize Button" class="rounded-lg shadow-md border border-base-200" style="width: 550px; max-width: 100%;" />
     <p class="text-xs text-base-content/60 mt-2">3. Click the 'Minimize' button at the bottom right to access the desktop</p>
   </div>
 </div>
@@ -101,7 +101,7 @@ Before installing the new program, you must completely close the existing versio
 
 <div class="flex justify-center my-8">
   <div class="text-center flex flex-col items-center">
-    <img src="/images/03_Resources/Image/P5/Install%20Manual/Close%20window.png" alt="Right-click taskbar icon to close program" class="rounded-lg shadow-md border border-base-200" style="width: 250px; max-width: 100%;" />
+    <img src="/images/03_Resources/Image/P5/Install%20Manual/close-window.png" alt="Right-click taskbar icon to close program" class="rounded-lg shadow-md border border-base-200" style="width: 250px; max-width: 100%;" />
     <p class="text-xs text-base-content/60 mt-2">Right-click the program icon on the taskbar and select 'Close window'</p>
   </div>
 </div>
@@ -119,11 +119,11 @@ Before installing the new program, you must completely close the existing versio
 
 <div class="flex flex-wrap justify-center items-center gap-8 my-8">
   <div class="text-center flex flex-col items-center">
-    <img src="/images/03_Resources/Image/P5/Install%20Manual/프로그램%20exe.png" alt="Installation Program Executable" class="rounded-lg" style="width: 60px;" />
+    <img src="/images/03_Resources/Image/P5/Install%20Manual/installation-program.png" alt="Installation Program Executable" class="rounded-lg" style="width: 60px;" />
     <p class="text-xs text-base-content/60 mt-2">Installation Program Executable File</p>
   </div>
   <div class="text-center flex flex-col items-center">
-    <img src="/images/03_Resources/Image/P5/Install%20Manual/Install%20화면.PNG" alt="Installation Wizard Screen" class="rounded-lg shadow-md border border-base-200" style="width: 400px; max-width: 100%;" />
+    <img src="/images/03_Resources/Image/P5/Install%20Manual/install-screen.png" alt="Installation Wizard Screen" class="rounded-lg shadow-md border border-base-200" style="width: 400px; max-width: 100%;" />
     <p class="text-xs text-base-content/60 mt-2">Click the Install button to proceed with the installation</p>
   </div>
 </div>
@@ -142,7 +142,7 @@ After the installation is complete, you must reboot the device to apply the syst
 
 <div class="flex justify-center my-8">
   <div class="text-center flex flex-col items-center">
-    <img src="/images/03_Resources/Image/P5/Install%20Manual/버전%20체크.PNG" alt="Verifying Software Version" class="rounded-lg shadow-md border border-base-200" style="width: 550px; max-width: 100%;" />
+    <img src="/images/03_Resources/Image/P5/Install%20Manual/version-check.png" alt="Verifying Software Version" class="rounded-lg shadow-md border border-base-200" style="width: 550px; max-width: 100%;" />
     <p class="text-xs text-base-content/60 mt-2">Version Display Area on the Main Screen</p>
   </div>
 </div>
