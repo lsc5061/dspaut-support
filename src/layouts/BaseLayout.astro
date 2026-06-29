@@ -6,32 +6,70 @@ import Footer from "../components/Footer.astro";
 interface Props {
 	title?: string;
 	description?: string;
+	canonicalUrl?: string;
 }
 
 const lang = Astro.currentLocale || "ko";
+const path = Astro.url.pathname;
+const baseOrigin = "https://support.dspaut.com";
+const canonical = Astro.props.canonicalUrl || new URL(path, baseOrigin).href;
 
 const { 
-	title = "DSPAUT Support", 
+	title = "DSPAUT Support | NDT Manuals & Technical Support", 
 	description = lang === "ko" ? "DSPAUT 제품 매뉴얼 및 기술 지원 포털입니다." : "DSPAUT product manuals and technical support portal."
 } = Astro.props;
+
+// 다국어 주소 전환
+const isKo = lang === "ko";
+const enPath = isKo ? path.replace(/^\/ko/, '/en') : path;
+const koPath = isKo ? path : path.replace(/^\/en/, '/ko');
+const ogImage = "https://www.dspaut.com/assets/img/brand/ndt_field_test_demo.png";
 ---
 
 <!doctype html>
 <html lang={lang}>
 	<head>
+		<!-- Google Tag Manager -->
+		<script is:inline>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-K6QMJRDP');</script>
+		<!-- End Google Tag Manager -->
+
 		<meta charset="UTF-8" />
 		<meta name="description" content={description} />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/png" href="/favicon.png" />
 		<meta name="generator" content={Astro.generator} />
 		
+		<!-- SEO Meta Tags -->
+		<title>{title}</title>
+		<meta name="robots" content="index, follow" />
+		<link rel="canonical" href={canonical} />
+
+		<!-- Open Graph / Twitter -->
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:url" content={canonical} />
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content={ogImage} />
+		<meta property="og:site_name" content="DSPAUT Support Portal" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content={title} />
+		<meta name="twitter:description" content={description} />
+		<meta name="twitter:image" content={ogImage} />
+
+		<!-- Language alternates -->
+		<link rel="alternate" hreflang="en" href={`${baseOrigin}${enPath}`} />
+		<link rel="alternate" hreflang="ko" href={`${baseOrigin}${koPath}`} />
+		<link rel="alternate" hreflang="x-default" href={`${baseOrigin}/en/`} />
+		
 		<!-- Google Fonts: Inter & Outfit -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 		
-		<title>{title}</title>
-
 		<!-- 테마 초기화 스크립트 (깜빡임 방지) -->
 		<script is:inline>
 			const theme = (() => {
@@ -47,6 +85,10 @@ const {
 		</script>
 	</head>
 	<body class="bg-base-100 text-base-content antialiased font-sans">
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K6QMJRDP"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
 		<div class="drawer drawer-end">
 			<input id="mobile-drawer" type="checkbox" class="drawer-toggle" />
 			<div class="drawer-content flex flex-col min-h-screen">
