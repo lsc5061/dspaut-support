@@ -26,7 +26,7 @@ DSVision divides the live measurement screen into three main areas and a configu
 
 After connecting the hardware and powering on the device, the system immediately loads the live measurement screen without any complex connection setup. The first step is to configure the details of the probe and wedge connected to the system.
 
-Expand the **Quick Menu Action Bar** by sliding the top of the right parameter panel and configure the settings:
+Click the **Quick Menu** button at the top of the right parameter panel and configure the settings:
 
 1. **Probe Configuration**: Go to the **Probe** menu and start the **Wizard**. Select the target frequency and choose the matching part number of your probe from the list. Selecting `Select` automatically enters the elements, pitch, and detailed specifications.
 
