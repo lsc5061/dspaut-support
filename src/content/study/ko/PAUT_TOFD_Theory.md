@@ -3,7 +3,7 @@ title: "시간 회절 회절 기술 (TOFD) 원리"
 publishDate: 2026-06-30
 description: "시간 회절 회절 기술(TOFD) 비파괴 검사의 끝단 회절 현상, 송수신 이중 촉자 기하학, 그리고 결함 깊이의 기하학적 산출 수식을 분석합니다."
 tags: ["TOFD", "회절", "결함측정", "비파괴검사"]
-category: "3. 위상 배열 초음파 탐상 (PAUT) 심화"
+category: "위상 배열 초음파 탐상 (PAUT) 심화"
 order: 13
 ---
 

@@ -3,7 +3,7 @@ title: "위상 배열 초음파 탐상 (PAUT) 기초 개념"
 publishDate: 2026-06-10
 description: "다수의 압전 소자를 전자적으로 제어하여 빔 조향 및 집속을 구현하는 PAUT의 원리, 구성 요소, 스캔 모드, 기존 UT 대비 장점을 정리합니다."
 tags: ["PAUT", "위상배열", "빔조향"]
-category: "3. 위상 배열 초음파 탐상 (PAUT) 심화"
+category: "위상 배열 초음파 탐상 (PAUT) 심화"
 order: 8
 ---
 

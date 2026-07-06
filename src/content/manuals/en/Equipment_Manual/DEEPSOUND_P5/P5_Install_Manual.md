@@ -34,7 +34,7 @@ Before starting the installation, ensure that the following items are ready and 
   <div class="text-center flex flex-col items-center">
     <img src="/images/03_Resources/Image/P5/Install%20Manual/installation-program.png" alt="Installation Program" class="rounded-lg" style="width: 60px;" />
     <p class="text-xs text-base-content/60 mt-2">Installation Program</p>
-  </div>ㅁ
+  </div>
 </div>
 
 ---

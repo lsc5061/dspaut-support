@@ -3,7 +3,7 @@ title: "UT Data Representation: A-Scan, B-Scan, and C-Scan"
 publishDate: 2026-06-10
 description: "Summarizes the principles, structures, and applications of the three scan visualization methods for data collected by Ultrasonic Testing (UT) equipment from an engineer's perspective."
 tags: ["Scan Modes", "A-scan", "B-scan", "C-scan"]
-category: "2. Data Visualization & Scan Interpretation"
+category: "Data Visualization & Scan Interpretation"
 order: 4
 ---
 

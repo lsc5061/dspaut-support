@@ -3,7 +3,7 @@ title: "초음파 비파괴 검사의 기초, A-scan의 원리와 그래프 해�
 publishDate: 2026-06-10
 description: "글로벌 NDT 기술 표준을 바탕으로 초음파 기술의 근본인 A-scan 그래프를 해석하는 방법과 실제 화면 판독 원리를 상세히 설명합니다."
 tags: ["A-scan", "원시신호", "판독"]
-category: "2. 데이터 시각화 및 스캔 해석"
+category: "데이터 시각화 및 스캔 해석"
 order: 5
 ---
 

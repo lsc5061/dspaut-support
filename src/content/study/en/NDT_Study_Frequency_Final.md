@@ -3,7 +3,7 @@ title: "Principles and Selection Criteria of Frequency in Ultrasonic Testing"
 publishDate: 2026-06-10
 description: "Explains the physical definition of frequency, which is the first specification checked when performing Ultrasonic Testing (UT), and how the frequency selection impacts inspection results."
 tags: ["Frequency", "Wavelength", "Transducer"]
-category: "1. Ultrasonic Testing (UT) Basics"
+category: "Ultrasonic Testing (UT) Basics"
 order: 2
 ---
 

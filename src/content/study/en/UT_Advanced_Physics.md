@@ -3,7 +3,7 @@ title: "Ultrasonic Sound Field and Advanced Physics"
 publishDate: 2026-06-30
 description: "Examines the mathematical and physical principles of ultrasonic sound fields, analyzing near field limits, far field beam spread, and transducer frequency relations."
 tags: ["UT", "Physics", "Sound Field", "NDT"]
-category: "1. Ultrasonic Testing (UT) Basics"
+category: "Ultrasonic Testing (UT) Basics"
 order: 4
 ---
 

@@ -125,6 +125,8 @@ Detailed definitions of major technical terms and abbreviations used in this man
 
 # 4. Device Software Functions
 - DSVision is a dedicated software for real-time data acquisition and multi-angle analysis for ultrasonic NDT.
+- **Boot & Instant Execution**: The device is engineered to run the OS and automatically launch the software directly into the **real-time measurement screen (e.g., PA-1 channel)** without requiring any connection setup or beam wizard, enabling rapid onsite inspection.
+- **Preset Management (.set)**: Comprehensive hardware control is managed via **Preferences (Gear Icon) → Setup**. A `.set` preset file stores probe/wedge specifications, beam type, angles, resolution, specimen geometry, and encoder calibrations. These can be saved, loaded, deleted, or copied to an external USB.
 - **Real-time Data Acquisition**: Provides lag-free real-time images through high-speed signal processing.
 - **Support for Various Modes**: Inspection modes such as PA, TOFD, and Conventional can be operated individually or simultaneously within the software.
 - **Data Storage**: Acquired raw data and analyzed data are stored within the software.
@@ -157,6 +159,24 @@ The menu of the DSVision program consists of four areas—Top, Bottom, Left, and
   <p>DSVision Main Screen Configuration</p>
 </div>
 
+### 5.1.1 A-Scan Display Characteristics
+- **Axes**: The vertical axis represents the ultrasonic depth (Ultrasound Axis, Purple/Pink, 0-140mm) while the horizontal axis represents signal amplitude (Amplitude, 0-100%).
+- **Hamburger Menu (PA-1 Title)**: Tapping the hamburger icon next to the active channel name provides three wave analysis tools:
+  - `Grid`: Toggles the background grid pattern on and off.
+  - `Set Envelope`: Accumulates the maximum peak trajectory of successive A-Scan waveforms over time (Peak Hold).
+  - `Clear`: Flashes and resets the accumulated envelope history.
+- **Persistent TCG Curve**: Once TCG (Time Corrected Gain) calibration is completed, the compensation curve (Cyan line) and corresponding gain values (e.g., `5.9 dB`) along with the `Ref` line remain permanently overlaid on the A-Scan background. This allows real-time monitoring of attenuation correction during scans.
+
+### 5.1.2 S-Scan (Sectorial Scan) Display Characteristics
+- **Axes & Reference**: The horizontal axis shows the lateral range (Index Axis, Green, -60mm to 60mm). The blue dot at the top vertex marks the beam emission origin (Near Field).
+- **Steering Line (Green Dashed Line)**: Represents the angle of the active A-Scan beam currently selected.
+  - Inspectors can drag the steering line directly on the screen or use the `AScan Index` arrows (◀▶) on the panel.
+  - **Refraction Angle Display**: Refraction angle digits are not printed on the control panel, but are instead displayed in real-time at the bottom of the S-Scan view (e.g., `0.0°` highlighted in blue).
+- **Gate Visual Representation**: Gates are projected onto the S-Scan based on the selected Echo Type:
+  - *Sound Path Mode*: Gate is plotted as an **Arc (curved dashed line)**.
+  - *True Depth Mode*: Gate is plotted as a **Horizontal dashed line**.
+  - **Gate Color Coding**: Gate A = **Red**, Gate B = **Blue**, Gate I = **Green**.
+
 ## 5.2 Toolbar explanations
 Each toolbar in the software is placed in an optimized position by function, allowing users to monitor and control simultaneously according to the inspection situation. The Top and Bottom areas are used to check inspection reliability by constantly exposing real-time data values and calibration status, while the Left and Right areas provide a control interface for actual inspection operation and detailed parameter settings to maximize work efficiency. Detailed functions and operation methods for sub-menus included in each toolbar area are as follows.
 
@@ -180,10 +200,11 @@ A function to adjust the amplification of the inspection signal in real-time.
 
 ### 5.3.2 Information Panel (Amplitude, P, D, S)
 Outputs real-time measurement information of the signal captured based on the active Gate.
-- **Amplitude (%)**: Displays the intensity of the maximum echo detected within the gate as a percentage.
-- **Primary (P)**: Indicates the straight-line distance from the probe to the point where the signal is detected.
-- **Depth (D)**: Indicates the vertical depth of the point where the signal is detected within the test object.
-- **Sound (S)**: Outputs the position distance on the Sound Path.
+- **Dynamic Gate Switching**: The header metrics are not static. The abbreviations and readings dynamically switch based on the specific gate selected (touched/activated) by the inspector (e.g., displays PA/DA/SA for Gate A, PB/DB/SB for Gate B, and PI/DI/SI for Gate I).
+- **Amplitude (%)**: Displays the height intensity of the maximum echo signal detected within the gate as a percentage of Full Screen Height (FSH).
+- **Primary (P - Projected Distance)**: The horizontal projected distance from the probe's front emission point (Toe) to the signal reflector.
+- **Depth (D - True Depth)**: The vertical depth from the specimen's top surface to the signal reflector.
+- **Sound Path (S - Beam Path)**: The actual physical distance traveled by the sound beam to the signal reflector.
 
 <div align="center">
   <img src="/images/03_Resources/(KOR) program_introduction/images/15.png" width="600">
@@ -286,9 +307,12 @@ Immediately adjusts the amplitude of the measured signal to a pre-set target val
   <p>Auto Gain Icon</p>
 </div>
 
-* **Working Principle**: Automatically detects the highest peak among signals currently located within the **A Gate** area and adjusts the amplification.
-* **Standard Value Setting**: Adjusts the signal height based on the percentage (%) specified in the **Auto FSH** list of the right configuration menu.
-* **Usage**: Normalizes the signal to a standard height required by specifications (e.g., 80% FSH) with a single click, eliminating the need to manually adjust Gain multiple times.
+- **Working Principle**: Automatically detects the highest peak among signals currently located within the **Gate A** area and adjusts the amplification.
+- **Physical Decibel Conversion**: Calculated using the physical amplitude ratio formula:
+  $$\Delta\text{Gain} = 20 \log_{10}\left(\frac{\text{Target \%}}{\text{Current Peak \%}}\right)$$
+  For instance, if the current peak is at 40% and the target is 80% (a 2x ratio), the system adds exactly **`+6 dB`** of gain, verifying physical mathematical consistency.
+- **Standard Value Setting**: Adjusts the signal height based on the percentage (%) specified in the **Auto FSH** (Full Screen Height) parameter (typically 80% FSH as per industry calibration standards, but adjustable to 30% or 50% for customized procedures).
+- **Usage**: Normalizes the signal to a standard height required by specifications with a single click, eliminating the need to manually adjust Gain multiple times.
 
 <div align="center">
   <img src="/images/03_Resources/(ENG) program_introduction/images/slide_61_img_15.png" width="250">
@@ -470,10 +494,12 @@ Defines the physical boundaries and acoustic characteristics of the test object.
     - **Velocity Calibration**: Supports a function to calculate actual sound velocity using reference blocks of known thickness. Calculated values are automatically applied to the system upon completion.
 * **Thickness**: Enter the actual thickness of the test object. This serves as a spatial boundary for calculating beam reflection points (Legs).
     - **Reflection**: Changing thickness values moves the Backwall line on the S-Scan in real-time to check alignment with actual echo signals.
-    - **Curved Surface Handling**: Visualizes accurate beam paths not only for plates but also by combining diameter and thickness for curved specimens like pipes.
+    - **Flat Specimen Optimization**: DSVision is optimized for flat plate specimens. It does not support curved/pipe specimen profiles.
 * **Legs**: Displays points where the ultrasonic beam reflects inside the specimen as guide lines on the screen.
     - **B (Bottom)**: Bottom reflection points (B0, B2, etc.)
     - **T (Top)**: Top reflection points (T1, T3, etc.)
+    - **Leg Calculation Mechanism**: The vertical depth of the B0 and T1 lines is strictly governed by the **Thickness** setting and is calculated automatically.
+    - **A-Scan Indicator**: Activating Legs displays red vertical bars in the A-Scan graph, signifying the corresponding depth range zones.
     - **Usage**: If a defect signal is found between B0 and T1, it proves that it was captured in the section reflecting back up from the bottom (1-Skip).
 
 <div carousel>
@@ -500,6 +526,7 @@ Configures weld profile and specifications to interpret whether a defect is loca
 * **Geometric Parameters**:
     - **Groove Angle**: Sets the bevel angle to increase accuracy in interpreting Fusion Line defects at weld boundaries.
     - **Fill / Land Height**: Sets actual weld bead and root land heights.
+    - **B0 Alignment**: The bottom boundary line **B0** is geometrically locked to the root land bottom line of the weld graphic. Adjusting `Land Height` scales the V-groove upward while keeping the root base fixed to the B0 depth.
     - **Land Offset (Gap)**: Visualizes horizontal gap between base metals to assist in root defect interpretation.
 
 <div carousel>
@@ -515,7 +542,7 @@ Configures weld profile and specifications to interpret whether a defect is loca
 </div>
 
 * **HAZ (Heat-Affected Zone)**: Sets the width of the section where metal structure has been altered by heat from the weld boundary.
-    - **Function**: Provides a shaded guide to immediately distinguish whether a defect signal is within the weld or the HAZ section, where defect frequency is high.
+    - **Double Outline Visualization**: When set to a value greater than 0mm (e.g., 5mm), an outer boundary outline parallel to the weld profile is generated. This creates a shaded double-boundary area indicating the Heat-Affected Zone.
 
 <div carousel>
   <div align="center">
@@ -533,7 +560,7 @@ Configures weld profile and specifications to interpret whether a defect is loca
 Synchronizes the physical position of the probe with the software coordinate system.
 
 * **Probe Offset**: Enter the distance the probe is away from the weld centerline.
-    - **Index Offset**: Offset distance perpendicular to the weld line.
+    - **Index Offset**: Offset distance perpendicular to the weld line. Adjusting this shifts the virtual weld overlay graphic relative to the S-Scan beam coordinates to line up physical signals.
     - **Scan Offset**: Distance correction in the scan direction.
 * **Skew Angle**: Select the direction the probe is facing from 0°, 90°, 180°, or 270°. The software's data acquisition axis is automatically synchronized based on the set angle.
 
@@ -549,7 +576,8 @@ Defines unique transducer specifications and range of transmitting/receiving ele
 
 * **Probe Type**: Select the appropriate type according to the sensor's element array method.
     - **PA Linear**: The most common Phased Array transducer with elements arranged in a single line (1D).
-    - **PA Dual (Pitch-Catch)**: A type where transmitting and receiving element arrays are independent. Reduces dead zones near the surface and provides high signal quality when inspecting materials with high attenuation or thick base metals.
+    - **PA Dual (Pitch-Catch)**: Transmitting and receiving arrays are isolated. Improves near-surface detection (reduces dead zones) and SNR in highly attenuative materials like austenitic welds.
+      - **Pin Allocation**: Switching to `PA Dual` automatically assigns **Tx elements to 1-16** and **Rx elements to 33-48** to match hardware switching boards and prevent channel crosstalk.
     - **Single / Dual UT**: Single element or split transmit/receive conventional ultrasonic transducers.
 * **Probe Wizard**: A function to automatically load transducer specifications by selecting model names from a built-in database.
     - **Automatic Entry**: Pitch, Frequency, total number of Elements, etc., are automatically filled to prevent input errors.
@@ -566,13 +594,12 @@ Controls the status of the wedge attached to the bottom of the transducer to phy
 
 * **Why Use a Wedge?**: Ultrasound naturally travels only vertically. When beams must be sent at an angle, as in weld inspection, a wedge machined at a specific angle is used to refract the beam. It also improves coupling with the test object to reduce signal loss.
 * **Wedge On/Off**: Determines whether to include travel time delay within the wedge in the calculation engine.
-* **Wedge Reverse**: Used when the probe is physically mounted in a direction 180 degrees opposite to the wedge.
-    - **Function**: Reverses acquisition logic and visual guides with a single button, allowing correct data acquisition without hardware remounting.
+* **Wedge Reverse**: Reverses the data mapping and S-Scan display by 180 degrees. This provides an instant software correction if the probe is physically mounted backward, saving teardown time.
 * **Wedge Parameters**: For special wedges not in the database, optimize by directly inputting the following physical values:
-    - **Wedge Angle**: The physical angle between the bottom of the wedge and the surface the transducer sits on. This must be accurate to calculate the final refraction angle into the test object.
-    - **Wedge Velocity**: Speed of ultrasound in the wedge material. Refractive index varies with material sound velocity, so precise input is required.
-    - **Primary Offset (X-Offset)**: Horizontal distance from the first element of the transducer to the front end (Toe) of the wedge. Core reference point for calculating defect distance from the transducer.
-    - **Height at First Element (Z-Offset)**: Vertical height from the bottom of the wedge to the first element. Essential for calculating actual True Depth of defects.
+    - **Wedge Angle**: The physical angle of the wedge face.
+    - **Wedge Velocity**: Propagation speed of ultrasound in the wedge material (typically Rexolite, ~2337 m/s).
+    - **Primary Offset (Primary Axis / X-Offset)**: The horizontal distance from the front tip (Toe) of the wedge to the first transducer element. This is input as a **negative (-) value** because the element sits behind the front toe reference point.
+    - **Height at First Element (Height / Z-Offset)**: This is **not the total block height** of the wedge. It must be the vertical distance from the wedge bottom to the first active element to compute correct True Depth (DA/DB/DI).
 
 <div align="center">
   <img src="/images/03_Resources/(KOR)%20program_introduction/images/6.png" width="450">
@@ -648,6 +675,13 @@ DSVision assigns unique colors to each data axis for intuitive analysis, synchro
 * **Index (Green)**: Position information for spacing between scan lines.
 * **Ultrasound (Purple/Pink)**: Actual travel path of ultrasound and depth information within metal.
 
+#### **Encoder Calibration**
+To ensure the encoder pulses translate accurately into physical millimeters, perform this 4-step field calibration:
+1. Select the target axis to calibrate (**Scan** or **Index**).
+2. Align the scanner to a physical starting mark and tap **Record Start Position** (sets the initial reference pulse count).
+3. Physically roll the scanner along a precision ruler for a set distance (e.g., exactly `100 mm`) and tap **Record End Position** to capture the final pulse count.
+4. Input the actual traveled distance (e.g., `100`) in the pop-up dialog. The system automatically computes the corrected resolution (pulses/mm) and applies it to **Scan Resolution** to achieve 0% error.
+
 ### 5.5.7 Display Settings
 A group of tools for optimizing the visual configuration of analysis screens and precisely measuring defect size and position. You can adjust screens to match inspection environments and extract quantitative analysis data using digital cursors.
 
@@ -675,9 +709,12 @@ A function to divide hardware resources to build and manage multiple independent
 
 #### **Core Functions**
 * **Add**: Creates a new independent channel based on the currently selected configuration (Config).
-* **Copy**: Duplicates all parameters of an existing channel (Gain, Gate, Calibration, etc.) to create a new one. Reduces preparation time in multi-probe environments requiring similar settings.
+  - Config options: `PA` (Phased Array), `LA` (Linear Array), or `Conventional` (switches center view to standalone full A-Scan).
+* **Copy**: Duplicates all parameters of an existing channel (Gain, Gate, Calibration values V/W/S/T, and geometric settings) to create a new one.
+  - *Practical NDT Benefit*: Extremely useful for dual-probe or split-scan inspections where symmetric setups are deployed, avoiding duplicate setup times.
 * **Rename**: Assigns unique names to each channel based on inspection area or purpose to increase identification.
-* **Remove**: Deletes unnecessary channels from the active group to organize the workspace.
+* **Remove**: Deletes unnecessary channels from the active group.
+  - **Integrity Rule**: If only a single channel remains in the project, the **Remove** button is automatically grayed out and disabled to maintain project integrity.
 
 <div align="center">
   <img src="/images/03_Resources/(KOR) program_introduction/images/slide_39_img_10.png" width="150">
@@ -699,6 +736,12 @@ Dynamically adjusts analysis screen configuration through various viewing templa
 </div>
 
 * **Layout Templates**: Provides a list of layouts optimized according to the active channel's configuration. Users can select and immediately apply templates ranging from single to multi-split screens.
+  - **A**: A-Scan full screen.
+  - **S**: S-Scan (Sectorial Scan) full screen.
+  - **AS**: Side-by-side A-Scan and S-Scan (standard live view).
+  - **AS/B**: 3-split layout displaying A-Scan, S-Scan, and B-Scan (depth cross-section) simultaneously.
+  - **AS/C**: 3-split layout displaying A-Scan, S-Scan, and C-Scan (accumulated planar mapping) simultaneously.
+  - **S/B/C**: 3-split layout displaying S-Scan, B-Scan, and C-Scan for spatial defect evaluation.
 * **Multi-Channel Layout Management**: Adding or duplicating channels automatically allocates their data to the layout grid. Allows simultaneous visualization of data from multiple groups, and displays the A-Scan associated with each channel group as default to reduce screen complexity.
 
 <div align="center">
@@ -812,10 +855,11 @@ DSVision provides a **Gate Synchronization** function to maintain stable defect 
 
 *   **Gate I (Interface Gate) & Sync**:
     - **Interface Gate (I)**: A special gate that tracks specimen surface (Interface) echoes in real-time.
-    - **Synchronization (Sync)**: Sets the surface signal captured by Gate I as the temporal reference point (T=0). This synchronizes Gates A and B to always maintain a constant depth from the surface to monitor for defects, even if specimen surface height varies.
+    - **Synchronization (Sync)**: When active, the system locks onto the surface echo captured by Gate I and dynamically re-defines its peak location as the new time-of-flight zero point (T=0).
+    - **Practical NDT Benefit**: Even if the coupling thickness (Water Path) fluctuates due to scanner wobbling or rough surface scanning, Gates A and B dynamically follow the surface shifts to accurately monitor defects at consistent material depths.
 *   **Detection Mode**:
     - **Peak**: Measures the point with the highest amplitude within the gate area. Favorable for determining maximum defect size.
-    - **Edge**: Measures where the signal first meets the gate threshold. Favorable for precisely capturing where a defect begins.
+    - **Edge**: Measures where the signal first meets the gate threshold. Favorable for precisely capturing where a defect begins or measuring thickness from the edge crossing.
 
 <div align="center">
   <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_27_img_3.png" width="150">
@@ -881,10 +925,16 @@ When cursors are active, the distance difference between them is displayed as **
 ### 5.8.4 Defect Sizing (6dB Drop Method)
 The sizing procedure using the **6dB Drop (50% Attenuation method)**, most widely used in the field, is as follows:
 
-1.  **Peak Search**: Move the probe to find the point where the defect signal is highest.
-2.  **Reference Setting**: Place the **Ref Cursor** at that peak point.
-3.  **Boundary Search**: Move the **Measurement Cursor** left/right or up/down until the signal amplitude drops to half (6dB down) of the peak.
-4.  **Size Determination**: The **ΔH** or **ΔV** value displayed on the status bar at this point becomes the actual physical size (length or height) of the defect.
+1.  **Peak Search**: Manipulate the probe to find the point where the defect echo reaches its absolute maximum amplitude.
+2.  **Reference Setting**: Align the **Ref Cursor** (Red crosshair) precisely over this maximum peak.
+3.  **Boundary Search**: 
+    - Using the 8-way controller:
+      - Double arrows (`◀◀`, `▶▶`, `▲▲`, `▼▼`) for fast positioning (**Coarse** mode).
+      - Single arrows (`◀`, `▶`, `▲`, `▼`) for precise positioning (**Fine** mode).
+    - Move the **Measurement Cursor** (Blue crosshair) away from the Ref Cursor until the signal amplitude drops to exactly half of the peak height (-6dB down, e.g., from 80% to 40% FSH).
+4.  **Size Determination**:
+    - **Length Measurement**: The **ΔH** (Horizontal Delta) displayed on the bottom status bar at the lateral boundary limits defines the physical **Length** of the defect.
+    - **Height Measurement**: The **ΔV** (Vertical Delta) displayed at the depth boundary limits defines the physical **Height** (through-wall size) of the defect.
 
 # 6. Specialized Inspection Modes
 - Description of advanced functions and modes optimized for specific inspection purposes.

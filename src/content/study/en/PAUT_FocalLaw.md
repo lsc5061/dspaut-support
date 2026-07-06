@@ -3,7 +3,7 @@ title: "PAUT Focal Law — Principles, Components, and Design Methods"
 publishDate: 2026-06-10
 description: "This article explains the principles and practical design methods of Focal Laws, which are sets of time-delay parameters that determine the beam steering and focusing performance of PAUT equipment."
 tags: ["PAUT", "Focal Law", "Time Delay"]
-category: "3. Advanced Phased Array Ultrasonic Testing (PAUT)"
+category: "Advanced Phased Array Ultrasonic Testing (PAUT)"
 order: 11
 ---
 

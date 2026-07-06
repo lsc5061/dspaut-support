@@ -3,7 +3,7 @@ title: "일반 UT 대비 위상배열 초음파(PAUT)의 기술적 우수성"
 publishDate: 2026-06-30
 description: "일반 단일 소자 초음파 탐상(UT)과 비교하여 위상배열 초음파 탐상(PAUT)이 갖는 음향학적, 물리적, 작업 공정 상의 이점을 비교 분석합니다."
 tags: ["PAUT", "UT", "기법비교", "기술적장점", "비파괴검사"]
-category: "3. 위상 배열 초음파 탐상 (PAUT) 심화"
+category: "위상 배열 초음파 탐상 (PAUT) 심화"
 order: 15
 ---
 

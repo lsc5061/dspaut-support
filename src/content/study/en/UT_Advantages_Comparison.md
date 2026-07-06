@@ -3,7 +3,7 @@ title: "Technical Advantages and Methods Comparison of Ultrasonic Testing (UT)"
 publishDate: 2026-06-30
 description: "Evaluates the physical and operational advantages of Ultrasonic Testing (UT) in comparison to Radiographic (RT), Magnetic Particle (MT), and Penetrant (PT) testing."
 tags: ["UT", "Comparison", "Advantages", "NDT"]
-category: "1. Ultrasonic Testing (UT) Basics"
+category: "Ultrasonic Testing (UT) Basics"
 order: 5
 ---
 

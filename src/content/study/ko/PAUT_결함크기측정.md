@@ -3,7 +3,7 @@ title: "PAUT 결함 크기 측정 기법"
 publishDate: 2026-06-10
 description: "비파괴검사 및 PAUT 환경에서 결함의 길이, 높이, 깊이를 평가하기 위한 대표적인 크기 측정 기법(6dB Drop, TOFD, 팁 회절 등)을 정리합니다."
 tags: ["결함측정", "Sizing", "TOFD", "6dB Drop"]
-category: "3. 위상 배열 초음파 탐상 (PAUT) 심화"
+category: "위상 배열 초음파 탐상 (PAUT) 심화"
 order: 12
 ---
 

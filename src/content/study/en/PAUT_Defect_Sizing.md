@@ -3,7 +3,7 @@ title: "PAUT Defect Sizing Techniques"
 publishDate: 2026-06-10
 description: "This article summarizes the representative sizing techniques (6dB Drop, TOFD, Tip Diffraction, etc.) used to evaluate the length, height, and depth of defects in NDT and PAUT environments."
 tags: ["Defect Sizing", "Sizing", "TOFD", "6dB Drop"]
-category: "3. Advanced Phased Array Ultrasonic Testing (PAUT)"
+category: "Advanced Phased Array Ultrasonic Testing (PAUT)"
 order: 12
 ---
 

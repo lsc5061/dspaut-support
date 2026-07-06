@@ -3,7 +3,7 @@ title: "Fundamentals of Ultrasonic NDT: Principles of A-scan and Graph Interpret
 publishDate: 2026-06-10
 description: "Based on global NDT technical standards, this article explains in detail how to interpret A-scan graphs—the foundation of ultrasonic technology—and the principles of real-time signal analysis."
 tags: ["A-scan", "Raw Signal", "Signal Analysis"]
-category: "2. Data Visualization & Scan Interpretation"
+category: "Data Visualization & Scan Interpretation"
 order: 5
 ---
 

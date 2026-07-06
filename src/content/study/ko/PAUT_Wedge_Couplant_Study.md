@@ -3,7 +3,7 @@ title: "PAUT 웨지(Wedge)와 접촉 매질(Couplant) — 역할과 선택 기�
 publishDate: 2026-06-10
 description: "PAUT 탐촉자에서 발생한 초음파 에너지를 시험체에 올바르게 수신·송출하기 위한 웨지와 접촉 매질의 물리적 역할과 선택 기준을 정리합니다."
 tags: ["웨지", "Wedge", "접촉매질"]
-category: "3. 위상 배열 초음파 탐상 (PAUT) 심화"
+category: "위상 배열 초음파 탐상 (PAUT) 심화"
 order: 9
 ---
 

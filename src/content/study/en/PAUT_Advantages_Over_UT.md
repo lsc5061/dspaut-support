@@ -3,7 +3,7 @@ title: "Technical Advantages of Phased Array UT (PAUT) over Conventional UT"
 publishDate: 2026-06-30
 description: "Examines the acoustic, physical, and operational advantages of Phased Array Ultrasonic Testing (PAUT) compared to conventional single-element UT."
 tags: ["PAUT", "UT", "Comparison", "Advantages", "NDT"]
-category: "3. Advanced Phased Array Ultrasonic Testing (PAUT)"
+category: "Advanced Phased Array Ultrasonic Testing (PAUT)"
 order: 15
 ---
 

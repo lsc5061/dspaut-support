@@ -3,7 +3,7 @@ title: "Full Matrix Capture (FMC) and Total Focusing Method (TFM)"
 publishDate: 2026-06-30
 description: "Examines the mathematical and digital signal principles of Full Matrix Capture (FMC) data acquisition and Total Focusing Method (TFM) pixel reconstruction algorithms."
 tags: ["FMC", "TFM", "Phased Array", "Imaging", "NDT"]
-category: "3. Advanced Phased Array Ultrasonic Testing (PAUT)"
+category: "Advanced Phased Array Ultrasonic Testing (PAUT)"
 order: 14
 ---
 

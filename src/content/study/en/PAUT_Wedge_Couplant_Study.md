@@ -3,7 +3,7 @@ title: "PAUT Wedge and Couplant — Roles and Selection Criteria"
 publishDate: 2026-06-10
 description: "This article summarizes the physical roles and selection criteria of wedges and couplants for properly transmitting and receiving ultrasonic energy from PAUT probes to the test object."
 tags: ["Wedge", "Couplant"]
-category: "3. Advanced Phased Array Ultrasonic Testing (PAUT)"
+category: "Advanced Phased Array Ultrasonic Testing (PAUT)"
 order: 9
 ---
 

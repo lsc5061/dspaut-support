@@ -3,7 +3,7 @@ title: "UT vs PAUT — 무엇이 어떻게 다른가"
 publishDate: 2026-06-10
 description: "초음파 탐상(UT)과 위상 배열 초음파 탐상(PAUT)의 빔 생성 방식, 검사 속도, 이미징 능력 등 기술적 차이와 현장 선택 기준을 정리합니다."
 tags: ["UT", "PAUT", "비교분석"]
-category: "3. 위상 배열 초음파 탐상 (PAUT) 심화"
+category: "위상 배열 초음파 탐상 (PAUT) 심화"
 order: 10
 ---
 

@@ -3,7 +3,7 @@ title: "UT 데이터 표현 방식: A-Scan / B-Scan / C-Scan"
 publishDate: 2026-06-10
 description: "초음파 탐상(UT) 장비가 수집한 데이터를 시각화하는 세 가지 스캔 방식의 원리, 구조, 용도를 엔지니어 관점에서 정리합니다."
 tags: ["스캔방식", "A-scan", "B-scan", "C-scan"]
-category: "2. 데이터 시각화 및 스캔 해석"
+category: "데이터 시각화 및 스캔 해석"
 order: 4
 ---
 

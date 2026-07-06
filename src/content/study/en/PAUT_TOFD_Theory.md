@@ -3,7 +3,7 @@ title: "Time of Flight Diffraction (TOFD) Principles"
 publishDate: 2026-06-30
 description: "Examines the physical principles of Time of Flight Diffraction (TOFD), analyzing tip diffraction mechanics, dual-probe geometry, and mathematical depth calculations."
 tags: ["TOFD", "Diffraction", "Sizing", "NDT"]
-category: "3. Advanced Phased Array Ultrasonic Testing (PAUT)"
+category: "Advanced Phased Array Ultrasonic Testing (PAUT)"
 order: 13
 ---
 

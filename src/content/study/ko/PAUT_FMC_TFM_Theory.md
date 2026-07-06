@@ -3,7 +3,7 @@ title: "풀 매트릭스 획득 (FMC) 및 전체 집속 기법 (TFM)"
 publishDate: 2026-06-30
 description: "풀 매트릭스 획득(FMC)의 디지털 신호 수집 방식과 전체 집속 기법(TFM) 픽셀 합성 재구성 알고리즘의 수학적 물리적 원리를 설명합니다."
 tags: ["FMC", "TFM", "위상배열", "이미징", "비파괴검사"]
-category: "3. 위상 배열 초음파 탐상 (PAUT) 심화"
+category: "위상 배열 초음파 탐상 (PAUT) 심화"
 order: 14
 ---
 

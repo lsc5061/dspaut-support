@@ -3,7 +3,7 @@ title: "초음파 비파괴 검사 C-scan의 원리와 평면 해석법"
 publishDate: 2026-06-10
 description: "글로벌 NDT 기술 표준 자료를 바탕으로 C-scan의 물리적 정의와 화면에 표시되는 평면 투시 그래프를 해석하는 구체적인 방법을 설명합니다."
 tags: ["C-scan", "평면투시", "결함분포"]
-category: "2. 데이터 시각화 및 스캔 해석"
+category: "데이터 시각화 및 스캔 해석"
 order: 7
 ---
 

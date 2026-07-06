@@ -3,7 +3,7 @@ title: "용접부 초음파 검사와 Weld Overlay 형상 매핑 기하학"
 publishDate: 2026-06-30
 description: "용접부 초음파 검사의 기하학적 물리 원리를 분석하고, 빔 스킵 거리(Skip Distance) 공식 및 컴퓨터식 웰드 오버레이(Weld Overlay) 정렬 기법을 설명합니다."
 tags: ["PAUT", "용접부검사", "웰드오버레이", "비파괴검사"]
-category: "3. 위상 배열 초음파 탐상 (PAUT) 심화"
+category: "위상 배열 초음파 탐상 (PAUT) 심화"
 order: 16
 ---
 

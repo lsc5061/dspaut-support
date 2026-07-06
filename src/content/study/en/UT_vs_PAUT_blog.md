@@ -3,7 +3,7 @@ title: "UT vs PAUT — What are the Differences?"
 publishDate: 2026-06-10
 description: "This article outlines the technical differences, including beam generation, inspection speed, and imaging capabilities, between Conventional Ultrasonic Testing (UT) and Phased Array Ultrasonic Testing (PAUT), along with selection criteria in the field."
 tags: ["UT", "PAUT", "Comparative Analysis"]
-category: "3. Advanced Phased Array Ultrasonic Testing (PAUT)"
+category: "Advanced Phased Array Ultrasonic Testing (PAUT)"
 order: 10
 ---
 

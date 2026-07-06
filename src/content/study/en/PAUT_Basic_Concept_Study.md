@@ -3,7 +3,7 @@ title: "Basic Concepts of Phased Array Ultrasonic Testing (PAUT)"
 publishDate: 2026-06-10
 description: "Summarizes the principles, components, scan modes, and advantages over conventional UT of PAUT, which implements beam steering and focusing through electronic control of multiple piezoelectric elements."
 tags: ["PAUT", "Phased Array", "Beam Steering"]
-category: "3. Advanced Phased Array Ultrasonic Testing (PAUT)"
+category: "Advanced Phased Array Ultrasonic Testing (PAUT)"
 order: 8
 ---
 
