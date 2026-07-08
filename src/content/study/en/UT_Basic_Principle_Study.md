@@ -1,5 +1,5 @@
 ---
-title: "Basic Principles of Ultrasonic Testing (UT)"
+title: "Basic Principles of UT"
 publishDate: 2026-06-10
 description: "Summarizes the principles, characteristics, and industrial applications of Ultrasonic Testing (UT), a core non-destructive testing method, from an engineer's perspective."
 tags: ["UT", "Basics", "NDT"]

@@ -1,5 +1,5 @@
 ---
-title: "공간 데이터의 정밀도: Encoder(엔코더) 보정"
+title: "Encoder(엔코더) 보정 방법"
 publishDate: 2026-07-07
 description: "DSVision의 엔코더 보정 기능을 활용하여 스캐너의 이동 거리와 소프트웨어의 위치 데이터를 0.01mm 오차 없이 일치시키는 조작법을 다룹니다."
 tags: ["엔코더 보정", "Encoder Calibration", "DSVision", "교정"]

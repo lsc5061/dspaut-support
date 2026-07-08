@@ -1,5 +1,5 @@
 ---
-title: "Full Matrix Capture (FMC) and Total Focusing Method (TFM)"
+title: "FMC and TFM Principles"
 publishDate: 2026-06-30
 description: "Examines the mathematical and digital signal principles of Full Matrix Capture (FMC) data acquisition and Total Focusing Method (TFM) pixel reconstruction algorithms."
 tags: ["FMC", "TFM", "Phased Array", "Imaging", "NDT"]

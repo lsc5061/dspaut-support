@@ -1,5 +1,5 @@
 ---
-title: "The Precision of Spatial Data: Encoder Calibration"
+title: "Encoder Calibration Guide"
 publishDate: 2026-07-07
 description: "Provides step-by-step procedures and UI guides for aligning scanner physical movement with software position data within 0.01mm error using DSVision's Encoder Calibration."
 tags: ["Encoder Calibration", "Calibration", "DSVision"]

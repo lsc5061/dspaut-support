@@ -1,5 +1,5 @@
 ---
-title: "Ultrasonic NDT B-scan: Principles and Cross-Sectional Interpretation"
+title: "B-scan Principles and Interpretation"
 publishDate: 2026-06-10
 description: "Based on global NDT technical standards, this article explains the physical definition of B-scan and provides detailed methods for interpreting 2D cross-sectional graphs displayed on screens."
 tags: ["B-scan", "2D Cross-Section", "Peak"]

@@ -1,5 +1,5 @@
 ---
-title: "초음파 부식 맵핑 (Corrosion Mapping) 기술 원리"
+title: "부식 맵핑(Corrosion Mapping) 기술 원리"
 publishDate: 2026-06-30
 description: "초음파 부식 맵핑의 물리적 원리를 분석하고, 격자 좌표계 데이터 획득 방식, C-스캔 이미지 컬러 매핑, 그리고 피크(Peak) 대 에지(Edge) 게이팅 측정 원리를 설명합니다."
 tags: ["UT", "부식맵핑", "게이팅", "비파괴검사"]

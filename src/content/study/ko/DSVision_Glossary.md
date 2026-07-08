@@ -1,5 +1,5 @@
 ---
-title: "DSVision 핵심 용어 사전 및 실무 활용서"
+title: "핵심 용어 사전 및 실무 활용서"
 publishDate: 2026-07-03
 description: "DSVision 프로그램 화면에 표시되는 복잡한 NDT 약어와 설정 파라미터들의 의미 및 실제 현장 적용을 위한 설명서입니다."
 tags: ["DSVision", "용어사전", "비파괴검사", "PAUT"]

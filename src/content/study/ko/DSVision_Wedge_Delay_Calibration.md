@@ -1,5 +1,5 @@
 ---
-title: "데이터의 완벽한 영점: Wedge Delay(웨지 지연) 보정"
+title: "Wedge Delay(웨지 지연) 보정 방법"
 publishDate: 2026-07-07
 description: "DSVision의 Auto Wedge Delay 기능을 적용하여 각도별 웨지 지연을 정밀하게 자동 보정하는 절차와 UI 가이드를 제공합니다."
 tags: ["웨지 지연 보정", "Wedge Delay", "DSVision", "교정"]

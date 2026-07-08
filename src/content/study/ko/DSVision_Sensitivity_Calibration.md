@@ -1,5 +1,5 @@
 ---
-title: "정량 분석의 기준: Sensitivity(감도) 보정"
+title: "Sensitivity(감도) 보정 방법"
 publishDate: 2026-07-07
 description: "DSVision의 Auto Gain Normalization 기능을 사용하여 수십 개 채널의 수신 감도 편차를 균일하게 보정하는 절차와 UI 가이드를 제공합니다."
 tags: ["감도 보정", "Sensitivity", "DSVision", "교정"]

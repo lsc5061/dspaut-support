@@ -1,5 +1,5 @@
 ---
-title: "Ultrasonic NDT C-scan: Principles and Plan View Interpretation"
+title: "C-scan Principles and Interpretation"
 publishDate: 2026-06-10
 description: "Based on global NDT technical standards, this article explains the physical definition of C-scan and provides detailed methods for interpreting planar projection (top-down view) graphs displayed on screens."
 tags: ["C-scan", "Plan View", "Defect Distribution"]

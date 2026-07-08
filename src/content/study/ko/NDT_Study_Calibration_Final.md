@@ -1,5 +1,5 @@
 ---
-title: "초음파 비파괴 검사 대비(Calibration)의 원리와 시험편의 목적"
+title: "Calibration(보정) 원리와 대비시험편 목적"
 publishDate: 2026-06-10
 description: "초음파 탐상 검사(UT)를 통해 정확한 결함의 위치와 크기를 측정하기 위해 필요한 대비(교정) 과정과 대비 시험편의 물리적 필요성을 설명합니다."
 tags: ["교정", "Calibration", "시험편"]

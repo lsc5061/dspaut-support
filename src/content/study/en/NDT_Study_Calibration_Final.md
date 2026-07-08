@@ -1,5 +1,5 @@
 ---
-title: "Principles of Calibration in Ultrasonic Testing and the Purpose of Reference Blocks"
+title: "Calibration Principles and Reference Blocks"
 publishDate: 2026-06-10
 description: "Explains the calibration process required to measure accurate defect locations and sizes via Ultrasonic Testing (UT), and the physical necessity of reference blocks."
 tags: ["Calibration", "Reference Block", "NDT"]

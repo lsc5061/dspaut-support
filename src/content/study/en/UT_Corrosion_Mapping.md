@@ -1,5 +1,5 @@
 ---
-title: "Ultrasonic Corrosion Mapping Principles"
+title: "Corrosion Mapping Principles"
 publishDate: 2026-06-30
 description: "Examines the physical principles of ultrasonic corrosion mapping, analyzing grid coordinate acquisition, color map rendering, and Peak vs Edge gating methods."
 tags: ["UT", "Corrosion Mapping", "Gating", "NDT"]

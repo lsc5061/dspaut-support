@@ -1,5 +1,5 @@
 ---
-title: "보정(Calibration)의 정석: Velocity(음속) 보정"
+title: "Velocity(음속) 보정 방법"
 publishDate: 2026-07-07
 description: "DSVision의 2-Point Calibration 방식을 적용하여 재질별 음속을 정밀하게 보정하는 절차와 UI 가이드를 제공합니다."
 tags: ["음속 보정", "Calibration", "DSVision", "교정"]

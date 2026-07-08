@@ -1,5 +1,5 @@
 ---
-title: "PAUT Focal Law — 원리, 구성, 설계 방법"
+title: "PAUT Focal Law 원리 및 구성 설계"
 publishDate: 2026-06-10
 description: "PAUT 장비의 빔 조향 및 집속 성능을 결정하는 시간 지연(Time Delay) 파라미터 집합인 Focal Law의 원리와 실무 설계 방법을 설명합니다."
 tags: ["PAUT", "Focal Law", "초점법칙", "시간지연"]

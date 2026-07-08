@@ -1,5 +1,5 @@
 ---
-title: "Visual Clarity in Defect Identification: Weld Profile Setup"
+title: "Weld Profile Setup Guide"
 publishDate: 2026-07-07
 description: "Provides step-by-step procedures and UI guides for projecting various weld geometries and Heat-Affected Zones (HAZ) onto S-scans using DSVision's Weld Profile."
 tags: ["Weld Profile Setup", "Weld Overlay", "DSVision"]

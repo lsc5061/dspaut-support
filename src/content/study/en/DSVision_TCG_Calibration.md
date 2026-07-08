@@ -1,5 +1,5 @@
 ---
-title: "Overcoming Sound Attenuation: TCG (Time Corrected Gain) Calibration"
+title: "TCG Calibration Guide"
 publishDate: 2026-07-07
 description: "Provides step-by-step procedures and UI guides for precisely compensating for depth-dependent ultrasonic attenuation using DSVision's Auto TCG."
 tags: ["TCG Calibration", "Distance Amplitude Correction", "Calibration", "DSVision"]

@@ -1,5 +1,5 @@
 ---
-title: "Ultrasonic Weld Inspection and Geometry Weld Overlay Mapping"
+title: "Weld Inspection and Geometry Weld Overlay Mapping"
 publishDate: 2026-06-30
 description: "Examines the geometric physics of ultrasonic weld inspection, analyzing beam skip distance equations and computerized Weld Overlay positioning methods."
 tags: ["PAUT", "Weld Inspection", "Weld Overlay", "NDT"]

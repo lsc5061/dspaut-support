@@ -1,5 +1,5 @@
 ---
-title: "결함 판독의 직관성: 용접부 프로파일(Weld Profile) 설정"
+title: "용접부 프로파일(Weld Profile) 설정 방법"
 publishDate: 2026-07-07
 description: "DSVision의 Weld Profile 설정 기능을 활용하여 S-scan 상에 다양한 용접 형상 오버레이 및 HAZ를 시각적으로 투영하는 방법을 제공합니다."
 tags: ["용접부 설정", "Weld Profile", "Weld Overlay", "DSVision"]

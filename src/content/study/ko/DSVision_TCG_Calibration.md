@@ -1,5 +1,5 @@
 ---
-title: "거리 감쇄의 완벽한 극복: TCG(Time Corrected Gain) 보정"
+title: "TCG 보정 방법"
 publishDate: 2026-07-07
 description: "DSVision의 Auto TCG 기능을 활용하여 깊이에 따른 초음파 감쇄를 정밀 보정하고 전 깊이 영역의 감도를 일치시키는 가이드를 제공합니다."
 tags: ["TCG 보정", "거리 감도 보정", "DSVision", "교정"]

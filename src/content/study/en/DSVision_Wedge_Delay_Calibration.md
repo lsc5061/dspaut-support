@@ -1,5 +1,5 @@
 ---
-title: "The Ultimate Zero Point of Data: Wedge Delay Calibration"
+title: "Wedge Delay Calibration Guide"
 publishDate: 2026-07-07
 description: "Provides step-by-step procedures and UI guides for precisely and automatically calibrating angular wedge delay using DSVision's Auto Wedge Delay."
 tags: ["Wedge Delay Calibration", "Calibration", "DSVision"]

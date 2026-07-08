@@ -1,5 +1,5 @@
 ---
-title: "The Standard of Calibration: Velocity (Sound Velocity) Calibration"
+title: "Velocity (Sound Velocity) Calibration Guide"
 publishDate: 2026-07-07
 description: "Provides step-by-step procedures and UI guides for precisely calibrating material sound velocity using DSVision's 2-Point Calibration."
 tags: ["Velocity Calibration", "Calibration", "DSVision"]

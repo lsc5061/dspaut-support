@@ -1,5 +1,5 @@
 ---
-title: "Time of Flight Diffraction (TOFD) Principles"
+title: "TOFD Principles"
 publishDate: 2026-06-30
 description: "Examines the physical principles of Time of Flight Diffraction (TOFD), analyzing tip diffraction mechanics, dual-probe geometry, and mathematical depth calculations."
 tags: ["TOFD", "Diffraction", "Sizing", "NDT"]

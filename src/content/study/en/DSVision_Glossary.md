@@ -1,5 +1,5 @@
 ---
-title: "DSVision Key Terminology & Application Guide"
+title: "Key Terminology & Application Guide"
 publishDate: 2026-07-03
 description: "A comprehensive reference and glossary explaining the NDT abbreviations and parameters displayed in the DSVision software for practical field application."
 tags: ["DSVision", "Glossary", "NDT", "PAUT"]

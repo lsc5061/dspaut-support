@@ -1,5 +1,5 @@
 ---
-title: "The Standard of Quantitative Evaluation: Sensitivity Calibration"
+title: "Sensitivity Calibration Guide"
 publishDate: 2026-07-07
 description: "Provides step-by-step procedures and UI guides for uniformly normalizing receiver sensitivity deviation across dozens of channels using DSVision's Auto Gain Normalization."
 tags: ["Sensitivity Calibration", "Calibration", "DSVision"]
