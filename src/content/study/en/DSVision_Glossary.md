@@ -75,7 +75,7 @@ These real-time values are displayed at the very top of the screen. The measurem
 
 ### Auto Gain & Auto FSH
 * **Definition**: **Auto Gain** automatically calculates and adds the decibel value needed to bring the peak amplitude inside Gate A to the target **Auto FSH (default 80%)** level.
-* **Mathematical Formula**: $\Delta\text{Gain} = 20 \log_{10}(\text{Target \%} / \text{Current Peak \%})$
+* **Mathematical Formula**: \Delta\text{Gain} = 20 \log_{10}(\text{Target \%} / \text{Current Peak \%})
 * **Practical Application**: Standardizes the sensitivity calibration (e.g. to 80% FSH) in one click, matching NDT standards (ASME/AWS) instantly without manual adjustment.
 
 ### Gate I (Interface Gate) & Sync (Synchronization)

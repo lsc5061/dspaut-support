@@ -27,7 +27,7 @@ A UT transducer utilizes a piezoelectric element to convert electrical signals f
 ### 2-2. Pulse-Echo Method
 The most common UT operating method is the pulse-echo technique [cite: 221]. In this mechanism, a transducer transmits ultrasonic pulses and receives the reflected signals (echoes) from defects or the backwall using the same transducer [cite: 222]. The depth of a defect within the material is calculated by multiplying the Time of Flight (ToF) of the echo by the acoustic velocity of that specific material [cite: 223].
 
-$$\text{Defect Depth} = \frac{\text{Time of Flight} \times \text{Sound Velocity}}{2}$$ [cite: 224]
+\text{Defect Depth} = \frac{\text{Time of Flight} \times \text{Sound Velocity}}{2} [cite: 224]
 
 ---
 

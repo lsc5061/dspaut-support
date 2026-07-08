@@ -14,8 +14,8 @@ This article provides a technical evaluation of the advantages of Phased Array U
 ## 1. Dynamic Electronic Beam Control vs. Static Crystal Angles
 
 In conventional UT, the transducer contains a single piezoelectric element that transmits acoustic energy at a fixed angle and focus determined by the physical design of the transducer and wedge:
-- **Angle Constraint:** To inspect a weld at different angles (e.g., $45^\circ$, $60^\circ$, and $70^\circ$), the technician must physically change the wedge or the transducer.
-- **PAUT Advantage:** PAUT utilizes multi-element arrays. By applying programmed time delays (focal laws) to excite individual elements, the system dynamically sweeps the acoustic beam through a wide angular range (e.g., $40^\circ$ to $75^\circ$) in real-time. This **sectorial scanning** covers the entire weld volume from a single probe position.
+- **Angle Constraint:** To inspect a weld at different angles (e.g., 45°, 60°, and 70°), the technician must physically change the wedge or the transducer.
+- **PAUT Advantage:** PAUT utilizes multi-element arrays. By applying programmed time delays (focal laws) to excite individual elements, the system dynamically sweeps the acoustic beam through a wide angular range (e.g., 40° to 75°) in real-time. This **sectorial scanning** covers the entire weld volume from a single probe position.
 
 ---
 

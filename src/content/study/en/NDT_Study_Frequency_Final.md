@@ -17,11 +17,11 @@ Based on global NDT technology standards, this article explains the physical def
 
 Frequency refers to **"the number of wave oscillations per second,"** with the unit typically being MHz (one million oscillations per second). In non-destructive testing, a frequency range between 0.5 MHz and 10 MHz is most commonly used.
 
-When understanding frequency, the concept of **wavelength ($\lambda$)** is inseparable. Wavelength refers to the physical length of one complete wave cycle and follows this fundamental law of physics:
+When understanding frequency, the concept of **wavelength (λ)** is inseparable. Wavelength refers to the physical length of one complete wave cycle and follows this fundamental law of physics:
 
-$$\text{Wavelength} (\lambda) = \frac{\text{Sound Velocity} (v)}{\text{Frequency} (f)}$$
+\text{Wavelength} (\lambda) = \frac{\text{Sound Velocity} (v)}{\text{Frequency} (f)}
 
-Since the velocity of sound ($v$) is fixed within the specific material being inspected (such as steel or aluminum), **as frequency ($f$) increases, wavelength ($\lambda$) conversely decreases.** This varying wavelength length determines the overall performance of the inspection.
+Since the velocity of sound (v) is fixed within the specific material being inspected (such as steel or aluminum), **as frequency (f) increases, wavelength (λ) conversely decreases.** This varying wavelength length determines the overall performance of the inspection.
 
 ---
 

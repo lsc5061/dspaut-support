@@ -28,18 +28,18 @@ By applying different time delays to each element, the spherical waves emitted f
 
 ### 2-2. Focal Law
 The combination of firing time delays for each element is called a Focal Law [cite: 163]. A single Focal Law defines one beam angle and focal depth, and the PAUT system sequentially executes dozens to hundreds of Focal Laws to collect data at various angles and depths in a single scan [cite: 164].
-* **Example of Focal Law Count Calculation**: Inspection Angle Range / Angular Resolution (e.g., 40° to 70° at 1° intervals $\rightarrow$ 31 Focal Laws) [cite: 165]
+* **Example of Focal Law Count Calculation**: Inspection Angle Range / Angular Resolution (e.g., 40° to 70° at 1° intervals \rightarrow 31 Focal Laws) [cite: 165]
 * An independent A-scan is generated for each Focal Law, and these are combined to form a real-time S-scan image [cite: 166].
 
 ### 2-3. Time Delay Calculation
-To steer the beam at a specific angle $\theta$, the time delay ($\Delta t_n$) for the $n$-th element is calculated using the following formula [cite: 168]:
+To steer the beam at a specific angle θ, the time delay (Δt_n) for the n-th element is calculated using the following formula [cite: 168]:
 
-$$\Delta t_n = \frac{n \times p \times \sin \theta}{v}$$
+\Delta t_n = \frac{n \times p \times \sin \theta}{v}
 
-* $p$: Element Pitch [cite: 170]
-* $\theta$: Target Beam Angle [cite: 170]
-* $v$: Sound Velocity in the Material [cite: 170]
-* $n$: Element Number ($0, 1, 2, \dots$) [cite: 170]
+* p: Element Pitch [cite: 170]
+* θ: Target Beam Angle [cite: 170]
+* v: Sound Velocity in the Material [cite: 170]
+* n: Element Number (0, 1, 2, \dots) [cite: 170]
 
 ---
 

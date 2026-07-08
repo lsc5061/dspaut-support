@@ -31,15 +31,15 @@ ightarrow$ 31개 Focal Law) [cite: 165]
 * 각 Focal Law마다 독립적인 A-Scan이 생성되며, 이를 조합하여 실시간 S-Scan 이미지를 구성합니다 [cite: 166].
 
 ### 2-3. 시간 지연 계산
-특정 각도 $	heta$로 빔을 조향하기 위한 $n$번째 소자의 시간 지연($\Delta t_n$)은 아래 공식을 통해 산출됩니다 [cite: 168].
+특정 각도 	heta로 빔을 조향하기 위한 n번째 소자의 시간 지연(Δt_n)은 아래 공식을 통해 산출됩니다 [cite: 168].
 
-$$\Delta t_n = 
-rac{n 	imes p 	imes \sin 	heta}{v}$$
+\Delta t_n = 
+rac{n 	imes p 	imes \sin 	heta}{v}
 
-* $p$: 소자 피치 (Element Pitch) [cite: 170]
-* $	heta$: 목표 빔 각도 [cite: 170]
-* $v$: 재료 내 음속 [cite: 170]
-* $n$: 소자 번호 ($0, 1, 2, \dots$) [cite: 170]
+* p: 소자 피치 (Element Pitch) [cite: 170]
+* 	heta: 목표 빔 각도 [cite: 170]
+* v: 재료 내 음속 [cite: 170]
+* n: 소자 번호 (0, 1, 2, \dots) [cite: 170]
 
 ---
 

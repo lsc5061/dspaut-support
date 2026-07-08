@@ -25,15 +25,15 @@ UT equipment visualizes echo signals received by the transducer in three formats
 A one-dimensional waveform plot representing the received echo signal amplitude on the Y-axis and the ultrasonic pulse travel time (Time of Flight, ToF) on the X-axis [cite: 264]. It is the most fundamental representation of UT data, captured at a single position of the transducer [cite: 265].
 
 ### 2-2. Axis Configuration and Interpretation
-* **X-axis (Horizontal)**: Ultrasonic propagation time $\rightarrow$ converted to depth (mm) using the material's sound velocity [cite: 267]
-* **Y-axis (Vertical)**: Echo signal amplitude $\rightarrow$ used for estimating reflector size and reflectivity strength [cite: 268]
+* **X-axis (Horizontal)**: Ultrasonic propagation time \rightarrow converted to depth (mm) using the material's sound velocity [cite: 267]
+* **Y-axis (Vertical)**: Echo signal amplitude \rightarrow used for estimating reflector size and reflectivity strength [cite: 268]
 * **Peak**: Echoes generated from individual reflective interfaces (defects, backwall, etc.) [cite: 269]. Peak location determines the depth, while peak height indicates reflection intensity [cite: 269].
 
 ### 2-3. Depth Calculation
 
-$$\text{Defect Depth} = \frac{\text{Time of Flight} \times \text{Sound Velocity}}{2}$$
+\text{Defect Depth} = \frac{\text{Time of Flight} \times \text{Sound Velocity}}{2}
 
-* Sound velocity in steel: approx. $5,900 \text{ m/s}$ for longitudinal waves / approx. $3,230 \text{ m/s}$ for shear waves [cite: 272].
+* Sound velocity in steel: approx. 5,900 \text{ m/s} for longitudinal waves / approx. 3,230 \text{ m/s} for shear waves [cite: 272].
 * Accurate calculations require precise sound velocity calibration for the specific material [cite: 272].
 
 ### 2-4. Key Gate Configuration
@@ -55,8 +55,8 @@ In an A-scan, a gate is positioned over a specific time range so that only echoe
 A two-dimensional graphic presentation in a rectangular coordinate system, displaying a cross-sectional view of the test specimen by combining the transducer travel direction (X-axis) with the ultrasound propagation time or depth (Y-axis) [cite: 284]. As the transducer moves along a scan line, A-scan data at successive positions are accumulated sequentially to construct the cross-sectional image [cite: 285].
 
 ### 3-2. Axis Configuration
-* **X-axis**: Transducer travel distance (scan direction) $\rightarrow$ position along the length of the test specimen [cite: 287]
-* **Y-axis**: Ultrasonic travel time $\rightarrow$ defect depth within the material [cite: 288]
+* **X-axis**: Transducer travel distance (scan direction) \rightarrow position along the length of the test specimen [cite: 287]
+* **Y-axis**: Ultrasonic travel time \rightarrow defect depth within the material [cite: 288]
 * **Event Mark**: Displays echoes within the gate at each X position as 0/1 binary marks or color-coded values proportional to amplitude [cite: 289]
 
 ### 3-3. Event Representation Methods
@@ -83,7 +83,7 @@ A two-dimensional plan view (top view) displaying defect echoes relative to the 
 ### 4-2. Axis Configuration
 * **X-axis**: Transducer travel direction 1 (scan/index axis) [cite: 307]
 * **Y-axis**: Transducer travel direction 2 (perpendicular axis, raster/step axis) [cite: 308]
-* **Pixel Value**: Gated echo amplitude or Time of Flight (ToF) $\rightarrow$ represented as a color map [cite: 309]
+* **Pixel Value**: Gated echo amplitude or Time of Flight (ToF) \rightarrow represented as a color map [cite: 309]
 
 ### 4-3. Event Representation Methods
 The same two methods as B-scan are applied [cite: 311].
@@ -112,7 +112,7 @@ In modern digital UT systems, data digitization and storage allow post-processin
 | Scan Type | Format | Content Displayed | Axis Configuration | Key Applications |
 | :--- | :--- | :--- | :--- | :--- |
 | **A-Scan** | 1D Waveform Graph [cite: 327] | Echo Amplitude + Time of Flight [cite: 327] | X: Time (Depth) / Y: Amplitude [cite: 327] | Manual field inspection, calibration [cite: 327] |
-| **B-Scan** | 2D Cross-sectional Image [cite: 327] | Transducer Path $\times$ Depth [cite: 327] | X: Scan Distance / Y: Depth [cite: 327] | Weld cross-sectional inspection [cite: 327] |
+| **B-Scan** | 2D Cross-sectional Image [cite: 327] | Transducer Path \times Depth [cite: 327] | X: Scan Distance / Y: Depth [cite: 327] | Weld cross-sectional inspection [cite: 327] |
 | **C-Scan** | 2D Plan View (Top View) [cite: 327] | Defect distribution from top view [cite: 327] | X: Scan Axis / Y: Step Axis [cite: 327] | Composite materials, large-area automated scanning [cite: 327] |
 
 ---

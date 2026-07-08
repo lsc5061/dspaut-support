@@ -23,32 +23,32 @@ An ultrasonic beam emitted by a piezoelectric transducer does not propagate as a
 
 Flaw detection and sizing are highly challenging within the near field because the rapid fluctuations in signal amplitude make it difficult to establish a direct relationship between echo height and defect size. Therefore, calculating the boundary of the near field is critical for testing setup.
 
-The length of the near field ($N$) is mathematically determined by the diameter of the active transducer element ($D$), the frequency of the wave ($f$), and the acoustic velocity ($v$) of the medium.
+The length of the near field (N) is mathematically determined by the diameter of the active transducer element (D), the frequency of the wave (f), and the acoustic velocity (v) of the medium.
 
-$$N = \frac{D^2 \times f}{4 \times v}$$
+N = \frac{D^2 \times f}{4 \times v}
 
-Since the wavelength $\lambda$ is defined as $\lambda = v / f$, the equation can also be expressed as:
+Since the wavelength λ is defined as \lambda = v / f, the equation can also be expressed as:
 
-$$N = \frac{D^2}{4 \times \lambda}$$
+N = \frac{D^2}{4 \times \lambda}
 
 ### Engineering Implications
-- **Larger Transducer Diameter ($D$):** Significantly increases the near-field length ($N$).
-- **Higher Frequency ($f$ / shorter $\lambda$):** Extends the near-field length, shifting the stable inspection zone further into the material.
+- **Larger Transducer Diameter (D):** Significantly increases the near-field length (N).
+- **Higher Frequency (f / shorter λ):** Extends the near-field length, shifting the stable inspection zone further into the material.
 
 ---
 
 ## 3. Far Field Beam Spread (Divergence)
 
-As the acoustic wave propagates into the far field (Fraunhofer zone), the beam wavefront curves and expands. The divergence of the acoustic field is characterized by the **Beam Spread Angle** ($\theta$).
+As the acoustic wave propagates into the far field (Fraunhofer zone), the beam wavefront curves and expands. The divergence of the acoustic field is characterized by the **Beam Spread Angle** (θ).
 
 For a circular transducer element, the angle from the center axis to the edge where the acoustic pressure drops to zero (the boundary of the main beam lobe) is governed by diffraction theory through the first Bessel function zero:
 
-$$\sin(\theta) = 1.22 \frac{v}{D \times f} = 1.22 \frac{\lambda}{D}$$
+\sin(\theta) = 1.22 \frac{v}{D \times f} = 1.22 \frac{\lambda}{D}
 
-For practical evaluations where the beam boundary is defined at the $-6\text{ dB}$ (half-amplitude) drop point, the equation is modified to:
+For practical evaluations where the beam boundary is defined at the -6\text{ dB} (half-amplitude) drop point, the equation is modified to:
 
-$$\sin(\theta_{-6\text{ dB}}) = 0.51 \frac{\lambda}{D}$$
+\sin(\theta_{-6\text{ dB}}) = 0.51 \frac{\lambda}{D}
 
 ### Engineering Implications
-- **Wider Transducers ($D$):** Produce narrower, more collimated beams with less divergence, concentrating acoustic energy.
-- **Higher Frequencies ($f$):** Reduce the beam spread angle, improving lateral resolution and minimizing unwanted reflections from adjacent side geometries of the test component.
+- **Wider Transducers (D):** Produce narrower, more collimated beams with less divergence, concentrating acoustic energy.
+- **Higher Frequencies (f):** Reduce the beam spread angle, improving lateral resolution and minimizing unwanted reflections from adjacent side geometries of the test component.

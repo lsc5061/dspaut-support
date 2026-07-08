@@ -45,26 +45,26 @@ These diffracted waves travel intermediate paths, arriving in the time window be
 The vertical depth of a defect tip below the scanning surface is calculated using the Pythagorean theorem, establishing a relationship between the absolute arrival time and the probe separation distance.
 
 Let:
-- $2S$ be the Probe Center Separation (PCS) distance. Thus, $S$ is half-PCS.
-- $t$ be the total time-of-flight of the wave traveling from Tx to the defect tip and back to Rx.
-- $v$ be the longitudinal wave velocity in the material.
-- $d$ be the depth of the defect tip.
+- 2S be the Probe Center Separation (PCS) distance. Thus, S is half-PCS.
+- t be the total time-of-flight of the wave traveling from Tx to the defect tip and back to Rx.
+- v be the longitudinal wave velocity in the material.
+- d be the depth of the defect tip.
 
-The acoustic wave travels a total path length of $v \times t$. Since the path is symmetrical, the diagonal distance from one probe to the defect tip is:
+The acoustic wave travels a total path length of v \times t. Since the path is symmetrical, the diagonal distance from one probe to the defect tip is:
 
-$$\text{Diagonal Path} = \frac{v \times t}{2}$$
+\text{Diagonal Path} = \frac{v \times t}{2}
 
-Applying the Pythagorean theorem to the right-angled triangle formed by the surface half-separation ($S$), the depth ($d$), and the diagonal path yields:
+Applying the Pythagorean theorem to the right-angled triangle formed by the surface half-separation (S), the depth (d), and the diagonal path yields:
 
-$$d^2 + S^2 = \left(\frac{v \times t}{2}\right)^2$$
+d^2 + S^2 = \left(\frac{v \times t}{2}\right)^2
 
-Solving for depth ($d$):
+Solving for depth (d):
 
-$$d = \sqrt{\left(\frac{v \times t}{2}\right)^2 - S^2}$$
+d = \sqrt{\left(\frac{v \times t}{2}\right)^2 - S^2}
 
-By calculating the depth of the upper tip ($d_1$ at time $t_1$) and the lower tip ($d_2$ at time $t_2$), the vertical height ($h$) of the defect is computed as:
+By calculating the depth of the upper tip (d_1 at time t_1) and the lower tip (d_2 at time t_2), the vertical height (h) of the defect is computed as:
 
-$$h = d_2 - d_1$$
+h = d_2 - d_1
 
 ---
 

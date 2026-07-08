@@ -20,7 +20,7 @@ An A-scan is a **"one-dimensional signal graph that visually represents the time
 Medical ultrasound commonly encountered in daily life (e.g., fetal imaging) is the result of synthesizing numerous ultrasonic signals into a visual 2D image. In contrast, the A-scan used in industrial NDT represents the **most basic and pure raw signal waveform** that forms those image data.
 
 * **Principle of Sound Reflection**
-  You have likely experienced the echo phenomenon in a cave, where shouting loudly results in the sound bouncing off the walls and returning as a "yo-ho" sound after a brief moment. A-scan brings this echo principle into the ultrasonic frequency range, operating on nanoseconds (ns) and microseconds ($\mu$s).
+  You have likely experienced the echo phenomenon in a cave, where shouting loudly results in the sound bouncing off the walls and returning as a "yo-ho" sound after a brief moment. A-scan brings this echo principle into the ultrasonic frequency range, operating on nanoseconds (ns) and microseconds (μs).
   The ultrasonic wave emitted from a probe (transducer) propagates inside the test object (such as metal). The moment it hits an internal defect (cracks, voids, etc.) or the opposite backwall of the material, it generates a unique echo signal and returns. Sorting these returning signals chronologically and representing them as a line is what constitutes an A-scan.
 
 ---

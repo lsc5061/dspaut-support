@@ -16,10 +16,10 @@ This article details the digital data acquisition mechanisms and signal processi
 Corrosion Mapping is a volumetric NDT methodology designed to monitor and quantify material loss (wall thinning) caused by corrosion, erosion, or wear. Unlike point-by-point manual thickness inspections, corrosion mapping generates a comprehensive 2D spatial thickness database.
 
 ### The Spatial Grid Mechanism
-To construct a corrosion map, the surface of the component is divided into a 2D coordinate grid (comprising Scan Axis $X$ and Index Axis $Y$). 
-- **Encoder-Driven Tracking:** The ultrasonic probe is mounted on an encoder-tracked scanner. As the probe translates, the rotary encoders record its precise coordinate positions $(x_k, y_k)$ at microsecond intervals.
-- **A-Scan Data Extraction:** At each grid coordinate, a full A-scan waveform is captured. The acquisition software scans the waveform within a defined time gate to extract the time-of-flight (ToF) of the returning echo, computing the thickness: $d = (v \cdot t) / 2$.
-- **C-Scan Grid Assembly:** The calculated thickness values are mapped directly to their corresponding spatial coordinates $(x_k, y_k)$, assembling a color-coded top-down view (C-Scan).
+To construct a corrosion map, the surface of the component is divided into a 2D coordinate grid (comprising Scan Axis X and Index Axis Y). 
+- **Encoder-Driven Tracking:** The ultrasonic probe is mounted on an encoder-tracked scanner. As the probe translates, the rotary encoders record its precise coordinate positions (x_k, y_k) at microsecond intervals.
+- **A-Scan Data Extraction:** At each grid coordinate, a full A-scan waveform is captured. The acquisition software scans the waveform within a defined time gate to extract the time-of-flight (ToF) of the returning echo, computing the thickness: d = (v \cdot t) / 2.
+- **C-Scan Grid Assembly:** The calculated thickness values are mapped directly to their corresponding spatial coordinates (x_k, y_k), assembling a color-coded top-down view (C-Scan).
 
 ---
 
@@ -34,7 +34,7 @@ In **Peak Detection Mode**, the acquisition software scans the gated waveform to
 - **Limitations:** If the defect surface is irregular, the shape of the returning echo may distort, causing the peak position to shift slightly (phase-jitter), which introduces minor measurement variations.
 
 ### 2-2. Edge Detection Mode
-In **Edge Detection Mode** (also referred to as Threshold Detection), the time-of-flight is recorded at the exact moment the rising edge of the echo waveform first crosses a pre-set threshold level (e.g., $20\text{% FSH}$), regardless of where the peak of the wave lies.
+In **Edge Detection Mode** (also referred to as Threshold Detection), the time-of-flight is recorded at the exact moment the rising edge of the echo waveform first crosses a pre-set threshold level (e.g., 20\text{% FSH}), regardless of where the peak of the wave lies.
 
 - **Characteristics:** Particularly optimized for corrosion mapping. Because it tracks the absolute first arrival of the wave front, it is highly sensitive to the minimum remaining wall thickness.
 - **Advantages in Corrosion Monitoring:** In corroded surfaces, acoustic scattering is severe, often resulting in jagged, multi-peak echo profiles. Peak detection can "jump" between adjacent peaks as the probe moves, causing artificial thickness steps in the data. Edge detection avoids these measurement jumps by consistently triggering on the leading edge of the returning wave.

@@ -75,7 +75,7 @@ order: 2
 
 ### Auto Gain & Auto FSH
 * **뜻**: **Auto Gain**은 버튼 하나로 현재 에코 피크를 설정한 **Auto FSH(목표 높이, 기본 80%)** 수치에 맞춰 수동 볼륨 조절 없이 신호를 정규화하는 자동 증폭 보정 기능입니다.
-* **물리 공식**: $\Delta\text{Gain} = 20 \log_{10}(\text{목표 \%} / \text{현재 피크 \%})$
+* **물리 공식**: \Delta\text{Gain} = 20 \log_{10}(\text{목표 \%} / \text{현재 피크 \%})
 * **실무 활용**: NDT 현장 규격(ASME 등)에서 요구하는 80% FSH 감도 교정 작업을 수동 클릭 여러 번 할 필요 없이 1초 만에 완료하여 생산성을 배가시킵니다.
 
 ### Gate I (Interface Gate) & Sync (동기화)

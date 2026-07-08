@@ -25,8 +25,8 @@ Radiographic Testing (RT) utilizes ionizing radiation (Gamma rays or X-rays) to 
 Magnetic Particle Testing (MT) and Liquid Penetrant Testing (PT) are highly effective at detecting fine boundaries and cracks. However, they are physically limited by the location of the defect:
 - **Surface Constraint:** MT is limited to surface and shallow near-surface (typically < 3mm depth) defects. PT only detects flaws that are open to the surface. Neither method provides information on defect depth or internal dimensions.
 - **UT Advantage:** UT is a volumetric inspection technique. The acoustic wave propagates through the entire thickness of the component. By measuring the Time of Flight (ToF) of reflected or diffracted echoes, UT determines:
-  - The exact depth ($d$) of the defect below the surface.
-  - The vertical height ($h$) of the defect, critical for fracture mechanics calculations to predict component structural failure.
+  - The exact depth (d) of the defect below the surface.
+  - The vertical height (h) of the defect, critical for fracture mechanics calculations to predict component structural failure.
 
 ---
 

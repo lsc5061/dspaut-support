@@ -15,29 +15,29 @@ This article examines the mathematical formulations of sound path geometry in we
 
 Ultrasonic testing of welds is performed using angled shear waves (transverse waves). Because the weld reinforcement (bead) prevents placing the probe directly on top of the weld center, the acoustic beam must be introduced from the adjacent plate surface and reflected off the inner and outer surfaces of the material.
 
-The path of the acoustic beam is defined by the plate thickness ($T$) and the refracted angle ($\theta$) of the shear wave in the material.
+The path of the acoustic beam is defined by the plate thickness (T) and the refracted angle (θ) of the shear wave in the material.
 
 ### 1-1. Half Skip (First Leg)
 The **Half Skip** represents the path of the beam as it travels directly from the probe face to its first reflection point at the bottom surface (the inside diameter or root surface of the plate).
 
-The horizontal surface distance from the probe index point to the bottom reflection point ($d_{\text{HS}}$) is calculated using basic trigonometry:
+The horizontal surface distance from the probe index point to the bottom reflection point (d_HS (Horizontal Distance)) is calculated using basic trigonometry:
 
-$$d_{\text{HS}} = T \cdot \tan\theta$$
+**Horizontal Distance (d) = Thickness (T) × tan(Refraction Angle, θ)**
 
-The sound path length ($s_{\text{HS}}$), which represents the total distance traveled by the wave to the bottom reflection point, is:
+The sound path length (s_HS (Sound Path)), which represents the total distance traveled by the wave to the bottom reflection point, is:
 
-$$s_{\text{HS}} = \frac{T}{\cos\theta}$$
+**Sound Path (s) = Thickness (T) ÷ cos(Refraction Angle, θ)**
 
 ### 1-2. Full Skip (Second Leg)
 After striking the bottom surface, the beam reflects upward toward the top surface of the plate. The **Full Skip** represents the complete path from the probe to the top surface reflection point adjacent to the weld bead.
 
-The total horizontal distance from the probe index point to the top reflection point ($d_{\text{FS}}$) is twice the half-skip distance:
+The total horizontal distance from the probe index point to the top reflection point (d_FS (Total Horizontal Distance)) is twice the half-skip distance:
 
-$$d_{\text{FS}} = 2 \cdot T \cdot \tan\theta$$
+**Total Horizontal Distance (d_FS) = 2 × Thickness (T) × tan(Refraction Angle, θ)**
 
-The total sound path length ($s_{\text{FS}}$) to the top surface reflection point is:
+The total sound path length (s_FS (Total Sound Path)) to the top surface reflection point is:
 
-$$s_{\text{FS}} = \frac{2 \cdot T}{\cos\theta}$$
+**Total Sound Path (s_FS) = 2 × Thickness (T) ÷ cos(Refraction Angle, θ)**
 
 By understanding these geometric equations, inspectors can calculate exactly where the acoustic beam will intersect the weld root, sidewall fusion line, and cap.
 
@@ -49,8 +49,8 @@ In phased array ultrasonic testing (PAUT), interpreting S-Scans (Sectorial Scans
 
 ### Mathematical Alignment of Coordinates
 The software performs coordinate translation to map returning echo signals to their exact geometric locations:
-1. **Ray Path Calculation:** For each ray angle $\theta_i$ in the sectorial scan, the software computes the coordinate position $(x, z)$ of every A-scan sample point along the ray path.
-2. **Refined Geometry Mapping (Ray Bending):** When a ray reaches the plate thickness boundary ($z = T$), the software applies a mirror-reflection transformation ($z' = 2T - z$) to simulate the physical bounce of the sound path.
+1. **Ray Path Calculation:** For each ray angle θ_i in the sectorial scan, the software computes the coordinate position (x, z) of every A-scan sample point along the ray path.
+2. **Refined Geometry Mapping (Ray Bending):** When a ray reaches the plate thickness boundary (z = T), the software applies a mirror-reflection transformation (z' = 2T - z) to simulate the physical bounce of the sound path.
 3. **Bevel Overlap:** The software superimposes the weld bevel geometry (e.g., V-bevel, double-V, or J-groove) onto this coordinate space, referencing the user-defined index offset (the distance from the probe index point to the weld centerline).
 
 ### Practical Diagnostic Advantages
