@@ -101,7 +101,9 @@ const breadcrumbItems = [
     @apply leading-8 mb-6;
   }
   .prose img {
-    @apply rounded-lg shadow-sm border border-base-200 my-10;
+    @apply rounded-lg shadow-sm border border-base-200 my-10 mx-auto block;
+    max-width: min(100%, 600px);
+    height: auto;
   }
   /* 스크롤 오프셋 조정 */
   [id] {
