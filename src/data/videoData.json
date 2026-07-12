@@ -1,5 +1,35 @@
 [
   {
+    "id": "deepsound-dsvision-quick-start",
+    "youtubeId": "q3O47Zvgubw",
+    "titleKo": "DSVision 실시간 검사 신호 설정 4단계 퀵 스타트 가이드",
+    "titleEn": "DSVision 4-Step Quick Start Guide for Live Signal Setup",
+    "descriptionKo": "DEEPSOUND의 혁신적인 DSVision 소프트웨어를 활용하여 실시간 검사 신호를 설정하는 4단계 퀵 스타트 가이드입니다.",
+    "descriptionEn": "Step-by-step 4-step quick start guide to configuring your live inspection signal using DSVision software.",
+    "category": "software",
+    "duration": "03:26"
+  },
+  {
+    "id": "deepsound-p5-charge",
+    "youtubeId": "gn9Hg3wHVbk",
+    "titleKo": "DEEPSOUND P5 전원 상태 및 배터리 충전 표시등 가이드",
+    "titleEn": "DEEPSOUND P5 Power Status and Battery Charging Indicator Guide",
+    "descriptionKo": "DEEPSOUND P5 위상배열 초음파 탐상기의 이중 전원 관리 시스템 및 실시간 배터리 상태 표시 기능 가이드입니다.",
+    "descriptionEn": "Demonstrating the dual power management system and real-time battery status indication on DEEPSOUND P5.",
+    "category": "equipment",
+    "duration": "00:40"
+  },
+  {
+    "id": "deepsound-p5-battery-change",
+    "youtubeId": "ANdgcJzCaY4",
+    "titleKo": "DEEPSOUND P5 스마트 배터리 장착 및 부팅 가이드",
+    "titleEn": "DEEPSOUND P5 Smart Battery Installation and Booting Guide",
+    "descriptionKo": "DEEPSOUND P5 위상배열 초음파 탐상기의 스마트 배터리 장착 및 부팅 안내 가이드입니다.",
+    "descriptionEn": "Step-by-step guide to installing the smart batteries and booting the DEEPSOUND P5.",
+    "category": "equipment",
+    "duration": "01:34"
+  },
+  {
     "id": "deepsound-p5-cal",
     "youtubeId": "fVyZIWM4G2c",
     "titleKo": "DEEPSOUND P5 장비 3단계 교정 가이드 (음속, 웨지 지연, 감도)",
