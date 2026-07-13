@@ -131,45 +131,33 @@ The DSK program is configured in C#. Please install this program for development
 
 > **Important:** Running it with a lower version may cause issues.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image1.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image1.png)
 
 #### 2.1.2 Log2console Installation Method
 
 The Log2console program plays an important role in DSK development. It reads problematic code and locations during development, making the work much easier.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image2.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image2.png)
 
 **Log2console Program Basic Configuration Method:**
 
 When running Log2console after installation, a prompt to perform basic configuration will appear. Configure it as follows:
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image3.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image3.png)
 
 **#1** Click the button in the top Tool menu.
 
 **#2** A window will open upon clicking.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image4.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image4.png)
 
 **#3** Click Add.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image5.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image5.png)
 
 **#4** Select `"UDP (IP v4 and v6) / WinDebug (OutputDebugString)"` respectively to add them to the list.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image6.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image6.png)
 
 #### 2.1.3 Vcredist Installation Method
 
@@ -177,9 +165,7 @@ Visual Studio 2017 is recommended, and Vcredist must be installed to minimize pr
 
 The installation program is in the provided folder. Please check your Windows operating system and install it.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image7.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image7.png)
 
 ### 2.2 Program Installation
 
@@ -187,29 +173,21 @@ This section describes DSK installation and uninstallation. The program runs ins
 
 Software installation is as follows: Prepare Installation (`DskTutorial_setup.exe`)
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image8.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image8.png)
 
 Click **Next** → **Install** button → Click **Close** when complete.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image9.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image9.png)
 
 Once complete, the **DskTutorial** folder will be created in the DEEPSOUND installation path.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image10.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image10.png)
 
 ### 2.3 Folder Descriptions
 
 When DSK installation is complete, folders will be created as shown in the image below.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image11.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image11.png)
 
 | Folder Name | Content |
 |-----------|------|
@@ -232,35 +210,25 @@ When DSK installation is complete, folders will be created as shown in the image
 
 **#1** Run Visual Studio 2017.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image12.png" width="100">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image12.png)
 
 **#2** Click the top menu **"File"** -> **Open** → Click **Project/Solution (Ctrl+Shift+O)**.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image13.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image13.png)
 
 **#3** Click the **DskTutorial.sln** file inside the DskTutorial folder.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image14.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image14.png)
 
 ### 3.2 TUTORIAL 2: Program Build Method
 
 After loading `DskTutorial.sln` into Visual Studio, you can see that 6 projects are registered in the Solution Explorer.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image15.png" width="300">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image15.png)
 
 Before proceeding, select Build from the top Tool menu and run Rebuild Solution to complete the registration.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image16.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image16.png)
 
 ### 3.3 TUTORIAL 3: Project Descriptions and Execution Methods
 
@@ -274,20 +242,14 @@ Before using the DSK program, make sure to check the USB cable connection and Ne
 
 Right-click `"InitDevice"` and click **"Set as Startup Project"** to select it.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image17.png" width="600">
-</div>
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image18.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image17.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image18.png)
 
 **How to Load the UI:**
 
 Press `"Ctrl+F5"` to load the created Form1.cs screen.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image19.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image19.png)
 
 **UI Screen Configuration Description:**
 
@@ -304,9 +266,7 @@ The configuration consists of Init Device and Freeze.
 
 Activate the project and load the UI screen to see the image below.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image20.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image20.png)
 
 **UI Screen Configuration Description:**
 
@@ -314,9 +274,7 @@ The configuration consists of Init Device and Freeze.
 
 - **Init Device:** Connects the equipment, and the S-scan image will be displayed upon successful execution.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image21.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image21.png)
 
 - **Freeze:** Click to pause the program.
 
@@ -326,9 +284,7 @@ The configuration consists of Init Device and Freeze.
 
 Activate the project and load the UI screen to see the image below.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image22.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image22.png)
 
 **UI Screen Configuration Description:**
 
@@ -336,9 +292,7 @@ The configuration consists of Init Device and Freeze.
 
 - **Init Device:** Connects the equipment, and A-scan / S-scan images will be displayed upon successful execution.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image23.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image23.png)
 
 - **Freeze:** Click to pause the program.
 
@@ -348,9 +302,7 @@ The configuration consists of Init Device and Freeze.
 
 Activate the project and load the UI screen to see the image below.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image24.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image24.png)
 
 **UI Screen Configuration Description:**
 
@@ -358,9 +310,7 @@ The configuration consists of Init Device, Freeze, Start, Stop, Clear, and X = 0
 
 - **Init Device:** Connects the equipment, and the S-scan image will be displayed upon successful execution.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image25.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image25.png)
 
 - **Freeze:** Click to pause the program.
 - **Start:** Checks if Encoder Start applies (no effect on the image).
@@ -376,17 +326,13 @@ This is the final stage of DSK, where you can implement images by applying vario
 
 Activate the project and load the UI screen to see the image below.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image26.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image26.png)
 
 **UI Screen Configuration Description:**
 
 The configuration consists of Init Device, Encoder, Inspect, Scan Layout, and lists for applying each Parameter value.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image27.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image27.png)
 
 - **File:** Menu for Load & Save functions.
 
@@ -401,20 +347,14 @@ The configuration consists of Init Device, Encoder, Inspect, Scan Layout, and li
 
 This list contains Parameters and information related to the overall image: Gain / Digitizing / Beam type / Refraction Angle / Resolution / Aperture Size / Aperture Step / Vector Count / Sample Count / Acquisition Rate.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image28.png" width="300">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image28.png)
 
 - **Gain:** Adjusts the signal level.
 - **Digitizing:** Affects the sample count and selects the data conversion frequency.
 - **Beam type:** Selects between Azimuthal and Linear.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image29.png" width="300">
-</div>
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image30.png" width="300">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image29.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image30.png)
 
 - **Refraction Angle Start, Stop:** Sets the angle range.
 - **Resolution:** Checks images by subdividing or grouping the angle range (enabled when Azimuthal is selected).
@@ -428,9 +368,7 @@ This list contains Parameters and information related to the overall image: Gain
 
 This list is for entering and configuring Probe information: Frequency / Element Pitch / Number of Elements / UT connector / Transmitter / Receiver / Probe First Element.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image31.png" width="300">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image31.png)
 
 - **Frequency:** Enter the frequency of the probe.
 - **Element Pitch:** Enter the pitch between probe elements.
@@ -444,9 +382,7 @@ This list is for entering and configuring Probe information: Frequency / Element
 
 This list is for entering Wedge information: Enable / Wedge Angle / Wedge Velocity / Height.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image32.png" width="300">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image32.png)
 
 - **Enable:** Checkbox to enable the Wedge.
 - **Wedge Angle:** Enter the Wedge Angle.
@@ -457,9 +393,7 @@ This list is for entering Wedge information: Enable / Wedge Angle / Wedge Veloci
 
 This list is for configuring the pulse settings: PRF / Pulse Width / Voltage / Burst Count / Focus Position / Wave Velocity.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image33.png" width="300">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image33.png)
 
 - **PRF:** Enter the desired value (varies according to minimum/maximum depth).
 - **Pulse Width:** Determined by the Probe Frequency value (Calculation: 1 / 5(5MHz) = 0.2 (200ns)).
@@ -472,9 +406,7 @@ This list is for configuring the pulse settings: PRF / Pulse Width / Voltage / B
 
 This list is for configuring the receive signal settings: Depth Start / Depth Range / Filter Start / Filter Stop / Wedge Delay.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image34.png" width="300">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image34.png)
 
 - **Depth Start:** Sets the start of the scan range.
 - **Depth Stop:** Sets the end of the scan range.
@@ -485,9 +417,7 @@ This list is for configuring the receive signal settings: Depth Start / Depth Ra
 
 This list is for configuring the Scanner Encoder: Encoder Axis Reverse / Scan Axis (Start, Stop, Step, Resolution, Reverse) / Index Axis (Start, Stop, Step, Resolution, Reverse).
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image35.png" width="300">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image35.png)
 
 - **Encoder Axis Reverse:** Checkbox to swap the positions of the Scan Axis and Index Axis.
 
@@ -505,9 +435,7 @@ This list is for configuring the Scanner Encoder: Encoder Axis Reverse / Scan Ax
 
 This list is for adjusting signal information and gate positions: Gate A (Start, Range, Threshold, A%, A^) / Gate B (Start, Range, Threshold, B%, B^).
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image36.png" width="300">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image36.png)
 
 - **Checkbox:** Enabled when check box is selected.
 - **Start:** Sets the starting position of the Gate.
@@ -526,9 +454,7 @@ This section defines the basic UE (Ultrasound Engineering) parameters used in DS
 
 In ultrasonic non-destructive testing (NDT), a Vector is defined as ultrasonic data collected at a specific angle and range.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image37.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image37.png)
 
 #### Vector Count Calculation
 
@@ -552,9 +478,7 @@ An analog signal collected from a probe is digitized (sampled) through an ADC (A
 
 **Ex.** When setting the Digitizing Frequency to 50MHz, Sample data is converted every 20e-9 (nsec) (1 second / 50MHz).
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image38.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image38.png)
 
 #### Sample Count Calculation
 
@@ -570,9 +494,7 @@ Sample count = Range (mm) / ( US velocity / Sample frequency / 2 )
 1694 = 100 mm / (5900 m/s / 50 MHz / 2)
 ```
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image44.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image44.png)
 
 ### Digitizing Index
 
@@ -588,9 +510,7 @@ DSK configures these values in an internal Table, and the Digitizing Index below
 | 6.25 MHz | 7 |
 | 3.125 MHz | 15 |
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image45.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image45.png)
 
 ### Frame and Channel Group
 
@@ -603,23 +523,17 @@ Grouping multiple Vectors is called a Channel Group. Each Channel Group can be c
 | Channel 2 | 45 | 1 |
 | Channel 3 | 30~31 | 2 |
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image48.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image48.png)
 
 #### Frame Creation
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image49.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image49.png)
 
 1 Frame consists of data corresponding to the configured number of Channel Groups. It is stored sequentially according to the Channel Group Index, matching the size of `BackEndSampleCountPerVector * Vector` count for each Channel Group.
 
 For example, if Channel Groups 0, 1, and 2 each have a Vector Count of 1, and the `BackEndSampleCountPerVector` count is 2500 for Channel Group 0, 5000 for Channel Group 1, and 7500 for Channel Group 2: Index 0 of the 1D Array stores the 0th sample data of the 0th vector of Channel Group 0. After 2500 samples, Index 2500 stores the 0th sample data of the 0th vector of Channel Group 1. To use data from a specific Channel Group, apply an offset corresponding to the `Vector Count * BackEndSampleCountPerVector` count of the preceding Channel Groups.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image51.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image51.png)
 
 ### Pulse
 
@@ -629,9 +543,7 @@ An Unipolar Pulse Wave is a pulse wave whose polarity does not change over time,
 
 This allows setting the Burst Count as desired, which is an advantage of Bipolar Waves, to improve defect detection capabilities in areas with high attenuation.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image52.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image52.png)
 
 #### Pulse Width Formulas and Figures
 
@@ -649,9 +561,7 @@ Unipolar Pulse width = 1 / Pulse Frequency (Hz) / 2
 1 / 5 MHz / 2 = 100 (ns)
 ```
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image54.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image54.png)
 
 **#2 Bipolar pulse width:**
 
@@ -667,15 +577,11 @@ Bipolar Pulse width = 1 / Pulse frequency (Hz)
 1 / 5 MHz = 200 (ns)
 ```
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image55.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image55.png)
 
 ### Burst Count
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image56.jpeg" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image56.jpeg)
 
 Burst is a method of generating and collecting wave signals by increasing the number of counts in a single pulse wave. Since the echo pulse is collected more strongly in Rx, it can be used when collecting data in sections with high ultrasonic attenuation.
 
@@ -690,9 +596,7 @@ Focus Type represents the Focal Law Focus Position setting method for each Vecto
 - **Half path**: All focal laws set the focus based on the Sound path Distance value.
 - **Projection**: All focal laws set the focus according to a predefined focus plane (Index / Scan offset).
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image57.jpeg" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image57.jpeg)
 
 | Beam Type | Index |
 |-----------|-------|
@@ -705,17 +609,13 @@ Focus Type represents the Focal Law Focus Position setting method for each Vecto
 
 Represents the position of the Focal Plane (from the wedge reference point to the focal plane offset). The unit is set in mm.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image58.jpeg" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image58.jpeg)
 
 ### Scan/Index Encoder
 
 The figure below shows how the Scanner (Encoder) moves in the Scan axis and Index axis directions.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image59.jpeg" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image59.jpeg)
 
 In the DSK program, you can configure the start/stop and resolution of the Encoder in detail:
 
@@ -753,17 +653,13 @@ The Project code is entered when running the `S2.json` file. Check the figures b
 
 The `S2.json` file is located in the `DskTutorial > Bin > RES > Saves > Setup` path directory. Open the `S2.json` file to proceed.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image62.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image62.png)
 
 **#2 How to Modify in S2.json File**
 
 Open `S2.json` and change the `"ProjectCode"` value to match your equipment.
 
-<div align="center">
-  <img src="/images/03_Resources/Image/DSK_User_Manual_Media/image63.png" width="600">
-</div>
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image63.png)
 
 After editing, save and close the file, then run DSK.
 
