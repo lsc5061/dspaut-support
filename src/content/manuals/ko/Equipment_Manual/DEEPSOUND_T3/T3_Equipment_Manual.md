@@ -33,7 +33,7 @@
 - 본체 무게 1kg 미만(배터리 포함 0.9kg)의 초소형 설계로, 협소한 공간이나 고소 작업 환경에서의 정밀 검사에 최적화되어 있습니다.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/T3/알리바바/T3_Fornt_3_1.png" width="500">
+  <img src="/images/03_resources/image/t3/asset/t3_fornt_3_1.png" width="500">
   <p>DEEPSOUND T3 제품 개요 (A-Scan 인터페이스 구동 화면)</p>
 </div>
 
@@ -52,7 +52,7 @@
 - **디스플레이**: 7인치 터치스크린을 통해 A-Scan, B-Scan 등 다양한 검사 모드와 파라미터 설정을 실시간으로 확인합니다.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/T3/T3_Fornt_4.png" width="400">
+  <img src="/images/03_resources/image/t3/t3_fornt_4.png" width="400">
   <p>DEEPSOUND T3 Front View (A-Scan & B-Scan Multi-View)</p>
 </div>
 
@@ -61,7 +61,7 @@
 - **Encoder Port**: 스캐너 위치 정보 수집을 위한 인코더 연결 포트입니다.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/T3/T3_Top_1.png" width="400">
+  <img src="/images/03_resources/image/t3/t3_top_1.png" width="400">
   <p>DEEPSOUND T3 Top Interface (UT / Encoder)</p>
 </div>
 
@@ -69,7 +69,7 @@
 - **I/O Ports**: 장비 우측면에 USB 3.0, LAN, DC 전원 포트가 배치되어 있습니다.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/T3/T3_Right_2.png" width="250">
+  <img src="/images/03_resources/image/t3/t3_right_2.png" width="250">
   <p>DEEPSOUND T3 Side Interface (I/O Port Details)</p>
 </div>
 
@@ -77,7 +77,7 @@
 - **배터리 수납부**: 장비 하단의 커버를 열고 전용 배터리 팩을 장착할 수 있는 공간이 배치되어 있습니다.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/T3/T3_Bottom_2.png" width="400">
+  <img src="/images/03_resources/image/t3/t3_bottom_2.png" width="400">
   <p>DEEPSOUND T3 Bottom Interface (Battery Compartment)</p>
 </div>
 

@@ -4,7 +4,7 @@ publishDate: 2026-05-13
 description: "Verification results of combined PAUT and TOFD testing on PVC specimens using DEEPSOUND R3 equipment. Check out the precise flaw detection performance within 1mm."
 tags: ["PAUT", "TOFD", "NDT", "R3", "PVC"]
 category: "Technical Analysis"
-image: "/images/blog/ko/R3_PAUT_TOFD_시편확인_20220509_slide007_11.jpg"
+image: "/images/blog/ko/r3_paut_tofd_-_20220509_slide007_11.jpg"
 ---
 
 Phased Array Ultrasonic Testing (PAUT) and Time of Flight Diffraction (TOFD) are two of the most powerful techniques in modern non-destructive testing. In this post, we share the results of verifying how accurately flaws within PVC specimens can be identified using the DEEPSOUND R3 system.

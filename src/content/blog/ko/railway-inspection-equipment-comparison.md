@@ -4,7 +4,7 @@ publishDate: 2026-05-14
 description: "철도 레일 샘플 시편을 활용한 타사 장비와 DEEPSOUND P5의 결함 검출 성능 및 분석 속도 비교 결과입니다."
 tags: ["철도검사", "Railway", "P5", "장비비교", "비파괴검사"]
 category: "기술 분석"
-image: "/images/blog/ko/P5_Catalog_Main_1.jpg"
+image: "/images/blog/ko/p5_catalog_main_1.jpg"
 ---
 
 철도 검사는 아주 미세한 균열이나 결함도 큰 사고로 이어질 수 있어 매우 높은 수준의 정밀도와 신속한 판독 능력이 요구됩니다. 이번 포스팅에서는 특정 철도 샘플 시편을 활용하여 타사 장비와 DEEPSOUND P5의 실제 성능을 비교 평가한 결과를 공유합니다.

@@ -42,7 +42,7 @@ order: 1
 - Weighing less than 1kg (approx. 1.4kg with battery), it is optimized for rope access inspections or precision inspections in confined spaces.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/B3/photos/KakaoTalk_20251231_101545706_07_1_1.png" width="500">
+  <img src="/images/03_resources/image/b3/photos/kakaotalk_20251231_101545706_07_1_1.png" width="500">
   <p>DEEPSOUND B3 Product Overview</p>
 </div>
 
@@ -62,7 +62,7 @@ order: 1
 - **Dedicated Hard Case**: Portable case with built-in shock-absorbing foam.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/B3/photos/KakaoTalk_20251231_101545706_03_2.png" width="400">
+  <img src="/images/03_resources/image/b3/photos/kakaotalk_20251231_101545706_03_2.png" width="400">
   <p>DEEPSOUND B3 Main Unit Weight</p>
 </div>
 
@@ -90,22 +90,22 @@ order: 1
 - **Built-in Stand (Kickstand)**: Can be deployed using the foldable stand.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/B3/alibaba/KakaoTalk_20251219_093343153_1.png" width="400">
+  <img src="/images/03_resources/image/b3/alibaba/kakaotalk_20251219_093343153_1.png" width="400">
   <p>DEEPSOUND B3 Front View</p>
 </div>
 
 <div align="center">
-  <img src="/images/03_Resources/Image/B3/photos/KakaoTalk_20260213_115622058_1.png" width="400">
+  <img src="/images/03_resources/image/b3/photos/kakaotalk_20260213_115622058_1.png" width="400">
   <p>DEEPSOUND B3 Rear View</p>
 </div>
 
 <div align="center">
-  <img src="/images/03_Resources/Image/B3/photos/KakaoTalk_20251231_101545706_14_1.png" width="400">
+  <img src="/images/03_resources/image/b3/photos/kakaotalk_20251231_101545706_14_1.png" width="400">
   <p>DEEPSOUND B3 Top Interface (PA/UT Port)</p>
 </div>
 
 <div align="center">
-  <img src="/images/03_Resources/Image/B3/photos/KakaoTalk_20251231_101545706_13_1.png" width="400">
+  <img src="/images/03_resources/image/b3/photos/kakaotalk_20251231_101545706_13_1.png" width="400">
   <p>DEEPSOUND B3 Side Interface (I/O Port)</p>
 </div>
 

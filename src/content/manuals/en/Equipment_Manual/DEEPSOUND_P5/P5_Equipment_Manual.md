@@ -45,7 +45,7 @@ order: 1
 - Its integrated structure provides high field mobility, and its high-specification hardware enables real-time data processing and high-resolution imaging.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/P5/1234/P5_Catalog_main.png" width="600">
+  <img src="/images/03_resources/image/p5/1234/p5_catalog_main.png" width="600">
   <p>DEEPSOUND P5 Front View</p>
 </div>
 
@@ -66,7 +66,7 @@ order: 1
 - **Dedicated Hard Case**: Portable hard case with built-in foam to protect the device from impact and moisture.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/P5/홈페이지_사진_P5/포장 및 패키지/패키지_3.jpg" width="600">
+  <img src="/images/03_resources/image/p5/_-_p5/asset/_3.jpg" width="600">
   <p>DEEPSOUND P5 Standard Package and Dedicated Case</p>
 </div>
 
@@ -100,8 +100,8 @@ order: 1
 - **Power Button**: A physical button located at the top right of the device that controls system power. The power icon is engraved on top for intuitive identification.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/P5/1234/P5_omni_Port_1.png" width="300">
-  <img src="/images/03_Resources/Image/P5/1234/P5_I.O_Port.png" width="250">
+  <img src="/images/03_resources/image/p5/1234/p5_omni_port_1.png" width="300">
+  <img src="/images/03_resources/image/p5/1234/p5_i-o_port.png" width="250">
   <p>DEEPSOUND P5 Left/Right Side Major Ports and Interface Configuration</p>
 </div>
 

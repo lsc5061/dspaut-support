@@ -4,7 +4,7 @@ publishDate: 2026-05-14
 description: "수침법 환경에서 타사 장비와 DEEPSOUND P5의 결함 검출 오차 범위 및 신호 패턴을 직접 비교합니다."
 tags: ["수침법", "Immersion", "P5", "장비비교", "비파괴검사"]
 category: "기술 분석"
-image: "/images/blog/ko/P5_Fast.png"
+image: "/images/blog/ko/p5_fast.png"
 ---
 
 수침법(Immersion testing)은 물을 매질로 사용하여 정밀한 검사가 필요한 부품의 결함을 찾는 데 매우 효과적입니다. 이번 포스팅에서는 수침 환경에서 타사 장비와 DEEPSOUND P5의 결함 검출 능력을 직접 비교한 데이터를 공유합니다.

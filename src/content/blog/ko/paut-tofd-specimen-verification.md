@@ -4,7 +4,7 @@ publishDate: 2026-05-13
 description: "DEEPSOUND R3 장비를 사용한 PVC 시편의 PAUT 및 TOFD 복합 탐상 검증 결과입니다. 1mm 이내의 정밀한 결함 탐지 성능을 확인해 보세요."
 tags: ["PAUT", "TOFD", "비파괴검사", "R3", "PVC"]
 category: "기술 분석"
-image: "/images/blog/ko/R3_PAUT_TOFD_시편확인_20220509_slide007_11.jpg"
+image: "/images/blog/ko/r3_paut_tofd_-_20220509_slide007_11.jpg"
 ---
 
 위상배열 초음파 탐상(PAUT)과 회절시간차법(TOFD)은 현대 비파괴 검사에서 가장 강력한 두 가지 기술입니다. 이번 포스팅에서는 DEEPSOUND R3 시스템을 활용하여 PVC 시편 내의 결함을 얼마나 정확하게 식별할 수 있는지 검증한 결과를 공유합니다.

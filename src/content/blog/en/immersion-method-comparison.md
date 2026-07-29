@@ -4,7 +4,7 @@ publishDate: 2026-05-14
 description: "Directly compares the flaw detection error range and signal patterns between third-party equipment and DEEPSOUND P5 in an immersion environment."
 tags: ["Immersion", "P5", "EquipmentComparison", "NDT"]
 category: "Technical Analysis"
-image: "/images/blog/ko/P5_Fast.png"
+image: "/images/blog/ko/p5_fast.png"
 ---
 
 Immersion testing is highly effective for finding defects in parts requiring precision inspection by using water as a medium. In this post, we share data directly comparing the flaw detection capabilities of third-party equipment and DEEPSOUND P5 in an immersion environment.

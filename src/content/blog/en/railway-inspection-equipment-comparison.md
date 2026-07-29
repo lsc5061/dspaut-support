@@ -4,7 +4,7 @@ publishDate: 2026-05-14
 description: "Comparison results of flaw detection performance and analysis speed between third-party equipment and DEEPSOUND P5 using railway rail specimens."
 tags: ["RailwayInspection", "Railway", "P5", "EquipmentComparison", "NDT"]
 category: "Technical Analysis"
-image: "/images/blog/ko/P5_Catalog_Main_1.jpg"
+image: "/images/blog/ko/p5_catalog_main_1.jpg"
 ---
 
 In railway inspection, even minute cracks or flaws can lead to major accidents, requiring a very high level of precision and rapid interpretation capability. In this post, we share the results of a comparative evaluation of the actual performance of third-party equipment and DEEPSOUND P5 using a specific railway rail specimen.

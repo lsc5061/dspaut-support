@@ -4,7 +4,7 @@ publishDate: 2026-07-06
 description: "처음 DSVision 위상배열 초음파 장비를 사용하는 검사원과 바이어를 위한 상세 7단계 셋업, 캘리브레이션 및 검사 실행 워크플로우입니다."
 tags: ["DSVision", "초보자가이드", "PAUT", "비파괴검사"]
 category: "기술 가이드"
-image: "/images/blog/ko/T_Weld.PNG"
+image: "/images/blog/ko/t_weld.png"
 ---
 
 본 가이드는 DSVision 위상배열 초음파 탐상(PAUT) 프로그램을 처음 사용하는 검사원을 위해 작성되었습니다. 초기 상태에서 장비를 구동하고, 빔 및 게이트 설정, 시스템 교정(Calibration)을 완료한 후 결함을 측정하고 보고서를 출력하는 전 과정을 **7가지 핵심 단계**로 나누어 안내합니다.

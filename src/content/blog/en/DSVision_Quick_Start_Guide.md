@@ -4,7 +4,7 @@ publishDate: 2026-07-06
 description: "A detailed 7-step setup, calibration, and inspection workflow for inspectors and buyers using the DSVision PAUT software for the first time."
 tags: ["DSVision", "QuickStart", "PAUT", "NDT"]
 category: "Technical Analysis"
-image: "/images/blog/ko/T_Weld.PNG"
+image: "/images/blog/ko/t_weld.png"
 ---
 
 This guide is designed for inspectors using the DSVision Phased Array Ultrasonic Testing (PAUT) software for the first time. Starting from initial system launch, it walks you through configuring the probe/wedge, setting up the ultrasonic beam, creating gates, performing core system calibrations, scanning, and generating a report in **7 clear steps**.
