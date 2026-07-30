@@ -1,58 +1,58 @@
 ---
 title: Install Manual
-description: Installation and update guide for CM5 software on DEEPSOUND B3 and T3 equipment.
+description: DEEPSOUND B3 및 T3 장비의 CM5 소프트웨어 업데이트 및 바탕화면 진입 설치 가이드입니다.
 version: v1.0
 releaseDate: 2026-06-24
-author: SEONGSANLAB Co., Ltd.
+author: (주)성산연구소
 order: 2
 ---
 
 # Install Manual
 
-### (CM5 Program Update Guide)
+### (CM5 프로그램 업데이트 방법)
 
-This guide provides official instructions for safely updating the **CM5 program** to the latest version on **DEEPSOUND B3** and **DEEPSOUND T3** equipment to improve system operational efficiency and performance. Since these devices run on a Linux-based operating system, please proceed carefully by following this step-by-step guide.
+본 가이드는 **DEEPSOUND B3** 및 **DEEPSOUND T3** 장비의 시스템 운영 효율성과 성능 개선을 위해 **CM5 프로그램**을 안전하게 최신 버전으로 업데이트하는 공식 절차를 안내합니다. 해당 장비들은 리눅스(Linux) 운영체제 기반으로 구동되므로, 가이드의 안내에 따라 차근차근 진행해 주시기 바랍니다.
 
 ---
 
-## 1. Pre-installation Requirements
+## 1. 설치 전 준비 사항
 
-Before starting the update process, ensure that all the following items are prepared.
+업데이트 작업을 시작하기 전에 아래의 준비물이 모두 갖추어졌는지 확인하십시오.
 
-* **DEEPSOUND B3 or T3 equipment** (Active internet connection required)
-* **1 USB flash drive** (FAT32 or NTFS format recommended)
-* **1 USB hub** (for port expansion)
-* **USB keyboard and mouse**
-* **Latest CM5 installation program** (`.zip` compressed file)
+* **DEEPSOUND B3 또는 T3 장비** (인터넷 연결 필수)
+* **USB 메모리 1개** (FAT32 또는 NTFS 포맷 권장)
+* **USB 허브 1개** (장비 포트 확장용)
+* **키보드 및 마우스** (USB 연결형)
+* **최신 CM5 설치 프로그램** (`.zip` 압축 파일)
 
-### [Equipment and Environment Reference]
+### [준비 장비 및 환경 레퍼런스]
 
 <table style="width: 100%; border-collapse: collapse; text-align: center; border: 1px solid #e2e8f0; margin: 1.5rem 0;">
   <thead>
     <tr style="background-color: #f8fafc;">
-      <th style="width: 50%; padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-weight: 600; font-size: 0.95rem; color: #1e293b;">[1] USB</th>
-      <th style="width: 50%; padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-weight: 600; font-size: 0.95rem; color: #1e293b;">[2] USB Hub</th>
+      <th style="width: 50%; padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-weight: 600; font-size: 0.95rem; color: #1e293b;">[1] USB 메모리</th>
+      <th style="width: 50%; padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-weight: 600; font-size: 0.95rem; color: #1e293b;">[2] USB 허브</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="padding: 15px; border: 1px solid #e2e8f0; background-color: #ffffff; vertical-align: middle;">
-        <img src="/images/03_Resources/kor-install_program/images/1.png" alt="USB" width="180" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
+        <img src="/images/03_Resources/Image/B3/b3-install-media/ref_usb.png" alt="USB 메모리" width="140" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
       </td>
       <td style="padding: 15px; border: 1px solid #e2e8f0; background-color: #ffffff; vertical-align: middle;">
-        <img src="/images/03_Resources/kor-install_program/images/1.png" alt="USB Hub" width="180" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
+        <img src="/images/03_Resources/Image/B3/b3-install-media/ref_usb_hub.png" alt="USB 허브" width="140" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
       </td>
     </tr>
     <tr style="background-color: #f8fafc;">
-      <th style="padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-weight: 600; font-size: 0.95rem; color: #1e293b;">[3] DEEPSOUND Equipment</th>
-      <th style="padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-weight: 600; font-size: 0.95rem; color: #1e293b;">[4] Internet Connection</th>
+      <th style="padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-weight: 600; font-size: 0.95rem; color: #1e293b;">[3] DEEPSOUND B3 장비</th>
+      <th style="padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-weight: 600; font-size: 0.95rem; color: #1e293b;">[4] 인터넷 연결</th>
     </tr>
     <tr>
       <td style="padding: 15px; border: 1px solid #e2e8f0; background-color: #ffffff; vertical-align: middle;">
-        <img src="/images/03_Resources/kor-install_program/images/1.png" alt="DEEPSOUND Equipment" width="180" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
+        <img src="/images/03_Resources/Image/B3/b3-install-media/ref_b3_device.png" alt="DEEPSOUND B3 장비" width="140" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
       </td>
       <td style="padding: 15px; border: 1px solid #e2e8f0; background-color: #ffffff; vertical-align: middle;">
-        <img src="/images/03_Resources/kor-install_program/images/1.png" alt="Internet Connection" width="180" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
+        <img src="/images/03_Resources/Image/B3/b3-install-media/ref_internet.png" alt="인터넷 연결" width="140" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
       </td>
     </tr>
   </tbody>
@@ -60,93 +60,81 @@ Before starting the update process, ensure that all the following items are prep
 
 ---
 
-## 2. Step-by-Step Update Guide
+## 2. 업데이트 단계별 가이드
 
-### Step 1: Download Program and Copy to USB
+### 1단계: 프로그램 다운로드 및 USB 복사
 
-1. Use a PC to access the **Download** section on the **official DSPAUT website**.
-2. Download the latest version of the CM5 program compressed file (`.zip`).
-3. Extract the downloaded file and copy the executable files and related asset folders to the **root directory of the USB flash drive**.
-4. Connect the **USB hub** to the USB port on the right side of the equipment, and insert the prepared **USB flash drive** into the hub.
+1. PC를 통해 **DSPAUT 공식 홈페이지**의 **Download** 섹션에 접속합니다.
+2. 최신 버전의 CM5 프로그램 압축 파일(`.zip`)을 다운로드합니다.
+3. 다운로드한 파일의 압축을 푼 후, 실행 파일 및 관련 에셋 폴더를 **USB 메모리의 루트 디렉토리**에 복사합니다.
+4. B3 장비 우측의 USB 포트에 **USB 허브**를 연결하고, 준비된 **USB 메모리**를 허브에 삽입합니다.
 
-<img src="/images/03_Resources/kor-install_program/images/2.png" alt="Download Program and Prepare Compressed File" width="140" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); height: auto;" />
-
----
-
-### Step 2: Enter Linux Desktop and Configure Environment
-
-1. Connect the **keyboard and mouse** to the USB hub connected to the equipment.
-2. Follow the click instructions on the system UI to **enter the Linux OS desktop**:
-   * Click the **Configuration Icon** at the top of the screen or in the system tray.
-   * Locate and select the **Device** item from the configuration and control menu, then click the **Minimize** button or the related hide tab in the top-right corner.
-   * The configuration window will minimize to the bottom, allowing you to access the active Linux desktop.
-3. The equipment is designed to allow desktop access via a keyboard and mouse for user convenience. This allows you to copy, move, and utilize internal files such as Data, Image, and Set files via USB.
-
-> ⚠️ **IMPORTANT**  
-> The equipment must remain **connected to the internet** throughout the entire update process.
-
-<img src="/images/03_Resources/kor-install_program/images/3.png" alt="Click Configuration Icon" width="70" style="display: block; margin: 1.5rem auto; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); height: auto;" />
-<img src="/images/03_Resources/kor-install_program/images/3.png" alt="Select Device and Minimize Window" width="420" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
-<img src="/images/03_Resources/kor-install_program/images/3.png" alt="Verify Configuration List and Complete Desktop Entry" width="420" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
+<img src="/images/03_Resources/Image/B3/b3-install-media/step1_program_zip.png" alt="프로그램 다운로드 및 압축 파일 준비" width="160" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); height: auto;" />
 
 ---
 
-### Step 3: Close the Currently Running Program
+### 2단계: Linux 바탕화면 진입 및 환경 구성
 
-1. Once the Linux desktop is visible, locate the main program window currently running on the screen.
-2. Click the **"X" icon** in the top-right corner of the program window to completely close the existing software.
+1. 장비에 연결되어 있는 USB 허브에 **키보드와 마우스**를 연결합니다.
+2. 시스템 UI 상에서 아래의 안내된 클릭 절차를 거쳐 Linux OS의 **바탕화면(Desktop)으로 진입**합니다.
+   * 바탕화면 진입을 위해 시스템 트레이 또는 화면 상단의 **환경설정 아이콘**을 마우스로 클릭합니다.
+   * 노출되는 설정 및 제어 장치 메뉴 중에서 **Device** 항목을 찾아 선택하고, 우측 상단의 **Minimize**(최소화) 버튼 또는 관련 숨김 탭을 클릭합니다.
+   * **환경설정 목록** 창이 하단으로 정리되면서 활성화된 Linux 바탕화면 제어 화면을 확인할 수 있습니다.
+3. B3 장비는 유저 편의성을 위해 키보드/마우스를 연결하여 바탕화면으로 진입할 수 있도록 설계되었습니다. 이를 통해 내부의 데이터(Data), 이미지(Image), 세팅 파일(Set) 등을 USB로 복사 및 이동하여 자유롭게 활용할 수 있습니다.
 
-<img src="/images/03_Resources/kor-install_program/images/4.png" alt="Close Currently Running Existing Program" width="480" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
+> ⚠️ **중요**  
+> 업데이트 진행 중에는 반드시 장비가 **인터넷에 정상적으로 연결**되어 있어야 합니다.
 
----
-
-### Step 4: Launch the System Dashboard
-
-1. Click the **Web Browser Icon** on the desktop or the taskbar to launch a browser window.
-2. Once the browser opens, enter the **IP address and port number (`8810`)** assigned to the equipment in the address bar to access the system dashboard.
-   * *Connection Example*: `http://192.168.0.92:8810`
-   * *Note*: IP addresses vary by device. Ensure you verify the correct IP address in the device settings before entering it.
-
-<img src="/images/03_Resources/kor-install_program/images/5.png" alt="Click Web Browser Icon" width="90" style="display: block; margin: 1.5rem auto; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); height: auto;" />
-<img src="/images/03_Resources/kor-install_program/images/5.png" alt="Enter Device IP Address in Address Bar" width="480" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
-<img src="/images/03_Resources/kor-install_program/images/5.png" alt="Successful Connection to Dashboard Admin Page" width="680" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.12); height: auto;" />
+<img src="/images/03_Resources/Image/B3/b3-install-media/step2_device_minimize.png" alt="Device 선택 및 프로그램 창 최소화 진행" width="580" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
 
 ---
 
-### Step 5: Select and Upload the Update File
+### 3단계: 실행 중인 기존 프로그램 종료
 
-1. Click the **Update** menu link in the top-right menu of the system dashboard page.
-2. On the Update screen, click the **Choose File** button in the center.
-3. In the file explorer window, select the connected **USB drive** from the left panel, locate the latest **CM5 update program file** copied earlier, and click to select it.
+1. 리눅스 바탕화면이 노출되면, 현재 화면에서 구동 중인 기존의 메인 프로그램 창을 확인합니다.
+2. 프로그램 화면 우측 상단의 **"X" 아이콘**을 마우스로 정확히 클릭하여 현재 실행 중인 기존 소프트웨어를 완전히 종료 처리합니다.
 
-<img src="/images/03_Resources/kor-install_program/images/5.png" alt="Locate and Navigate to Update Menu in Dashboard" width="250" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); height: auto;" />
-<img src="/images/03_Resources/kor-install_program/images/5.png" alt="Launch Choose File Window" width="480" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
-<img src="/images/03_Resources/kor-install_program/images/5.png" alt="Navigate and Select Update File inside USB" width="480" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
+<img src="/images/03_Resources/Image/B3/b3-install-media/step3_close_program.png" alt="현재 작동 중인 기존 프로그램 종료 처리" width="580" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
 
 ---
 
-### Step 6: Execute Update and Process Progress
+### 4단계: 시스템 대시보드(Dashboard) 기동
 
-1. Verify that the selected program filename is correctly displayed next to the Choose File button.
-2. Once verified, click the **Start update** button at the bottom to initiate the update installation.
-3. A `Running` status message will be displayed in the status bar while the internal system files are being replaced.
-4. Once the installation is successful, the status message will change to **`Running ➔ Success`**, indicating that the update process is complete.
+1. 바탕화면 또는 작업 표시줄에서 **웹 브라우저 아이콘**을 마우스로 클릭하여 브라우저 창을 실행합니다.
+2. 웹 브라우저 창이 발생하면, 주소창에 해당 B3 장비에 부여된 **고유 IP 주소와 포트 번호(`8810`)**를 입력하여 시스템 관리 대시보드에 접속합니다.
+   * *접속 예시*: `http://192.168.0.92:8810`
+   * *주의*: 장비마다 할당된 IP 주소가 다르므로, 사전에 장비 설정에서 부여된 IP 주소를 정확히 확인한 후 입력하십시오.
 
-<img src="/images/03_Resources/kor-install_program/images/5.png" alt="Ready to Execute Start Update" width="480" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
-<img src="/images/03_Resources/kor-install_program/images/5.png" alt="Update Running and Success Message Verification" width="650" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.12); height: auto;" />
-
----
-
-### Step 7: Reboot System and Verify Version
-
-1. After confirming the installation success (`Success`) message, **completely turn the equipment power off and back on** to reboot the hardware system.
-2. Once powered back on, the updated CM5 program will automatically launch in the background.
-3. When the program interface appears, hover the mouse cursor over the **version display area in the bottom-left corner** of the UI to check the version information.
-4. Verify that the old version has been successfully updated to the latest version to complete the manual procedure.
-
-<img src="/images/03_Resources/kor-install_program/images/6.png" alt="Reboot Equipment and Final Version Cross-Verification" width="750" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); height: auto;" />
+<img src="/images/03_Resources/Image/B3/b3-install-media/step4_dashboard_home.png" alt="대시보드 관리자 페이지 접속 성공" width="580" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.12); height: auto;" />
 
 ---
 
-> 💡 **Additional Tip**  
-> If the program malfunctions or a specific data synchronization error occurs after the system update, please recheck the IP configuration to ensure the equipment is properly linked to the internet hub, or contact the SEONGSANLAB Co., Ltd. Technical Support Portal.
+### 5단계: 업데이트 파일 선택 및 업로드
+
+1. 시스템 대시보드 웹 페이지 상단 우측 메뉴 중에서 **Update** 링크 항목을 찾아서 클릭합니다.
+2. 대시보드 Update 화면으로 이동하면, 중앙에 위치한 **Choose File** (파일 선택) 버튼을 마우스로 클릭합니다.
+3. 파일 탐색기 창이 노출되면, 좌측 드라이브 메뉴에서 연결된 **USB 드라이브**를 선택하고, 사전에 복사해 둔 최신 **CM5 업데이트 프로그램 파일**을 클릭하여 선택합니다.
+
+<img src="/images/03_Resources/Image/B3/b3-install-media/step5_update_window.png" alt="Choose File 파일 선택창 실행 및 파일 선택" width="580" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
+
+---
+
+### 6단계: 업데이트 실행 및 프로세스 진행
+
+1. 파일 선택이 정상적으로 완료되면, Choose File 옆에 업로드할 프로그램 파일명이 올바르게 표시되는지 육안으로 확인합니다.
+2. 파일명이 확인되면 하단의 **Start update** 버튼을 클릭하여 업데이트 설치를 본격적으로 가동합니다.
+3. 업데이트가 구동되는 동안 상태바에 `Running` 상태 메시지가 노출되며 시스템 내부 교체가 이루어집니다.
+4. 설치가 성공적으로 완수되면 상태창의 문구가 **`Running ➔ Success`**로 최종 변경되면서 프로그램 업데이트가 모두 마감됩니다.
+
+<img src="/images/03_Resources/Image/B3/b3-install-media/step6_update_success.png" alt="업데이트 구동 및 Success 메시지 출력 완료 검증" width="580" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.12); height: auto;" />
+
+---
+
+### 7단계: 시스템 리부팅 및 최종 버전 교차 검증
+
+1. 프로그램 설치 성공(`Success`) 메시지를 확실히 확인한 후, **B3 장비의 메인 전원을 완전히 껐다가 다시 켜서** 하드웨어 시스템을 재부팅해 줍니다.
+2. 장비 전원이 다시 인가되면, 최신 버전으로 업데이트된 CM5 프로그램이 시스템 시작과 함께 자동으로 백그라운드 구동을 시작합니다.
+3. 프로그램 인터페이스가 모니터 화면에 나타나면, 아래 그림과 같이 **UI 좌측 하단의 버전 표시 영역**에 마우스를 대고 버전 정보를 확인합니다.
+4. 이전 버전 정보가 신규 설치한 최신 버전 정보로 올바르게 교체되어 정상 작동하는지 최종적으로 확인하여 매뉴얼 절차를 마칩니다.
+
+<img src="/images/03_Resources/Image/B3/b3-install-media/step7_version_check.png" alt="기기 재부팅 및 CM5 버전 정보 최종 교차 검증" width="580" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); height: auto;" />

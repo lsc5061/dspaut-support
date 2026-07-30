@@ -1,3 +1,8 @@
+---
+title: R5 Equipment Manual
+order: 1
+---
+
 # DEEPSOUND R5 Product Manual
 
 - **Hardware Version**: v1.0.0
@@ -32,7 +37,7 @@
 - 디스플레이가 없는 컴팩트한 디자인으로, PC 소프트웨어를 통해 실시간 데이터 수집 및 분석을 수행하며 자동화 스캐너 시스템과의 통합이 용이합니다.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/r5/asset/1.png" width="600">
+  <img src="/images/03_Resources/Image/R5/asset/1.png" width="340">
   <p>DEEPSOUND R5 제품 개요 (Remote Unit with Case)</p>
 </div>
 
@@ -54,7 +59,7 @@
 - **PAUT Port**: 32:128PR Phased Array 프로브 연결을 위한 고밀도 커넥터입니다.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/r5/asset/3.png" width="600">
+  <img src="/images/03_Resources/Image/R5/asset/3.png" width="340">
   <p>DEEPSOUND R5 Front Interface Details</p>
 </div>
 
@@ -65,7 +70,7 @@
 - **Power Inlet**: 전용 DC 전원 어댑터 연결 포트입니다.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/r5/asset/4.png" width="600">
+  <img src="/images/03_Resources/Image/R5/asset/4.png" width="340">
   <p>DEEPSOUND R5 Status & Connection Indicators</p>
 </div>
 

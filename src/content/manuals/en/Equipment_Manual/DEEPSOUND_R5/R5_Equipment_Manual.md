@@ -1,5 +1,5 @@
 ---
-title: R5 Product Manual
+title: R5 Equipment Manual
 description: Official product manual for the DEEPSOUND R5 remote-controlled PAUT system.
 version: v1.0
 releaseDate: 2026-04-30

@@ -1,3 +1,8 @@
+---
+title: DSVision Manual
+order: 1
+---
+
 # DSVision Software Manual
 
 ---
@@ -34,23 +39,23 @@
 - 설치 파일(.zip)의 압축을 해제한 후, 전체 프로그램 폴더를 USB 드라이브로 복사하여 장비 우측의 USB 허브에 삽입합니다.
 - 조작을 위해 키보드와 마우스를 장비 전용 포트나 USB 허브에 연결하고 표준 Windows 10 바탕화면 인터페이스에 접속합니다.
 <div align="center">
-  <img src="/images/03_Resources/kor-install_program/images/2.png" width="600">
+  <img src="/images/03_Resources/kor-install_program/images/2.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p><USB 드라이브 및 설치 폴더 준비></p>
 </div>
 - 설치를 시작하기 전, 작업 표시줄의 활성 프로그램 아이콘에서 마우스 오른쪽 버튼을 클릭하여 'Close window'를 선택해 현재 실행 중인 모든 프로그램을 종료합니다.
 <div align="center">
-  <img src="/images/03_Resources/kor-install_program/images/4.png" width="600">
+  <img src="/images/03_Resources/kor-install_program/images/4.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p><실행 중인 프로그램 종료 확인></p>
 </div>
 - USB 드라이브 내의 설치 파일(DSVision_Setup.exe 등)을 더블 클릭하고, 설치 창에서 'Install' 버튼을 클릭하여 진행합니다.
 - 설치 경로 지정 메시지가 나타나면 기본 설정을 유지하고 'Next'를 클릭하여 설치를 완료합니다.
 <div align="center">
-  <img src="/images/03_Resources/kor-install_program/images/5.png" width="600">
+  <img src="/images/03_Resources/kor-install_program/images/5.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p><설치 프로그램 실행 및 진행></p>
 </div>
 - 설치 완료 후 장비를 재부팅하면 프로그램이 자동으로 실행되며, 화면 오른쪽 하단의 소프트웨어 버전 번호를 통해 업데이트 여부를 최종 확인합니다.
 <div align="center">
-  <img src="/images/03_Resources/kor-install_program/images/6.png" width="600">
+  <img src="/images/03_Resources/kor-install_program/images/6.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p><소프트웨어 버전 확인></p>
 </div>
 
@@ -58,30 +63,30 @@
 - 본 장비는 시스템 기동 시 소프트웨어가 자동으로 실행되도록 설정되어 있으며, 수동 설정 시 다음 절차를 따릅니다.
 - 키보드의 'Windows 키 + R'을 눌러 실행 창을 열고, 입력창에 shell:startup을 입력하여 '시작 프로그램' 폴더를 엽니다.
 <div align="center">
-  <img src="/images/03_Resources/korhow-to-register-a-program-for-automatic-startup/image/3.png" width="600">
+  <img src="/images/03_Resources/korhow-to-register-a-program-for-automatic-startup/image/3.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p><실행 창에서 shell:startup 입력></p>
 </div>
 - 소프트웨어가 설치된 폴더로 이동하여 실행 파일(DSVision.exe)의 바로가기를 생성합니다.
 <div align="center">
-  <img src="/images/03_Resources/korhow-to-register-a-program-for-automatic-startup/image/4.png" width="600">
+  <img src="/images/03_Resources/korhow-to-register-a-program-for-automatic-startup/image/4.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p><실행 파일 이미지 예시></p>
 </div>
 <div align="center">
-  <img src="/images/03_Resources/korhow-to-register-a-program-for-automatic-startup/image/5.png" width="600">
+  <img src="/images/03_Resources/korhow-to-register-a-program-for-automatic-startup/image/5.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p><바탕 화면에 바로가기 생성 과정></p>
 </div>
 - 바탕 화면에 생성된 바로가기 파일을 복사하여 앞서 열어둔 '시작 프로그램' 폴더 시스템 창에 붙여넣습니다.
 <div align="center">
-  <img src="/images/03_Resources/korhow-to-register-a-program-for-automatic-startup/image/7.png" width="150">
+  <img src="/images/03_Resources/korhow-to-register-a-program-for-automatic-startup/image/7.png" width="150" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p><바로가기 아이콘 복사 및 이동></p>
 </div>
 <div align="center">
-  <img src="/images/03_Resources/korhow-to-register-a-program-for-automatic-startup/image/8.png" width="300">
+  <img src="/images/03_Resources/korhow-to-register-a-program-for-automatic-startup/image/8.png" width="300" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p><시작 프로그램 폴더 내 붙여넣기></p>
 </div>
 - 모든 설정을 마치고 시스템 폴더에 등록이 완료된 것을 확인합니다.
 <div align="center">
-  <img src="/images/03_Resources/korhow-to-register-a-program-for-automatic-startup/image/9.png" width="600">
+  <img src="/images/03_Resources/korhow-to-register-a-program-for-automatic-startup/image/9.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p><시작 프로그램 폴더 등록 완료></p>
 </div>
 - 시스템을 재부팅하여 프로그램이 자동으로 활성화되는지 최종 검증합니다.
@@ -153,7 +158,7 @@ DSVision 프로그램의 메뉴는 검사자가 중앙 화면의 실시간 이�
 - **검사 최적화**: 선택한 검사 모드(PA, TOFD, Conventional)에 따라 소프트웨어가 화면 구성을 자동으로 최적화하여 표시합니다.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/toolbar/main-view.png" width="600">
+  <img src="/images/03_Resources/Image/Manual/Toolbar/main-view.png" width="340" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>DSVision 메인 화면 구성</p>
 </div>
 
@@ -164,7 +169,7 @@ DSVision 프로그램의 메뉴는 검사자가 중앙 화면의 실시간 이�
 상단 툴바는 현재 검사 중인 신호의 핵심 수치와 시스템 상태를 실시간으로 모니터링하는 영역입니다. 검사자가 화면의 중앙 이미지를 분석하면서 동시에 주요 파라미터를 확인하거나 이득(Gain)을 즉각적으로 조정할 수 있도록 구성되어 있습니다.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/toolbar/top-toolbar.png" width="600">
+  <img src="/images/03_Resources/Image/Manual/Toolbar/top-toolbar.png" width="340" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>상단 툴바 구성 개요</p>
 </div>
 
@@ -174,7 +179,7 @@ DSVision 프로그램의 메뉴는 검사자가 중앙 화면의 실시간 이�
 - **정밀 제어**: 최대 10dB 범위 내에서 0.1dB 단위로 세밀하게 조정하거나, 6dB 단위로 빠르게 값을 증감시키는 기능을 제공합니다.
 
 <div align="center">
-  <img src="/images/03_Resources/kor-program_introduction/images/16.png" width="400">
+  <img src="/images/03_Resources/kor-program_introduction/images/16.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>이득 제어 키패드 화면</p>
 </div>
 
@@ -186,7 +191,7 @@ DSVision 프로그램의 메뉴는 검사자가 중앙 화면의 실시간 이�
 - **Sound (S)**: 사운드 패스(Sound Path) 상의 위치 거리를 출력합니다.
 
 <div align="center">
-  <img src="/images/03_Resources/kor-program_introduction/images/15.png" width="600">
+  <img src="/images/03_Resources/kor-program_introduction/images/15.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>게이트 측정 정보 패널</p>
 </div>
 
@@ -196,7 +201,7 @@ DSVision 프로그램의 메뉴는 검사자가 중앙 화면의 실시간 이�
 - **경고 상태**: 측정값이 미리 설정된 검사 범위를 벗어나거나 인코더 신호에 이상이 발생할 경우, 수치 표시 영역이 빨간색으로 강조되어 시각적 경고를 제공합니다.
 
 <div align="center">
-  <img src="/images/03_Resources/kor-program_introduction/images/slide_74_img_15.png" width="400">
+  <img src="/images/03_Resources/kor-program_introduction/images/slide_74_img_15.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>인코더 위치 및 경고 알림</p>
 </div>
 
@@ -204,7 +209,7 @@ DSVision 프로그램의 메뉴는 검사자가 중앙 화면의 실시간 이�
 좌측 툴바는 소프트웨어의 주요 운영 기능을 제어하고 시스템 환경을 설정하는 영역입니다. 검사자가 중앙 화면의 실시간 데이터를 주시하면서 동시에 검사 상태를 조작할 수 있습니다. 툴바는 검사의 시작과 종료, Auto Gain, 그리고 정밀 분석을 위한 화면 확대 및 대화면 모드 전환 기능들을 가지고 있습니다.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/toolbar/left-toolbar.png" width="50">
+  <img src="/images/03_Resources/Image/Manual/Toolbar/left-toolbar.png" width="50" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>좌측 툴바 구성</p>
 </div>
 
@@ -212,25 +217,25 @@ DSVision 프로그램의 메뉴는 검사자가 중앙 화면의 실시간 이�
 시스템 설정 및 각 데이터 관리 메뉴를 호출합니다.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/12.png" width="50">
+  <img src="/images/03_Resources/eng-program_introduction/images/12.png" width="50" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Preferences 아이콘</p>
 </div>
 
 * **Setup**: 파라미터 설정 값을 관리하는 메뉴입니다. 현재 설정을 내부 드라이브에 저장(**Save**), 저장된 설정 파일 불러오기(**Load**) 및 삭제(**Delete**)를 수행하며, 외부 USB로 파일을 복사(**Copy**)할 수 있습니다.
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_50_img_10.png" width="600">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_50_img_10.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Setup 설정 화면</p>
 </div>
 
 * **Image**: Screen Shot 기능을 통해 저장된 이미지 리스트를 관리합니다. 이미지 선택 시 미리보기를 제공하며, 선택한 파일을 USB로 복사(**Copy**)하거나 삭제(**Delete**)할 수 있습니다.
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_51_img_15.png" width="600">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_51_img_15.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Image 관리 화면</p>
 </div>
 
 * **Data**: 수집된 초기 검사 데이터 리스트를 관리합니다. 데이터 미리보기를 지원하며 USB 복사(**Copy**), 삭제(**Delete**), 뷰어 실행(**Open Viewer**) 기능을 포함합니다. 또한 장비 내부 드라이브의 남은 저장 용량을 표시합니다.
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_52_img_19.png" width="600">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_52_img_19.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Data 관리 화면</p>
 </div>
 
@@ -240,7 +245,7 @@ DSVision 프로그램의 메뉴는 검사자가 중앙 화면의 실시간 이�
     - **Information**: 하드웨어 사양 및 소프트웨어 버전을 확인합니다.
     - **Minimize**: 프로그램을 최소화하고 Windows 10 바탕화면으로 전환합니다.
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_54_img_6.png" width="600">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_54_img_6.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Device 설정 화면</p>
 </div>
 
@@ -249,7 +254,7 @@ DSVision 프로그램의 메뉴는 검사자가 중앙 화면의 실시간 이�
 실시간 데이터 수집 및 기록 모드를 제어합니다.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_57_img_15.png" width="400">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_57_img_15.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>검사 저장 시 목록 구성</p>
 </div>
 
@@ -258,7 +263,7 @@ DSVision 프로그램의 메뉴는 검사자가 중앙 화면의 실시간 이�
 * **Stop**: 검사 모드 중에만 활성화됩니다. 데이터 수집을 종료하면 파일의 이름을 지정하고 수집된 데이터를 최종 저장할 수 있는 창이 나타납니다.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/13.png" width="300">
+  <img src="/images/03_Resources/eng-program_introduction/images/13.png" width="300" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>검사 모드 활성화 상태 예시</p>
 </div>
 
@@ -267,7 +272,7 @@ DSVision 프로그램의 메뉴는 검사자가 중앙 화면의 실시간 이�
 중앙 화면 영역을 포함한 현재 디스플레이 전체를 이미지 파일로 즉시 저장합니다.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_59_img_5.png" width="100">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_59_img_5.png" width="100" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Screen Shot 아이콘</p>
 </div>
 
@@ -276,7 +281,7 @@ DSVision 프로그램의 메뉴는 검사자가 중앙 화면의 실시간 이�
 * **기본 저장 경로**: `C:\DEEPSOUND\DSVision\Bin\RES\User\Image`
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_59_img_11.png" width="500">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_59_img_11.png" width="500" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>저장된 이미지 확인 화면</p>
 </div>
 
@@ -285,7 +290,7 @@ DSVision 프로그램의 메뉴는 검사자가 중앙 화면의 실시간 이�
 측정 대상 신호의 진폭(Amplitude)을 사전에 설정된 목표 수치로 즉각 조정합니다.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_61_img_4.png" width="100">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_61_img_4.png" width="100" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Auto Gain 아이콘</p>
 </div>
 
@@ -294,8 +299,8 @@ DSVision 프로그램의 메뉴는 검사자가 중앙 화면의 실시간 이�
 * **활용**: 수동으로 Gain 수치를 여러 번 조정할 필요 없이, 한 번의 클릭으로 신호를 규격에서 요구하는 기준 높이(예: 80% FSH)로 정규화할 수 있습니다.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_61_img_15.png" width="250">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_61_img_17.png" width="250">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_61_img_15.png" width="250" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_61_img_17.png" width="250" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Auto Gain 적용 전(좌)과 적용 후(우) 비교</p>
 </div>
 
@@ -304,7 +309,7 @@ DSVision 프로그램의 메뉴는 검사자가 중앙 화면의 실시간 이�
 화면의 특정 영역을 확대하거나 초기 상태로 복원하여 정밀 분석을 수행합니다.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/14.png" width="400">
+  <img src="/images/03_Resources/eng-program_introduction/images/14.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Zoom 및 Reset 아이콘</p>
 </div>
 
@@ -317,7 +322,7 @@ DSVision 프로그램의 메뉴는 검사자가 중앙 화면의 실시간 이�
 중앙 화면의 데이터 출력 영역을 디스플레이 전체 화면으로 확장하여 결함 탐상 및 정밀 측정 시 시인성을 극대화합니다.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_65_img_19.png" width="100">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_65_img_19.png" width="100" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Full Screen 아이콘</p>
 </div>
 
@@ -326,7 +331,7 @@ DSVision 프로그램의 메뉴는 검사자가 중앙 화면의 실시간 이�
 * **해제 방법**: 화면 우측 하단에 표시되는 **나가기(Exit)** 아이콘을 클릭하여 원래 화면으로 복귀합니다.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_65_img_31.png" width="600">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_65_img_31.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Full Screen 모드 활성화 화면</p>
 </div>
 
@@ -335,7 +340,7 @@ DSVision 프로그램의 메뉴는 검사자가 중앙 화면의 실시간 이�
 활성화된 게이트(Gate)의 모든 측정 지표와 상세 데이터를 한눈에 확인할 수 있도록 화면상에 정보 상자를 표시합니다.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_67_img_5.png" width="100">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_67_img_5.png" width="100" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Information Box 아이콘</p>
 </div>
 
@@ -346,7 +351,7 @@ DSVision 프로그램의 메뉴는 검사자가 중앙 화면의 실시간 이�
 * **해제 방법**: 정보 상자 우측 상단의 **X** 버튼을 클릭하여 화면에서 숨깁니다.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_67_img_15.png" width="600">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_67_img_15.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Information Box 활성화 화면</p>
 </div>
 
@@ -356,7 +361,7 @@ DSVision 프로그램의 메뉴는 검사자가 중앙 화면의 실시간 이�
 우측 설정 툴바는 소프트웨어의 모든 세부 파라미터를 설정하고 제어하는 영역입니다. 초음파 발생 설정부터 시험편 정보, 게이트 관리 등 검사 실행에 필요한 모든 수치를 이곳에서 입력하고 조정합니다.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/toolbar/asset.png" width="600">
+  <img src="/images/03_Resources/Image/Manual/Toolbar/asset.png" width="340" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>우측 설정 툴바 구성 및 9개 설정 그룹</p>
 </div>
 
@@ -381,7 +386,7 @@ DSVision 프로그램의 메뉴는 검사자가 중앙 화면의 실시간 이�
 장비의 가장 기초가 되는 제어판으로, 검사자가 화면을 통해 보게 될 시야(Depth)와 신호의 물리적인 세기(Voltage)를 결정합니다. 마치 카메라의 줌과 밝기를 조절하듯, 검사를 시작하기 전 가장 먼저 최적의 가시 환경을 설정하는 파라미터 그룹입니다.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_8_img_3.png" width="400">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_8_img_3.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>General Settings 구성 항목</p>
 </div>
 
@@ -396,12 +401,12 @@ DSVision 프로그램의 메뉴는 검사자가 중앙 화면의 실시간 이�
 
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/focus-position/position-25mm.png" width="400">
+  <img src="/images/03_Resources/Image/Manual/focus-position/position-25mm.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>25mm 설정: 얕은 깊이 집중 시 선명한 표면 결함 포착</p>
 </div>
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/focus-position/position-70mm.png" width="400">
+  <img src="/images/03_Resources/Image/Manual/focus-position/position-70mm.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>70mm 설정: 심부 깊이 집중 시 두꺼운 모재 내부 해상도 강화</p>
 </div>
 
@@ -436,12 +441,12 @@ Configuration에서 선택한 모드에 맞춰 초음파 빔의 조향(Steering)
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_Resources/Image/Manual/Wedgedelay/Wedgedelay_0us.png" width="400">
+    <img src="/images/03_Resources/Image/Manual/Wedgedelay/wedgedelay_0us.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
     <div align="center">보정 전 (0.0µs): 신호가 실제보다 얕은 위치에 표시됨</div>
   </div>
   <!-- slide -->
   <div align="center">
-    <img src="/images/03_Resources/Image/Manual/Wedgedelay/Wedgedelay_8us.png" width="400">
+    <img src="/images/03_Resources/Image/Manual/Wedgedelay/wedgedelay_8us.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
     <div align="center">보정 후 (0.8µs): 신호가 실제 물리적 깊이에 정확히 정렬됨</div>
   </div>
 </div>
@@ -453,12 +458,11 @@ Configuration에서 선택한 모드에 맞춰 초음파 빔의 조향(Steering)
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_Resources/Image/manual/pulse-width/probe-pulse-width.png" width="400">
+    <img src="/images/03_Resources/Image/Manual/pulse-width/probe-pulse-width.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
     <div align="center">매칭 완료: 낮은 Gain(42.2dB)으로도 날카롭고 선명한 신호 확보</div>
   </div>
   <!-- slide -->
   <div align="center">
-    <img src="/images/03_Resources/Image/manual/pulse-width/probe-pulse-width.png" width="400">
     <div align="center">매칭 불량: 신호가 약해져 높은 Gain(56.9dB)이 필요하며 노이즈가 증가함</div>
   </div>
 </div>
@@ -496,12 +500,12 @@ TOFD 또는 Conventional 모드에서 활성화되며, 검파(Rectification) 전
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_Resources/eng-program_introduction/images/slide_13_img_21.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_13_img_21.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
     <div align="center">시험편 두께(Thickness) 설정 화면</div>
   </div>
   <!-- slide -->
   <div align="center">
-    <img src="/images/03_Resources/eng-program_introduction/images/slide_14_img_11.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_14_img_11.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
     <div align="center">S-Scan 상의 Legs(B0, T1) 시각화 예시</div>
   </div>
 </div>
@@ -522,12 +526,12 @@ TOFD 또는 Conventional 모드에서 활성화되며, 검파(Rectification) 전
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_Resources/eng-program_introduction/images/slide_19_img_3.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_19_img_3.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
     <div align="center">V, X형 등 다양한 용접 타입 선택 화면</div>
   </div>
   <!-- slide -->
   <div align="center">
-    <img src="/images/03_Resources/eng-program_introduction/images/slide_20_img_3.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_20_img_3.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
     <div align="center">Flat Left/Right를 이용한 비대칭 용접 구조 구현</div>
   </div>
 </div>
@@ -537,12 +541,12 @@ TOFD 또는 Conventional 모드에서 활성화되며, 검파(Rectification) 전
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_Resources/eng-program_introduction/images/slide_21_img_10.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_21_img_10.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
     <div align="center">프로파일 설정 전: 신호의 공간적 위치 파악이 어려움</div>
   </div>
   <!-- slide -->
   <div align="center">
-    <img src="/images/03_Resources/eng-program_introduction/images/slide_21_img_3.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_21_img_3.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
     <div align="center">프로파일 및 HAZ 설정 후: 신호가 HAZ 내부에 있음을 명확히 확인 가능</div>
   </div>
 </div>
@@ -576,7 +580,7 @@ TOFD 또는 Conventional 모드에서 활성화되며, 검파(Rectification) 전
     - **First Element**: 다중 프로브 구성 시, 각 프로브가 장비 포트의 몇 번째 소자부터 시작되는지 정의하여 데이터 간섭을 방지합니다.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/4.png" width="450">
+  <img src="/images/03_Resources/eng-program_introduction/images/4.png" width="450" style="max-width: 100%; height: auto; border-radius: 6px;">
   <div align="center">Wizard 위치 설명 화면</div>
 </div>
 
@@ -594,7 +598,7 @@ TOFD 또는 Conventional 모드에서 활성화되며, 검파(Rectification) 전
     - **Height at First Element (Z-Offset)**: 웨지 바닥면에서 첫 번째 소자까지의 수직 높이입니다. 결함의 정확한 실제 깊이(True Depth)를 산출하는 데 필수적인 수치입니다.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/6.png" width="450">
+  <img src="/images/03_Resources/eng-program_introduction/images/6.png" width="450" style="max-width: 100%; height: auto; border-radius: 6px;">
   <div align="center">웨지 메뉴 설명 화면</div>
 </div>
 
@@ -621,12 +625,12 @@ TOFD 또는 Conventional 모드에서 활성화되며, 검파(Rectification) 전
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_Resources/eng-program_introduction/images/slide_28_img_5.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_28_img_5.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
     <div align="center">Sound Path 모드: 곡선 형태의 게이트 라인</div>
   </div>
   <!-- slide -->
   <div align="center">
-    <img src="/images/03_Resources/eng-program_introduction/images/slide_28_img_13.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_28_img_13.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
     <div align="center">True Depth 모드: 직선 형태의 게이트 라인</div>
   </div>
 </div>
@@ -641,7 +645,7 @@ TOFD 또는 Conventional 모드에서 활성화되며, 검파(Rectification) 전
 검사 목적과 하드웨어 환경에 맞는 수집 방식을 선택합니다.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_30_img_3.png" width="150">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_30_img_3.png" width="150" style="max-width: 100%; height: auto; border-radius: 6px;">
   <div align="center">인코더 설정 및 스캐너 타입 선택 화면</div>
 </div>
 
@@ -661,7 +665,7 @@ TOFD 또는 Conventional 모드에서 활성화되며, 검파(Rectification) 전
 DSVision은 분석의 직관성을 위해 각 데이터 축에 고유 색상을 할당하며, 이는 상태 표시줄의 수치 색상과 동기화되어 즉각적인 데이터 식별을 돕습니다.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_35_img_10.png" width="450">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_35_img_10.png" width="450" style="max-width: 100%; height: auto; border-radius: 6px;">
   <div align="center">축별 색상 정의: Scan(청색), Index(녹색), Ultrasound(자색)</div>
 </div>
 
@@ -683,7 +687,7 @@ DSVision은 분석의 직관성을 위해 각 데이터 축에 고유 색상을 
 DSVision의 커서는 결함의 길이, 깊이, 진폭 등을 수치화하는 핵심 도구입니다. 전용 컨트롤러를 통해 복잡한 조작 없이 정밀한 측정이 가능합니다.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_34_img_11.png" width="150">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_34_img_11.png" width="150" style="max-width: 100%; height: auto; border-radius: 6px;">
   <div align="center">커서 조작 인터페이스: 8방향 컨트롤러</div>
 </div>
 
@@ -703,7 +707,7 @@ DSVision의 커서는 결함의 길이, 깊이, 진폭 등을 수치화하는 �
 * **Remove (삭제)**: 활성 그룹에서 불필요한 채널을 삭제하여 작업 공간을 정리합니다.
 
 <div align="center">
-  <img src="/images/03_Resources/kor-program_introduction/images/slide_39_img_10.png" width="150">
+  <img src="/images/03_Resources/kor-program_introduction/images/slide_39_img_10.png" width="150" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>채널 추가 및 관리 메뉴</p>
 </div>
 
@@ -718,7 +722,7 @@ DSVision의 커서는 결함의 길이, 깊이, 진폭 등을 수치화하는 �
 다양한 보기 템플릿(Templates)을 통해 분석 화면의 구성을 동적으로 조정합니다. 검사 상황에 맞춰 A, B, S, C-Scan 등의 화면 조합을 선택할 수 있으며, 다중 채널 운용 시 각 채널의 데이터를 효율적으로 배치하여 모니터링할 수 있습니다.
 
 <div align="center">
-  <img src="/images/03_Resources/kor-program_introduction/images/slide_41_img_3.png" width="150">
+  <img src="/images/03_Resources/kor-program_introduction/images/slide_41_img_3.png" width="150" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>레이아웃 템플릿 선택 화면</p>
 </div>
 
@@ -726,7 +730,7 @@ DSVision의 커서는 결함의 길이, 깊이, 진폭 등을 수치화하는 �
 * **Multi-Channel Layout management (다중 채널 레이아웃 관리)**: 새로운 채널을 추가하거나 복제하면 레이아웃 그리드에 해당 채널의 데이터가 자동으로 할당됩니다. 여러 그룹의 데이터를 동시에 시각화할 수 있으며, 화면의 복잡도를 낮추기 위해 각 채널 그룹별로 연결된 A-Scan을 기본으로 표시합니다.
 
 <div align="center">
-  <img src="/images/03_Resources/kor-program_introduction/images/slide_41_img_12.png" width="150">
+  <img src="/images/03_Resources/kor-program_introduction/images/slide_41_img_12.png" width="150" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>다중 채널 레이아웃 적용 예시</p>
 </div>
 
@@ -741,7 +745,7 @@ DSVision의 커서는 결함의 길이, 깊이, 진폭 등을 수치화하는 �
 *   **결과**: 계산된 음속 값이 시스템에 자동 적용되며 하단의 **V** 표시등이 점등됩니다.
 
 <div align="center">
-  <img src="/images/03_Resources/kor-program_introduction/images/slide_43_img_10.png" width="450">
+  <img src="/images/03_Resources/kor-program_introduction/images/slide_43_img_10.png" width="450" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>음속 교정: 고해상도 시간 분석을 통한 재질 음속 자동 산출</p>
 </div>
 
@@ -751,7 +755,7 @@ Phased Array 탐촉자의 각 소자에서 발신된 초음파가 웨지 재질�
 *   **결과**: **Finish**를 클릭하면 소자별 지연값이 적용되어 하단의 **W** 표시등이 점등됩니다. 이제 모든 각도의 신호가 실제 물리적 깊이와 일치하게 정렬됩니다.
 
 <div align="center">
-  <img src="/images/03_Resources/kor-program_introduction/images/9.png" width="450">
+  <img src="/images/03_Resources/kor-program_introduction/images/9.png" width="450" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>웨지 지연 교정: 전 각도 빔의 영점(Zero-point)을 일치시키는 시각적 정렬 과정</p>
 </div>
 
@@ -761,7 +765,7 @@ Phased Array 탐촉자의 각 소자에서 발신된 초음파가 웨지 재질�
 *   **결과**: 하단의 **S** 표시등이 점등되며, 어느 각도에서 결함을 탐지하더라도 일관된 감도로 결함 크기를 평가할 수 있습니다.
 
 <div align="center">
-  <img src="/images/03_Resources/kor-program_introduction/images/10.png" width="450">
+  <img src="/images/03_Resources/kor-program_introduction/images/10.png" width="450" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>감도 교정: 전 각도에서 균일한 신호 응답 성능을 확보하기 위한 감도 평탄화</p>
 </div>
 
@@ -772,7 +776,7 @@ Phased Array 탐촉자의 각 소자에서 발신된 초음파가 웨지 재질�
 *   **결과**: 하단의 **T** 표시등이 점등되며, 깊이에 따른 감도 차이가 완벽히 보상됩니다.
 
 <div align="center">
-  <img src="/images/03_Resources/kor-program_introduction/images/slide_46_img_17.png" width="450">
+  <img src="/images/03_Resources/kor-program_introduction/images/slide_46_img_17.png" width="450" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>TCG 교정: 깊이 및 각도별 감쇄를 보정하는 디지털 이득 제어 곡선 설계</p>
 </div>
 
@@ -783,7 +787,7 @@ Phased Array 탐촉자의 각 소자에서 발신된 초음파가 웨지 재질�
 *   **결과**: 시스템의 디지털 좌표와 실제 물리적 스캔 위치가 완벽히 동기화됩니다.
 
 <div align="center">
-  <img src="/images/03_Resources/kor-program_introduction/images/slide_47_img_3.png" width="450">
+  <img src="/images/03_Resources/kor-program_introduction/images/slide_47_img_3.png" width="450" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>인코더 교정: 물리적 이동 거리와 디지털 펄스의 실시간 동기화</p>
 </div>
 
@@ -805,7 +809,7 @@ Phased Array 탐촉자의 각 소자에서 발신된 초음파가 웨지 재질�
 *   **Temperature**: 장비 내부의 현재 온도를 표시하여 작동 환경을 모니터링합니다.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/toolbar/bottom-toolbar.png" width="600">
+  <img src="/images/03_Resources/Image/Manual/Toolbar/bottom-toolbar.png" width="340" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>하단 툴바를 통한 상태 모니터링 (V, W, S, T 표시등 및 시스템 정보)</p>
 </div>
 
@@ -823,12 +827,12 @@ DSVision은 수집된 초음파 신호를 정량적인 데이터로 변환하기
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_Resources/eng-program_introduction/images/slide_28_img_5.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_28_img_5.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
     <div align="center">Sound Path 모드: 호(Arc) 형태의 게이트 시각화</div>
   </div>
   <!-- slide -->
   <div align="center">
-    <img src="/images/03_Resources/eng-program_introduction/images/slide_28_img_13.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_28_img_13.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
     <div align="center">True Depth 모드: 직선(Horizontal) 형태의 게이트 시각화</div>
   </div>
 </div>
@@ -844,7 +848,7 @@ DSVision은 표면이 불규칙하거나 변동이 심한 현장에서도 안정
     - **Edge (교차점)**: 신호가 게이트 임계값(Threshold)과 처음 만나는 지점을 측정합니다. 결함이 시작되는 지점을 정밀하게 포착할 때 유리합니다.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_27_img_3.png" width="150">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_27_img_3.png" width="150" style="max-width: 100%; height: auto; border-radius: 6px;">
   <div align="center">게이트 파라미터 및 동기화 로직 설정 인터페이스</div>
 </div>
 
@@ -894,12 +898,11 @@ DSVision의 커서는 **Reference(기준)**와 **Measurement(측정)** 두 개�
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_Resources/Image/manual/cursor/cursor.png" width="600">
+    <img src="/images/03_Resources/Image/Manual/Cursor/cursor.png" width="120" style="max-width: 100%; height: auto; border-radius: 6px;">
     <div align="center">커서 비활성 상태: 전체적인 신호 흐름만 파악 가능</div>
   </div>
   <!-- slide -->
   <div align="center">
-    <img src="/images/03_Resources/Image/manual/cursor/cursor.png" width="600">
     <div align="center">커서 활성 상태: ΔH, ΔV 수치를 통한 결함의 정밀 크기 산출</div>
   </div>
 </div>

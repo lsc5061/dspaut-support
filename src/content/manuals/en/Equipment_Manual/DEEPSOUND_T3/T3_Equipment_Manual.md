@@ -1,5 +1,5 @@
 ---
-title: T3 Product Manual
+title: T3 Equipment Manual
 description: Official product manual for the DEEPSOUND T3 portable PAUT/UT equipment.
 version: v1.0
 releaseDate: 2026-04-30
@@ -42,7 +42,7 @@ order: 1
 - With an ultra-compact design weighing less than 1 kg (0.9 kg including battery), it is optimized for precision inspections in tight spaces or high-altitude work environments.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/t3/asset/t3_fornt_3_1.png" width="500">
+  <img src="/images/03_Resources/Image/T3/asset/t3_fornt_3_1.png" width="340">
   <p>DEEPSOUND T3 Product Overview (A-Scan Interface Display)</p>
 </div>
 
@@ -61,7 +61,7 @@ order: 1
 - **Display**: Use the 7-inch touchscreen to check various inspection modes such as A-Scan and B-Scan and parameter settings in real-time.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/T3/T3_Fornt_4.png" width="400">
+  <img src="/images/03_Resources/Image/T3/t3_fornt_4.png" width="400">
   <p>DEEPSOUND T3 Front View (A-Scan & B-Scan Multi-View)</p>
 </div>
 
@@ -70,7 +70,7 @@ order: 1
 - **Encoder Port**: Encoder connection port for collecting scanner position information.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/T3/T3_Top_1.png" width="400">
+  <img src="/images/03_Resources/Image/T3/t3_top_1.png" width="400">
   <p>DEEPSOUND T3 Top Interface (UT / Encoder)</p>
 </div>
 
@@ -78,7 +78,7 @@ order: 1
 - **I/O Ports**: USB 3.0, LAN, and DC power ports are located on the right side of the device.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/T3/T3_Right_2.png" width="250">
+  <img src="/images/03_Resources/Image/T3/t3_right_2.png" width="250">
   <p>DEEPSOUND T3 Side Interface (I/O Port Details)</p>
 </div>
 
@@ -86,7 +86,7 @@ order: 1
 - **Battery Compartment**: Space for installing the dedicated battery pack by opening the cover at the bottom of the device.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/T3/T3_Bottom_2.png" width="400">
+  <img src="/images/03_Resources/Image/T3/t3_bottom_2.png" width="400">
   <p>DEEPSOUND T3 Bottom Interface (Battery Compartment)</p>
 </div>
 

@@ -181,7 +181,15 @@ const getUrl = (item: any) => {
                       <ul class="menu menu-sm p-0 space-y-1 mt-1 w-full min-w-0">
                         {subCatItems.map(item => {
                           const isActive = item.id === activeSlug;
-                          const title = item.id.includes('DSViewer') ? 'DSViewer' : (item.data.title || item.id.split('/').pop()?.replace(/_/g, ' ').replace('.md', ''));
+                          let rawTitle = item.id.includes('DSViewer') ? 'DSViewer' : (item.data.title || item.id.split('/').pop()?.replace(/_/g, ' ').replace('.md', '') || '');
+                          const title = rawTitle
+                            .replace(/\bb3\b/gi, 'B3')
+                            .replace(/\bp5\b/gi, 'P5')
+                            .replace(/\br5\b/gi, 'R5')
+                            .replace(/\bt3\b/gi, 'T3')
+                            .replace(/\bdsviewer\b/gi, 'DSViewer')
+                            .replace(/\bdsvision\b/gi, 'DSVision')
+                            .replace(/\bdsk\b/gi, 'DSK');
                           return (
                             <li class="w-full min-w-0">
                               <a 

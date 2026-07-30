@@ -1,3 +1,8 @@
+---
+title: DSViewer Manual
+order: 1
+---
+
 # DSViewer Software Manual
 
 ---
@@ -100,14 +105,14 @@ Run the provided windowsdesktop-runtime-8.0.8-win-x64.exe program to proceed wit
 Run the provided DSVision program to proceed with installation.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/install-program.png" width="500">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/install-program.png" width="500" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Installer Program</p>
 </div>
 
 Proceed with installation on the desired drive.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/install.png" width="420">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/install.png" width="420" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Install Window</p>
 </div>
 
@@ -120,7 +125,7 @@ After installation on the desired drive, a new folder named DEEPSOUND will be cr
 You can see DSViewer configured around various functions and a convenient Toolbar.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/asset.png" width="600">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/asset.png" width="340" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Initial screen upon program launch</p>
 </div>
 
@@ -137,7 +142,7 @@ Collected data can be loaded to activate images and measure or verify the size a
 Each of the following toolbars has its own characteristics:
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/asset.png" width="600">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/asset.png" width="340" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Overall program screen configuration</p>
 </div>
 
@@ -145,7 +150,7 @@ Each of the following toolbars has its own characteristics:
 - This toolbar consists of File / Home / View / Tool / Window menus when the program runs, allowing use of screen toolbars and functions.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/total-menu.png" width="300">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/total-menu.png" width="300" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Total Menu</p>
 </div>
 
@@ -153,7 +158,7 @@ Each of the following toolbars has its own characteristics:
 - This toolbar consists of the most frequently used functions from the Total Menu.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/main-toolbar.png" width="600">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/main-toolbar.png" width="340" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Main Toolbar</p>
 </div>
 
@@ -161,7 +166,7 @@ Each of the following toolbars has its own characteristics:
 - Refers to windows that appear when clicking Information and Parameter.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/sub-toolbar.png" width="205">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/sub-toolbar.png" width="205" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Sub Toolbar</p>
 </div>
 
@@ -169,7 +174,7 @@ Each of the following toolbars has its own characteristics:
 - This toolbar allows you to check information being displayed at the bottom at a glance.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/mini-toolbar.png" width="700">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/mini-toolbar.png" width="120" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Mini Toolbar</p>
 </div>
 
@@ -178,14 +183,14 @@ Each of the following toolbars has its own characteristics:
 - The screen can be freely adjusted, and users can change to a preferred layout.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/scan-display.png" width="600">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/scan-display.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Scan Display</p>
 </div>
 
 ### 4.2 Total Toolbar Menu
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/total-toolbar-menu.png" width="215">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/total-toolbar-menu.png" width="215" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Total Toolbar Menu</p>
 </div>
 
@@ -194,7 +199,7 @@ The Total Toolbar Menu consists of File / Home / View / Tool / Window. Descripti
 #### 4.2.1 Total Menu: File
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/file.png" width="161">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/file.png" width="161" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: File List</p>
 </div>
 
@@ -206,7 +211,7 @@ The File list allows loading collected data and saving configurations modified a
 #### 4.2.2 Total Menu: Home
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/home.png" width="153">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/home.png" width="153" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Home List</p>
 </div>
 
@@ -216,7 +221,7 @@ The Home list is a function to bring desired Scan windows onto the display.
 #### 4.2.3 Total Menu: View
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/view.png" width="186">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/view.png" width="186" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: View List</p>
 </div>
 
@@ -231,8 +236,8 @@ The View list provides functions required during measurement.
 - **Display Values:** A function to activate the current position of the bars.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/sub-toolbar.png" width="205">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/minitool.png" width="213">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/sub-toolbar.png" width="205" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/minitool.png" width="213" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Before applying Display Values &nbsp;&nbsp;&nbsp;&nbsp; Figure: After applying Display Values</p>
 </div>
 
@@ -242,7 +247,7 @@ The View list provides functions required during measurement.
 - **View Range:** A function to set the position you want to see within the total collected image.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/gaterange-control.png" width="205">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/gaterange-control.png" width="205" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: View Range Active State</p>
 </div>
 
@@ -257,7 +262,7 @@ The View list provides functions required during measurement.
 #### 4.2.4 Total Toolbar: Tool
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/tool.png" width="183">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/tool.png" width="183" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Tool List</p>
 </div>
 
@@ -270,7 +275,7 @@ Tool is a list used to support simple functions.
 #### 4.2.5 Total Toolbar: Window
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/window.png" width="202">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/window.png" width="202" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Window List</p>
 </div>
 
@@ -286,7 +291,7 @@ The Window list is a function that displays values for positions and forms of fu
 ### 4.3 Main Toolbar
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/main-toolbar.png" width="600">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/main-toolbar.png" width="340" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Main Toolbar List</p>
 </div>
 
@@ -299,7 +304,7 @@ Functions are applied identically, and active items are identified by blue borde
 Click File to load collected data measured in the window.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/file-_2.png" width="50">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/file-_2.png" width="50" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: File List</p>
 </div>
 
@@ -308,7 +313,7 @@ Click File to load collected data measured in the window.
 Collected data acquired with MultiChannel settings can be verified in the Channel-1 list consisting of multiple channels.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/multichannel-view.png" width="100">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/multichannel-view.png" width="100" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Multichannel View List</p>
 </div>
 
@@ -317,7 +322,7 @@ Collected data acquired with MultiChannel settings can be verified in the Channe
 Amplitude values of collected data acquired with Soft Gain can be reset.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/soft-gain.png" width="120">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/soft-gain.png" width="120" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Soft Gain List</p>
 </div>
 
@@ -328,7 +333,7 @@ The Scan View area provides the function to view collected data in various forms
 Scan View is a 2D graphical representation of ultrasonic data with rulers or scales corresponding to horizontal and vertical axes. For example, A Scan and C Scan are two types of Scans.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/scan-view.png" width="156">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/scan-view.png" width="156" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Scan View List</p>
 </div>
 
@@ -383,7 +388,7 @@ Scan View represents ultrasonic signals in various ways, including signal overla
 Reference / Measurement bars are activated in the Scan window when clicked.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/reference-measurement-toolbar.png" width="100">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/reference-measurement-toolbar.png" width="100" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Reference / Measurement Toolbar</p>
 </div>
 
@@ -392,14 +397,14 @@ The role of each Bar is for measuring defect size.
 Measure defect size while adjusting active bars left/right or up/down.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/reference-measurement.png" width="60">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/reference-measurement.png" width="60" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Reference / Measurement Setup Screen</p>
 </div>
 
 Differences in horizontal and vertical dimensions can be verified in the Minitool area.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/minitool.png" width="213">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/minitool.png" width="213" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Minitool Value Display Screen</p>
 </div>
 
@@ -408,18 +413,18 @@ Differences in horizontal and vertical dimensions can be verified in the Minitoo
 The Data Bar is activated in the Scan window when clicked.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/data-toolbar.png" width="30">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/data-toolbar.png" width="30" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Data Toolbar</p>
 </div>
 
 The Data Bar is a reference line specifying a particular scan position in collected PAUT data. Completed scan data contains image information for all positions traveled by the probe. Moving the Data Bar left and right simultaneously updates data collected at that position across A-scan, B-scan, C-scan, and S-scan views. Simply put, the Data Bar is a reference point for "viewing data at this position."
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/data-bar.png" width="600">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/data-bar.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Screen change upon Data Bar movement</p>
 </div>
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/data-bar-2.png" width="600">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/data-bar-2.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Screen change upon Data Bar movement 2</p>
 </div>
 
@@ -428,14 +433,14 @@ The Data Bar is a reference line specifying a particular scan position in collec
 Consists of a total of 3 gates: A / B / I Gate.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/gate-toolbar.png" width="87">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/gate-toolbar.png" width="87" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Gate Toolbar</p>
 </div>
 
 Gates are activated by clicking and displayed on the A-scan. Also, active gates are displayed on the S-scan so you can see on screen where measurements are being taken.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/gate-a-scan.png" width="500">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/gate-a-scan.png" width="500" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: A-scan screen after Gate activation</p>
 </div>
 
@@ -443,7 +448,7 @@ Gates displayed on S-scan are shown according to the Gate Type previously set in
 - Gate type: True Depth / Sound Path
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/s-scan-gate.png" width="500">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/s-scan-gate.png" width="500" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: S-scan Gate display screen</p>
 </div>
 
@@ -454,33 +459,33 @@ Gates can be used to set the Index area for C-scan. Also, height and position of
 Zoom mode is a function used to magnify defects or specific positions in collected data.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/zoom-mode-toolbar.png" width="30">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/zoom-mode-toolbar.png" width="30" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Zoom mode Toolbar</p>
 </div>
 
 Activated by clicking Zoom mode; dragging the mouse on screen displays an area and magnifies that position.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/zoom-mode.png" width="160">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/zoom-mode.png" width="160" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Zoom mode active screen</p>
 </div>
 
 Zoom mode is frequently used during measurement as it allows detailed viewing of defect positions.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/zoom-mode.png" width="500">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/zoom-mode.png" width="500" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Screen without Zoom mode applied</p>
 </div>
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/zoom-mode.png" width="500">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/zoom-mode.png" width="500" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Screen with Zoom mode applied</p>
 </div>
 
 Zoom reset restores the magnified screen to its original state.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/zoom-reset-toolbar.png" width="26">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/zoom-reset-toolbar.png" width="26" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Zoom reset Toolbar</p>
 </div>
 
@@ -489,14 +494,14 @@ Zoom reset restores the magnified screen to its original state.
 Measure tool is activated by clicking and opens the Measurement window.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/measure-tool-toolbar.png" width="28">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/measure-tool-toolbar.png" width="28" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Measure tool Toolbar</p>
 </div>
 
 The Measurement window allows verifying height and position of signals captured in gates.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/measurement.png" width="205">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/measurement.png" width="205" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Measurement Window</p>
 </div>
 
@@ -526,19 +531,19 @@ Parameters is a list showing setting values used when collecting data.
 Clicking this list immediately activates it to check values and details of each setting.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/parameters.png" width="250">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/parameters.png" width="250" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Parameters window screen</p>
 </div>
 
 Items configurable in the Parameters window include Specimen, which can be manipulated if detailed settings are required.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/parameters-specimen.png" width="205">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/parameters-specimen.png" width="205" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Parameters Specimen screen</p>
 </div>
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/specimen.png" width="600">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/specimen.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Specimen applied screen</p>
 </div>
 
@@ -549,7 +554,7 @@ Color map is a color range setting window used for measuring corrosion.
 Activated by clicking the list.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/color-map.png" width="199">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/color-map.png" width="199" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Color map screen</p>
 </div>
 
@@ -558,14 +563,14 @@ Color Map is divided into two types:
 First is a generally used Color Map based on A^.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/color-map-a.png" width="500">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/color-map-a.png" width="500" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Color Map A^ applied screen</p>
 </div>
 
 Second is the Color Map used when performing Corrosion mapping.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/color-map-a-position.png" width="500">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/color-map-a-position.png" width="500" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Color Map A Position applied screen</p>
 </div>
 
@@ -574,22 +579,22 @@ Corrosion Color Map is automatically applied when changing to A/, B/, A/-B/, or 
 Also, to further distinguish color differences, Min / Max can be used to reset range differences. Linear and Reverse functions allow smoothing or inverting colors.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/color-map-control.png" width="200">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/color-map.png" width="199">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/color-map-control.png" width="200" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/color-map.png" width="199" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Color Map Toolbar</p>
 </div>
 
 Color map allows finer adjustment of color differences so even minute thickness variations can be easily distinguished visually.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/color-map-linear.png" width="300">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/color-map-linear.png" width="300" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Color map Linear applied screen</p>
 </div>
 
 #### 4.4.3 Gate/Range Control
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/gaterange-control.png" width="205">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/gaterange-control.png" width="205" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Gate/Range Control List</p>
 </div>
 
@@ -604,14 +609,14 @@ Gate / Range Control is a list for readjusting position settings for Gates and s
 Calibration is a function for verifying parts related to calibration.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/calibration.png" width="250">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/calibration.png" width="250" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Calibration List</p>
 </div>
 
 Calibration includes Wedge delay / Velocity and even TOFD. Adjusting these values reflects them in each Ruler without changing the image.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/manual/dsviewer/images/calibration.png" width="600">
+  <img src="/images/03_Resources/Image/Manual/DSViewer/Images/calibration.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p>Figure: Calibration Applied Screen</p>
 </div>
 
