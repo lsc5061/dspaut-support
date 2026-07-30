@@ -15,22 +15,22 @@ image: "/images/blog/ko/comparison-criteria.jpg"
 
 두 시스템의 프로브 및 웨지 구성은 다음과 같습니다.
 
-![타사 프로브](./images/competitor-probe.jpg)
+![타사 프로브](/../src/content/blog/ko/images/competitor-probe.jpg)
 *타사 장비 프로브 사양*
 
-![타사 웨지](./images/competitor-wedge.jpg)
+![타사 웨지](/../src/content/blog/ko/images/competitor-wedge.jpg)
 *타사 장비 웨지 사양*
 
-![테스트 시편](./images/test-specimen.jpg)
+![테스트 시편](/../src/content/blog/ko/images/test-specimen.jpg)
 *테스트 시편*
 
-![P5 장비 프로브](./images/p5-probe.jpg)
+![P5 장비 프로브](/../src/content/blog/ko/images/p5-probe.jpg)
 *P5 장비 프로브 사양*
 
-![P5 장비 웨지](./images/p5-wedge.jpg)
+![P5 장비 웨지](/../src/content/blog/ko/images/p5-wedge.jpg)
 *P5 장비 웨지 사양*
 
-![P5 스캔 설정](./images/p5-scan-setup.jpg)
+![P5 스캔 설정](/../src/content/blog/ko/images/p5-scan-setup.jpg)
 *P5 장비 스캔 구성 설정*
 
 ---
@@ -39,9 +39,9 @@ image: "/images/blog/ko/comparison-criteria.jpg"
 
 타사 장비와 DEEPSOUND P5의 파라미터 및 결함 측정 기준을 설정하고 아래와 같이 검증했습니다.
 
-![비교 기준](./images/comparison-criteria.jpg)
+![비교 기준](/../src/content/blog/ko/images/comparison-criteria.jpg)
 
-![비교 표](./images/comparison-table.png)
+![비교 표](/../src/content/blog/ko/images/comparison-table.png)
 
 ---
 
@@ -49,9 +49,9 @@ image: "/images/blog/ko/comparison-criteria.jpg"
 
 두 장치에서 획득한 S-scan 이미지의 직접적인 시각적 비교입니다.
 
-![이미지 비교 1](./images/image-comparison-1.jpg)
+![이미지 비교 1](/../src/content/blog/ko/images/image-comparison-1.jpg)
 
-![이미지 결과 표 1](./images/result-table-1.jpg)
+![이미지 결과 표 1](/../src/content/blog/ko/images/result-table-1.jpg)
 
 ---
 
@@ -59,9 +59,9 @@ image: "/images/blog/ko/comparison-criteria.jpg"
 
 검출된 신호 품질 및 위치 정확도에 대한 추가 비교입니다.
 
-![이미지 비교 2](./images/image-comparison-2.jpg)
+![이미지 비교 2](/../src/content/blog/ko/images/image-comparison-2.jpg)
 
-![이미지 결과 표 2](./images/result-table-2.jpg)
+![이미지 결과 표 2](/../src/content/blog/ko/images/result-table-2.jpg)
 
 ---
 
@@ -69,9 +69,9 @@ image: "/images/blog/ko/comparison-criteria.jpg"
 
 두 시스템에서 검출된 위치 간의 차이 분석입니다.
 
-![이미지 비교 3](./images/image-comparison-3.jpg)
+![이미지 비교 3](/../src/content/blog/ko/images/image-comparison-3.jpg)
 
-![이미지 결과 표 3](./images/result-table-3.png)
+![이미지 결과 표 3](/../src/content/blog/ko/images/result-table-3.png)
 
 ---
 

@@ -15,7 +15,7 @@ In ultrasonic non-destructive testing, if sensitivity is not properly calibrated
 
 In an uncalibrated state, the amplitude values obtained from different locations on a reference specimen (e.g., R100) are not constant. Since signal amplitude is directly linked to the perceived size of the flaw, accurate calibration is essential.
 
-![Uncalibrated Sensitivity Status](./images/Sensitivity_1.png)
+![Uncalibrated Sensitivity Status](/../src/content/blog/en/images/Sensitivity_1.png)
 
 ---
 
@@ -24,12 +24,12 @@ In an uncalibrated state, the amplitude values obtained from different locations
 ### 1. Entering the Sensitivity Calibration Page
 Navigate to the dedicated Sensitivity Calibration page according to the menu order.
 
-![Entering the Calibration Page](./images/Sensitivity_1234.png)
+![Entering the Calibration Page](/../src/content/blog/en/images/Sensitivity_1234.png)
 
 ### 2. Parameter Settings
 The calibration page provides various inputs for precise adjustment, such as Depth Range, Gain, and Gate.
 
-![Parameter Setting Screen](./images/Sensitivity_6.png)
+![Parameter Setting Screen](/../src/content/blog/en/images/Sensitivity_6.png)
 
 ### 3. Signal Data Classification
 The automatic sensitivity calibration window clearly distinguishes data visually.
@@ -37,7 +37,7 @@ The automatic sensitivity calibration window clearly distinguishes data visually
 - **Peak Signal:** The currently detected maximum signal
 - **Reference & Tolerance:** Target amplitude values
 
-![Signal Classification Interface](./images/Sensitivity_7.png)
+![Signal Classification Interface](/../src/content/blog/en/images/Sensitivity_7.png)
 
 ---
 
@@ -45,13 +45,13 @@ The automatic sensitivity calibration window clearly distinguishes data visually
 
 It is standard to set the amplitude tolerance for the entire vector range to **80%**.
 
-![Tolerance Setting](./images/Sensitivity_8.png)
+![Tolerance Setting](/../src/content/blog/en/images/Sensitivity_8.png)
 
 1. **Sweep:** Slowly move the probe over the calibration block to form an envelope before capturing the final data.
 2. **Reset Function:** If data is inaccurate, you can restart at any time via **Reset** and **Clear Envelope**.
 3. **Apply:** Ensure that tolerance values are applied uniformly across all active vectors.
 
-![Calibration Application Result](./images/Sensitivity_slide008_181.png)
+![Calibration Application Result](/../src/content/blog/en/images/Sensitivity_slide008_181.png)
 - **Verifying amplitude consistency at 40-degree and 55-degree angles**
 
 ---
@@ -60,6 +60,6 @@ It is standard to set the amplitude tolerance for the entire vector range to **8
 
 When calibration is successfully completed, the **'S'** among the status labels at the bottom of the screen will be activated in orange.
 
-![Sensitivity Calibration Complete](./images/Sensitivity_slide009_205.png)
+![Sensitivity Calibration Complete](/../src/content/blog/en/images/Sensitivity_slide009_205.png)
 
 Precise sensitivity calibration ensures the integrity of the data provided by DEEPSOUND P5 and serves as the basis for the inspector to quantitatively and accurately judge the size of flaws.

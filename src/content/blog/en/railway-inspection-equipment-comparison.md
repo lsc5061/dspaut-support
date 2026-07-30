@@ -13,18 +13,18 @@ In railway inspection, even minute cracks or flaws can lead to major accidents, 
 
 ## Equipment and Configuration
 
-![DEEPSOUND P5](./images/P5_Catalog_Main_1.jpg)
+![DEEPSOUND P5](/../src/content/blog/en/images/P5_Catalog_Main_1.jpg)
 - **Product Name:** DEEPSOUND P5 (12.1-inch large screen touch system)
 
-![Third-party Equipment](./images/SX장비_철도Demo_비교_20220509_slide002_2.png)
+![Third-party Equipment](/../src/content/blog/en/images/SX장비_철도Demo_비교_20220509_slide002_2.png)
 - **Product Name:** Third-party comparison equipment
 
 ### Inspection Specifications
 - **Probe:** 10 MHz band (Refer to detailed images)
 - **Wedge:** SA1-N55S (Wedge for 55-degree steel)
 
-![Probe Info](./images/그림1.png)
-![Wedge Info](./images/SX장비_철도Demo_비교_20220509_slide003_5.png)
+![Probe Info](/../src/content/blog/en/images/그림1.png)
+![Wedge Info](/../src/content/blog/en/images/SX장비_철도Demo_비교_20220509_slide003_5.png)
 
 ---
 
@@ -32,7 +32,7 @@ In railway inspection, even minute cracks or flaws can lead to major accidents, 
 
 Flaw locations were analyzed using a test specimen similar to the internal structure of railway rails.
 
-![Internal Structure of Specimen](./images/SX장비_철도Demo_비교_20220509_slide004_6.png)
+![Internal Structure of Specimen](/../src/content/blog/en/images/SX장비_철도Demo_비교_20220509_slide004_6.png)
 
 ---
 
@@ -46,7 +46,7 @@ As a result of performing a linear scan by placing the probe directly without a 
 | **#2** | 20.30 | 20.87 | **0.57** |
 | **#3** | 10.80 | 11.04 | **0.24** |
 
-![Linear Scan Data](./images/SX장비_철도Demo_비교_20220509_slide007_10.jpg)
+![Linear Scan Data](/../src/content/blog/en/images/SX장비_철도Demo_비교_20220509_slide007_10.jpg)
 
 ---
 
@@ -60,7 +60,7 @@ Results of performing a sectorial scan (35~70 degrees) with a wedge installed, s
 | **#2** | 19.30 | 19.64 | **0.34** |
 | **#3** | 10.81 | 11.01 | **0.20** |
 
-![Sectorial Scan Data](./images/SX장비_철도Demo_비교_20220509_slide008_13.jpg)
+![Sectorial Scan Data](/../src/content/blog/en/images/SX장비_철도Demo_비교_20220509_slide008_13.jpg)
 
 ---
 

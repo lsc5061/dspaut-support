@@ -15,10 +15,10 @@ image: "/images/blog/ko/p5_fast.png"
 
 정확한 비교를 위해 동일한 사양의 수침용 프로브와 웨지를 사용했습니다.
 
-![DEEPSOUND P5](./images/P5_Fast.png)
+![DEEPSOUND P5](/../src/content/blog/ko/images/P5_Fast.png)
 - **DEEPSOUND P5**
 
-![타사 장비](./images/수침법_장비_비교_자료_20220509_slide002_1.png)
+![타사 장비](/../src/content/blog/ko/images/수침법_장비_비교_자료_20220509_slide002_1.png)
 - **타사 비교 장비**
 
 - **프로브 사양:** 5L128-I2 모델 / 0.6 mm Pitch
@@ -30,7 +30,7 @@ image: "/images/blog/ko/p5_fast.png"
 
 수침 환경에서 샘플 시편 내의 결함을 식별하고 각 장비별 오차 범위를 측정했습니다.
 
-![파라미터 설정](./images/1.png)
+![파라미터 설정](/../src/content/blog/ko/images/1.png)
 - **공통 파라미터 설정**
 
 ### 측정 데이터 비교
@@ -39,10 +39,10 @@ image: "/images/blog/ko/p5_fast.png"
 | :--------------------- | :------------ | :------------- | :-------------------- | :------------- |
 | **25.00 mm (SA)**      | 25.60 mm (SA) | **+0.60 mm**   | 24.62 mm (SA)         | **-0.38 mm**   |
 
-![DEEPSOUND P5 결과](./images/수침법_장비_비교_자료_20220509_slide004_4.jpg)
+![DEEPSOUND P5 결과](/../src/content/blog/ko/images/수침법_장비_비교_자료_20220509_slide004_4.jpg)
 - **DEEPSOUND P5 분석 뷰**
 
-![타사 장비 결과](./images/수침법_장비_비교_자료_20220509_slide004_3.jpg)
+![타사 장비 결과](/../src/content/blog/ko/images/수침법_장비_비교_자료_20220509_slide004_3.jpg)
 - **타사 장비 분석 뷰**
 
 ---

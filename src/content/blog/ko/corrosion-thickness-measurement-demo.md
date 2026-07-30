@@ -18,10 +18,10 @@ image: "/images/blog/ko/corr_demo_first.jpg"
 - **샘플 #1 두께 범위:** 1.0 ~ 1.2 mm
 - **샘플 #2 두께 범위:** 2.0 ~ 2.3 mm
 
-![샘플 #1](./images/성산연구소_Demo_결과_20220509_slide002_1.jpg)
+![샘플 #1](/../src/content/blog/ko/images/성산연구소_Demo_결과_20220509_slide002_1.jpg)
 - **샘플 #1**
 
-![샘플 #2](./images/성산연구소_Demo_결과_20220509_slide002_2.jpg)
+![샘플 #2](/../src/content/blog/ko/images/성산연구소_Demo_결과_20220509_slide002_2.jpg)
 - **샘플 #2**
 
 ---
@@ -30,17 +30,17 @@ image: "/images/blog/ko/corr_demo_first.jpg"
 
 검사는 휴대용 PAUT 장비인 **DEEPSOUND P5**를 중심으로 진행되었습니다.
 
-![본체: DEEPSOUND P5](./images/성산연구소_Demo_결과_20220509_slide003_4.png)
+![본체: DEEPSOUND P5](/../src/content/blog/ko/images/성산연구소_Demo_결과_20220509_slide003_4.png)
 - **본체:** DEEPSOUND P5 (5 MHz 프로브 / 0도 웨지)
 
 데이터의 시각화 및 정밀 분석을 위해 두 가지 소프트웨어가 사용되었습니다.
 - **PAVision:** 휴대용 전용 소프트웨어로 초기 스캔 데이터 획득.
 - **DSViewer:** 정밀 분석 소프트웨어로 로드하여 상세 부식 맵 분석.
 
-![PAVision 소프트웨어](./images/성산연구소_Demo_결과_20220509_slide004_6.png)
+![PAVision 소프트웨어](/../src/content/blog/ko/images/성산연구소_Demo_결과_20220509_slide004_6.png)
 - **현장용 PAVision**
 
-![DSViewer 분석기](./images/성산연구소_Demo_결과_20220509_slide004_5.png)
+![DSViewer 분석기](/../src/content/blog/ko/images/성산연구소_Demo_결과_20220509_slide004_5.png)
 - **분석 전용 DSViewer**
 
 ---
@@ -49,8 +49,8 @@ image: "/images/blog/ko/corr_demo_first.jpg"
 
 소재의 두께 편차는 초음파 신호가 측정 게이트(Measurement Gate)와 교차하는 기준점의 이동으로 나타납니다. 이를 통해 변화를 실시간으로 관찰할 수 있습니다.
 
-![측정 방법론 다이어그램 1](./images/성산연구소_Demo_결과_20220509_slide005_7.png)
-![측정 방법론 다이어그램 2](./images/성산연구소_Demo_결과_20220509_slide005_8.png)
+![측정 방법론 다이어그램 1](/../src/content/blog/ko/images/성산연구소_Demo_결과_20220509_slide005_7.png)
+![측정 방법론 다이어그램 2](/../src/content/blog/ko/images/성산연구소_Demo_결과_20220509_slide005_8.png)
 
 ---
 
@@ -58,18 +58,18 @@ image: "/images/blog/ko/corr_demo_first.jpg"
 
 ### 샘플 #1 (Thickness: 1.0~1.2 mm)
 
-![샘플 #1 측정 데이터](./images/성산연구소_Demo_결과_20220509_slide006_12.jpg)
+![샘플 #1 측정 데이터](/../src/content/blog/ko/images/성산연구소_Demo_결과_20220509_slide006_12.jpg)
 - **소프트웨어 인터페이스 분석**
 
-![샘플 #1 C-Scan](./images/성산연구소_Demo_결과_20220509_slide007_13.png)
+![샘플 #1 C-Scan](/../src/content/blog/ko/images/성산연구소_Demo_결과_20220509_slide007_13.png)
 - **C-Scan 컬러 매핑 결과**
 
 ### 샘플 #2 (Thickness: 2.0~2.3 mm)
 
-![샘플 #2 측정 데이터](./images/성산연구소_Demo_결과_20220509_slide009_22.jpg)
+![샘플 #2 측정 데이터](/../src/content/blog/ko/images/성산연구소_Demo_결과_20220509_slide009_22.jpg)
 - **두께 매핑 인터페이스**
 
-![샘플 #2 C-Scan](./images/성산연구소_Demo_결과_20220509_slide010_23.png)
+![샘플 #2 C-Scan](/../src/content/blog/ko/images/성산연구소_Demo_결과_20220509_slide010_23.png)
 - **상세 컬러 매핑 결과**
 
 ---
@@ -80,7 +80,7 @@ image: "/images/blog/ko/corr_demo_first.jpg"
 2. **정밀도:** 초음파 신호의 위치 이동을 0.01mm 단위로 추적하여 미세한 두께 감소를 놓치지 않고 포착했습니다.
 3. **효율적 분석:** DSViewer의 전체 인터페이스 뷰를 활용하면 방대한 영역의 부식 상태를 한눈에 파악할 수 있어 리포트 작성 효율이 매우 높습니다.
 
-![샘플 #1 전체 화면](./images/성산연구소_Demo_결과_20220509_slide012_31.png)
-![샘플 #2 전체 화면](./images/성산연구소_Demo_결과_20220509_slide013_32.png)
+![샘플 #1 전체 화면](/../src/content/blog/ko/images/성산연구소_Demo_결과_20220509_slide012_31.png)
+![샘플 #2 전체 화면](/../src/content/blog/ko/images/성산연구소_Demo_결과_20220509_slide013_32.png)
 
 **DEEPSOUND**의 솔루션은 현장의 빠른 검사(P5/PAVision)와 사무실의 정밀한 분석(DSViewer)을 연결하여 최고의 부식 진단 성능을 제공합니다.

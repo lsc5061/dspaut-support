@@ -15,10 +15,10 @@ image: "/images/blog/ko/comp_first.png"
 
 검증에 사용된 시편의 전면과 후면 모습입니다.
 
-![시편 전면](./images/성산연구소_Sample_결과건_20220509_slide002_1.png)
+![시편 전면](/../src/content/blog/ko/images/성산연구소_Sample_결과건_20220509_slide002_1.png)
 - **전면 (Front Side)**
 
-![시편 후면](./images/성산연구소_Sample_결과건_20220509_slide002_2.jpg)
+![시편 후면](/../src/content/blog/ko/images/성산연구소_Sample_결과건_20220509_slide002_2.jpg)
 - **후면 (Back Side)**
 
 ---
@@ -27,10 +27,10 @@ image: "/images/blog/ko/comp_first.png"
 
 웨지 없이 프로브를 샘플에 직접 배치하여 측정을 진행했습니다. PAUT S-scan에서 다양한 크기의 지점(Point #1 ~ Point #3)이 명확하게 식별되는지 확인하는 것이 주요 목표입니다.
 
-![2.25 MHz PAUT 프로브](./images/성산연구소_Sample_결과건_20220509_slide003_4.jpg)
+![2.25 MHz PAUT 프로브](/../src/content/blog/ko/images/성산연구소_Sample_결과건_20220509_slide003_4.jpg)
 - **사용 장비:** 2.25 MHz PAUT 프로브
 
-![신호 포인트 표시](./images/1.png)
+![신호 포인트 표시](/../src/content/blog/ko/images/1.png)
 - **각 신호 포인트 마킹 (Point #1 ~ #3)**
 
 ---
@@ -41,9 +41,9 @@ image: "/images/blog/ko/comp_first.png"
 - **검출된 반사 신호 위치:** 6.13 mm
 - **관찰 결과:** S-scan에서 중간 고무층에서 반사되는 초음파 신호가 명확하게 표시됩니다.
 
-![Point #1 결과](./images/성산연구소_Sample_결과건_20220509_slide004_6.png)
+![Point #1 결과](/../src/content/blog/ko/images/성산연구소_Sample_결과건_20220509_slide004_6.png)
 
-![Point #1 S-Scan](./images/3.png)
+![Point #1 S-Scan](/../src/content/blog/ko/images/3.png)
 - **Point #1 S-Scan 이미지**
 
 ---
@@ -54,9 +54,9 @@ image: "/images/blog/ko/comp_first.png"
 - **검출된 반사 신호 위치:** 10.38 mm
 - **관찰 결과:** 지정된 깊이에서 명확한 반사 신호를 확인할 수 있습니다.
 
-![Point #2 결과](./images/성산연구소_Sample_결과건_20220509_slide005_8.png)
+![Point #2 결과](/../src/content/blog/ko/images/성산연구소_Sample_결과건_20220509_slide005_8.png)
 
-![Point #2 S-Scan](./images/4.png)
+![Point #2 S-Scan](/../src/content/blog/ko/images/4.png)
 - **Point #2 S-Scan 이미지**
 
 ---
@@ -67,9 +67,9 @@ image: "/images/blog/ko/comp_first.png"
 - **검출된 반사 신호 위치:** 22.31 mm
 - **관찰 결과:** S-scan에서 중간 고무층의 최대 두께 지점에서 반사되는 초음파 신호가 명확하게 표시됩니다.
 
-![Point #3 결과](./images/성산연구소_Sample_결과건_20220509_slide006_10.png)
+![Point #3 결과](/../src/content/blog/ko/images/성산연구소_Sample_결과건_20220509_slide006_10.png)
 
-![Point #3 S-Scan](./images/5.png)
+![Point #3 S-Scan](/../src/content/blog/ko/images/5.png)
 - **Point #3 S-Scan 이미지**
 
 ---

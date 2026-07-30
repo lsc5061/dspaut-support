@@ -37,10 +37,10 @@ order: 2
   <tbody>
     <tr>
       <td style="padding: 15px; border: 1px solid #e2e8f0; background-color: #ffffff; vertical-align: middle;">
-        <img src="/images/03_Resources/Image/B3/B3%20Install%20media/USB.png" alt="USB" width="180" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
+        <img src="/images/03_Resources/Image/B3/b3-install-media/usb.png" alt="USB" width="180" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
       </td>
       <td style="padding: 15px; border: 1px solid #e2e8f0; background-color: #ffffff; vertical-align: middle;">
-        <img src="/images/03_Resources/Image/B3/B3%20Install%20media/USB%20허브.png" alt="USB 허브" width="180" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
+        <img src="/images/03_resources/kor-install_program/images/1.png" alt="USB 허브" width="180" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
       </td>
     </tr>
     <tr style="background-color: #f8fafc;">
@@ -49,10 +49,10 @@ order: 2
     </tr>
     <tr>
       <td style="padding: 15px; border: 1px solid #e2e8f0; background-color: #ffffff; vertical-align: middle;">
-        <img src="/images/03_Resources/Image/B3/B3%20Install%20media/장비.png" alt="DEEPSOUND 장비" width="180" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
+        <img src="/images/03_resources/kor-install_program/images/1.png" alt="DEEPSOUND 장비" width="180" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
       </td>
       <td style="padding: 15px; border: 1px solid #e2e8f0; background-color: #ffffff; vertical-align: middle;">
-        <img src="/images/03_Resources/Image/B3/B3%20Install%20media/인터넷.png" alt="인터넷 연결" width="180" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
+        <img src="/images/03_resources/kor-install_program/images/1.png" alt="인터넷 연결" width="180" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
       </td>
     </tr>
   </tbody>
@@ -69,7 +69,7 @@ order: 2
 3. 다운로드한 파일의 압축을 푼 후, 실행 파일 및 관련 에셋 폴더를 **USB 메모리의 루트 디렉토리**에 복사합니다.
 4. 장비 우측의 USB 포트에 **USB 허브**를 연결하고, 준비된 **USB 메모리**를 허브에 삽입합니다.
 
-<img src="/images/03_Resources/Image/B3/B3%20Install%20media/프로그램%20압축%20집.png" alt="프로그램 다운로드 및 압축 파일 준비" width="140" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); height: auto;" />
+<img src="/images/03_resources/kor-install_program/images/2.png" alt="프로그램 다운로드 및 압축 파일 준비" width="140" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); height: auto;" />
 
 ---
 
@@ -85,9 +85,9 @@ order: 2
 > ⚠️ **중요**  
 > 업데이트 진행 중에는 반드시 장비가 **인터넷에 정상적으로 연결**되어 있어야 합니다.
 
-<img src="/images/03_Resources/Image/B3/B3%20Install%20media/환경설정%20아이콘.png" alt="환경설정 아이콘 선택 클릭" width="70" style="display: block; margin: 1.5rem auto; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); height: auto;" />
-<img src="/images/03_Resources/Image/B3/B3%20Install%20media/Device%20및%20Minimize%20선택.png" alt="Device 선택 및 프로그램 창 최소화 진행" width="420" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
-<img src="/images/03_Resources/Image/B3/B3%20Install%20media/환경설정%20목록.png" alt="전체 환경설정 목록 검증 및 바탕화면 진입 완료" width="420" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
+<img src="/images/03_resources/kor-install_program/images/3.png" alt="환경설정 아이콘 선택 클릭" width="70" style="display: block; margin: 1.5rem auto; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); height: auto;" />
+<img src="/images/03_resources/kor-install_program/images/3.png" alt="Device 선택 및 프로그램 창 최소화 진행" width="420" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
+<img src="/images/03_resources/kor-install_program/images/3.png" alt="전체 환경설정 목록 검증 및 바탕화면 진입 완료" width="420" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
 
 ---
 
@@ -96,7 +96,7 @@ order: 2
 1. 리눅스 바탕화면이 노출되면, 현재 화면에서 구동 중인 기존의 메인 프로그램 창을 확인합니다.
 2. 프로그램 화면 우측 상단의 **"X" 아이콘**을 마우스로 정확히 클릭하여 현재 실행 중인 기존 소프트웨어를 완전히 종료 처리합니다.
 
-<img src="/images/03_Resources/Image/B3/B3%20Install%20media/실행%20중인%20프로그램.png" alt="현재 작동 중인 기존 프로그램 종료 처리" width="480" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
+<img src="/images/03_resources/kor-install_program/images/4.png" alt="현재 작동 중인 기존 프로그램 종료 처리" width="480" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
 
 ---
 
@@ -107,9 +107,9 @@ order: 2
    * *접속 예시*: `http://192.168.0.92:8810`
    * *주의*: 장비마다 할당된 IP 주소가 다르므로, 사전에 장비 설정에서 부여된 IP 주소를 정확히 확인한 후 입력하십시오.
 
-<img src="/images/03_Resources/Image/B3/B3%20Install%20media/브라우저%20아이콘.png" alt="웹 브라우저 기동 아이콘 클릭" width="90" style="display: block; margin: 1.5rem auto; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); height: auto;" />
-<img src="/images/03_Resources/Image/B3/B3%20Install%20media/브라우저%20창.png" alt="브라우저 주소창에 장비 IP 주소 입력 접속" width="480" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
-<img src="/images/03_Resources/Image/B3/B3%20Install%20media/Dashboard%20창.png" alt="대시보드 관리자 페이지 접속 성공" width="680" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.12); height: auto;" />
+<img src="/images/03_resources/kor-install_program/images/5.png" alt="웹 브라우저 기동 아이콘 클릭" width="90" style="display: block; margin: 1.5rem auto; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); height: auto;" />
+<img src="/images/03_resources/kor-install_program/images/5.png" alt="브라우저 주소창에 장비 IP 주소 입력 접속" width="480" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
+<img src="/images/03_resources/kor-install_program/images/5.png" alt="대시보드 관리자 페이지 접속 성공" width="680" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.12); height: auto;" />
 
 ---
 
@@ -119,9 +119,9 @@ order: 2
 2. 대시보드 Update 화면으로 이동하면, 중앙에 위치한 **Choose File** (파일 선택) 버튼을 마우스로 클릭합니다.
 3. 파일 탐색기 창이 노출되면, 좌측 드라이브 메뉴에서 연결된 **USB 드라이브**를 선택하고, 사전에 복사해 둔 최신 **CM5 업데이트 프로그램 파일**을 클릭하여 선택합니다.
 
-<img src="/images/03_Resources/Image/B3/B3%20Install%20media/Dashboard%20update%20위치.png" alt="Dashboard 내 Update 메뉴 위치 확인 및 이동" width="250" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); height: auto;" />
-<img src="/images/03_Resources/Image/B3/B3%20Install%20media/Dashboard%20update%20창.png" alt="Choose File 파일 선택창 실행" width="480" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
-<img src="/images/03_Resources/Image/B3/B3%20Install%20media/USB%20안에%20프로그램%20선택.png" alt="연결된 USB 내 업데이트 파일 탐색 및 선택" width="480" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
+<img src="/images/03_resources/kor-install_program/images/5.png" alt="Dashboard 내 Update 메뉴 위치 확인 및 이동" width="250" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); height: auto;" />
+<img src="/images/03_resources/kor-install_program/images/5.png" alt="Choose File 파일 선택창 실행" width="480" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
+<img src="/images/03_resources/kor-install_program/images/5.png" alt="연결된 USB 내 업데이트 파일 탐색 및 선택" width="480" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
 
 ---
 
@@ -132,8 +132,8 @@ order: 2
 3. 업데이트가 구동되는 동안 상태바에 `Running` 상태 메시지가 노출되며 시스템 내부 교체가 이루어집니다.
 4. 설치가 성공적으로 완수되면 상태창의 문구가 **`Running ➔ Success`**로 최종 변경되면서 프로그램 업데이트가 모두 마감됩니다.
 
-<img src="/images/03_Resources/Image/B3/B3%20Install%20media/USB%20프로그램%20선택%20완료.png" alt="Start update 실행 버튼 구동 대기" width="480" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
-<img src="/images/03_Resources/Image/B3/B3%20Install%20media/Update%20진행%20및%20완료.png" alt="업데이트 구동 및 Success 메시지 출력 완료 검증" width="650" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.12); height: auto;" />
+<img src="/images/03_resources/kor-install_program/images/5.png" alt="Start update 실행 버튼 구동 대기" width="480" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
+<img src="/images/03_resources/kor-install_program/images/5.png" alt="업데이트 구동 및 Success 메시지 출력 완료 검증" width="650" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.12); height: auto;" />
 
 ---
 
@@ -144,7 +144,7 @@ order: 2
 3. 프로그램 인터페이스가 모니터 화면에 나타나면, 아래 그림과 같이 **UI 좌측 하단의 버전 표시 영역**에 마우스를 대고 버전 정보를 확인합니다.
 4. 이전 버전 정보가 신규 설치한 최신 버전 정보로 올바르게 교체되어 정상 작동하는지 최종적으로 확인하여 매뉴얼 절차를 마칩니다.
 
-<img src="/images/03_Resources/Image/B3/B3%20Install%20media/버전%20체크.PNG" alt="기기 재부팅 및 CM5 버전 정보 최종 교차 검증" width="750" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); height: auto;" />
+<img src="/images/03_resources/kor-install_program/images/6.png" alt="기기 재부팅 및 CM5 버전 정보 최종 교차 검증" width="750" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); height: auto;" />
 
 ---
 

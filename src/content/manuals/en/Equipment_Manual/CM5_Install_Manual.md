@@ -37,10 +37,10 @@ Before starting the update process, ensure that all the following items are prep
   <tbody>
     <tr>
       <td style="padding: 15px; border: 1px solid #e2e8f0; background-color: #ffffff; vertical-align: middle;">
-        <img src="/images/03_Resources/Image/B3/B3%20Install%20media/USB.png" alt="USB" width="180" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
+        <img src="/images/03_Resources/Image/B3/b3-install-media/usb.png" alt="USB" width="180" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
       </td>
       <td style="padding: 15px; border: 1px solid #e2e8f0; background-color: #ffffff; vertical-align: middle;">
-        <img src="/images/03_Resources/Image/B3/B3%20Install%20media/USB%20허브.png" alt="USB Hub" width="180" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
+        <img src="/images/03_resources/kor-install_program/images/1.png" alt="USB Hub" width="180" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
       </td>
     </tr>
     <tr style="background-color: #f8fafc;">
@@ -49,10 +49,10 @@ Before starting the update process, ensure that all the following items are prep
     </tr>
     <tr>
       <td style="padding: 15px; border: 1px solid #e2e8f0; background-color: #ffffff; vertical-align: middle;">
-        <img src="/images/03_Resources/Image/B3/B3%20Install%20media/장비.png" alt="DEEPSOUND Equipment" width="180" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
+        <img src="/images/03_resources/kor-install_program/images/1.png" alt="DEEPSOUND Equipment" width="180" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
       </td>
       <td style="padding: 15px; border: 1px solid #e2e8f0; background-color: #ffffff; vertical-align: middle;">
-        <img src="/images/03_Resources/Image/B3/B3%20Install%20media/인터넷.png" alt="Internet Connection" width="180" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
+        <img src="/images/03_resources/kor-install_program/images/1.png" alt="Internet Connection" width="180" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
       </td>
     </tr>
   </tbody>
@@ -69,7 +69,7 @@ Before starting the update process, ensure that all the following items are prep
 3. Extract the downloaded file and copy the executable files and related asset folders to the **root directory of the USB flash drive**.
 4. Connect the **USB hub** to the USB port on the right side of the equipment, and insert the prepared **USB flash drive** into the hub.
 
-<img src="/images/03_Resources/Image/B3/B3%20Install%20media/프로그램%20압축%20집.png" alt="Download Program and Prepare Compressed File" width="140" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); height: auto;" />
+<img src="/images/03_resources/kor-install_program/images/2.png" alt="Download Program and Prepare Compressed File" width="140" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); height: auto;" />
 
 ---
 
@@ -85,9 +85,9 @@ Before starting the update process, ensure that all the following items are prep
 > ⚠️ **IMPORTANT**  
 > The equipment must remain **connected to the internet** throughout the entire update process.
 
-<img src="/images/03_Resources/Image/B3/B3%20Install%20media/환경설정%20아이콘.png" alt="Click Configuration Icon" width="70" style="display: block; margin: 1.5rem auto; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); height: auto;" />
-<img src="/images/03_Resources/Image/B3/B3%20Install%20media/Device%20및%20Minimize%20선택.png" alt="Select Device and Minimize Window" width="420" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
-<img src="/images/03_Resources/Image/B3/B3%20Install%20media/환경설정%20목록.png" alt="Verify Configuration List and Complete Desktop Entry" width="420" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
+<img src="/images/03_resources/kor-install_program/images/3.png" alt="Click Configuration Icon" width="70" style="display: block; margin: 1.5rem auto; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); height: auto;" />
+<img src="/images/03_resources/kor-install_program/images/3.png" alt="Select Device and Minimize Window" width="420" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
+<img src="/images/03_resources/kor-install_program/images/3.png" alt="Verify Configuration List and Complete Desktop Entry" width="420" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
 
 ---
 
@@ -96,7 +96,7 @@ Before starting the update process, ensure that all the following items are prep
 1. Once the Linux desktop is visible, locate the main program window currently running on the screen.
 2. Click the **"X" icon** in the top-right corner of the program window to completely close the existing software.
 
-<img src="/images/03_Resources/Image/B3/B3%20Install%20media/실행%20중인%20프로그램.png" alt="Close Currently Running Existing Program" width="480" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
+<img src="/images/03_resources/kor-install_program/images/4.png" alt="Close Currently Running Existing Program" width="480" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
 
 ---
 
@@ -107,9 +107,9 @@ Before starting the update process, ensure that all the following items are prep
    * *Connection Example*: `http://192.168.0.92:8810`
    * *Note*: IP addresses vary by device. Ensure you verify the correct IP address in the device settings before entering it.
 
-<img src="/images/03_Resources/Image/B3/B3%20Install%20media/브라우저%20아이콘.png" alt="Click Web Browser Icon" width="90" style="display: block; margin: 1.5rem auto; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); height: auto;" />
-<img src="/images/03_Resources/Image/B3/B3%20Install%20media/브라우저%20창.png" alt="Enter Device IP Address in Address Bar" width="480" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
-<img src="/images/03_Resources/Image/B3/B3%20Install%20media/Dashboard%20창.png" alt="Successful Connection to Dashboard Admin Page" width="680" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.12); height: auto;" />
+<img src="/images/03_resources/kor-install_program/images/5.png" alt="Click Web Browser Icon" width="90" style="display: block; margin: 1.5rem auto; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); height: auto;" />
+<img src="/images/03_resources/kor-install_program/images/5.png" alt="Enter Device IP Address in Address Bar" width="480" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
+<img src="/images/03_resources/kor-install_program/images/5.png" alt="Successful Connection to Dashboard Admin Page" width="680" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.12); height: auto;" />
 
 ---
 
@@ -119,9 +119,9 @@ Before starting the update process, ensure that all the following items are prep
 2. On the Update screen, click the **Choose File** button in the center.
 3. In the file explorer window, select the connected **USB drive** from the left panel, locate the latest **CM5 update program file** copied earlier, and click to select it.
 
-<img src="/images/03_Resources/Image/B3/B3%20Install%20media/Dashboard%20update%20위치.png" alt="Locate and Navigate to Update Menu in Dashboard" width="250" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); height: auto;" />
-<img src="/images/03_Resources/Image/B3/B3%20Install%20media/Dashboard%20update%20창.png" alt="Launch Choose File Window" width="480" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
-<img src="/images/03_Resources/Image/B3/B3%20Install%20media/USB%20안에%20프로그램%20선택.png" alt="Navigate and Select Update File inside USB" width="480" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
+<img src="/images/03_resources/kor-install_program/images/5.png" alt="Locate and Navigate to Update Menu in Dashboard" width="250" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); height: auto;" />
+<img src="/images/03_resources/kor-install_program/images/5.png" alt="Launch Choose File Window" width="480" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
+<img src="/images/03_resources/kor-install_program/images/5.png" alt="Navigate and Select Update File inside USB" width="480" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
 
 ---
 
@@ -132,8 +132,8 @@ Before starting the update process, ensure that all the following items are prep
 3. A `Running` status message will be displayed in the status bar while the internal system files are being replaced.
 4. Once the installation is successful, the status message will change to **`Running ➔ Success`**, indicating that the update process is complete.
 
-<img src="/images/03_Resources/Image/B3/B3%20Install%20media/USB%20프로그램%20선택%20완료.png" alt="Ready to Execute Start Update" width="480" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
-<img src="/images/03_Resources/Image/B3/B3%20Install%20media/Update%20진행%20및%20완료.png" alt="Update Running and Success Message Verification" width="650" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.12); height: auto;" />
+<img src="/images/03_resources/kor-install_program/images/5.png" alt="Ready to Execute Start Update" width="480" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
+<img src="/images/03_resources/kor-install_program/images/5.png" alt="Update Running and Success Message Verification" width="650" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.12); height: auto;" />
 
 ---
 
@@ -144,7 +144,7 @@ Before starting the update process, ensure that all the following items are prep
 3. When the program interface appears, hover the mouse cursor over the **version display area in the bottom-left corner** of the UI to check the version information.
 4. Verify that the old version has been successfully updated to the latest version to complete the manual procedure.
 
-<img src="/images/03_Resources/Image/B3/B3%20Install%20media/버전%20체크.PNG" alt="Reboot Equipment and Final Version Cross-Verification" width="750" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); height: auto;" />
+<img src="/images/03_resources/kor-install_program/images/6.png" alt="Reboot Equipment and Final Version Cross-Verification" width="750" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); height: auto;" />
 
 ---
 

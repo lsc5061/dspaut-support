@@ -504,12 +504,12 @@ Defines the physical boundaries and acoustic characteristics of the test object.
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_13_img_21.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_13_img_21.png" width="400">
     <div align="center">Specimen Thickness Configuration Screen</div>
   </div>
   <!-- slide -->
   <div align="center">
-    <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_14_img_11.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_14_img_11.png" width="400">
     <div align="center">Visualization Example of Legs (B0, T1) on S-Scan</div>
   </div>
 </div>
@@ -531,12 +531,12 @@ Configures weld profile and specifications to interpret whether a defect is loca
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_19_img_3.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_19_img_3.png" width="400">
     <div align="center">Weld Type Selection Screen (V, X, etc.)</div>
   </div>
   <!-- slide -->
   <div align="center">
-    <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_20_img_3.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_20_img_3.png" width="400">
     <div align="center">Implementation of Asymmetrical Weld Structure using Flat Left/Right</div>
   </div>
 </div>
@@ -546,12 +546,12 @@ Configures weld profile and specifications to interpret whether a defect is loca
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_21_img_10.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_21_img_10.png" width="400">
     <div align="center">Before Profile Setting: Difficult to determine spatial position of signal</div>
   </div>
   <!-- slide -->
   <div align="center">
-    <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_21_img_3.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_21_img_3.png" width="400">
     <div align="center">After Profile and HAZ Setting: Clearly confirms signal is within the HAZ</div>
   </div>
 </div>
@@ -585,7 +585,7 @@ Defines unique transducer specifications and range of transmitting/receiving ele
     - **First Element**: Defines which element of the device port each probe starts from in multi-probe configurations to prevent data interference.
 
 <div align="center">
-  <img src="/images/03_Resources/(KOR)%20program_introduction/images/4.png" width="450">
+  <img src="/images/03_Resources/eng-program_introduction/images/4.png" width="450">
   <div align="center">Wizard Location Explanation Screen</div>
 </div>
 
@@ -602,7 +602,7 @@ Controls the status of the wedge attached to the bottom of the transducer to phy
     - **Height at First Element (Height / Z-Offset)**: This is **not the total block height** of the wedge. It must be the vertical distance from the wedge bottom to the first active element to compute correct True Depth (DA/DB/DI).
 
 <div align="center">
-  <img src="/images/03_Resources/(KOR)%20program_introduction/images/6.png" width="450">
+  <img src="/images/03_Resources/eng-program_introduction/images/6.png" width="450">
   <div align="center">Wedge Menu Explanation Screen</div>
 </div>
 
@@ -628,12 +628,12 @@ This parameter group specifies a particular area for analysis among the numerous
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_28_img_5.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_28_img_5.png" width="400">
     <div align="center">Sound Path Mode: Arc-shaped Gate Line</div>
   </div>
   <!-- slide -->
   <div align="center">
-    <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_28_img_13.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_28_img_13.png" width="400">
     <div align="center">True Depth Mode: Horizontal Gate Line</div>
   </div>
 </div>
@@ -647,7 +647,7 @@ This parameter group measures the physical distance traveled by the transducer a
 Select an acquisition method suitable for inspection purpose and hardware environment.
 
 <div align="center">
-  <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_30_img_3.png" width="150">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_30_img_3.png" width="150">
   <div align="center">Encoder Settings and Scanner Type Selection Screen</div>
 </div>
 
@@ -667,7 +667,7 @@ Select an acquisition method suitable for inspection purpose and hardware enviro
 DSVision assigns unique colors to each data axis for intuitive analysis, synchronized with numerical colors in the status bar for immediate data identification.
 
 <div align="center">
-  <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_35_img_10.png" width="450">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_35_img_10.png" width="450">
   <div align="center">Axis Color Definitions: Scan (Blue), Index (Green), Ultrasound (Purple/Pink)</div>
 </div>
 
@@ -695,7 +695,7 @@ A group of tools for optimizing the visual configuration of analysis screens and
 DSVision's cursors are core tools for quantifying defect length, depth, and amplitude. Precision measurement is possible without complex operation through a dedicated controller.
 
 <div align="center">
-  <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_34_img_11.png" width="150">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_34_img_11.png" width="150">
   <div align="center">Cursor Operation Interface: 8-way Controller</div>
 </div>
 
@@ -840,12 +840,12 @@ Supports two measurement modes based on reference points for calculating signal 
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_28_img_5.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_28_img_5.png" width="400">
     <div align="center">Sound Path Mode: Arc-shaped Gate Visualization</div>
   </div>
   <!-- slide -->
   <div align="center">
-    <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_28_img_13.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_28_img_13.png" width="400">
     <div align="center">True Depth Mode: Horizontal Gate Visualization</div>
   </div>
 </div>
@@ -862,7 +862,7 @@ DSVision provides a **Gate Synchronization** function to maintain stable defect 
     - **Edge**: Measures where the signal first meets the gate threshold. Favorable for precisely capturing where a defect begins or measuring thickness from the edge crossing.
 
 <div align="center">
-  <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_27_img_3.png" width="150">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_27_img_3.png" width="150">
   <div align="center">Interface for Gate Parameters and Synchronization Logic Settings</div>
 </div>
 

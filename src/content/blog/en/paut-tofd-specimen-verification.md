@@ -15,7 +15,7 @@ Phased Array Ultrasonic Testing (PAUT) and Time of Flight Diffraction (TOFD) are
 
 The main purpose of this verification is to confirm how precisely DEEPSOUND R3 measures specific flaw locations (Points #1, #2, #3).
 
-![PVC Test Specimen Top](./images/R3_PAUT_TOFD_시편확인_20220509_slide003_1.jpg)
+![PVC Test Specimen Top](/../src/content/blog/en/images/R3_PAUT_TOFD_시편확인_20220509_slide003_1.jpg)
 *PVC Test Specimen Top Surface*
 
 - **Material:** Rectangular PVC
@@ -27,7 +27,7 @@ The main purpose of this verification is to confirm how precisely DEEPSOUND R3 m
 2. **Probe:** 2.25~5L32 - N45~60S
 3. **Scanner:** Scanner including dedicated encoder
 
-![DEEPSOUND R3 Equipment and Scan Setup](./images/R3_PAUT_TOFD_시편확인_20220509_slide003_3.png)
+![DEEPSOUND R3 Equipment and Scan Setup](/../src/content/blog/en/images/R3_PAUT_TOFD_시편확인_20220509_slide003_3.png)
 *DEEPSOUND R3 Equipment and Scan Setup*
 
 ---
@@ -39,19 +39,19 @@ Compare the actual depth values of each flaw with the data values (DA) captured 
 ### Flaw #1 Measurement (Actual 9.0 mm)
 Flaw #1 was clearly detected at a depth of **8.7 mm (DA)** as a result of R3 equipment measurement. It shows a very low error range of only **0.3 mm** compared to the actual location.
 
-![Flaw #1 Measurement Data](./images/R3_PAUT_TOFD_시편확인_20220509_slide004_4.PNG)
+![Flaw #1 Measurement Data](/../src/content/blog/en/images/R3_PAUT_TOFD_시편확인_20220509_slide004_4.PNG)
 *Flaw #1: Measured Depth 8.7 mm (Actual 9.0 mm)*
 
 ### Flaw #2 Measurement (Actual 15.0 mm)
 For flaw #2, the measurement was **15.9 mm (DA)** compared to the actual location of 15.0 mm, proving very stable performance.
 
-![Flaw #2 Measurement Data](./images/R3_PAUT_TOFD_시편확인_20220509_slide005_7.PNG)
+![Flaw #2 Measurement Data](/../src/content/blog/en/images/R3_PAUT_TOFD_시편확인_20220509_slide005_7.PNG)
 *Flaw #2: Measured Depth 15.9 mm (Actual 15.0 mm)*
 
 ### Flaw #3 Measurement (Actual 22.5 mm)
 Flaw #3, located at the deepest point, was also accurately captured at **23.0 mm (DA)**.
 
-![Flaw #3 Measurement Data](./images/R3_PAUT_TOFD_시편확인_20220509_slide006_9.PNG)
+![Flaw #3 Measurement Data](/../src/content/blog/en/images/R3_PAUT_TOFD_시편확인_20220509_slide006_9.PNG)
 *Flaw #3: Measured Depth 23.0 mm (Actual 22.5 mm)*
 
 ---
@@ -60,10 +60,10 @@ Flaw #3, located at the deepest point, was also accurately captured at **23.0 mm
 
 The DEEPSOUND system also fully supports high-precision flaw detection using the TOFD (Time of Flight Diffraction) method.
 
-![TOFD Scan Result Data](./images/R3_PAUT_TOFD_시편확인_20220509_slide007_11.jpg)
+![TOFD Scan Result Data](/../src/content/blog/en/images/R3_PAUT_TOFD_시편확인_20220509_slide007_11.jpg)
 *High-resolution black-and-white diffraction data using the TOFD method*
 
-![TOFD Scanner Layout Structure](./images/R3_PAUT_TOFD_시편확인_20220509_slide007_10.jpg)
+![TOFD Scanner Layout Structure](/../src/content/blog/en/images/R3_PAUT_TOFD_시편확인_20220509_slide007_10.jpg)
 *Scanner layout structure equipped with dedicated transmit/receive sensors*
 
 - **Advantages of TOFD:** Extremely precise measurement of exact flaw length and vertical depth is possible, and data processing speed is very fast.

@@ -11,7 +11,7 @@ image: "/images/blog/ko/test-specimen.png"
 
 ## Test Specimen and Procedure
 
-![Test Specimen Data](./images/test-specimen.png)
+![Test Specimen Data](/../src/content/blog/en/images/test-specimen.png)
 - **Test Specimen Data**
 
 1. **Software:** DSVision
@@ -38,21 +38,21 @@ image: "/images/blog/ko/test-specimen.png"
 
 - Accurately find the position of the defect by moving the wedge position while referring to the S-scan image.
 
-![Checking Defect Location](./images/defect-location-1.jpg)
+![Checking Defect Location](/../src/content/blog/en/images/defect-location-1.jpg)
 - **Checking Defect Location**
 
-![Defect Icon](./images/defect-icon.png)
-![Defect Image in front of Wedge](./images/defect-image.png)
+![Defect Icon](/../src/content/blog/en/images/defect-icon.png)
+![Defect Image in front of Wedge](/../src/content/blog/en/images/defect-image.png)
 - **Defect image located directly in front of the wedge**
 
 ---
 
 ## Interpreting Image Data
 
-![Defect S-Scan Inspection](./images/s-scan-1.png)
+![Defect S-Scan Inspection](/../src/content/blog/en/images/s-scan-1.png)
 - **S-Scan Inspection of Defect**
 
-![UT Signal Diagram](./images/ut-signal-diagram.png)
+![UT Signal Diagram](/../src/content/blog/en/images/ut-signal-diagram.png)
 - **Diagram of UT signal propagating through the specimen**
 
 | Detected Top Part Depth (mm) | Detected Bottom Part Depth (mm) |
@@ -66,13 +66,13 @@ image: "/images/blog/ko/test-specimen.png"
 
 ## Shapes of Defects
 
-![Drill Hole Defect](./images/smooth-defect.png)
+![Drill Hole Defect](/../src/content/blog/en/images/smooth-defect.png)
 - **Drill hole defect lacking distinct reflectors**
 
-![Reflector Defect](./images/clear-reflector-defect.png)
+![Reflector Defect](/../src/content/blog/en/images/clear-reflector-defect.png)
 - **Defect with distinct reflectors**
 
-![Reflector S-Scan Image](./images/s-scan-reflector.png)
+![Reflector S-Scan Image](/../src/content/blog/en/images/s-scan-reflector.png)
 - **Corresponding S-Scan image of defect with reflectors**
 
 - **1.** It is inherently difficult to accurately capture images of smooth defects lacking distinct reflectors, such as the drill hole mentioned above. This is because the probe cannot effectively detect ultrasonic waves that bounce uniformly off smooth surfaces.
@@ -82,10 +82,10 @@ image: "/images/blog/ko/test-specimen.png"
 
 ## Conclusion
 
-![Artificial Defect Difficult to Identify](./images/artificial-defect.png)
+![Artificial Defect Difficult to Identify](/../src/content/blog/en/images/artificial-defect.png)
 - **Artificial specimen defect difficult to identify**
 
-![Natural Defect Easy to Identify](./images/natural-defect.png)
+![Natural Defect Easy to Identify](/../src/content/blog/en/images/natural-defect.png)
 - **Naturally formed defect easy to identify**
 
 - **1.** Artificial defects precisely machined into test specimens can be particularly difficult to detect and image due to their smooth geometric structure. However, naturally occurring defects tend to have very irregular and multi-directional shapes, inherently returning stronger and more consistent reflected signals to the probe. Therefore, these naturally occurring defects appear with much more accurate and defined shapes within S-scan images.

@@ -15,7 +15,7 @@ image: "/images/blog/ko/paut_comp_first.png"
 
 다양한 크기의 구멍이 뚫린 테스트 블록을 사용하여 측정을 진행했습니다.
 
-![테스트 샘플 개요](./images/그림1.png)
+![테스트 샘플 개요](/../src/content/blog/ko/images/그림1.png)
 
 ---
 
@@ -23,7 +23,7 @@ image: "/images/blog/ko/paut_comp_first.png"
 
 정확한 비교를 위해 동일한 조건의 프로브와 웨지를 사용했습니다.
 
-![프로브 및 웨지 정보](./images/Sample_SX장비_비교결과_20220509_slide003_1.png)
+![프로브 및 웨지 정보](/../src/content/blog/ko/images/Sample_SX장비_비교결과_20220509_slide003_1.png)
 
 - **프로브 사양:** 10 MHz / 16 El / 0.6 mm Pitch
 - **웨지 사양:** 38도 각도 / 2337 m/s 속도 / 15 mm 높이
@@ -35,18 +35,18 @@ image: "/images/blog/ko/paut_comp_first.png"
 
 타사 장비와 DEEPSOUND 장비에서 생성된 S-scan 결함 측정 이미지의 시각적 비교입니다.
 
-![섹터 스캔 설정](./images/2.png)
+![섹터 스캔 설정](/../src/content/blog/ko/images/2.png)
 - **섹터 스캔 파라미터 설정**
 
-![섹터 이미지 비교](./images/1.png)
+![섹터 이미지 비교](/../src/content/blog/ko/images/1.png)
 - **S-scan 이미지 비교 (상단: DEEPSOUND / 하단: 타사 장비)**
 
 ### 정밀 분석 결과
 
-![DEEPSOUND 섹터](./images/Sample_SX장비_비교결과_20220509_slide006_4.PNG)
+![DEEPSOUND 섹터](/../src/content/blog/ko/images/Sample_SX장비_비교결과_20220509_slide006_4.PNG)
 - **DEEPSOUND S-scan 데이터**
 
-![타사 섹터](./images/Sample_SX장비_비교결과_20220509_slide006_5.png)
+![타사 섹터](/../src/content/blog/ko/images/Sample_SX장비_비교결과_20220509_slide006_5.png)
 - **타사 장비 S-scan 데이터**
 
 ---
@@ -55,18 +55,18 @@ image: "/images/blog/ko/paut_comp_first.png"
 
 샘플의 단면을 보다 명확하게 시각화하기 위해 리니어 스캔을 병행했습니다.
 
-![리니어 스캔 설정](./images/3.png)
+![리니어 스캔 설정](/../src/content/blog/ko/images/3.png)
 - **리니어 스캔 파라미터 설정**
 
-![리니어 이미지 비교](./images/5.png)
+![리니어 이미지 비교](/../src/content/blog/ko/images/5.png)
 - **리니어 스캔 이미지 비교**
 
 ### 정밀 분석 결과
 
-![DEEPSOUND 리니어](./images/Sample_SX장비_비교결과_20220509_slide009_8.PNG)
+![DEEPSOUND 리니어](/../src/content/blog/ko/images/Sample_SX장비_비교결과_20220509_slide009_8.PNG)
 - **DEEPSOUND 리니어 데이터**
 
-![타사 리니어](./images/Sample_SX장비_비교결과_20220509_slide009_9.png)
+![타사 리니어](/../src/content/blog/ko/images/Sample_SX장비_비교결과_20220509_slide009_9.png)
 - **타사 장비 리니어 데이터**
 
 ---

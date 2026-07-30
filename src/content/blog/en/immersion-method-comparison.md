@@ -15,10 +15,10 @@ Immersion testing is highly effective for finding defects in parts requiring pre
 
 For an accurate comparison, the same specifications of immersion probes and wedges were used.
 
-![DEEPSOUND P5](./images/P5_Fast.png)
+![DEEPSOUND P5](/../src/content/blog/en/images/P5_Fast.png)
 - **DEEPSOUND P5**
 
-![Third-party Equipment](./images/수침법_장비_비교_자료_20220509_slide002_1.png)
+![Third-party Equipment](/../src/content/blog/en/images/수침법_장비_비교_자료_20220509_slide002_1.png)
 - **Third-party Comparison Equipment**
 
 - **Probe Specification:** 5L128-I2 Model / 0.6 mm Pitch
@@ -30,7 +30,7 @@ For an accurate comparison, the same specifications of immersion probes and wedg
 
 Flaws within the sample specimen were identified in an immersion environment, and the error range for each piece of equipment was measured.
 
-![Parameter Settings](./images/1.png)
+![Parameter Settings](/../src/content/blog/en/images/1.png)
 - **Common Parameter Settings**
 
 ### Measurement Data Comparison
@@ -39,10 +39,10 @@ Flaws within the sample specimen were identified in an immersion environment, an
 | :------------------- | :----------------------- | :---------- | :-------------------------------- | :---------- |
 | **25.00 mm (SA)**    | 25.60 mm (SA)            | **+0.60 mm**| 24.62 mm (SA)                     | **-0.38 mm**|
 
-![DEEPSOUND P5 Result](./images/수침법_장비_비교_자료_20220509_slide004_4.jpg)
+![DEEPSOUND P5 Result](/../src/content/blog/en/images/수침법_장비_비교_자료_20220509_slide004_4.jpg)
 - **DEEPSOUND P5 Analysis View**
 
-![Third-party Equipment Result](./images/수침법_장비_비교_자료_20220509_slide004_3.jpg)
+![Third-party Equipment Result](/../src/content/blog/en/images/수침법_장비_비교_자료_20220509_slide004_3.jpg)
 - **Third-party Equipment Analysis View**
 
 ---

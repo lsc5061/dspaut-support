@@ -496,12 +496,12 @@ TOFD 또는 Conventional 모드에서 활성화되며, 검파(Rectification) 전
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_13_img_21.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_13_img_21.png" width="400">
     <div align="center">시험편 두께(Thickness) 설정 화면</div>
   </div>
   <!-- slide -->
   <div align="center">
-    <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_14_img_11.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_14_img_11.png" width="400">
     <div align="center">S-Scan 상의 Legs(B0, T1) 시각화 예시</div>
   </div>
 </div>
@@ -522,12 +522,12 @@ TOFD 또는 Conventional 모드에서 활성화되며, 검파(Rectification) 전
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_19_img_3.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_19_img_3.png" width="400">
     <div align="center">V, X형 등 다양한 용접 타입 선택 화면</div>
   </div>
   <!-- slide -->
   <div align="center">
-    <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_20_img_3.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_20_img_3.png" width="400">
     <div align="center">Flat Left/Right를 이용한 비대칭 용접 구조 구현</div>
   </div>
 </div>
@@ -537,12 +537,12 @@ TOFD 또는 Conventional 모드에서 활성화되며, 검파(Rectification) 전
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_21_img_10.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_21_img_10.png" width="400">
     <div align="center">프로파일 설정 전: 신호의 공간적 위치 파악이 어려움</div>
   </div>
   <!-- slide -->
   <div align="center">
-    <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_21_img_3.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_21_img_3.png" width="400">
     <div align="center">프로파일 및 HAZ 설정 후: 신호가 HAZ 내부에 있음을 명확히 확인 가능</div>
   </div>
 </div>
@@ -576,7 +576,7 @@ TOFD 또는 Conventional 모드에서 활성화되며, 검파(Rectification) 전
     - **First Element**: 다중 프로브 구성 시, 각 프로브가 장비 포트의 몇 번째 소자부터 시작되는지 정의하여 데이터 간섭을 방지합니다.
 
 <div align="center">
-  <img src="/images/03_Resources/(KOR)%20program_introduction/images/4.png" width="450">
+  <img src="/images/03_Resources/eng-program_introduction/images/4.png" width="450">
   <div align="center">Wizard 위치 설명 화면</div>
 </div>
 
@@ -594,7 +594,7 @@ TOFD 또는 Conventional 모드에서 활성화되며, 검파(Rectification) 전
     - **Height at First Element (Z-Offset)**: 웨지 바닥면에서 첫 번째 소자까지의 수직 높이입니다. 결함의 정확한 실제 깊이(True Depth)를 산출하는 데 필수적인 수치입니다.
 
 <div align="center">
-  <img src="/images/03_Resources/(KOR)%20program_introduction/images/6.png" width="450">
+  <img src="/images/03_Resources/eng-program_introduction/images/6.png" width="450">
   <div align="center">웨지 메뉴 설명 화면</div>
 </div>
 
@@ -621,12 +621,12 @@ TOFD 또는 Conventional 모드에서 활성화되며, 검파(Rectification) 전
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_28_img_5.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_28_img_5.png" width="400">
     <div align="center">Sound Path 모드: 곡선 형태의 게이트 라인</div>
   </div>
   <!-- slide -->
   <div align="center">
-    <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_28_img_13.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_28_img_13.png" width="400">
     <div align="center">True Depth 모드: 직선 형태의 게이트 라인</div>
   </div>
 </div>
@@ -641,7 +641,7 @@ TOFD 또는 Conventional 모드에서 활성화되며, 검파(Rectification) 전
 검사 목적과 하드웨어 환경에 맞는 수집 방식을 선택합니다.
 
 <div align="center">
-  <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_30_img_3.png" width="150">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_30_img_3.png" width="150">
   <div align="center">인코더 설정 및 스캐너 타입 선택 화면</div>
 </div>
 
@@ -661,7 +661,7 @@ TOFD 또는 Conventional 모드에서 활성화되며, 검파(Rectification) 전
 DSVision은 분석의 직관성을 위해 각 데이터 축에 고유 색상을 할당하며, 이는 상태 표시줄의 수치 색상과 동기화되어 즉각적인 데이터 식별을 돕습니다.
 
 <div align="center">
-  <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_35_img_10.png" width="450">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_35_img_10.png" width="450">
   <div align="center">축별 색상 정의: Scan(청색), Index(녹색), Ultrasound(자색)</div>
 </div>
 
@@ -683,7 +683,7 @@ DSVision은 분석의 직관성을 위해 각 데이터 축에 고유 색상을 
 DSVision의 커서는 결함의 길이, 깊이, 진폭 등을 수치화하는 핵심 도구입니다. 전용 컨트롤러를 통해 복잡한 조작 없이 정밀한 측정이 가능합니다.
 
 <div align="center">
-  <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_34_img_11.png" width="150">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_34_img_11.png" width="150">
   <div align="center">커서 조작 인터페이스: 8방향 컨트롤러</div>
 </div>
 
@@ -823,12 +823,12 @@ DSVision은 수집된 초음파 신호를 정량적인 데이터로 변환하기
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_28_img_5.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_28_img_5.png" width="400">
     <div align="center">Sound Path 모드: 호(Arc) 형태의 게이트 시각화</div>
   </div>
   <!-- slide -->
   <div align="center">
-    <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_28_img_13.png" width="400">
+    <img src="/images/03_Resources/eng-program_introduction/images/slide_28_img_13.png" width="400">
     <div align="center">True Depth 모드: 직선(Horizontal) 형태의 게이트 시각화</div>
   </div>
 </div>
@@ -844,7 +844,7 @@ DSVision은 표면이 불규칙하거나 변동이 심한 현장에서도 안정
     - **Edge (교차점)**: 신호가 게이트 임계값(Threshold)과 처음 만나는 지점을 측정합니다. 결함이 시작되는 지점을 정밀하게 포착할 때 유리합니다.
 
 <div align="center">
-  <img src="/images/03_Resources/(KOR)%20program_introduction/images/slide_27_img_3.png" width="150">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_27_img_3.png" width="150">
   <div align="center">게이트 파라미터 및 동기화 로직 설정 인터페이스</div>
 </div>
 

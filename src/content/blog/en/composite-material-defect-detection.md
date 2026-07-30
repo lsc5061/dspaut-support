@@ -15,10 +15,10 @@ Composite materials are widely used in modern industry, but detecting internal d
 
 Front and back views of the specimen used for verification.
 
-![Front Side](./images/성산연구소_Sample_결과건_20220509_slide002_1.png)
+![Front Side](/../src/content/blog/en/images/성산연구소_Sample_결과건_20220509_slide002_1.png)
 - **Front Side**
 
-![Back Side](./images/성산연구소_Sample_결과건_20220509_slide002_2.jpg)
+![Back Side](/../src/content/blog/en/images/성산연구소_Sample_결과건_20220509_slide002_2.jpg)
 - **Back Side**
 
 ---
@@ -27,10 +27,10 @@ Front and back views of the specimen used for verification.
 
 Measurements were performed by placing the probe directly on the sample without a wedge. The main goal is to confirm whether points of various sizes (Point #1 to Point #3) are clearly identified on the PAUT S-scan.
 
-![2.25 MHz PAUT Probe](./images/성산연구소_Sample_결과건_20220509_slide003_4.jpg)
+![2.25 MHz PAUT Probe](/../src/content/blog/en/images/성산연구소_Sample_결과건_20220509_slide003_4.jpg)
 - **Equipment Used:** 2.25 MHz PAUT Probe
 
-![Signal Point Marking](./images/1.png)
+![Signal Point Marking](/../src/content/blog/en/images/1.png)
 - **Marking of each signal point (Point #1 to #3)**
 
 ---
@@ -41,9 +41,9 @@ Measurements were performed by placing the probe directly on the sample without 
 - **Detected Reflection Signal Position:** 6.13 mm
 - **Observation Result:** The ultrasonic signal reflected from the middle rubber layer is clearly displayed on the S-scan.
 
-![Point #1 Result](./images/성산연구소_Sample_결과건_20220509_slide004_6.png)
+![Point #1 Result](/../src/content/blog/en/images/성산연구소_Sample_결과건_20220509_slide004_6.png)
 
-![Point #1 S-Scan](./images/3.png)
+![Point #1 S-Scan](/../src/content/blog/en/images/3.png)
 - **Point #1 S-Scan Image**
 
 ---
@@ -54,9 +54,9 @@ Measurements were performed by placing the probe directly on the sample without 
 - **Detected Reflection Signal Position:** 10.38 mm
 - **Observation Result:** A clear reflection signal can be identified at the specified depth.
 
-![Point #2 Result](./images/성산연구소_Sample_결과건_20220509_slide005_8.png)
+![Point #2 Result](/../src/content/blog/en/images/성산연구소_Sample_결과건_20220509_slide005_8.png)
 
-![Point #2 S-Scan](./images/4.png)
+![Point #2 S-Scan](/../src/content/blog/en/images/4.png)
 - **Point #2 S-Scan Image**
 
 ---
@@ -67,9 +67,9 @@ Measurements were performed by placing the probe directly on the sample without 
 - **Detected Reflection Signal Position:** 22.31 mm
 - **Observation Result:** The ultrasonic signal reflected from the point of maximum thickness of the middle rubber layer is clearly displayed on the S-scan.
 
-![Point #3 Result](./images/성산연구소_Sample_결과건_20220509_slide006_10.png)
+![Point #3 Result](/../src/content/blog/en/images/성산연구소_Sample_결과건_20220509_slide006_10.png)
 
-![Point #3 S-Scan](./images/5.png)
+![Point #3 S-Scan](/../src/content/blog/en/images/5.png)
 - **Point #3 S-Scan Image**
 
 ---
