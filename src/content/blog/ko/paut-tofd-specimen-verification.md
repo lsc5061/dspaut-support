@@ -15,7 +15,7 @@ image: "/images/blog/ko/r3_paut_tofd_-_20220509_slide007_11.jpg"
 
 이번 검증의 주요 목적은 DEEPSOUND R3가 특정 결함 위치(1, 2, 3번)를 얼마나 정밀하게 측정하는지 확인하는 것입니다.
 
-![PVC 테스트 시편 상단](/../src/content/blog/ko/images/R3_PAUT_TOFD_시편확인_20220509_slide003_1.jpg)
+![PVC 테스트 시편 상단](/images/blog/en/R3_PAUT_TOFD_시편확인_20220509_slide003_1.jpg)
 *PVC 테스트 시편 상단 (Top Surface)*
 
 - **재질:** 사각형 PVC
@@ -27,7 +27,7 @@ image: "/images/blog/ko/r3_paut_tofd_-_20220509_slide007_11.jpg"
 2. **프로브:** 2.25~5L32 - N45~60S
 3. **스캐너:** 전용 엔코더 포함 스캐너
 
-![DEEPSOUND R3 장비 및 스캔 설정](/../src/content/blog/ko/images/R3_PAUT_TOFD_시편확인_20220509_slide003_3.png)
+![DEEPSOUND R3 장비 및 스캔 설정](/images/blog/en/R3_PAUT_TOFD_시편확인_20220509_slide003_3.png)
 *DEEPSOUND R3 장비 및 스캔 설정*
 
 ---
@@ -39,19 +39,19 @@ image: "/images/blog/ko/r3_paut_tofd_-_20220509_slide007_11.jpg"
 ### 결함 #1 측정 (실제 9.0 mm)
 R3 장비 측정 결과 **8.7 mm (DA)** 깊이에서 결함이 선명하게 검출되었습니다. 실제 위치와 비교하여 단 **0.3 mm**의 매우 낮은 오차 범위를 보여줍니다.
 
-![결함 1번 측정 데이터](/../src/content/blog/ko/images/R3_PAUT_TOFD_시편확인_20220509_slide004_4.PNG)
+![결함 1번 측정 데이터](/images/blog/en/R3_PAUT_TOFD_시편확인_20220509_slide004_4.PNG)
 *결함 1번: 측정 깊이 8.7 mm (실제 9.0 mm)*
 
 ### 결함 #2 측정 (실제 15.0 mm)
 2번 결함의 경우 실제 위치 15.0 mm 대비 **15.9 mm (DA)**로 측정되어 매우 안정적인 성능을 입증했습니다.
 
-![결함 2번 측정 데이터](/../src/content/blog/ko/images/R3_PAUT_TOFD_시편확인_20220509_slide005_7.PNG)
+![결함 2번 측정 데이터](/images/blog/en/R3_PAUT_TOFD_시편확인_20220509_slide005_7.PNG)
 *결함 2번: 측정 깊이 15.9 mm (실제 15.0 mm)*
 
 ### 결함 #3 측정 (실제 22.5 mm)
 가장 깊은 곳에 위치한 3번 결함 역시 **23.0 mm (DA)**에서 정확하게 포착되었습니다.
 
-![결함 3번 측정 데이터](/../src/content/blog/ko/images/R3_PAUT_TOFD_시편확인_20220509_slide006_9.PNG)
+![결함 3번 측정 데이터](/images/blog/en/R3_PAUT_TOFD_시편확인_20220509_slide006_9.PNG)
 *결함 3번: 측정 깊이 23.0 mm (실제 22.5 mm)*
 
 ---
@@ -60,10 +60,10 @@ R3 장비 측정 결과 **8.7 mm (DA)** 깊이에서 결함이 선명하게 검�
 
 DEEPSOUND 시스템은 TOFD(Time of Flight Diffraction) 방식을 이용한 고정밀 결함 탐지도 완벽하게 지원합니다.
 
-![TOFD 스캔 결과 데이터](/../src/content/blog/ko/images/R3_PAUT_TOFD_시편확인_20220509_slide007_11.jpg)
+![TOFD 스캔 결과 데이터](/images/blog/en/R3_PAUT_TOFD_시편확인_20220509_slide007_11.jpg)
 *TOFD 방식의 고해상도 흑백 회절 데이터*
 
-![TOFD 스캐너 배치 구조](/../src/content/blog/ko/images/R3_PAUT_TOFD_시편확인_20220509_slide007_10.jpg)
+![TOFD 스캐너 배치 구조](/images/blog/en/R3_PAUT_TOFD_시편확인_20220509_slide007_10.jpg)
 *송신/수신 전용 센서가 장착된 스캐너 배치 구조*
 
 - **TOFD의 장점:** 결함의 정확한 길이와 수직 깊이를 극도로 정밀하게 측정할 수 있으며, 데이터 처리 속도가 매우 빠릅니다.

@@ -57,21 +57,21 @@ Run Visual Studio, open `DskTutorial.sln`, or refer to the settings below to cre
 In the File → New → Project menu, configure as follows.
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image2.png" width="550">
+  <img src="/images/03_Resources/Image/DSK_Media/image2.png" width="550">
   <p>Figure: New Project Creation Settings Screen</p>
 </div>
 
 After creating the project, open the properties (Property) screen of the `00-Start` project.
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image3.png" width="270">
+  <img src="/images/03_Resources/Image/DSK_Media/image3.png" width="270">
   <p>Figure: Open Project Property Window</p>
 </div>
 
 **Build Settings**: Specify the Output path as the location where the execution file will be created.
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image4.png" width="500">
+  <img src="/images/03_Resources/Image/DSK_Media/image4.png" width="500">
   <p>Figure: Build Output path Settings</p>
 </div>
 
@@ -79,21 +79,21 @@ After creating the project, open the properties (Property) screen of the `00-Sta
 DSK projects must have `SVDSK.dll` added as a reference. Select "Add Reference..." from the project's References item.
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image5.png" width="178">
+  <img src="/images/03_Resources/Image/DSK_Media/image5.png" width="178">
   <p>Figure: Add Reference Menu</p>
 </div>
 
 Select the Browse tab and choose the `svdsk.dll` file within the output directory (`../Bin/Release_x86`) configured above.
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image6.png" width="600">
+  <img src="/images/03_Resources/Image/DSK_Media/image6.png" width="600">
   <p>Figure: Select svdsk.dll File</p>
 </div>
 
 If the reference is successfully added, you can verify it in the list as follows.
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image7.png" width="280">
+  <img src="/images/03_Resources/Image/DSK_Media/image7.png" width="280">
   <p>Figure: Verify Added Reference</p>
 </div>
 
@@ -101,14 +101,14 @@ If the reference is successfully added, you can verify it in the list as follows
 Open `Program.cs` and add configurations for using DSK. Since DSK uses the `DEEPSOUND` namespace, `using DEEPSOUND;` must be included, and `InitDsk` must be called before use.
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image8.png" width="450">
+  <img src="/images/03_Resources/Image/DSK_Media/image8.png" width="450">
   <p>Figure: DSK Version Print Sample Code</p>
 </div>
 
 If the following result is obtained by running `00_Start.exe` generated after build, it is successful.
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image9.png" width="450">
+  <img src="/images/03_Resources/Image/DSK_Media/image9.png" width="450">
   <p>Figure: Program Execution Result Screen</p>
 </div>
 
@@ -130,40 +130,40 @@ The main sample projects included in DSK and their functions are as follows.
 `InitDevice` is a basic example of receiving data via DMA after hardware initialization. All projects must reference `SVDSK.dll` and the common library `DskCommon`.
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image10.png" width="600">
+  <img src="/images/03_Resources/Image/DSK_Media/image10.png" width="600">
   <p>Figure: InitDevice Project Configuration</p>
 </div>
 
 Upon execution, a screen receiving data from the hardware is displayed.
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image11.png" width="340">
+  <img src="/images/03_Resources/Image/DSK_Media/image11.png" width="340">
   <p>Figure: InitDevice Execution Screen</p>
 </div>
 
 The core code is calling `InitDsk` and `InitDevice`. After the call, DSK initializes the hardware and delivers data through the callback function configured in `SetCallbackFrame`.
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image12.png" width="450">
+  <img src="/images/03_Resources/Image/DSK_Media/image12.png" width="450">
   <p>Figure: Initialization and Device Start Code</p>
 </div>
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image13.png" width="420">
+  <img src="/images/03_Resources/Image/DSK_Media/image13.png" width="420">
   <p>Figure: Initialization and Device Start Code</p>
 </div>
 
 The callback function is the point where ultrasonic data delivered via USB DMA is finally received.
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image14.png" width="350">
+  <img src="/images/03_Resources/Image/DSK_Media/image14.png" width="350">
   <p>Figure: Data Reception Callback Function Example</p>
 </div>
 
 Additionally, `Dsk.Freeze` and `Dsk.UnFreeze` can be used to control data acquisition.
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image15.png" width="340">
+  <img src="/images/03_Resources/Image/DSK_Media/image15.png" width="340">
   <p>Figure: Data Freeze Function Test</p>
 </div>
 
@@ -177,19 +177,19 @@ The `SScan` project is an example of converting received Raw Data into a 2D imag
 4. Display on screen after color mapping
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image16.png" width="250">
+  <img src="/images/03_Resources/Image/DSK_Media/image16.png" width="250">
   <p>Figure: SScan Project Reference Settings</p>
 </div>
 
 After copying data to the buffer in the callback function, the image is updated via a timer interrupt. To guarantee real-time performance, it is recommended to use a Queue method.
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image17.png" width="500">
+  <img src="/images/03_Resources/Image/DSK_Media/image17.png" width="500">
   <p>Figure: SScan Callback and Image Conversion Code</p>
 </div>
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image18.png" width="600">
+  <img src="/images/03_Resources/Image/DSK_Media/image18.png" width="600">
   <p>Figure: SScan Callback and Image Conversion Code</p>
 </div>
 
@@ -197,14 +197,14 @@ After copying data to the buffer in the callback function, the image is updated 
 The `AScan` project extracts data at a specific vector location to generate an A-Scan image.
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image19.png" width="600">
+  <img src="/images/03_Resources/Image/DSK_Media/image19.png" width="600">
   <p>Figure: A-Scan Data Extraction Example</p>
 </div>
 
 The `DrawAScan` function renders the A-Scan waveform on screen using a bitmap image.
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image20.png" width="600">
+  <img src="/images/03_Resources/Image/DSK_Media/image20.png" width="600">
   <p>Figure: A-Scan Bitmap Output Screen</p>
 </div>
 
@@ -212,7 +212,7 @@ The `DrawAScan` function renders the A-Scan waveform on screen using a bitmap im
 This is an automatic inspection example to obtain images at designated positions using an Encoder.
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image21.png" width="430">
+  <img src="/images/03_Resources/Image/DSK_Media/image21.png" width="430">
   <p>Figure: Encoder Setting and Inspection Control Code</p>
 </div>
 
@@ -228,7 +228,7 @@ This is a comprehensive PAUT equipment implementation example. DSK functions are
 4. **Dsk2Param & Param2Gui**: Reread changed values after application and update on screen
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image22.png" width="430">
+  <img src="/images/03_Resources/Image/DSK_Media/image22.png" width="430">
   <p>Figure: Parameter Update Flowchart</p>
 </div>
 
@@ -236,7 +236,7 @@ This is a comprehensive PAUT equipment implementation example. DSK functions are
 Saving and loading settings can be easily implemented using the `JsonFile2Object` function which supports JSON serialization.
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image23.png" width="420">
+  <img src="/images/03_Resources/Image/DSK_Media/image23.png" width="420">
   <p>Figure: Setting Load and Save Implementation Example</p>
 </div>
 

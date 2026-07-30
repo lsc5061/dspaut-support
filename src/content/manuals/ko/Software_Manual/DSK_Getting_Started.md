@@ -59,7 +59,7 @@ File → New → Project 메뉴에서 아래와 같이 설정합니다.
 
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image2.png" width="550">
+  <img src="/images/03_Resources/Image/DSK_Media/image2.png" width="550">
   <p>그림: 새 프로젝트 생성 설정 화면</p>
 </div>
 
@@ -69,7 +69,7 @@ File → New → Project 메뉴에서 아래와 같이 설정합니다.
 
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image3.png" width="270">
+  <img src="/images/03_Resources/Image/DSK_Media/image3.png" width="270">
   <p>그림: 프로젝트 속성 창 열기</p>
 </div>
 
@@ -79,7 +79,7 @@ File → New → Project 메뉴에서 아래와 같이 설정합니다.
 
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image4.png" width="500">
+  <img src="/images/03_Resources/Image/DSK_Media/image4.png" width="500">
   <p>그림: 빌드 출력 경로(Output path) 설정</p>
 </div>
 
@@ -90,7 +90,7 @@ DSK 프로젝트에는 반드시 `SVDSK.dll`이 참조(Reference)로 추가되�
 
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image5.png" width="178">
+  <img src="/images/03_Resources/Image/DSK_Media/image5.png" width="178">
   <p>그림: Reference 추가 메뉴</p>
 </div>
 
@@ -100,7 +100,7 @@ Browse 탭을 선택하고, 위에서 설정한 출력 디렉토리(`../Bin/Rele
 
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image6.png" width="600">
+  <img src="/images/03_Resources/Image/DSK_Media/image6.png" width="600">
   <p>그림: svdsk.dll 파일 선택</p>
 </div>
 
@@ -110,7 +110,7 @@ Browse 탭을 선택하고, 위에서 설정한 출력 디렉토리(`../Bin/Rele
 
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image7.png" width="280">
+  <img src="/images/03_Resources/Image/DSK_Media/image7.png" width="280">
   <p>그림: 추가된 Reference 확인</p>
 </div>
 
@@ -121,7 +121,7 @@ Browse 탭을 선택하고, 위에서 설정한 출력 디렉토리(`../Bin/Rele
 
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image8.png" width="450">
+  <img src="/images/03_Resources/Image/DSK_Media/image8.png" width="450">
   <p>그림: DSK 버전 출력 샘플 코드</p>
 </div>
 
@@ -131,7 +131,7 @@ Browse 탭을 선택하고, 위에서 설정한 출력 디렉토리(`../Bin/Rele
 
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image9.png" width="450">
+  <img src="/images/03_Resources/Image/DSK_Media/image9.png" width="450">
   <p>그림: 프로그램 실행 결과 화면</p>
 </div>
 
@@ -156,7 +156,7 @@ DSK에 포함된 주요 샘플 프로젝트의 구성과 기능은 다음과 같
 
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image10.png" width="600">
+  <img src="/images/03_Resources/Image/DSK_Media/image10.png" width="600">
   <p>그림: InitDevice 프로젝트 구성</p>
 </div>
 
@@ -166,7 +166,7 @@ DSK에 포함된 주요 샘플 프로젝트의 구성과 기능은 다음과 같
 
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image11.png" width="340">
+  <img src="/images/03_Resources/Image/DSK_Media/image11.png" width="340">
   <p>그림: InitDevice 실행 화면</p>
 </div>
 
@@ -176,11 +176,11 @@ DSK에 포함된 주요 샘플 프로젝트의 구성과 기능은 다음과 같
 
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image12.png" width="450">
+  <img src="/images/03_Resources/Image/DSK_Media/image12.png" width="450">
   <p>그림: 초기화 및 장치 가동 코드</p>
 </div>
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image13.png" width="420">
+  <img src="/images/03_Resources/Image/DSK_Media/image13.png" width="420">
   <p>그림: 초기화 및 장치 가동 코드</p>
 </div>
 
@@ -190,7 +190,7 @@ DSK에 포함된 주요 샘플 프로젝트의 구성과 기능은 다음과 같
 
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image14.png" width="350">
+  <img src="/images/03_Resources/Image/DSK_Media/image14.png" width="350">
   <p>그림: 데이터 수신 콜백 함수 예제</p>
 </div>
 
@@ -200,7 +200,7 @@ DSK에 포함된 주요 샘플 프로젝트의 구성과 기능은 다음과 같
 
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image15.png" width="340">
+  <img src="/images/03_Resources/Image/DSK_Media/image15.png" width="340">
   <p>그림: 데이터 프리즈(Freeze) 기능 테스트</p>
 </div>
 
@@ -217,7 +217,7 @@ DSK에 포함된 주요 샘플 프로젝트의 구성과 기능은 다음과 같
 
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image16.png" width="250">
+  <img src="/images/03_Resources/Image/DSK_Media/image16.png" width="250">
   <p>그림: SScan 프로젝트 참조 설정</p>
 </div>
 
@@ -227,11 +227,11 @@ DSK에 포함된 주요 샘플 프로젝트의 구성과 기능은 다음과 같
 
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image17.png" width="500">
+  <img src="/images/03_Resources/Image/DSK_Media/image17.png" width="500">
   <p>그림: SScan 콜백 및 이미지 변환 코드</p>
 </div>
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image18.png" width="600">
+  <img src="/images/03_Resources/Image/DSK_Media/image18.png" width="600">
   <p>그림: SScan 콜백 및 이미지 변환 코드</p>
 </div>
 
@@ -242,7 +242,7 @@ DSK에 포함된 주요 샘플 프로젝트의 구성과 기능은 다음과 같
 
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image19.png" width="600">
+  <img src="/images/03_Resources/Image/DSK_Media/image19.png" width="600">
   <p>그림: A-Scan 데이터 추출 예제</p>
 </div>
 
@@ -252,7 +252,7 @@ DSK에 포함된 주요 샘플 프로젝트의 구성과 기능은 다음과 같
 
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image20.png" width="600">
+  <img src="/images/03_Resources/Image/DSK_Media/image20.png" width="600">
   <p>그림: A-Scan 비트맵 출력 화면</p>
 </div>
 
@@ -263,7 +263,7 @@ DSK에 포함된 주요 샘플 프로젝트의 구성과 기능은 다음과 같
 
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image21.png" width="430">
+  <img src="/images/03_Resources/Image/DSK_Media/image21.png" width="430">
   <p>그림: 엔코더 설정 및 검사 제어 코드</p>
 </div>
 
@@ -282,7 +282,7 @@ DSK에 포함된 주요 샘플 프로젝트의 구성과 기능은 다음과 같
 
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image22.png" width="430">
+  <img src="/images/03_Resources/Image/DSK_Media/image22.png" width="430">
   <p>그림: 파라미터 업데이트 흐름도</p>
 </div>
 
@@ -293,7 +293,7 @@ DSK에 포함된 주요 샘플 프로젝트의 구성과 기능은 다음과 같
 
 
 <div align="center">
-  <img src="/images/03_resources/image/dsk_media/image23.png" width="420">
+  <img src="/images/03_Resources/Image/DSK_Media/image23.png" width="420">
   <p>그림: 설정 로드 및 저장 구현 예제</p>
 </div>
 

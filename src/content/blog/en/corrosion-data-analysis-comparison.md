@@ -15,10 +15,10 @@ Corrosion data analysis is fundamentally about capturing minute thickness variat
 
 Colormap and interface configurations of both programs.
 
-![DSViewer Program](/../src/content/blog/en/images/Viewer_Corrosion_data_Tomoview_비교_20220509_slide002_2.png)
+![DSViewer Program](/images/blog/en/Viewer_Corrosion_data_Tomoview_비교_20220509_slide002_2.png)
 - **DSViewer (DEEPSOUND)**
 
-![Third-party Program](/../src/content/blog/en/images/그림1.png)
+![Third-party Program](/images/blog/en/그림1.png)
 - **Third-party Analysis Program**
 
 ---
@@ -27,10 +27,10 @@ Colormap and interface configurations of both programs.
 
 Comparison of initial defect capturing capabilities immediately after data loading.
 
-![DSViewer Data #1](/../src/content/blog/en/images/Viewer_Corrosion_data_Tomoview_비교_20220509_slide003_5.png)
+![DSViewer Data #1](/images/blog/en/Viewer_Corrosion_data_Tomoview_비교_20220509_slide003_5.png)
 - **DSViewer Interface:** A-scan signals can be clearly observed and positions identified by adjusting the cursor.
 
-![Third-party Data #1](/../src/content/blog/en/images/Viewer_Corrosion_data_Tomoview_비교_20220509_slide003_4.png)
+![Third-party Data #1](/images/blog/en/Viewer_Corrosion_data_Tomoview_비교_20220509_slide003_4.png)
 - **Third-party Interface**
 
 ---
@@ -39,10 +39,10 @@ Comparison of initial defect capturing capabilities immediately after data loadi
 
 Comparison of defect boundary detection and signal clarity.
 
-![DSViewer Data #2](/../src/content/blog/en/images/Viewer_Corrosion_data_Tomoview_비교_20220509_slide004_7.png)
+![DSViewer Data #2](/images/blog/en/Viewer_Corrosion_data_Tomoview_비교_20220509_slide004_7.png)
 - **DSViewer Interface**
 
-![Third-party Data #2](/../src/content/blog/en/images/Viewer_Corrosion_data_Tomoview_비교_20220509_slide004_6.png)
+![Third-party Data #2](/images/blog/en/Viewer_Corrosion_data_Tomoview_비교_20220509_slide004_6.png)
 - **Third-party Interface**
 
 ---
@@ -51,10 +51,10 @@ Comparison of defect boundary detection and signal clarity.
 
 Results of investigating local corrosion status at specific points.
 
-![DSViewer Data #4](/../src/content/blog/en/images/Viewer_Corrosion_data_Tomoview_비교_20220509_slide006_11.png)
+![DSViewer Data #4](/images/blog/en/Viewer_Corrosion_data_Tomoview_비교_20220509_slide006_11.png)
 - **DSViewer Analysis View**
 
-![Third-party Data #4](/../src/content/blog/en/images/Viewer_Corrosion_data_Tomoview_비교_20220509_slide006_10.png)
+![Third-party Data #4](/images/blog/en/Viewer_Corrosion_data_Tomoview_비교_20220509_slide006_10.png)
 - **Third-party Analysis View**
 
 ---
@@ -65,7 +65,7 @@ Results of investigating local corrosion status at specific points.
 2. **Gate Consistency:** Analysis results according to A and B gate settings are very similar to third-party systems, proving data reliability.
 3. **Analysis Precision:** When comparing B-A values of specific data (Data #4), minute differences were observed between the two programs, showing that DSViewer's sensitivity processing method is very detailed.
 
-![DSViewer Comparison Summary](/../src/content/blog/en/images/Viewer_Corrosion_data_Tomoview_비교_20220509_slide007_13.png)
-![Third-party Comparison Summary](/../src/content/blog/en/images/Viewer_Corrosion_data_Tomoview_비교_20220509_slide007_12.png)
+![DSViewer Comparison Summary](/images/blog/en/Viewer_Corrosion_data_Tomoview_비교_20220509_slide007_13.png)
+![Third-party Comparison Summary](/images/blog/en/Viewer_Corrosion_data_Tomoview_비교_20220509_slide007_12.png)
 
 **DSViewer** is a powerful tool optimized for precisely analyzing massive amounts of data collected in the field and generating reports from the office.

@@ -11,7 +11,7 @@ image: "/images/blog/ko/test-specimen.png"
 
 ## Test Specimen and Procedure
 
-![테스트 시편 데이터](/../src/content/blog/ko/images/test-specimen.png)
+![테스트 시편 데이터](/images/blog/en/test-specimen.png)
 - **테스트 시편 데이터**
 
 1. **소프트웨어:** DSVision
@@ -38,21 +38,21 @@ image: "/images/blog/ko/test-specimen.png"
 
 - S-scan 이미지를 참조하여 웨지의 위치를 이동시키면서 결함의 위치를 정확하게 찾아냅니다.
 
-![결함 위치 확인](/../src/content/blog/ko/images/defect-location-1.jpg)
+![결함 위치 확인](/images/blog/en/defect-location-1.jpg)
 - **결함 위치 확인**
 
-![결함 아이콘](/../src/content/blog/ko/images/defect-icon.png)
-![웨지 정면 결함 이미지](/../src/content/blog/ko/images/defect-image.png)
+![결함 아이콘](/images/blog/en/defect-icon.png)
+![웨지 정면 결함 이미지](/images/blog/en/defect-image.png)
 - **웨지 바로 정면에 위치한 결함 이미지**
 
 ---
 
 ## Interpreting Image Data
 
-![결함 S-Scan 검사](/../src/content/blog/ko/images/s-scan-1.png)
+![결함 S-Scan 검사](/images/blog/en/s-scan-1.png)
 - **결함의 S-Scan 검사**
 
-![UT 파형 다이어그램](/../src/content/blog/ko/images/ut-signal-diagram.png)
+![UT 파형 다이어그램](/images/blog/en/ut-signal-diagram.png)
 - **시편을 통해 전파되는 UT 신호 다이어그램**
 
 | 검출된 상단 부분 깊이 (mm) | 검출된 하단 부분 깊이 (mm) |
@@ -66,13 +66,13 @@ image: "/images/blog/ko/test-specimen.png"
 
 ## Shapes of Defects
 
-![드릴 구멍 결함](/../src/content/blog/ko/images/smooth-defect.png)
+![드릴 구멍 결함](/images/blog/en/smooth-defect.png)
 - **뚜렷한 반사체가 부족한 드릴 구멍 결함**
 
-![반사체 결함](/../src/content/blog/ko/images/clear-reflector-defect.png)
+![반사체 결함](/images/blog/en/clear-reflector-defect.png)
 - **뚜렷한 반사체를 가진 결함**
 
-![반사체 S-Scan 이미지](/../src/content/blog/ko/images/s-scan-reflector.png)
+![반사체 S-Scan 이미지](/images/blog/en/s-scan-reflector.png)
 - **반사체를 가진 결함의 해당 S-Scan 이미지**
 
 - **1.** 상기 드릴 구멍과 같이 반사체가 뚜렷하지 않은 매끄러운 결함의 이미지를 정확하게 포착하는 것은 본질적으로 어렵습니다. 이는 프로브가 매끄러운 표면에서 일정하게 튕겨 나가는 초음파를 효과적으로 감지할 수 없기 때문입니다.
@@ -82,10 +82,10 @@ image: "/images/blog/ko/test-specimen.png"
 
 ## Conclusion
 
-![식별이 어려운 인공 결함](/../src/content/blog/ko/images/artificial-defect.png)
+![식별이 어려운 인공 결함](/images/blog/en/artificial-defect.png)
 - **식별이 어려운 인공 시편 결함**
 
-![식별이 쉬운 자연 결함](/../src/content/blog/ko/images/natural-defect.png)
+![식별이 쉬운 자연 결함](/images/blog/en/natural-defect.png)
 - **식별이 쉬운 자연적으로 형성된 결함**
 
 - **1.** 테스트 시편에 정밀하게 가공된 인공 결함은 매끄러운 기하학적 구조 때문에 정확하게 탐지하고 이미징하는 것이 특히 어려울 수 있습니다. 그러나 자연적으로 발생한 결함은 매우 불규칙하고 다방향적인 형상을 갖는 경향이 있어, 본질적으로 더 강력하고 일관된 반사 신호를 프로브로 되돌려 보냅니다. 따라서 이러한 자연 발생 결함은 S-scan 이미지 내에서 훨씬 더 정확하고 정의된 형상으로 나타납니다.

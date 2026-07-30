@@ -34,23 +34,23 @@
 - Unzip the installation file (.zip), copy the entire program folder to a USB drive, and insert it into the USB hub on the right side of the device.
 - Connect a keyboard and mouse to the dedicated ports or USB hub for operation and access the standard Windows 10 desktop interface.
 <div align="center">
-  <img src="/images/03_resources/kor-install_program/images/2.png" width="600">
+  <img src="/images/03_Resources/kor-install_program/images/2.png" width="600">
   <p><Preparing USB Drive and Installation Folder></p>
 </div>
 - Before starting the installation, right-click the active program icon in the taskbar and select 'Close window' to terminate all currently running programs.
 <div align="center">
-  <img src="/images/03_resources/kor-install_program/images/4.png" width="600">
+  <img src="/images/03_Resources/kor-install_program/images/4.png" width="600">
   <p><Checking Termination of Running Programs></p>
 </div>
 - Double-click the installation file (e.g., DSVision_Setup.exe) on the USB drive, and click the 'Install' button in the installation window to proceed.
 - When the message for specifying the installation path appears, keep the default settings and click 'Next' to complete the installation.
 <div align="center">
-  <img src="/images/03_resources/kor-install_program/images/5.png" width="600">
+  <img src="/images/03_Resources/kor-install_program/images/5.png" width="600">
   <p><Running and Proceeding with Installation Program></p>
 </div>
 - Reboot the device after installation is complete; the program will run automatically. Finally, verify the update by checking the software version number at the bottom right of the screen.
 <div align="center">
-  <img src="/images/03_resources/kor-install_program/images/6.png" width="600">
+  <img src="/images/03_Resources/kor-install_program/images/6.png" width="600">
   <p><Verifying Software Version></p>
 </div>
 
@@ -58,30 +58,30 @@
 - This device is configured to run the software automatically upon system startup. If manual configuration is needed, follow these steps:
 - Press 'Windows Key + R' on the keyboard to open the Run window, and type shell:startup in the input box to open the 'Startup' folder.
 <div align="center">
-  <img src="/images/03_resources/korhow-to-register-a-program-for-automatic-startup/image/3.png" width="600">
+  <img src="/images/03_Resources/korhow-to-register-a-program-for-automatic-startup/image/3.png" width="600">
   <p><Typing shell:startup in Run Window></p>
 </div>
 - Navigate to the folder where the software is installed and create a shortcut for the executable file (DSVision.exe).
 <div align="center">
-  <img src="/images/03_resources/korhow-to-register-a-program-for-automatic-startup/image/4.png" width="600">
+  <img src="/images/03_Resources/korhow-to-register-a-program-for-automatic-startup/image/4.png" width="600">
   <p><Example of Executable File Image></p>
 </div>
 <div align="center">
-  <img src="/images/03_resources/korhow-to-register-a-program-for-automatic-startup/image/5.png" width="600">
+  <img src="/images/03_Resources/korhow-to-register-a-program-for-automatic-startup/image/5.png" width="600">
   <p><Process of Creating Shortcut on Desktop></p>
 </div>
 - Copy the shortcut file created on the desktop and paste it into the 'Startup' folder window opened earlier.
 <div align="center">
-  <img src="/images/03_resources/korhow-to-register-a-program-for-automatic-startup/image/7.png" width="150">
+  <img src="/images/03_Resources/korhow-to-register-a-program-for-automatic-startup/image/7.png" width="150">
   <p><Copying and Moving Shortcut Icon></p>
 </div>
 <div align="center">
-  <img src="/images/03_resources/korhow-to-register-a-program-for-automatic-startup/image/8.png" width="300">
+  <img src="/images/03_Resources/korhow-to-register-a-program-for-automatic-startup/image/8.png" width="300">
   <p><Pasting into Startup Folder></p>
 </div>
 - Ensure all settings are finished and registration in the system folder is complete.
 <div align="center">
-  <img src="/images/03_resources/korhow-to-register-a-program-for-automatic-startup/image/9.png" width="600">
+  <img src="/images/03_Resources/korhow-to-register-a-program-for-automatic-startup/image/9.png" width="600">
   <p><Completion of Startup Folder Registration></p>
 </div>
 - Reboot the system to finaly verify that the program activates automatically.
@@ -155,7 +155,7 @@ The menu of the DSVision program consists of four areas—Top, Bottom, Left, and
 - **Inspection Optimization**: The software automatically optimizes and displays the screen configuration based on the selected inspection mode (PA, TOFD, Conventional).
 
 <div align="center">
-  <img src="/images/03_resources/image/manual/toolbar/main-view.png" width="600">
+  <img src="/images/03_Resources/Image/manual/toolbar/main-view.png" width="600">
   <p>DSVision Main Screen Configuration</p>
 </div>
 
@@ -184,7 +184,7 @@ Each toolbar in the software is placed in an optimized position by function, all
 The top toolbar is an area for real-time monitoring of core values and system status during inspection. It is configured so that inspectors can check major parameters or immediately adjust Gain while analyzing center images.
 
 <div align="center">
-  <img src="/images/03_resources/image/manual/toolbar/top-toolbar.png" width="600">
+  <img src="/images/03_Resources/Image/manual/toolbar/top-toolbar.png" width="600">
   <p>Top Toolbar Configuration Overview</p>
 </div>
 
@@ -194,7 +194,7 @@ A function to adjust the amplification of the inspection signal in real-time.
 - **Fine Control**: Provides the ability to finely adjust in 0.1 dB increments within a maximum 10 dB range or quickly increase/decrease values in 6 dB increments.
 
 <div align="center">
-  <img src="/images/03_resources/kor-program_introduction/images/16.png" width="400">
+  <img src="/images/03_Resources/kor-program_introduction/images/16.png" width="400">
   <p>Gain Control Keypad Screen</p>
 </div>
 
@@ -207,7 +207,7 @@ Outputs real-time measurement information of the signal captured based on the ac
 - **Sound Path (S - Beam Path)**: The actual physical distance traveled by the sound beam to the signal reflector.
 
 <div align="center">
-  <img src="/images/03_resources/kor-program_introduction/images/15.png" width="600">
+  <img src="/images/03_Resources/kor-program_introduction/images/15.png" width="600">
   <p>Gate Measurement Information Panel</p>
 </div>
 
@@ -217,7 +217,7 @@ Monitors real-time position information transmitted from the current scanner or 
 - **Warning Status**: If measured values exceed pre-set inspection ranges or an anomaly occurs in the encoder signal, the numerical display area is highlighted in red to provide a visual warning.
 
 <div align="center">
-  <img src="/images/03_resources/kor-program_introduction/images/slide_74_img_15.png" width="400">
+  <img src="/images/03_Resources/kor-program_introduction/images/slide_74_img_15.png" width="400">
   <p>Encoder Position and Warning Notification</p>
 </div>
 
@@ -225,7 +225,7 @@ Monitors real-time position information transmitted from the current scanner or 
 The left toolbar is the area for controlling major operational functions and configuring system environment. Inspectors can operate inspection status while keeping an eye on real-time data on the center screen. The toolbar includes functions for starting and stopping inspections, Auto Gain, and screen zoom or full-screen mode for detailed analysis.
 
 <div align="center">
-  <img src="/images/03_resources/image/manual/toolbar/left-toolbar.png" width="50">
+  <img src="/images/03_Resources/Image/manual/toolbar/left-toolbar.png" width="50">
   <p>Left Toolbar Configuration</p>
 </div>
 
@@ -233,25 +233,25 @@ The left toolbar is the area for controlling major operational functions and con
 Calls up system settings and various data management menus.
 
 <div align="center">
-  <img src="/images/03_resources/eng-program_introduction/images/12.png" width="50">
+  <img src="/images/03_Resources/eng-program_introduction/images/12.png" width="50">
   <p>Preferences Icon</p>
 </div>
 
 * **Setup**: A menu to manage parameter setting values. Performs **Save** (save current settings to internal drive), **Load** (load saved setting files), **Delete**, and **Copy** (copy files to external USB).
 <div align="center">
-  <img src="/images/03_resources/eng-program_introduction/images/slide_50_img_10.png" width="600">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_50_img_10.png" width="600">
   <p>Setup Configuration Screen</p>
 </div>
 
 * **Image**: Manages the list of images saved through the Screen Shot function. Provides a preview when an image is selected, and allows for **Copy** to USB or **Delete**.
 <div align="center">
-  <img src="/images/03_resources/eng-program_introduction/images/slide_51_img_15.png" width="600">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_51_img_15.png" width="600">
   <p>Image Management Screen</p>
 </div>
 
 * **Data**: Manages the list of acquired raw inspection data. Supports data preview and includes **Copy** to USB, **Delete**, and **Open Viewer** functions. It also displays the remaining storage capacity of the device's internal drive.
 <div align="center">
-  <img src="/images/03_resources/eng-program_introduction/images/slide_52_img_19.png" width="600">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_52_img_19.png" width="600">
   <p>Data Management Screen</p>
 </div>
 
@@ -261,7 +261,7 @@ Calls up system settings and various data management menus.
     - **Information**: Check hardware specifications and software version.
     - **Minimize**: Minimizes the program and switches to the Windows 10 desktop.
 <div align="center">
-  <img src="/images/03_resources/eng-program_introduction/images/slide_54_img_6.png" width="600">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_54_img_6.png" width="600">
   <p>Device Configuration Screen</p>
 </div>
 
@@ -269,7 +269,7 @@ Calls up system settings and various data management menus.
 Controls real-time data acquisition and recording modes.
 
 <div align="center">
-  <img src="/images/03_resources/eng-program_introduction/images/slide_57_img_15.png" width="400">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_57_img_15.png" width="400">
   <p>List Configuration During Inspection Save</p>
 </div>
 
@@ -278,7 +278,7 @@ Controls real-time data acquisition and recording modes.
 * **Stop**: Active only during inspection mode. Terminating data acquisition brings up a window to name the file and finally save the acquired data.
 
 <div align="center">
-  <img src="/images/03_resources/eng-program_introduction/images/13.png" width="300">
+  <img src="/images/03_Resources/eng-program_introduction/images/13.png" width="300">
   <p>Example of Active Inspection Mode</p>
 </div>
 
@@ -286,7 +286,7 @@ Controls real-time data acquisition and recording modes.
 Immediately saves the entire current display, including the center screen area, as an image file.
 
 <div align="center">
-  <img src="/images/03_resources/eng-program_introduction/images/slide_59_img_5.png" width="100">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_59_img_5.png" width="100">
   <p>Screen Shot Icon</p>
 </div>
 
@@ -295,7 +295,7 @@ Immediately saves the entire current display, including the center screen area, 
 * **Default Save Path**: `C:\DEEPSOUND\DSVision\Bin\RES\User\Image`
 
 <div align="center">
-  <img src="/images/03_resources/eng-program_introduction/images/slide_59_img_11.png" width="500">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_59_img_11.png" width="500">
   <p>Saved Image Verification Screen</p>
 </div>
 
@@ -303,7 +303,7 @@ Immediately saves the entire current display, including the center screen area, 
 Immediately adjusts the amplitude of the measured signal to a pre-set target value.
 
 <div align="center">
-  <img src="/images/03_resources/eng-program_introduction/images/slide_61_img_4.png" width="100">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_61_img_4.png" width="100">
   <p>Auto Gain Icon</p>
 </div>
 
@@ -315,8 +315,8 @@ Immediately adjusts the amplitude of the measured signal to a pre-set target val
 - **Usage**: Normalizes the signal to a standard height required by specifications with a single click, eliminating the need to manually adjust Gain multiple times.
 
 <div align="center">
-  <img src="/images/03_resources/eng-program_introduction/images/slide_61_img_15.png" width="250">
-  <img src="/images/03_resources/eng-program_introduction/images/slide_61_img_17.png" width="250">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_61_img_15.png" width="250">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_61_img_17.png" width="250">
   <p>Comparison Before (Left) and After (Right) applying Auto Gain</p>
 </div>
 
@@ -324,7 +324,7 @@ Immediately adjusts the amplitude of the measured signal to a pre-set target val
 Performs detailed analysis by zooming into specific screen areas or restoring them to their initial state.
 
 <div align="center">
-  <img src="/images/03_resources/eng-program_introduction/images/14.png" width="400">
+  <img src="/images/03_Resources/eng-program_introduction/images/14.png" width="400">
   <p>Zoom and Reset Icons</p>
 </div>
 
@@ -336,7 +336,7 @@ Performs detailed analysis by zooming into specific screen areas or restoring th
 Maximizes visibility during defect detection and precision measurement by extending the center data output area to the full screen.
 
 <div align="center">
-  <img src="/images/03_resources/eng-program_introduction/images/slide_65_img_19.png" width="100">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_65_img_19.png" width="100">
   <p>Full Screen Icon</p>
 </div>
 
@@ -345,7 +345,7 @@ Maximizes visibility during defect detection and precision measurement by extend
 * **How to Exit**: Click the **Exit** icon displayed at the bottom right of the screen to return to the original view.
 
 <div align="center">
-  <img src="/images/03_resources/eng-program_introduction/images/slide_65_img_31.png" width="600">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_65_img_31.png" width="600">
   <p>Active Full Screen Mode</p>
 </div>
 
@@ -353,7 +353,7 @@ Maximizes visibility during defect detection and precision measurement by extend
 Displays an information box on the screen to check all measurement indicators and detailed data for the active Gate at a glance.
 
 <div align="center">
-  <img src="/images/03_resources/eng-program_introduction/images/slide_67_img_5.png" width="100">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_67_img_5.png" width="100">
   <p>Information Box Icon</p>
 </div>
 
@@ -363,7 +363,7 @@ Displays an information box on the screen to check all measurement indicators an
 * **How to Exit**: Click the **X** button at the top right of the information box to hide it from the screen.
 
 <div align="center">
-  <img src="/images/03_resources/eng-program_introduction/images/slide_67_img_15.png" width="600">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_67_img_15.png" width="600">
   <p>Active Information Box Screen</p>
 </div>
 
@@ -371,7 +371,7 @@ Displays an information box on the screen to check all measurement indicators an
 The right configuration toolbar is the area for setting and controlling all detailed software parameters. All numerical values required for inspection—from ultrasound generation settings to test object information and gate management—are input and adjusted here.
 
 <div align="center">
-  <img src="/images/03_resources/image/manual/toolbar/asset.png" width="600">
+  <img src="/images/03_Resources/Image/manual/toolbar/asset.png" width="600">
   <p>Configuration of Right Toolbar and 9 Functional Groups</p>
 </div>
 
@@ -391,7 +391,7 @@ The right configuration toolbar is the area for setting and controlling all deta
 This is the most basic control panel for the device, where the inspector determines the depth (Depth) to be viewed and the physical intensity (Voltage) of the signal. Like adjusting zoom and brightness on a camera, this parameter group sets the optimal viewing environment before starting an inspection.
 
 <div align="center">
-  <img src="/images/03_resources/eng-program_introduction/images/slide_8_img_3.png" width="400">
+  <img src="/images/03_Resources/eng-program_introduction/images/slide_8_img_3.png" width="400">
   <p>General Settings Components</p>
 </div>
 
@@ -405,12 +405,12 @@ This is the most basic control panel for the device, where the inspector determi
     - **Image Sharpness**: Defect shapes are observed more sharply and clearly on the S-Scan, increasing interpretation accuracy.
 
 <div align="center">
-  <img src="/images/03_resources/image/manual/focus-position/position-25mm.png" width="400">
+  <img src="/images/03_Resources/Image/manual/focus-position/position-25mm.png" width="400">
   <p>25mm Setting: Captures sharp surface defects by focusing on shallow depths</p>
 </div>
 
 <div align="center">
-  <img src="/images/03_resources/image/manual/focus-position/position-70mm.png" width="400">
+  <img src="/images/03_Resources/Image/manual/focus-position/position-70mm.png" width="400">
   <p>70mm Setting: Enhances internal resolution of thick base metals by focusing on deep levels</p>
 </div>
 
@@ -443,12 +443,12 @@ Compensates for the time ultrasound travels through the wedge to accurately calc
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_resources/image/manual/wedgedelay/wedgedelay_0us.png" width="400">
+    <img src="/images/03_Resources/Image/Manual/Wedgedelay/Wedgedelay_0us.png" width="400">
     <div align="center">Before Correction (0.0µs): Signal appears shallower than actual position</div>
   </div>
   <!-- slide -->
   <div align="center">
-    <img src="/images/03_resources/image/manual/wedgedelay/wedgedelay_8us.png" width="400">
+    <img src="/images/03_Resources/Image/Manual/Wedgedelay/Wedgedelay_8us.png" width="400">
     <div align="center">After Correction (0.8µs): Signal accurately aligned with actual physical depth</div>
   </div>
 </div>
@@ -460,12 +460,12 @@ Adjusts the temporal duration of electrical energy applied to the transducer.
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_resources/image/manual/pulse-width/probe-pulse-width.png" width="400">
+    <img src="/images/03_Resources/Image/manual/pulse-width/probe-pulse-width.png" width="400">
     <div align="center">Matched: Secured sharp and clear signals even with low Gain (42.2dB)</div>
   </div>
   <!-- slide -->
   <div align="center">
-    <img src="/images/03_resources/image/manual/pulse-width/probe-pulse-width.png" width="400">
+    <img src="/images/03_Resources/Image/manual/pulse-width/probe-pulse-width.png" width="400">
     <div align="center">Mismatched: Signal weakens, requiring high Gain (56.9dB) and increasing noise</div>
   </div>
 </div>
@@ -717,7 +717,7 @@ A function to divide hardware resources to build and manage multiple independent
   - **Integrity Rule**: If only a single channel remains in the project, the **Remove** button is automatically grayed out and disabled to maintain project integrity.
 
 <div align="center">
-  <img src="/images/03_resources/kor-program_introduction/images/slide_39_img_10.png" width="150">
+  <img src="/images/03_Resources/kor-program_introduction/images/slide_39_img_10.png" width="150">
   <p>Channel Addition and Management Menu</p>
 </div>
 
@@ -731,7 +731,7 @@ To effectively configure multi-channels, it is essential to define which physica
 Dynamically adjusts analysis screen configuration through various viewing templates. Screen combinations such as A, B, S, and C-Scan can be selected based on inspection situations, and data from each channel can be efficiently arranged and monitored during multi-channel operation.
 
 <div align="center">
-  <img src="/images/03_resources/kor-program_introduction/images/slide_41_img_3.png" width="150">
+  <img src="/images/03_Resources/kor-program_introduction/images/slide_41_img_3.png" width="150">
   <p>Layout Template Selection Screen</p>
 </div>
 
@@ -745,7 +745,7 @@ Dynamically adjusts analysis screen configuration through various viewing templa
 * **Multi-Channel Layout Management**: Adding or duplicating channels automatically allocates their data to the layout grid. Allows simultaneous visualization of data from multiple groups, and displays the A-Scan associated with each channel group as default to reduce screen complexity.
 
 <div align="center">
-  <img src="/images/03_resources/kor-program_introduction/images/slide_41_img_12.png" width="150">
+  <img src="/images/03_Resources/kor-program_introduction/images/slide_41_img_12.png" width="150">
   <p>Example of Multi-Channel Layout Application</p>
 </div>
 
@@ -759,7 +759,7 @@ A procedure to accurately synchronize the unique sound velocity of each inspecti
 *   **Result**: Calculated sound velocity is automatically applied to the system and the **V** indicator at the bottom lights up.
 
 <div align="center">
-  <img src="/images/03_resources/kor-program_introduction/images/slide_43_img_10.png" width="450">
+  <img src="/images/03_Resources/kor-program_introduction/images/slide_43_img_10.png" width="450">
   <p>Velocity Calibration: Automatic Material Sound Velocity Calculation via High-Resolution Time Analysis</p>
 </div>
 
@@ -769,7 +769,7 @@ Compensates for time differences between ultrasound emitted from each element of
 *   **Result**: Clicking **Finish** applies delay values per element and lights up the **W** indicator. Signals across all angles are now aligned with actual physical depth.
 
 <div align="center">
-  <img src="/images/03_resources/kor-program_introduction/images/9.png" width="450">
+  <img src="/images/03_Resources/kor-program_introduction/images/9.png" width="450">
   <p>Wedge Delay Calibration: Visual Alignment Process to Match Zero-points of All Beam Angles</p>
 </div>
 
@@ -779,7 +779,7 @@ Compensates for minute sensitivity differences due to element-specific character
 *   **Result**: The **S** indicator lights up, and defect size can be evaluated with consistent sensitivity regardless of detection angle.
 
 <div align="center">
-  <img src="/images/03_resources/kor-program_introduction/images/10.png" width="450">
+  <img src="/images/03_Resources/kor-program_introduction/images/10.png" width="450">
   <p>Sensitivity Calibration: Sensitivity Flattening to Secure Uniform Signal Response Performance Across All Angles</p>
 </div>
 
@@ -790,7 +790,7 @@ Compensates for the physical phenomenon where ultrasonic energy attenuates as it
 *   **Result**: The **T** indicator lights up, and sensitivity differences due to depth are perfectly compensated.
 
 <div align="center">
-  <img src="/images/03_resources/kor-program_introduction/images/slide_46_img_17.png" width="450">
+  <img src="/images/03_Resources/kor-program_introduction/images/slide_46_img_17.png" width="450">
   <p>TCG Calibration: Digital Gain Control Curve Design to Compensate for Attenuation by Depth and Angle</p>
 </div>
 
@@ -801,7 +801,7 @@ A procedure to match physical transducer travel distance with software coordinat
 *   **Result**: Digital coordinates and actual physical scan positions are perfectly synchronized.
 
 <div align="center">
-  <img src="/images/03_resources/kor-program_introduction/images/slide_47_img_3.png" width="450">
+  <img src="/images/03_Resources/kor-program_introduction/images/slide_47_img_3.png" width="450">
   <p>Encoder Calibration: Real-time Synchronization of Physical Travel Distance and Digital Pulses</p>
 </div>
 
@@ -822,7 +822,7 @@ Displays icons for current battery level (%) and power connection (charging) sta
 *   **Temperature**: Displays current internal temperature of the device to monitor operating environment.
 
 <div align="center">
-  <img src="/images/03_resources/image/manual/toolbar/bottom-toolbar.png" width="600">
+  <img src="/images/03_Resources/Image/manual/toolbar/bottom-toolbar.png" width="600">
   <p>Status Monitoring via Bottom Toolbar (V, W, S, T Indicators and System Info)</p>
 </div>
 
@@ -912,12 +912,12 @@ When cursors are active, the distance difference between them is displayed as **
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_resources/image/manual/cursor/cursor.png" width="600">
+    <img src="/images/03_Resources/Image/manual/cursor/cursor.png" width="600">
     <div align="center">Cursors Inactive: Only overall signal flow can be grasped</div>
   </div>
   <!-- slide -->
   <div align="center">
-    <img src="/images/03_resources/image/manual/cursor/cursor.png" width="600">
+    <img src="/images/03_Resources/Image/manual/cursor/cursor.png" width="600">
     <div align="center">Cursors Active: Precision defect size calculation via ΔH, ΔV values</div>
   </div>
 </div>

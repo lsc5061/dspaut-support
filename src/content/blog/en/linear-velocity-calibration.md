@@ -15,7 +15,7 @@ If defect locations appear inaccurate during Linear Scan inspection, you should 
 
 Since velocity varies depending on the temperature and composition of the medium, you must prepare a **calibration block made of the same material as the inspection target**.
 
-![Preparation of Calibration Block](/../src/content/blog/en/images/Linear_Velocity_slide002_98.png)
+![Preparation of Calibration Block](/images/blog/en/Linear_Velocity_slide002_98.png)
 
 ---
 
@@ -26,7 +26,7 @@ If the velocity set in the equipment differs from the actual material velocity, 
 - **Reference:** 0.5 Skip (25 mm) / 1.0 Skip (50 mm)
 - **Correct Interval:** 25 mm
 
-![Example of Velocity Mismatch](/../src/content/blog/en/images/Linear_Velocity_1.png)
+![Example of Velocity Mismatch](/images/blog/en/Linear_Velocity_1.png)
 
 ---
 
@@ -35,22 +35,22 @@ If the velocity set in the equipment differs from the actual material velocity, 
 ### 1. Entering the Calibration Page
 Navigate to the dedicated **Velocity Calibration** page according to the setup sequence in the menu.
 
-![Entering the Page](/../src/content/blog/en/images/Linear_Velocity_12.png)
+![Entering the Page](/images/blog/en/Linear_Velocity_12.png)
 
 ### 2. Setting Parameters and Reference Values
 After adjusting Depth Range, Gain, etc., for precise signal capture, input the actual physical position values **Ref A (25 mm)** and **Ref B (50 mm)**.
 
-![Setting Reference Values](/../src/content/blog/en/images/Linear_Velocity_6.png)
+![Setting Reference Values](/images/blog/en/Linear_Velocity_6.png)
 
 ### 3. Gate Alignment and Data Verification
 Position the A gate and B gate at the 0.5 Skip and 1.0 Skip signals, respectively. At this time, the detected position values (SA, SB) are displayed on the screen in real-time.
 
-![Gate Alignment](/../src/content/blog/en/images/Linear_Velocity_7.png)
+![Gate Alignment](/images/blog/en/Linear_Velocity_7.png)
 
 ### 4. Updating Velocity (Calibrate)
 Click the **Calibrate** button, and the software will immediately update the material velocity based on the input reference values. After the update, SA and SB values will be aligned exactly 25 mm apart.
 
-![Checking Calibration Results](/../src/content/blog/en/images/Linear_Velocity_8.png)
+![Checking Calibration Results](/images/blog/en/Linear_Velocity_8.png)
 
 ---
 
@@ -58,6 +58,6 @@ Click the **Calibrate** button, and the software will immediately update the mat
 
 When all processes are finished, press **Finish** to save the settings. The **'V'** among the status display labels at the bottom of the screen will be activated in orange, indicating that calibration has been successfully completed.
 
-![Linear Velocity Calibration Complete](/../src/content/blog/en/images/Linear_Velocity_9.png)
+![Linear Velocity Calibration Complete](/images/blog/en/Linear_Velocity_9.png)
 
 Accurate linear velocity calibration ensures the accuracy of linear scan imaging and significantly reduces the risk of misjudging defect locations in complex weld inspections.

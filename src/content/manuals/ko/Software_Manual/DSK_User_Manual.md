@@ -134,7 +134,7 @@ DSK 프로그램은 C#으로 구성 되어 있습니다. 개발을 위해 해당
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image1.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image1.png)
 
 
 #### 2.1.2 Log2console 설치 방법
@@ -143,7 +143,7 @@ Log2console 프로그램은 DSK 개발 시 중요한 역할을 하고 있습니�
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image2.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image2.png)
 
 
 **Log2console 프로그램 기본 설정 방법:**
@@ -152,7 +152,7 @@ Log2console 프로그램 설치 후 실행 시 기본 설정을 하라는 문구
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image3.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image3.png)
 
 
 **#1** 상단 Tool에 버튼 클릭
@@ -161,21 +161,21 @@ Log2console 프로그램 설치 후 실행 시 기본 설정을 하라는 문구
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image4.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image4.png)
 
 
 **#3** Add 클릭
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image5.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image5.png)
 
 
 **#4** `"UDP (IP v4 and v6) / WinDebug (OutputDebugString)"` 각각 선택하여 목록 추가
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image6.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image6.png)
 
 
 #### 2.1.3 Vcredist 설치 방법
@@ -186,7 +186,7 @@ Visual Studio 2017를 권장하고 있으며, 설치 시 발생 되는 문제를
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image7.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image7.png)
 
 
 ### 2.2 프로그램 설치하기
@@ -197,21 +197,21 @@ Visual Studio 2017를 권장하고 있으며, 설치 시 발생 되는 문제를
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image8.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image8.png)
 
 
 **Next** → **Install** 버튼을 클릭 → 완료 **Close** 클릭
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image9.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image9.png)
 
 
 완료 후 DEEPSOUND 설치 된 폴더 경로에 **DskTutorial** 폴더 생성
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image10.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image10.png)
 
 
 ### 2.3 폴더 설명
@@ -220,7 +220,7 @@ DSK 설치가 완료 되면 아래 이미지와 같은 폴더가 생성 됩니�
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image11.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image11.png)
 
 
 | 폴더 이름 | 내용 |
@@ -246,21 +246,21 @@ DSK 설치가 완료 되면 아래 이미지와 같은 폴더가 생성 됩니�
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image12.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image12.png)
 
 
 **#2** Visual Studio 상단 Tool **"파일"** 목록 클릭 후 열기 → **프로젝트 / 솔루션 (Ctrl+Shift+O)** 클릭
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image13.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image13.png)
 
 
 **#3** 프로젝트 열기 생성창에서 DskTutorial 폴더 안 **DskTutorial.sln** 파일 클릭
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image14.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image14.png)
 
 
 ### 3.2 TUTORIAL 2: 프로그램 빌드 방법
@@ -269,14 +269,14 @@ DSK 설치가 완료 되면 아래 이미지와 같은 폴더가 생성 됩니�
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image15.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image15.png)
 
 
 진행에 앞서 상단 Tool 목록 중 빌드를 선택 후 솔루션 다시 빌드를 실행하여 등록을 완료합니다.
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image16.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image16.png)
 
 
 ### 3.3 TUTORIAL 3: 프로젝트 별 사용법 및 실행 방법
@@ -293,8 +293,8 @@ DSK 프로그램을 사용하기 앞서 USB Cable 연결 및 Network 연결 상�
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image17.png)
-![](/images/03_resources/image/dsk_user_manual_media/image18.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image17.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image18.png)
 
 
 **UI 불러오는 방법**
@@ -303,7 +303,7 @@ DSK 프로그램을 사용하기 앞서 USB Cable 연결 및 Network 연결 상�
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image19.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image19.png)
 
 
 **UI 화면 구성 설명**
@@ -323,7 +323,7 @@ DSK 프로그램을 사용하기 앞서 USB Cable 연결 및 Network 연결 상�
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image20.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image20.png)
 
 
 **UI 화면 구성 설명**
@@ -334,7 +334,7 @@ DSK 프로그램을 사용하기 앞서 USB Cable 연결 및 Network 연결 상�
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image21.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image21.png)
 
 
 - **Freeze:** 클릭 시 프로그램 멈추는 기능입니다.
@@ -347,7 +347,7 @@ DSK 프로그램을 사용하기 앞서 USB Cable 연결 및 Network 연결 상�
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image22.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image22.png)
 
 
 **UI 화면 구성 설명**
@@ -358,7 +358,7 @@ DSK 프로그램을 사용하기 앞서 USB Cable 연결 및 Network 연결 상�
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image23.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image23.png)
 
 
 - **Freeze:** 클릭 시 프로그램 멈추는 기능입니다.
@@ -371,7 +371,7 @@ DSK 프로그램을 사용하기 앞서 USB Cable 연결 및 Network 연결 상�
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image24.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image24.png)
 
 
 **UI 화면 구성 설명**
@@ -382,7 +382,7 @@ DSK 프로그램을 사용하기 앞서 USB Cable 연결 및 Network 연결 상�
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image25.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image25.png)
 
 
 - **Freeze:** 클릭 시 프로그램 멈추는 기능입니다.
@@ -401,7 +401,7 @@ DSK 최종 단계로 여러 목록의 Parameter 값을 적용하여 이미지를
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image26.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image26.png)
 
 
 **UI 화면 구성 설명**
@@ -410,7 +410,7 @@ DSK 최종 단계로 여러 목록의 Parameter 값을 적용하여 이미지를
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image27.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image27.png)
 
 
 - **File:** Load & Save 기능을 사용할 수 있는 목록입니다.
@@ -428,7 +428,7 @@ DSK 최종 단계로 여러 목록의 Parameter 값을 적용하여 이미지를
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image28.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image28.png)
 
 
 - **Gain:** 값에 의해 신호를 컨트롤 할 수 있습니다.
@@ -437,8 +437,8 @@ DSK 최종 단계로 여러 목록의 Parameter 값을 적용하여 이미지를
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image29.png)
-![](/images/03_resources/image/dsk_user_manual_media/image30.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image29.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image30.png)
 
 
 - **Refraction Angle Start, Stop:** Angle의 범위를 설정하는 목록입니다.
@@ -455,7 +455,7 @@ DSK 최종 단계로 여러 목록의 Parameter 값을 적용하여 이미지를
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image31.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image31.png)
 
 
 - **Frequency:** 사용하고 있는 Probe의 주파수를 입력하는 목록입니다.
@@ -472,7 +472,7 @@ DSK 최종 단계로 여러 목록의 Parameter 값을 적용하여 이미지를
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image32.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image32.png)
 
 
 - **Enable:** Wedge를 활성화 해주는 Check 박스 입니다.
@@ -486,7 +486,7 @@ DSK 최종 단계로 여러 목록의 Parameter 값을 적용하여 이미지를
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image33.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image33.png)
 
 
 - **PRF:** 원하는 값을 입력합니다. (Depth에 최소 / 최대에 의해 값이 변동됩니다.)
@@ -502,7 +502,7 @@ DSK 최종 단계로 여러 목록의 Parameter 값을 적용하여 이미지를
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image34.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image34.png)
 
 
 - **Depth Start:** 스캔 범위에 대한 시작 부분을 설정하는 목록입니다.
@@ -516,7 +516,7 @@ Scanner Encoder에 대한 설정을 할 수 있는 목록입니다. Encoder Axis
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image35.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image35.png)
 
 
 - **Encoder Axis Reverse:** Scan Axis / Index Axis를 위치를 전환해주는 Check 박스 입니다.
@@ -537,7 +537,7 @@ Scanner Encoder에 대한 설정을 할 수 있는 목록입니다. Encoder Axis
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image36.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image36.png)
 
 
 - **Check box:** Gate 활성화 시 적용
@@ -559,7 +559,7 @@ DSK에서 사용되는 기본적인 UE (Ultrasound Engineering) Parameter 정의
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image37.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image37.png)
 
 
 #### Vector 수 계산
@@ -586,7 +586,7 @@ Vector count = (Refracted angle end – Refracted angle start) / Resolution + 1
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image38.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image38.png)
 
 
 #### Sample 수 계산
@@ -605,7 +605,7 @@ Sample count = Range (mm) / ( US velocity / Sample frequency / 2 )
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image44.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image44.png)
 
 
 ### Digitizing Index
@@ -624,7 +624,7 @@ DSK는 이런 수치 값을 내부 Table로 구성 되어 있으며, 아래 Digi
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image45.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image45.png)
 
 
 ### Frame 및 Channel Group
@@ -640,14 +640,14 @@ DSK는 이런 수치 값을 내부 Table로 구성 되어 있으며, 아래 Digi
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image48.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image48.png)
 
 
 #### 프레임 생성 (Frame Creation)
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image49.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image49.png)
 
 
 1 Frame은 설정 된 Channel Group 수만큼의 데이터로 구성 되어 있습니다. Channel Group Index의 순서에 맞춰 해당 Channel Group의 `BackEndSampleCountPerVector * Vector` 수만큼의 크기가 순서대로 저장 되어 있습니다.
@@ -656,7 +656,7 @@ DSK는 이런 수치 값을 내부 Table로 구성 되어 있으며, 아래 Digi
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image51.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image51.png)
 
 
 ### Pulse
@@ -669,7 +669,7 @@ Unipolar Pulse Wave는 시간에 따라 극성이 바뀌지 않는 Pulse Wave이
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image52.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image52.png)
 
 
 #### 각 Pulse Width 공식 및 그림
@@ -690,7 +690,7 @@ Unipolar Pulse width = 1 / Pulse Frequency (Hz) / 2
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image54.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image54.png)
 
 
 **#2 Bipolar pulse width:**
@@ -709,14 +709,14 @@ Bipolar Pulse width = 1 / Pulse frequency (Hz)
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image55.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image55.png)
 
 
 ### Burst Count
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image56.jpeg)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image56.jpeg)
 
 
 Burst는 하나의 Pulse wave에서 여러 개의 Count 개수를 늘려서 Wave 신호를 생성하여 수집하는 방법입니다. Rx 에서 echo pulse가 더 강하게 수집이 되기 때문에 초음파 감쇠가 심한 구간을 수집할 때 사용 할 수 있는 기능입니다.
@@ -734,7 +734,7 @@ Focus Type는 각 Vector의 focal law의 Focus Position 설정 방식을 의미 
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image57.jpeg)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image57.jpeg)
 
 
 | Beam Type | Index |
@@ -750,7 +750,7 @@ Focal Plane의 위치 (wedge 기준 점에서 focal plane offset까지)의 의�
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image58.jpeg)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image58.jpeg)
 
 
 ### Scan/Index Encoder
@@ -759,7 +759,7 @@ Focal Plane의 위치 (wedge 기준 점에서 focal plane offset까지)의 의�
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image59.jpeg)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image59.jpeg)
 
 
 DSK 프로그램 에서는 Encoder의 시작 / 정지 및 해상도를 세부적으로 설정 할 수 있으며, 자세한 내용은 아래와 같습니다.
@@ -798,14 +798,14 @@ Project code는 S2.json 파일을 실행 시 입력하는 목록이 있으며, �
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image62.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image62.png)
 
 
 **#2 Project code 입력 목록**
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image63.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image63.png)
 
 
 > **주의:** Project code와 장비가 미 일치 시 정상적으로 프로그램을 실행 할 수 없습니다.
@@ -831,7 +831,7 @@ Project code는 S2.json 파일을 실행 시 입력하는 목록이 있으며, �
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image64.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image64.png)
 
 
 **주의 및 참고 사항:**
@@ -856,7 +856,7 @@ Project code는 S2.json 파일을 실행 시 입력하는 목록이 있으며, �
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image65.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image65.png)
 
 
 #### Encoder Connecter
@@ -885,7 +885,7 @@ Encoder Connecter는 D-SUB DS1033-15F를 사용하고 있습니다.
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image66.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image66.png)
 
 
 ### 5.4 APPENDIX F: NETWORK CONNECTION 설명
@@ -900,7 +900,7 @@ DSK 프로그램은 LAN Cable를 이용하여 원격으로 장비와 Network 연
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image67.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image67.png)
 
 
 **#2 SV.json / S2.json 개념 확인**
@@ -913,7 +913,7 @@ Network를 연결하기 위해서는 각 PC의 IP Address를 입력을 하면 �
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image68.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image68.png)
 
 
 `S2Net.exe` 프로그램은 Network를 이용하여 Host-pc와 연결해주는 역할을 합니다.
@@ -928,7 +928,7 @@ IP Address는 Window 키 + R 키를 동시에 클릭 후 실행창 입력란에 
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image69.jpeg)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image69.jpeg)
 
 
 **#4 SV.json IP Address 입력 방법**
@@ -937,7 +937,7 @@ IP Address는 Window 키 + R 키를 동시에 클릭 후 실행창 입력란에 
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image70.jpeg)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image70.jpeg)
 
 
 **#5 S2.json IP Address 입력 방법**
@@ -946,7 +946,7 @@ IP Address는 Window 키 + R 키를 동시에 클릭 후 실행창 입력란에 
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image71.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image71.png)
 
 
 **#6 S2Net.exe 실행**
@@ -967,22 +967,22 @@ UT Connector는 실행 시 Check 박스를 클릭하여 PAUT에서 UT로 전환�
 
 
 
-![](/images/03_resources/image/dsk_user_manual_media/image72.png)
+![](/images/03_Resources/Image/DSK_User_Manual_Media/image72.png)
 
 
 **#2 장비 별 UT Port 순번 사진**
 
 
 
-![](/images/03_resources/image/t3/t3_top_1.png)
-![](/images/03_resources/image/r5/upload_pending/3.png)
+![](/images/03_Resources/Image/T3/T3_Top_1.png)
+![](/images/03_Resources/Image/R5/upload_pending/3.png)
 
 
 **#3 Port 확인 후 Transmitter / Receiver 설정**
 
 
 
-![](/images/03_resources/image/t3/tofd_1.png)
+![](/images/03_Resources/Image/t3/tofd_1.png)
 
 
 > **중요:** Port 1개만 사용할 경우 Tx / Rx 동일하게 기재 / TOFD로 사용할 경우 Port 2개에 대한 Tx / Rx Port 숫자 기재

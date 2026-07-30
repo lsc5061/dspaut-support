@@ -16,7 +16,7 @@ image: "/images/blog/ko/rv_first.png"
 - 검사하려는 대상 시편과 동일한 재질의 교정 시편 (예: V1 또는 V2 블록)
 - DEEPSOUND P5 장비 및 적절한 프로브/웨지 조합
 
-![교정 시편 준비](/../src/content/blog/ko/images/Radial_Velocity_slide002_100.png)
+![교정 시편 준비](/images/blog/en/Radial_Velocity_slide002_100.png)
 
 ---
 
@@ -24,7 +24,7 @@ image: "/images/blog/ko/rv_first.png"
 
 장비가 실제 재질의 음속으로 설정되지 않으면, 화면상에 나타나는 R50과 R100 신호 사이의 간격이 실제 물리적 거리인 50mm와 다르게 표시됩니다. 이는 모든 결함 위치 측정에 오차를 발생시킵니다.
 
-![음속 미교정 시 간격 오차](/../src/content/blog/ko/images/Radial_Velocity_1.png)
+![음속 미교정 시 간격 오차](/images/blog/en/Radial_Velocity_1.png)
 
 ---
 
@@ -33,12 +33,12 @@ image: "/images/blog/ko/rv_first.png"
 ### 1. 음속 교정 페이지 진입
 메뉴의 숫자 순서에 따라 **Velocity Calibration** 페이지로 이동합니다.
 
-![교정 페이지 진입](/../src/content/blog/ko/images/Radial_Velocity_111.png)
+![교정 페이지 진입](/images/blog/en/Radial_Velocity_111.png)
 
 ### 2. 기준값(Reference) 설정
 물리적 기준인 R50과 R100을 활용하기 위해 **Ref A를 50 mm**, **Ref B를 100 mm**로 각각 설정합니다.
 
-![기준값 설정 인터페이스](/../src/content/blog/ko/images/Radial_Velocity_7.png)
+![기준값 설정 인터페이스](/images/blog/en/Radial_Velocity_7.png)
 
 ### 3. 게이트 정렬 및 신호 포착
 A 및 B 게이트를 각각 R50과 R100 신호 위치로 이동시킵니다. 이때 각 게이트를 통과하는 실제 측정값(SA, SB)이 화면에 실시간으로 표시됩니다.
@@ -46,7 +46,7 @@ A 및 B 게이트를 각각 R50과 R100 신호 위치로 이동시킵니다. 이
 ### 4. 자동 교정 실행 (Calibrate)
 **Calibrate** 버튼을 누르면 소프트웨어가 SA와 SB 사이의 간격을 분석하여 내부 음속 값을 자동으로 업데이트합니다. 이제 화면상의 두 신호 간격은 정확한 50 mm로 조정됩니다.
 
-![음속 업데이트 완료](/../src/content/blog/ko/images/Radial_Velocity_13.png)
+![음속 업데이트 완료](/images/blog/en/Radial_Velocity_13.png)
 
 ---
 
@@ -54,6 +54,6 @@ A 및 B 게이트를 각각 R50과 R100 신호 위치로 이동시킵니다. 이
 
 모든 과정이 끝나고 **Finish**를 누르면, 장비 하단의 상태 표시 레이블 중 **'V'**가 주황색으로 활성화됩니다. 이는 시스템이 해당 재질의 음속으로 완벽하게 동기화되었음을 의미합니다.
 
-![음속 교정 완료 상태](/../src/content/blog/ko/images/Radial_Velocity_slide010_194.png)
+![음속 교정 완료 상태](/images/blog/en/Radial_Velocity_slide010_194.png)
 
 정확한 음속 교정은 신뢰할 수 있는 비파괴 검사의 시작입니다. DEEPSOUND P5의 직관적인 교정 프로세스를 통해 현장에서 쉽고 빠르게 정확도를 확보해 보세요.

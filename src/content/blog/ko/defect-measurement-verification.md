@@ -19,7 +19,7 @@ DEEPSOUND P5의 상단 메뉴에는 게이트를 통해 감지된 신호를 바�
 - **DA (Depth Distance):** 시편 표면에서 결함까지의 수직 깊이
 - **SA (Surface Distance / Sound Path):** 프로브와 결함 사이의 실제 초음파 진행 경로 거리
 
-![측정 데이터 인터페이스](/../src/content/blog/ko/images/Defect_Measurement_1.png)
+![측정 데이터 인터페이스](/images/blog/en/Defect_Measurement_1.png)
 
 ---
 
@@ -27,7 +27,7 @@ DEEPSOUND P5의 상단 메뉴에는 게이트를 통해 감지된 신호를 바�
 
 상단 메뉴의 데이터 표시 영역을 길게 누르면 확인하고자 하는 데이터 유형(예: DA)을 선택하여 상시 모니터링할 수 있습니다.
 
-![데이터 선택 방법](/../src/content/blog/ko/images/Defect_Measurement_2.png)
+![데이터 선택 방법](/images/blog/en/Defect_Measurement_2.png)
 
 ---
 
@@ -39,10 +39,10 @@ DEEPSOUND P5의 상단 메뉴에는 게이트를 통해 감지된 신호를 바�
 2. **DA (수직 깊이):** 테스트 시편의 결함이 표면으로부터 25 mm 아래에 있다면, 화면의 DA 값 역시 **25.0 mm**를 나타내야 합니다. (표준 허용 오차: +/- 0.5 mm)
 3. **SA (빔 경로):** 45도 각도에서 25 mm 깊이의 결함을 탐지할 때, 피타고라스 정리에 따른 실제 빔 경로는 약 35 mm이며 이는 SA 값에 정확히 반영됩니다.
 
-![DA 깊이 측정 예시](/../src/content/blog/ko/images/Defect_Measurement_6.png)
+![DA 깊이 측정 예시](/images/blog/en/Defect_Measurement_6.png)
 - **실제 깊이 25mm와 DA 측정값 25.0mm의 일치 확인**
 
-![SA 빔 경로 측정 예시](/../src/content/blog/ko/images/Defect_Measurement_8.png)
+![SA 빔 경로 측정 예시](/images/blog/en/Defect_Measurement_8.png)
 - **빔 경로(SA)가 실제 물리적 거리와 일치하는 모습**
 
 ---
@@ -51,6 +51,6 @@ DEEPSOUND P5의 상단 메뉴에는 게이트를 통해 감지된 신호를 바�
 
 PA, DA, SA 데이터는 단순한 숫자가 아니라, 검사자가 눈으로 볼 수 없는 시편 내부의 결함을 공간적으로 재구성해 주는 **'좌표계'**입니다. 이 수치들을 정확히 이해하고 활용하면 결함 리포트의 신뢰도를 극대화할 수 있습니다.
 
-![데이터 무결성 확인](/../src/content/blog/ko/images/Defect_Measurement_9.png)
+![데이터 무결성 확인](/images/blog/en/Defect_Measurement_9.png)
 
 DEEPSOUND 시스템은 실시간 수치와 물리적 위치 사이의 오차를 최소화하여 사용자에게 확신 있는 검사 결과를 제공합니다.

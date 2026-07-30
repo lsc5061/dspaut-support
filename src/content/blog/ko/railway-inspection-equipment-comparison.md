@@ -13,18 +13,18 @@ image: "/images/blog/ko/p5_catalog_main_1.jpg"
 
 ## 사용 장비 및 구성
 
-![DEEPSOUND P5](/../src/content/blog/ko/images/P5_Catalog_Main_1.jpg)
+![DEEPSOUND P5](/images/blog/en/P5_Catalog_Main_1.jpg)
 - **제품명:** DEEPSOUND P5 (12.1인치 대화면 터치 시스템)
 
-![타사 장비](/../src/content/blog/ko/images/SX장비_철도Demo_비교_20220509_slide002_2.png)
+![타사 장비](/images/blog/en/SX장비_철도Demo_비교_20220509_slide002_2.png)
 - **제품명:** 타사 비교 장비
 
 ### 검사 사양
 - **프로브:** 10 MHz 대역 (상세 이미지 참조)
 - **웨지:** SA1-N55S (55도 강재용 웨지)
 
-![프로브 정보](/../src/content/blog/ko/images/그림1.png)
-![웨지 정보](/../src/content/blog/ko/images/SX장비_철도Demo_비교_20220509_slide003_5.png)
+![프로브 정보](/images/blog/en/그림1.png)
+![웨지 정보](/images/blog/en/SX장비_철도Demo_비교_20220509_slide003_5.png)
 
 ---
 
@@ -32,7 +32,7 @@ image: "/images/blog/ko/p5_catalog_main_1.jpg"
 
 철도 레일 내부의 구조와 유사한 테스트 시편을 사용하여 결함 위치를 분석했습니다.
 
-![시편 내부 구조](/../src/content/blog/ko/images/SX장비_철도Demo_비교_20220509_slide004_6.png)
+![시편 내부 구조](/images/blog/en/SX장비_철도Demo_비교_20220509_slide004_6.png)
 
 ---
 
@@ -46,7 +46,7 @@ image: "/images/blog/ko/p5_catalog_main_1.jpg"
 | **#2** | 20.30                | 20.87                         | **0.57**        |
 | **#3** | 10.80                | 11.04                         | **0.24**        |
 
-![리니어 스캔 데이터](/../src/content/blog/ko/images/SX장비_철도Demo_비교_20220509_slide007_10.jpg)
+![리니어 스캔 데이터](/images/blog/en/SX장비_철도Demo_비교_20220509_slide007_10.jpg)
 
 ---
 
@@ -60,7 +60,7 @@ image: "/images/blog/ko/p5_catalog_main_1.jpg"
 | **#2** | 19.30                | 19.64                         | **0.34**        |
 | **#3** | 10.81                | 11.01                         | **0.20**        |
 
-![섹터 스캔 데이터](/../src/content/blog/ko/images/SX장비_철도Demo_비교_20220509_slide008_13.jpg)
+![섹터 스캔 데이터](/images/blog/en/SX장비_철도Demo_비교_20220509_slide008_13.jpg)
 
 ---
 

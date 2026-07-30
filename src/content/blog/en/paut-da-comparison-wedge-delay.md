@@ -15,22 +15,22 @@ This is a comparison test to verify the defect location accuracy and the impact 
 
 The probe and wedge configurations of the two systems are as follows.
 
-![Third-party Probe](/../src/content/blog/en/images/competitor-probe.jpg)
+![Third-party Probe](/images/blog/en/competitor-probe.jpg)
 *Third-party Equipment Probe Specifications*
 
-![Third-party Wedge](/../src/content/blog/en/images/competitor-wedge.jpg)
+![Third-party Wedge](/images/blog/en/competitor-wedge.jpg)
 *Third-party Equipment Wedge Specifications*
 
-![Test Specimen](/../src/content/blog/en/images/test-specimen.jpg)
+![Test Specimen](/images/blog/en/test-specimen.jpg)
 *Test Specimen*
 
-![P5 Equipment Probe](/../src/content/blog/en/images/p5-probe.jpg)
+![P5 Equipment Probe](/images/blog/en/p5-probe.jpg)
 *P5 Equipment Probe Specifications*
 
-![P5 Equipment Wedge](/../src/content/blog/en/images/p5-wedge.jpg)
+![P5 Equipment Wedge](/images/blog/en/p5-wedge.jpg)
 *P5 Equipment Wedge Specifications*
 
-![P5 Scan Setup](/../src/content/blog/en/images/p5-scan-setup.jpg)
+![P5 Scan Setup](/images/blog/en/p5-scan-setup.jpg)
 *P5 Equipment Scan Configuration Settings*
 
 ---
@@ -39,9 +39,9 @@ The probe and wedge configurations of the two systems are as follows.
 
 The parameters and defect measurement criteria for third-party equipment and DEEPSOUND P5 were set and verified as follows.
 
-![Comparison Criteria](/../src/content/blog/en/images/comparison-criteria.jpg)
+![Comparison Criteria](/images/blog/en/comparison-criteria.jpg)
 
-![Comparison Table](/../src/content/blog/en/images/comparison-table.png)
+![Comparison Table](/images/blog/en/comparison-table.png)
 
 ---
 
@@ -49,9 +49,9 @@ The parameters and defect measurement criteria for third-party equipment and DEE
 
 A direct visual comparison of S-scan images acquired from both devices.
 
-![Image Comparison 1](/../src/content/blog/en/images/image-comparison-1.jpg)
+![Image Comparison 1](/images/blog/en/image-comparison-1.jpg)
 
-![Image Result Table 1](/../src/content/blog/en/images/result-table-1.jpg)
+![Image Result Table 1](/images/blog/en/result-table-1.jpg)
 
 ---
 
@@ -59,9 +59,9 @@ A direct visual comparison of S-scan images acquired from both devices.
 
 Additional comparison of detected signal quality and positional accuracy.
 
-![Image Comparison 2](/../src/content/blog/en/images/image-comparison-2.jpg)
+![Image Comparison 2](/images/blog/en/image-comparison-2.jpg)
 
-![Image Result Table 2](/../src/content/blog/en/images/result-table-2.jpg)
+![Image Result Table 2](/images/blog/en/result-table-2.jpg)
 
 ---
 
@@ -69,9 +69,9 @@ Additional comparison of detected signal quality and positional accuracy.
 
 Analysis of the difference between locations detected by the two systems.
 
-![Image Comparison 3](/../src/content/blog/en/images/image-comparison-3.jpg)
+![Image Comparison 3](/images/blog/en/image-comparison-3.jpg)
 
-![Image Result Table 3](/../src/content/blog/en/images/result-table-3.png)
+![Image Result Table 3](/images/blog/en/result-table-3.png)
 
 ---
 

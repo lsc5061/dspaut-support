@@ -19,7 +19,7 @@ Three main data points based on signals detected through the gate are displayed 
 - **DA (Depth Distance):** The vertical depth from the specimen surface to the defect.
 - **SA (Surface Distance / Sound Path):** The actual sound path distance of the ultrasonic wave between the probe and the defect.
 
-![Measurement Data Interface](/../src/content/blog/en/images/Defect_Measurement_1.png)
+![Measurement Data Interface](/images/blog/en/Defect_Measurement_1.png)
 
 ---
 
@@ -27,7 +27,7 @@ Three main data points based on signals detected through the gate are displayed 
 
 By long-pressing the data display area in the top menu, you can select the type of data you want to check (e.g., DA) for constant monitoring.
 
-![Data Selection Method](/../src/content/blog/en/images/Defect_Measurement_2.png)
+![Data Selection Method](/images/blog/en/Defect_Measurement_2.png)
 
 ---
 
@@ -39,10 +39,10 @@ In a calibrated system, these data points almost perfectly match the actual defe
 2. **DA (Vertical Depth):** If a defect in the test specimen is 25 mm below the surface, the DA value on the screen should also indicate **25.0 mm**. (Standard tolerance: +/- 0.5 mm)
 3. **SA (Sound Path):** When detecting a defect at a depth of 25 mm at a 45-degree angle, the actual sound path according to the Pythagorean theorem is about 35 mm, which is accurately reflected in the SA value.
 
-![DA Depth Measurement Example](/../src/content/blog/en/images/Defect_Measurement_6.png)
+![DA Depth Measurement Example](/images/blog/en/Defect_Measurement_6.png)
 - **Matching check between actual depth 25mm and DA measured value 25.0mm**
 
-![SA Sound Path Measurement Example](/../src/content/blog/en/images/Defect_Measurement_8.png)
+![SA Sound Path Measurement Example](/images/blog/en/Defect_Measurement_8.png)
 - **Sound path (SA) matching the actual physical distance**
 
 ---
@@ -51,6 +51,6 @@ In a calibrated system, these data points almost perfectly match the actual defe
 
 PA, DA, and SA data are not just numbers, but a **'coordinate system'** that spatially reconstructs defects inside the specimen that the inspector cannot see with the naked eye. Accurately understanding and utilizing these figures can maximize the reliability of defect reports.
 
-![Data Integrity Check](/../src/content/blog/en/images/Defect_Measurement_9.png)
+![Data Integrity Check](/images/blog/en/Defect_Measurement_9.png)
 
 The DEEPSOUND system provides users with confident inspection results by minimizing the error between real-time values and physical positions.
