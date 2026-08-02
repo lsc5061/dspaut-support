@@ -1,0 +1,782 @@
+=== HISTORICAL GIT ASSETS AUDIT ===
+
+--- COMMIT c018e32 ---
+  * public/images/03_Resources/Image/B3/alibaba/KakaoTalk_20251219_093343153_1.png
+  * public/images/03_Resources/Image/B3/photos/KakaoTalk_20251231_101545706_03_2.png
+  * public/images/03_Resources/Image/B3/photos/KakaoTalk_20251231_101545706_07_1_1.png
+  * public/images/03_Resources/Image/B3/photos/KakaoTalk_20251231_101545706_13_1.png
+  * public/images/03_Resources/Image/B3/photos/KakaoTalk_20251231_101545706_14_1.png
+  * public/images/03_Resources/Image/B3/photos/KakaoTalk_20260213_115622058_1.png
+  * public/images/03_Resources/Image/DSK_Media/image10.png
+  * public/images/03_Resources/Image/DSK_Media/image11.png
+  * public/images/03_Resources/Image/DSK_Media/image12.png
+  * public/images/03_Resources/Image/DSK_Media/image13.png
+  * public/images/03_Resources/Image/DSK_Media/image14.png
+  * public/images/03_Resources/Image/DSK_Media/image15.png
+  * public/images/03_Resources/Image/DSK_Media/image16.png
+  * public/images/03_Resources/Image/DSK_Media/image17.png
+  * public/images/03_Resources/Image/DSK_Media/image18.png
+  * public/images/03_Resources/Image/DSK_Media/image19.png
+  * public/images/03_Resources/Image/DSK_Media/image2.png
+  * public/images/03_Resources/Image/DSK_Media/image20.png
+  * public/images/03_Resources/Image/DSK_Media/image21.png
+  * public/images/03_Resources/Image/DSK_Media/image22.png
+  * public/images/03_Resources/Image/DSK_Media/image23.png
+  * public/images/03_Resources/Image/DSK_Media/image3.png
+  * public/images/03_Resources/Image/DSK_Media/image4.png
+  * public/images/03_Resources/Image/DSK_Media/image5.png
+  * public/images/03_Resources/Image/DSK_Media/image6.png
+  * public/images/03_Resources/Image/DSK_Media/image7.png
+  * public/images/03_Resources/Image/DSK_Media/image8.png
+  * public/images/03_Resources/Image/DSK_Media/image9.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image1.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image10.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image11.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image12.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image13.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image14.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image15.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image16.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image17.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image18.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image19.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image2.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image20.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image21.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image22.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image23.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image24.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image25.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image26.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image27.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image28.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image29.png
+
+--- COMMIT 52d5c47 ---
+  * public/images/03_Resources/Image/B3/alibaba/KakaoTalk_20251219_093343153_1.png
+  * public/images/03_Resources/Image/B3/photos/KakaoTalk_20251231_101545706_03_2.png
+  * public/images/03_Resources/Image/B3/photos/KakaoTalk_20251231_101545706_07_1_1.png
+  * public/images/03_Resources/Image/B3/photos/KakaoTalk_20251231_101545706_13_1.png
+  * public/images/03_Resources/Image/B3/photos/KakaoTalk_20251231_101545706_14_1.png
+  * public/images/03_Resources/Image/B3/photos/KakaoTalk_20260213_115622058_1.png
+  * public/images/03_Resources/Image/DSK_Media/image10.png
+  * public/images/03_Resources/Image/DSK_Media/image11.png
+  * public/images/03_Resources/Image/DSK_Media/image12.png
+  * public/images/03_Resources/Image/DSK_Media/image13.png
+  * public/images/03_Resources/Image/DSK_Media/image14.png
+  * public/images/03_Resources/Image/DSK_Media/image15.png
+  * public/images/03_Resources/Image/DSK_Media/image16.png
+  * public/images/03_Resources/Image/DSK_Media/image17.png
+  * public/images/03_Resources/Image/DSK_Media/image18.png
+  * public/images/03_Resources/Image/DSK_Media/image19.png
+  * public/images/03_Resources/Image/DSK_Media/image2.png
+  * public/images/03_Resources/Image/DSK_Media/image20.png
+  * public/images/03_Resources/Image/DSK_Media/image21.png
+  * public/images/03_Resources/Image/DSK_Media/image22.png
+  * public/images/03_Resources/Image/DSK_Media/image23.png
+  * public/images/03_Resources/Image/DSK_Media/image3.png
+  * public/images/03_Resources/Image/DSK_Media/image4.png
+  * public/images/03_Resources/Image/DSK_Media/image5.png
+  * public/images/03_Resources/Image/DSK_Media/image6.png
+  * public/images/03_Resources/Image/DSK_Media/image7.png
+  * public/images/03_Resources/Image/DSK_Media/image8.png
+  * public/images/03_Resources/Image/DSK_Media/image9.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image1.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image10.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image11.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image12.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image13.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image14.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image15.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image16.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image17.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image18.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image19.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image2.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image20.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image21.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image22.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image23.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image24.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image25.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image26.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image27.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image28.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image29.png
+
+--- COMMIT e6a0841 ---
+  * public/images/03_Resources/Image/B3/alibaba/KakaoTalk_20251219_093343153_1.png
+  * public/images/03_Resources/Image/B3/photos/KakaoTalk_20251231_101545706_03_2.png
+  * public/images/03_Resources/Image/B3/photos/KakaoTalk_20251231_101545706_07_1_1.png
+  * public/images/03_Resources/Image/B3/photos/KakaoTalk_20251231_101545706_13_1.png
+  * public/images/03_Resources/Image/B3/photos/KakaoTalk_20251231_101545706_14_1.png
+  * public/images/03_Resources/Image/B3/photos/KakaoTalk_20260213_115622058_1.png
+  * public/images/03_Resources/Image/DSK_Media/image10.png
+  * public/images/03_Resources/Image/DSK_Media/image11.png
+  * public/images/03_Resources/Image/DSK_Media/image12.png
+  * public/images/03_Resources/Image/DSK_Media/image13.png
+  * public/images/03_Resources/Image/DSK_Media/image14.png
+  * public/images/03_Resources/Image/DSK_Media/image15.png
+  * public/images/03_Resources/Image/DSK_Media/image16.png
+  * public/images/03_Resources/Image/DSK_Media/image17.png
+  * public/images/03_Resources/Image/DSK_Media/image18.png
+  * public/images/03_Resources/Image/DSK_Media/image19.png
+  * public/images/03_Resources/Image/DSK_Media/image2.png
+  * public/images/03_Resources/Image/DSK_Media/image20.png
+  * public/images/03_Resources/Image/DSK_Media/image21.png
+  * public/images/03_Resources/Image/DSK_Media/image22.png
+  * public/images/03_Resources/Image/DSK_Media/image23.png
+  * public/images/03_Resources/Image/DSK_Media/image3.png
+  * public/images/03_Resources/Image/DSK_Media/image4.png
+  * public/images/03_Resources/Image/DSK_Media/image5.png
+  * public/images/03_Resources/Image/DSK_Media/image6.png
+  * public/images/03_Resources/Image/DSK_Media/image7.png
+  * public/images/03_Resources/Image/DSK_Media/image8.png
+  * public/images/03_Resources/Image/DSK_Media/image9.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image1.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image10.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image11.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image12.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image13.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image14.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image15.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image16.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image17.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image18.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image19.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image2.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image20.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image21.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image22.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image23.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image24.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image25.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image26.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image27.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image28.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image29.png
+
+--- COMMIT 73caf6d ---
+  * public/images/03_Resources/Image/B3/alibaba/KakaoTalk_20251219_093343153_1.png
+  * public/images/03_Resources/Image/B3/photos/KakaoTalk_20251231_101545706_03_2.png
+  * public/images/03_Resources/Image/B3/photos/KakaoTalk_20251231_101545706_07_1_1.png
+  * public/images/03_Resources/Image/B3/photos/KakaoTalk_20251231_101545706_13_1.png
+  * public/images/03_Resources/Image/B3/photos/KakaoTalk_20251231_101545706_14_1.png
+  * public/images/03_Resources/Image/B3/photos/KakaoTalk_20260213_115622058_1.png
+  * public/images/03_Resources/Image/DSK_Media/image10.png
+  * public/images/03_Resources/Image/DSK_Media/image11.png
+  * public/images/03_Resources/Image/DSK_Media/image12.png
+  * public/images/03_Resources/Image/DSK_Media/image13.png
+  * public/images/03_Resources/Image/DSK_Media/image14.png
+  * public/images/03_Resources/Image/DSK_Media/image15.png
+  * public/images/03_Resources/Image/DSK_Media/image16.png
+  * public/images/03_Resources/Image/DSK_Media/image17.png
+  * public/images/03_Resources/Image/DSK_Media/image18.png
+  * public/images/03_Resources/Image/DSK_Media/image19.png
+  * public/images/03_Resources/Image/DSK_Media/image2.png
+  * public/images/03_Resources/Image/DSK_Media/image20.png
+  * public/images/03_Resources/Image/DSK_Media/image21.png
+  * public/images/03_Resources/Image/DSK_Media/image22.png
+  * public/images/03_Resources/Image/DSK_Media/image23.png
+  * public/images/03_Resources/Image/DSK_Media/image3.png
+  * public/images/03_Resources/Image/DSK_Media/image4.png
+  * public/images/03_Resources/Image/DSK_Media/image5.png
+  * public/images/03_Resources/Image/DSK_Media/image6.png
+  * public/images/03_Resources/Image/DSK_Media/image7.png
+  * public/images/03_Resources/Image/DSK_Media/image8.png
+  * public/images/03_Resources/Image/DSK_Media/image9.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image1.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image10.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image11.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image12.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image13.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image14.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image15.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image16.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image17.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image18.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image19.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image2.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image20.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image21.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image22.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image23.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image24.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image25.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image26.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image27.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image28.png
+  * public/images/03_Resources/Image/DSK_User_Manual_Media/image29.png
+
+--- COMMIT 4540585 ---
+  * public/images/03_Resources/(ENG) program_introduction/images/12.png
+  * public/images/03_Resources/(ENG) program_introduction/images/13.png
+  * public/images/03_Resources/(ENG) program_introduction/images/14.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_50_img_10.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_51_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_52_img_19.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_54_img_6.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_57_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_59_img_11.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_59_img_5.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_17.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_4.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_65_img_19.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_65_img_31.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_67_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_67_img_5.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_8_img_3.png
+  * public/images/03_Resources/(KOR) install_program/images/2.png
+  * public/images/03_Resources/(KOR) install_program/images/4.png
+  * public/images/03_Resources/(KOR) install_program/images/5.png
+  * public/images/03_Resources/(KOR) install_program/images/6.png
+  * public/images/03_Resources/(KOR) program_introduction/images/10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/15.png
+  * public/images/03_Resources/(KOR) program_introduction/images/16.png
+  * public/images/03_Resources/(KOR) program_introduction/images/4.png
+  * public/images/03_Resources/(KOR) program_introduction/images/6.png
+  * public/images/03_Resources/(KOR) program_introduction/images/9.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_13_img_21.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_14_img_11.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_19_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_20_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_21_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_21_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_27_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_28_img_13.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_28_img_5.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_30_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_34_img_11.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_35_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_39_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_41_img_12.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_41_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_43_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_46_img_17.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_47_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_74_img_15.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/3.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/4.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/5.png
+
+--- COMMIT 34bfe6b ---
+  * public/images/03_Resources/(ENG) program_introduction/images/12.png
+  * public/images/03_Resources/(ENG) program_introduction/images/13.png
+  * public/images/03_Resources/(ENG) program_introduction/images/14.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_50_img_10.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_51_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_52_img_19.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_54_img_6.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_57_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_59_img_11.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_59_img_5.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_17.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_4.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_65_img_19.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_65_img_31.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_67_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_67_img_5.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_8_img_3.png
+  * public/images/03_Resources/(KOR) install_program/images/2.png
+  * public/images/03_Resources/(KOR) install_program/images/4.png
+  * public/images/03_Resources/(KOR) install_program/images/5.png
+  * public/images/03_Resources/(KOR) install_program/images/6.png
+  * public/images/03_Resources/(KOR) program_introduction/images/10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/15.png
+  * public/images/03_Resources/(KOR) program_introduction/images/16.png
+  * public/images/03_Resources/(KOR) program_introduction/images/4.png
+  * public/images/03_Resources/(KOR) program_introduction/images/6.png
+  * public/images/03_Resources/(KOR) program_introduction/images/9.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_13_img_21.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_14_img_11.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_19_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_20_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_21_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_21_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_27_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_28_img_13.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_28_img_5.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_30_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_34_img_11.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_35_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_39_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_41_img_12.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_41_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_43_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_46_img_17.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_47_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_74_img_15.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/3.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/4.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/5.png
+
+--- COMMIT 1acc512 ---
+  * public/images/03_Resources/(ENG) program_introduction/images/12.png
+  * public/images/03_Resources/(ENG) program_introduction/images/13.png
+  * public/images/03_Resources/(ENG) program_introduction/images/14.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_50_img_10.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_51_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_52_img_19.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_54_img_6.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_57_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_59_img_11.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_59_img_5.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_17.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_4.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_65_img_19.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_65_img_31.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_67_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_67_img_5.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_8_img_3.png
+  * public/images/03_Resources/(KOR) install_program/images/2.png
+  * public/images/03_Resources/(KOR) install_program/images/4.png
+  * public/images/03_Resources/(KOR) install_program/images/5.png
+  * public/images/03_Resources/(KOR) install_program/images/6.png
+  * public/images/03_Resources/(KOR) program_introduction/images/10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/15.png
+  * public/images/03_Resources/(KOR) program_introduction/images/16.png
+  * public/images/03_Resources/(KOR) program_introduction/images/4.png
+  * public/images/03_Resources/(KOR) program_introduction/images/6.png
+  * public/images/03_Resources/(KOR) program_introduction/images/9.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_13_img_21.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_14_img_11.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_19_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_20_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_21_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_21_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_27_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_28_img_13.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_28_img_5.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_30_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_34_img_11.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_35_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_39_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_41_img_12.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_41_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_43_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_46_img_17.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_47_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_74_img_15.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/3.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/4.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/5.png
+
+--- COMMIT d3e3983 ---
+  * public/images/03_Resources/(ENG) program_introduction/images/12.png
+  * public/images/03_Resources/(ENG) program_introduction/images/13.png
+  * public/images/03_Resources/(ENG) program_introduction/images/14.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_50_img_10.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_51_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_52_img_19.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_54_img_6.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_57_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_59_img_11.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_59_img_5.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_17.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_4.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_65_img_19.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_65_img_31.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_67_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_67_img_5.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_8_img_3.png
+  * public/images/03_Resources/(KOR) install_program/images/2.png
+  * public/images/03_Resources/(KOR) install_program/images/4.png
+  * public/images/03_Resources/(KOR) install_program/images/5.png
+  * public/images/03_Resources/(KOR) install_program/images/6.png
+  * public/images/03_Resources/(KOR) program_introduction/images/10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/15.png
+  * public/images/03_Resources/(KOR) program_introduction/images/16.png
+  * public/images/03_Resources/(KOR) program_introduction/images/4.png
+  * public/images/03_Resources/(KOR) program_introduction/images/6.png
+  * public/images/03_Resources/(KOR) program_introduction/images/9.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_13_img_21.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_14_img_11.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_19_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_20_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_21_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_21_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_27_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_28_img_13.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_28_img_5.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_30_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_34_img_11.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_35_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_39_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_41_img_12.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_41_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_43_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_46_img_17.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_47_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_74_img_15.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/3.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/4.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/5.png
+
+--- COMMIT a8f8846 ---
+  * public/images/03_Resources/(ENG) program_introduction/images/12.png
+  * public/images/03_Resources/(ENG) program_introduction/images/13.png
+  * public/images/03_Resources/(ENG) program_introduction/images/14.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_50_img_10.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_51_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_52_img_19.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_54_img_6.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_57_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_59_img_11.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_59_img_5.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_17.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_4.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_65_img_19.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_65_img_31.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_67_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_67_img_5.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_8_img_3.png
+  * public/images/03_Resources/(KOR) install_program/images/2.png
+  * public/images/03_Resources/(KOR) install_program/images/4.png
+  * public/images/03_Resources/(KOR) install_program/images/5.png
+  * public/images/03_Resources/(KOR) install_program/images/6.png
+  * public/images/03_Resources/(KOR) program_introduction/images/10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/15.png
+  * public/images/03_Resources/(KOR) program_introduction/images/16.png
+  * public/images/03_Resources/(KOR) program_introduction/images/4.png
+  * public/images/03_Resources/(KOR) program_introduction/images/6.png
+  * public/images/03_Resources/(KOR) program_introduction/images/9.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_13_img_21.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_14_img_11.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_19_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_20_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_21_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_21_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_27_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_28_img_13.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_28_img_5.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_30_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_34_img_11.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_35_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_39_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_41_img_12.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_41_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_43_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_46_img_17.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_47_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_74_img_15.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/3.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/4.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/5.png
+
+--- COMMIT de0c75a ---
+  * public/images/03_Resources/(ENG) program_introduction/images/12.png
+  * public/images/03_Resources/(ENG) program_introduction/images/13.png
+  * public/images/03_Resources/(ENG) program_introduction/images/14.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_50_img_10.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_51_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_52_img_19.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_54_img_6.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_57_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_59_img_11.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_59_img_5.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_17.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_4.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_65_img_19.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_65_img_31.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_67_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_67_img_5.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_8_img_3.png
+  * public/images/03_Resources/(KOR) install_program/images/2.png
+  * public/images/03_Resources/(KOR) install_program/images/4.png
+  * public/images/03_Resources/(KOR) install_program/images/5.png
+  * public/images/03_Resources/(KOR) install_program/images/6.png
+  * public/images/03_Resources/(KOR) program_introduction/images/10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/15.png
+  * public/images/03_Resources/(KOR) program_introduction/images/16.png
+  * public/images/03_Resources/(KOR) program_introduction/images/4.png
+  * public/images/03_Resources/(KOR) program_introduction/images/6.png
+  * public/images/03_Resources/(KOR) program_introduction/images/9.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_13_img_21.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_14_img_11.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_19_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_20_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_21_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_21_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_27_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_28_img_13.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_28_img_5.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_30_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_34_img_11.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_35_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_39_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_41_img_12.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_41_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_43_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_46_img_17.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_47_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_74_img_15.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/3.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/4.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/5.png
+
+--- COMMIT 40955ea ---
+  * public/images/03_Resources/(ENG) program_introduction/images/12.png
+  * public/images/03_Resources/(ENG) program_introduction/images/13.png
+  * public/images/03_Resources/(ENG) program_introduction/images/14.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_50_img_10.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_51_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_52_img_19.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_54_img_6.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_57_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_59_img_11.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_59_img_5.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_17.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_4.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_65_img_19.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_65_img_31.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_67_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_67_img_5.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_8_img_3.png
+  * public/images/03_Resources/(KOR) install_program/images/2.png
+  * public/images/03_Resources/(KOR) install_program/images/4.png
+  * public/images/03_Resources/(KOR) install_program/images/5.png
+  * public/images/03_Resources/(KOR) install_program/images/6.png
+  * public/images/03_Resources/(KOR) program_introduction/images/10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/15.png
+  * public/images/03_Resources/(KOR) program_introduction/images/16.png
+  * public/images/03_Resources/(KOR) program_introduction/images/4.png
+  * public/images/03_Resources/(KOR) program_introduction/images/6.png
+  * public/images/03_Resources/(KOR) program_introduction/images/9.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_13_img_21.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_14_img_11.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_19_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_20_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_21_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_21_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_27_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_28_img_13.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_28_img_5.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_30_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_34_img_11.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_35_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_39_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_41_img_12.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_41_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_43_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_46_img_17.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_47_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_74_img_15.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/3.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/4.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/5.png
+
+--- COMMIT e316a40 ---
+  * public/images/03_Resources/(ENG) program_introduction/images/12.png
+  * public/images/03_Resources/(ENG) program_introduction/images/13.png
+  * public/images/03_Resources/(ENG) program_introduction/images/14.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_50_img_10.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_51_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_52_img_19.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_54_img_6.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_57_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_59_img_11.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_59_img_5.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_17.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_4.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_65_img_19.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_65_img_31.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_67_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_67_img_5.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_8_img_3.png
+  * public/images/03_Resources/(KOR) install_program/images/2.png
+  * public/images/03_Resources/(KOR) install_program/images/4.png
+  * public/images/03_Resources/(KOR) install_program/images/5.png
+  * public/images/03_Resources/(KOR) install_program/images/6.png
+  * public/images/03_Resources/(KOR) program_introduction/images/10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/15.png
+  * public/images/03_Resources/(KOR) program_introduction/images/16.png
+  * public/images/03_Resources/(KOR) program_introduction/images/4.png
+  * public/images/03_Resources/(KOR) program_introduction/images/6.png
+  * public/images/03_Resources/(KOR) program_introduction/images/9.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_13_img_21.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_14_img_11.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_19_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_20_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_21_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_21_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_27_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_28_img_13.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_28_img_5.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_30_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_34_img_11.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_35_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_39_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_41_img_12.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_41_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_43_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_46_img_17.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_47_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_74_img_15.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/3.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/4.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/5.png
+
+--- COMMIT 696bc9f ---
+  * public/images/03_Resources/(ENG) program_introduction/images/12.png
+  * public/images/03_Resources/(ENG) program_introduction/images/13.png
+  * public/images/03_Resources/(ENG) program_introduction/images/14.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_50_img_10.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_51_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_52_img_19.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_54_img_6.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_57_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_59_img_11.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_59_img_5.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_17.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_4.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_65_img_19.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_65_img_31.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_67_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_67_img_5.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_8_img_3.png
+  * public/images/03_Resources/(KOR) install_program/images/2.png
+  * public/images/03_Resources/(KOR) install_program/images/4.png
+  * public/images/03_Resources/(KOR) install_program/images/5.png
+  * public/images/03_Resources/(KOR) install_program/images/6.png
+  * public/images/03_Resources/(KOR) program_introduction/images/10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/15.png
+  * public/images/03_Resources/(KOR) program_introduction/images/16.png
+  * public/images/03_Resources/(KOR) program_introduction/images/4.png
+  * public/images/03_Resources/(KOR) program_introduction/images/6.png
+  * public/images/03_Resources/(KOR) program_introduction/images/9.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_13_img_21.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_14_img_11.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_19_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_20_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_21_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_21_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_27_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_28_img_13.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_28_img_5.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_30_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_34_img_11.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_35_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_39_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_41_img_12.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_41_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_43_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_46_img_17.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_47_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_74_img_15.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/3.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/4.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/5.png
+
+--- COMMIT a9fc678 ---
+  * public/images/03_Resources/(ENG) program_introduction/images/12.png
+  * public/images/03_Resources/(ENG) program_introduction/images/13.png
+  * public/images/03_Resources/(ENG) program_introduction/images/14.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_50_img_10.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_51_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_52_img_19.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_54_img_6.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_57_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_59_img_11.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_59_img_5.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_17.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_4.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_65_img_19.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_65_img_31.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_67_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_67_img_5.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_8_img_3.png
+  * public/images/03_Resources/(KOR) install_program/images/2.png
+  * public/images/03_Resources/(KOR) install_program/images/4.png
+  * public/images/03_Resources/(KOR) install_program/images/5.png
+  * public/images/03_Resources/(KOR) install_program/images/6.png
+  * public/images/03_Resources/(KOR) program_introduction/images/10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/15.png
+  * public/images/03_Resources/(KOR) program_introduction/images/16.png
+  * public/images/03_Resources/(KOR) program_introduction/images/4.png
+  * public/images/03_Resources/(KOR) program_introduction/images/6.png
+  * public/images/03_Resources/(KOR) program_introduction/images/9.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_13_img_21.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_14_img_11.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_19_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_20_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_21_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_21_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_27_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_28_img_13.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_28_img_5.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_30_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_34_img_11.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_35_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_39_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_41_img_12.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_41_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_43_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_46_img_17.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_47_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_74_img_15.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/3.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/4.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/5.png
+
+--- COMMIT ebf3d85 ---
+  * public/images/03_Resources/(ENG) program_introduction/images/12.png
+  * public/images/03_Resources/(ENG) program_introduction/images/13.png
+  * public/images/03_Resources/(ENG) program_introduction/images/14.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_50_img_10.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_51_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_52_img_19.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_54_img_6.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_57_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_59_img_11.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_59_img_5.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_17.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_4.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_65_img_19.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_65_img_31.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_67_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_67_img_5.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_8_img_3.png
+  * public/images/03_Resources/(KOR) install_program/images/2.png
+  * public/images/03_Resources/(KOR) install_program/images/4.png
+  * public/images/03_Resources/(KOR) install_program/images/5.png
+  * public/images/03_Resources/(KOR) install_program/images/6.png
+  * public/images/03_Resources/(KOR) program_introduction/images/10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/15.png
+  * public/images/03_Resources/(KOR) program_introduction/images/16.png
+  * public/images/03_Resources/(KOR) program_introduction/images/4.png
+  * public/images/03_Resources/(KOR) program_introduction/images/6.png
+  * public/images/03_Resources/(KOR) program_introduction/images/9.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_13_img_21.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_14_img_11.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_19_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_20_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_21_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_21_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_27_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_28_img_13.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_28_img_5.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_30_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_34_img_11.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_35_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_39_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_41_img_12.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_41_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_43_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_46_img_17.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_47_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_74_img_15.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/3.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/4.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/5.png
+

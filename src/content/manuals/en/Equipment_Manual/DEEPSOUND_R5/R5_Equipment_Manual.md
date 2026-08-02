@@ -1,13 +1,4 @@
----
-title: R5 Equipment Manual
-description: Official product manual for the DEEPSOUND R5 remote-controlled PAUT system.
-version: v1.0
-releaseDate: 2026-04-30
-author: SEONGSANLAB Co., Ltd.
-order: 1
----
-
-# R5 Product Manual
+# DEEPSOUND R5 Product Manual
 
 - **Hardware Version**: v1.0.0
 - **Manual Version**: v1.0
@@ -41,7 +32,7 @@ order: 1
 - With a compact, display-less design, it performs real-time data acquisition and analysis through PC software and is easy to integrate with automated scanner systems.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/R5/upload_pending/1.png" width="600">
+  <img src="/images/manuals/r5/r5_overview_main.png" width="600">
   <p>DEEPSOUND R5 Product Overview (Remote Unit with Case)</p>
 </div>
 
@@ -63,7 +54,7 @@ order: 1
 - **PAUT Port**: High-density connector for connecting a 32:128PR Phased Array probe.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/R5/upload_pending/3.png" width="600">
+  <img src="/images/manuals/r5/r5_front_panel.png" width="600">
   <p>DEEPSOUND R5 Front Interface Details</p>
 </div>
 
@@ -74,7 +65,7 @@ order: 1
 - **Power Inlet**: Dedicated DC power adapter connection port.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/R5/upload_pending/4.png" width="600">
+  <img src="/images/manuals/r5/r5_rear_panel.png" width="600">
   <p>DEEPSOUND R5 Status & Connection Indicators</p>
 </div>
 

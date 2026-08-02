@@ -131,13 +131,13 @@ The DSK program is configured in C#. Please install this program for development
 
 > **Important:** Running it with a lower version may cause issues.
 
-![](/images/03_Resources/Image/DSK_User_Manual_Media/image1.png)
+![](/images/manuals/t3/t3_top_1.png)
 
 #### 2.1.2 Log2console Installation Method
 
 The Log2console program plays an important role in DSK development. It reads problematic code and locations during development, making the work much easier.
 
-![](/images/03_Resources/Image/DSK_User_Manual_Media/image2.png)
+![](/images/manuals/r5/3.png)
 
 **Log2console Program Basic Configuration Method:**
 

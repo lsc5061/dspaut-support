@@ -37,10 +37,10 @@ order: 2
   <tbody>
     <tr>
       <td style="padding: 15px; border: 1px solid #e2e8f0; background-color: #ffffff; vertical-align: middle;">
-        <img src="/images/03_Resources/Image/B3/b3-install-media/ref_usb.png" alt="USB 메모리" width="140" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
+        <img src="/images/common/ref_usb.png" alt="USB 메모리" width="140" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
       </td>
       <td style="padding: 15px; border: 1px solid #e2e8f0; background-color: #ffffff; vertical-align: middle;">
-        <img src="/images/03_Resources/Image/B3/b3-install-media/ref_usb_hub.png" alt="USB 허브" width="140" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
+        <img src="/images/common/ref_usb_hub.png" alt="USB 허브" width="140" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
       </td>
     </tr>
     <tr style="background-color: #f8fafc;">
@@ -49,10 +49,10 @@ order: 2
     </tr>
     <tr>
       <td style="padding: 15px; border: 1px solid #e2e8f0; background-color: #ffffff; vertical-align: middle;">
-        <img src="/images/03_Resources/Image/B3/b3-install-media/ref_b3_device.png" alt="DEEPSOUND B3 장비" width="140" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
+        <img src="/images/manuals/b3/ref_b3_device.png" alt="DEEPSOUND B3 장비" width="140" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
       </td>
       <td style="padding: 15px; border: 1px solid #e2e8f0; background-color: #ffffff; vertical-align: middle;">
-        <img src="/images/03_Resources/Image/B3/b3-install-media/ref_internet.png" alt="인터넷 연결" width="140" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
+        <img src="/images/common/ref_internet.png" alt="인터넷 연결" width="140" style="display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" />
       </td>
     </tr>
   </tbody>
@@ -69,7 +69,7 @@ order: 2
 3. 다운로드한 파일의 압축을 푼 후, 실행 파일 및 관련 에셋 폴더를 **USB 메모리의 루트 디렉토리**에 복사합니다.
 4. B3 장비 우측의 USB 포트에 **USB 허브**를 연결하고, 준비된 **USB 메모리**를 허브에 삽입합니다.
 
-<img src="/images/03_Resources/Image/B3/b3-install-media/step1_program_zip.png" alt="프로그램 다운로드 및 압축 파일 준비" width="160" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); height: auto;" />
+<img src="/images/manuals/b3/step1_program_zip.png" alt="프로그램 다운로드 및 압축 파일 준비" width="160" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); height: auto;" />
 
 ---
 
@@ -85,7 +85,7 @@ order: 2
 > ⚠️ **중요**  
 > 업데이트 진행 중에는 반드시 장비가 **인터넷에 정상적으로 연결**되어 있어야 합니다.
 
-<img src="/images/03_Resources/Image/B3/b3-install-media/step2_device_minimize.png" alt="Device 선택 및 프로그램 창 최소화 진행" width="580" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
+<img src="/images/manuals/b3/step2_device_minimize.png" alt="Device 선택 및 프로그램 창 최소화 진행" width="580" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
 
 ---
 
@@ -94,7 +94,7 @@ order: 2
 1. 리눅스 바탕화면이 노출되면, 현재 화면에서 구동 중인 기존의 메인 프로그램 창을 확인합니다.
 2. 프로그램 화면 우측 상단의 **"X" 아이콘**을 마우스로 정확히 클릭하여 현재 실행 중인 기존 소프트웨어를 완전히 종료 처리합니다.
 
-<img src="/images/03_Resources/Image/B3/b3-install-media/step3_close_program.png" alt="현재 작동 중인 기존 프로그램 종료 처리" width="580" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
+<img src="/images/manuals/b3/step3_close_program.png" alt="현재 작동 중인 기존 프로그램 종료 처리" width="580" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
 
 ---
 
@@ -105,7 +105,7 @@ order: 2
    * *접속 예시*: `http://192.168.0.92:8810`
    * *주의*: 장비마다 할당된 IP 주소가 다르므로, 사전에 장비 설정에서 부여된 IP 주소를 정확히 확인한 후 입력하십시오.
 
-<img src="/images/03_Resources/Image/B3/b3-install-media/step4_dashboard_home.png" alt="대시보드 관리자 페이지 접속 성공" width="580" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.12); height: auto;" />
+<img src="/images/manuals/b3/step4_dashboard_home.png" alt="대시보드 관리자 페이지 접속 성공" width="580" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.12); height: auto;" />
 
 ---
 
@@ -115,7 +115,7 @@ order: 2
 2. 대시보드 Update 화면으로 이동하면, 중앙에 위치한 **Choose File** (파일 선택) 버튼을 마우스로 클릭합니다.
 3. 파일 탐색기 창이 노출되면, 좌측 드라이브 메뉴에서 연결된 **USB 드라이브**를 선택하고, 사전에 복사해 둔 최신 **CM5 업데이트 프로그램 파일**을 클릭하여 선택합니다.
 
-<img src="/images/03_Resources/Image/B3/b3-install-media/step5_update_window.png" alt="Choose File 파일 선택창 실행 및 파일 선택" width="580" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
+<img src="/images/manuals/b3/step5_update_window.png" alt="Choose File 파일 선택창 실행 및 파일 선택" width="580" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); height: auto;" />
 
 ---
 
@@ -126,7 +126,7 @@ order: 2
 3. 업데이트가 구동되는 동안 상태바에 `Running` 상태 메시지가 노출되며 시스템 내부 교체가 이루어집니다.
 4. 설치가 성공적으로 완수되면 상태창의 문구가 **`Running ➔ Success`**로 최종 변경되면서 프로그램 업데이트가 모두 마감됩니다.
 
-<img src="/images/03_Resources/Image/B3/b3-install-media/step6_update_success.png" alt="업데이트 구동 및 Success 메시지 출력 완료 검증" width="580" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.12); height: auto;" />
+<img src="/images/manuals/b3/step6_update_success.png" alt="업데이트 구동 및 Success 메시지 출력 완료 검증" width="580" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.12); height: auto;" />
 
 ---
 
@@ -137,4 +137,4 @@ order: 2
 3. 프로그램 인터페이스가 모니터 화면에 나타나면, 아래 그림과 같이 **UI 좌측 하단의 버전 표시 영역**에 마우스를 대고 버전 정보를 확인합니다.
 4. 이전 버전 정보가 신규 설치한 최신 버전 정보로 올바르게 교체되어 정상 작동하는지 최종적으로 확인하여 매뉴얼 절차를 마칩니다.
 
-<img src="/images/03_Resources/Image/B3/b3-install-media/step7_version_check.png" alt="기기 재부팅 및 CM5 버전 정보 최종 교차 검증" width="580" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); height: auto;" />
+<img src="/images/manuals/b3/step7_version_check.png" alt="기기 재부팅 및 CM5 버전 정보 최종 교차 검증" width="580" style="display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); height: auto;" />

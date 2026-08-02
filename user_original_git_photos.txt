@@ -1,0 +1,211 @@
+=== USER ORIGINAL UNTOUCHED PHOTOS IN GIT COMMIT 069ed15 ===
+
+  * public/images/03_Resources/(ENG) program_introduction/images/12.png
+  * public/images/03_Resources/(ENG) program_introduction/images/13.png
+  * public/images/03_Resources/(ENG) program_introduction/images/14.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_50_img_10.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_51_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_52_img_19.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_54_img_6.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_57_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_59_img_11.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_59_img_5.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_17.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_61_img_4.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_65_img_19.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_65_img_31.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_67_img_15.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_67_img_5.png
+  * public/images/03_Resources/(ENG) program_introduction/images/slide_8_img_3.png
+  * public/images/03_Resources/(KOR) install_program/images/2.png
+  * public/images/03_Resources/(KOR) install_program/images/4.png
+  * public/images/03_Resources/(KOR) install_program/images/5.png
+  * public/images/03_Resources/(KOR) install_program/images/6.png
+  * public/images/03_Resources/(KOR) program_introduction/images/10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/15.png
+  * public/images/03_Resources/(KOR) program_introduction/images/16.png
+  * public/images/03_Resources/(KOR) program_introduction/images/4.png
+  * public/images/03_Resources/(KOR) program_introduction/images/6.png
+  * public/images/03_Resources/(KOR) program_introduction/images/9.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_13_img_21.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_14_img_11.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_19_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_20_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_21_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_21_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_27_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_28_img_13.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_28_img_5.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_30_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_34_img_11.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_35_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_39_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_41_img_12.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_41_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_43_img_10.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_46_img_17.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_47_img_3.png
+  * public/images/03_Resources/(KOR) program_introduction/images/slide_74_img_15.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/3.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/4.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/5.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/7.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/8.png
+  * public/images/03_Resources/(KOR)How to Register a Program for Automatic Startup/image/9.png
+  * "public/images/03_Resources/Image/B3/B3 Install media/Dashboard update \354\234\204\354\271\230.png"
+  * "public/images/03_Resources/Image/B3/B3 Install media/Dashboard update \354\260\275.png"
+  * "public/images/03_Resources/Image/B3/B3 Install media/Dashboard \354\260\275.png"
+  * "public/images/03_Resources/Image/B3/B3 Install media/Device \353\260\217 Minimize \354\204\240\355\203\235.png"
+  * "public/images/03_Resources/Image/B3/B3 Install media/USB \354\225\210\354\227\220 \355\224\204\353\241\234\352\267\270\353\236\250 \354\204\240\355\203\235.png"
+  * "public/images/03_Resources/Image/B3/B3 Install media/USB \355\224\204\353\241\234\352\267\270\353\236\250 \354\204\240\355\203\235 \354\231\204\353\243\214.png"
+  * "public/images/03_Resources/Image/B3/B3 Install media/USB \355\227\210\353\270\214.png"
+  * public/images/03_Resources/Image/B3/B3 Install media/USB.png
+  * "public/images/03_Resources/Image/B3/B3 Install media/Update \354\247\204\355\226\211 \353\260\217 \354\231\204\353\243\214.png"
+  * "public/images/03_Resources/Image/B3/B3 Install media/[KOR]cm5_\355\224\204\353\241\234\352\267\270\353\236\250_\354\227\205\353\215\260\354\235\264\355\212\270_\353\260\251\353\262\225_\352\260\200\354\235\264\353\223\234.md"
+  * "public/images/03_Resources/Image/B3/B3 Install media/\353\262\204\354\240\204 \354\262\264\355\201\254.PNG"
+  * "public/images/03_Resources/Image/B3/B3 Install media/\353\270\214\353\235\274\354\232\260\354\240\200 \354\225\204\354\235\264\354\275\230.png"
+  * "public/images/03_Resources/Image/B3/B3 Install media/\353\270\214\353\235\274\354\232\260\354\240\200 \354\260\275.png"
+  * "public/images/03_Resources/Image/B3/B3 Install media/\354\213\244\355\226\211 \354\244\221\354\235\270 \355\224\204\353\241\234\352\267\270\353\236\250.png"
+  * "public/images/03_Resources/Image/B3/B3 Install media/\354\235\270\355\204\260\353\204\267.png"
+  * "public/images/03_Resources/Image/B3/B3 Install media/\354\236\245\353\271\204.png"
+  * "public/images/03_Resources/Image/B3/B3 Install media/\355\224\204\353\241\234\352\267\270\353\236\250 \354\225\225\354\266\225 \354\247\221.png"
+  * "public/images/03_Resources/Image/B3/B3 Install media/\355\231\230\352\262\275\354\204\244\354\240\225 \353\252\251\353\241\235.png"
+  * "public/images/03_Resources/Image/B3/B3 Install media/\355\231\230\352\262\275\354\204\244\354\240\225 \354\225\204\354\235\264\354\275\230.png"
+  * public/images/03_Resources/Image/B3/alibaba/KakaoTalk_20251219_093343153_1.png
+  * public/images/03_Resources/Image/B3/photos/KakaoTalk_20251231_101545706_03_2.png
+  * public/images/03_Resources/Image/B3/photos/KakaoTalk_20251231_101545706_07_1_1.png
+  * public/images/03_Resources/Image/B3/photos/KakaoTalk_20251231_101545706_13_1.png
+  * public/images/03_Resources/Image/B3/photos/KakaoTalk_20251231_101545706_14_1.png
+  * public/images/03_Resources/Image/B3/photos/KakaoTalk_20260213_115622058_1.png
+  * public/images/03_Resources/Image/DSK_Media/image10.png
+  * public/images/03_Resources/Image/DSK_Media/image11.png
+  * public/images/03_Resources/Image/DSK_Media/image12.png
+  * public/images/03_Resources/Image/DSK_Media/image13.png
+  * public/images/03_Resources/Image/DSK_Media/image14.png
+  * public/images/03_Resources/Image/DSK_Media/image15.png
+  * public/images/03_Resources/Image/DSK_Media/image16.png
+  * public/images/03_Resources/Image/DSK_Media/image17.png
+  * public/images/03_Resources/Image/DSK_Media/image18.png
+  * public/images/03_Resources/Image/DSK_Media/image19.png
+  * public/images/03_Resources/Image/DSK_Media/image2.png
+  * public/images/03_Resources/Image/DSK_Media/image20.png
+  * public/images/03_Resources/Image/DSK_Media/image21.png
+  * public/images/03_Resources/Image/DSK_Media/image22.png
+  * public/images/03_Resources/Image/DSK_Media/image23.png
+  * public/images/03_Resources/Image/DSK_Media/image3.png
+  * public/images/03_Resources/Image/DSK_Media/image4.png
+  * public/images/03_Resources/Image/DSK_Media/image5.png
+  * public/images/03_Resources/Image/DSK_Media/image6.png
+  * public/images/03_Resources/Image/DSK_Media/image7.png
+  * public/images/03_Resources/Image/DSK_Media/image8.png
+  * public/images/03_Resources/Image/DSK_Media/image9.png
+  * "public/images/03_Resources/Image/Manual/Cursor/Cursor \354\202\254\354\232\251 \354\240\204.png"
+  * "public/images/03_Resources/Image/Manual/Cursor/Cursor \354\202\254\354\232\251 \355\233\204.png"
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/Calibration \353\252\251\353\241\235.png"
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/Calibration \353\260\230\354\230\201 \355\231\224\353\251\264.png"
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/Color Map A Position \354\240\201\354\232\251 \355\231\224\353\251\264.png"
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/Color Map A^ \354\240\201\354\232\251 \355\231\224\353\251\264 .png"
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/Color map Control \355\231\224\353\251\264.png"
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/Color map Linear \354\240\201\354\232\251 \355\231\224\353\251\264.png"
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/Color map \355\231\224\353\251\264.png"
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/Data Bar \354\235\264\353\217\231 \354\213\234 \353\263\200\355\231\224 \355\231\224\353\251\264.png"
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/Data Bar \354\235\264\353\217\231 \354\213\234 \353\263\200\355\231\224 \355\231\224\353\251\2642.png"
+  * public/images/03_Resources/Image/Manual/DSViewer/Images/Data Toolbar.png
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/File \353\252\251\353\241\235.png"
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/File \353\252\251\353\241\235_2.png"
+  * public/images/03_Resources/Image/Manual/DSViewer/Images/Gate Toolbar.png
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/Gate \355\231\234\354\204\261\355\231\224 \355\233\204 A-scan \355\231\224\353\251\264.png"
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/GateRange Control \353\252\251\353\241\235.png"
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/Home \353\252\251\353\241\235.png"
+  * public/images/03_Resources/Image/Manual/DSViewer/Images/Install Program.png
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/Install \354\260\275.png"
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/Main Toolbar \353\252\251\353\241\235.png"
+  * public/images/03_Resources/Image/Manual/DSViewer/Images/Main Toolbar.png
+  * public/images/03_Resources/Image/Manual/DSViewer/Images/Measure tool Toolbar.png
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/Measurement \354\260\275.png"
+  * public/images/03_Resources/Image/Manual/DSViewer/Images/Mini Toolbar.png
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/Minitool \352\260\222 \355\221\234\354\213\234 \355\231\224\353\251\264.png"
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/Multichannel View \353\252\251\353\241\235.png"
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/Parameters Specimen \355\231\224\353\251\264.png"
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/Parameters \354\260\275 \355\231\224\353\251\264.png"
+  * public/images/03_Resources/Image/Manual/DSViewer/Images/Reference  Measurement Toolbar.png
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/Reference  Measurement \354\204\244\354\240\225 \355\231\224\353\251\264.png"
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/S-scan Gate \355\221\234\354\213\234 \355\231\224\353\251\264.png"
+  * public/images/03_Resources/Image/Manual/DSViewer/Images/Scan Display.png
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/Scan View \353\252\251\353\241\235.png"
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/Soft Gain \353\252\251\353\241\235.png"
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/Specimen \354\240\201\354\232\251 \355\231\224\353\251\264.png"
+  * public/images/03_Resources/Image/Manual/DSViewer/Images/Sub Toolbar.png
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/Tool \353\252\251\353\241\235.png"
+  * public/images/03_Resources/Image/Manual/DSViewer/Images/Total Menu.png
+  * public/images/03_Resources/Image/Manual/DSViewer/Images/Total Toolbar Menu.png
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/View \353\252\251\353\241\235.png"
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/Window \353\252\251\353\241\235.png"
+  * public/images/03_Resources/Image/Manual/DSViewer/Images/Zoom mode Toolbar.png
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/Zoom mode \355\231\234\354\204\261\355\231\224 \355\231\224\353\251\264.png"
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/Zoom mode\352\260\200 \354\240\201\354\232\251 \353\220\230\354\247\200 \354\225\212\354\235\200 \355\231\224\353\251\264.png"
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/Zoom mode\352\260\200 \354\240\201\354\232\251 \353\220\234 \355\231\224\353\251\264.png"
+  * public/images/03_Resources/Image/Manual/DSViewer/Images/Zoom reset Toolbar.png
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/\355\224\204\353\241\234\352\267\270\353\236\250 \354\213\244\355\226\211 \354\213\234 \354\262\253 \355\231\224\353\251\264.png"
+  * "public/images/03_Resources/Image/Manual/DSViewer/Images/\355\224\204\353\241\234\352\267\270\353\236\250 \354\240\204\354\262\264 \355\231\224\353\251\264 \352\265\254\354\204\261.png"
+  * public/images/03_Resources/Image/Manual/Focus position/Position 25mm.png
+  * public/images/03_Resources/Image/Manual/Focus position/Position 70mm.png
+  * "public/images/03_Resources/Image/Manual/Pulse width/Probe\354\231\200 \353\247\244\354\271\255\354\235\264 \353\247\236\353\212\224 Pulse Width.png"
+  * "public/images/03_Resources/Image/Manual/Pulse width/Probe\354\231\200 \353\247\244\354\271\255\354\235\264 \354\225\210\353\247\236\353\212\224 Pulse Width.png"
+  * public/images/03_Resources/Image/Manual/Toolbar/Bottom toolbar.png
+  * public/images/03_Resources/Image/Manual/Toolbar/Left toolbar.png
+  * "public/images/03_Resources/Image/Manual/Toolbar/Main View \355\231\224\353\251\264 \354\230\201\354\227\255.png"
+  * public/images/03_Resources/Image/Manual/Toolbar/Top toolbar.png
+  * "public/images/03_Resources/Image/Manual/Toolbar/\355\214\214\353\235\274\353\257\270\355\204\260 \354\204\244\354\240\225 \354\225\204\354\235\264\354\275\230 \354\204\240\355\203\235\354\247\200.png"
+  * public/images/03_Resources/Image/Manual/Wedgedelay/Wedgedelay_0us.png
+  * public/images/03_Resources/Image/Manual/Wedgedelay/Wedgedelay_8us.png
+  * public/images/03_Resources/Image/P5/1234/P5_Catalog_main.png
+  * public/images/03_Resources/Image/P5/1234/P5_I.O_Port.png
+  * public/images/03_Resources/Image/P5/1234/P5_omni_Port_1.png
+  * "public/images/03_Resources/Image/P5/\355\231\210\355\216\230\354\235\264\354\247\200_\354\202\254\354\247\204_P5/\355\217\254\354\236\245 \353\260\217 \355\214\250\355\202\244\354\247\200/\355\214\250\355\202\244\354\247\200_3.jpg"
+  * public/images/03_Resources/Image/R5/upload_pending/1.png
+  * public/images/03_Resources/Image/R5/upload_pending/3.png
+  * public/images/03_Resources/Image/R5/upload_pending/4.png
+  * public/images/03_Resources/Image/T3/T3_Bottom_2.png
+  * public/images/03_Resources/Image/T3/T3_Fornt_4.png
+  * public/images/03_Resources/Image/T3/T3_Right_2.png
+  * public/images/03_Resources/Image/T3/T3_Top_1.png
+  * "public/images/03_Resources/Image/T3/\354\225\214\353\246\254\353\260\224\353\260\224/T3_Fornt_3_1.png"
+  * public/images/blog/ko/P5_Catalog_Main_1.jpg
+  * public/images/blog/ko/P5_Fast.png
+  * "public/images/blog/ko/R3_PAUT_TOFD_\354\213\234\355\216\270\355\231\225\354\235\270_20220509_slide007_11.jpg"
+  * public/images/blog/ko/artificial-defect.png
+  * public/images/blog/ko/clear-reflector-defect.png
+  * public/images/blog/ko/comp_first.png
+  * public/images/blog/ko/comparison-criteria.jpg
+  * public/images/blog/ko/comparison-table.png
+  * public/images/blog/ko/competitor-probe.jpg
+  * public/images/blog/ko/competitor-wedge.jpg
+  * public/images/blog/ko/corr_analysis_first.png
+  * public/images/blog/ko/corr_demo_first.jpg
+  * public/images/blog/ko/defect-icon.png
+  * public/images/blog/ko/defect-image.png
+  * public/images/blog/ko/defect-location-1.jpg
+  * public/images/blog/ko/dm_first.png
+  * public/images/blog/ko/image-comparison-1.jpg
+  * public/images/blog/ko/image-comparison-2.jpg
+  * public/images/blog/ko/image-comparison-3.jpg
+  * public/images/blog/ko/lv_first.png
+  * public/images/blog/ko/natural-defect.png
+  * public/images/blog/ko/p5-probe.jpg
+  * public/images/blog/ko/p5-scan-setup.jpg
+  * public/images/blog/ko/p5-wedge.jpg
+  * public/images/blog/ko/paut_comp_first.png
+  * public/images/blog/ko/result-table-1.jpg
+  * public/images/blog/ko/result-table-2.jpg
+  * public/images/blog/ko/result-table-3.png
+  * public/images/blog/ko/rv_first.png
+  * public/images/blog/ko/s-scan-1.png
+  * public/images/blog/ko/s-scan-reflector.png
+  * public/images/blog/ko/sens_first.png
+  * public/images/blog/ko/smooth-defect.png
+  * public/images/blog/ko/test-specimen.jpg
+  * public/images/blog/ko/test-specimen.png
+  * public/images/blog/ko/ut-signal-diagram.png
+  * public/images/blog/ko/wd_first.png

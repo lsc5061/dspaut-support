@@ -1,8 +1,3 @@
----
-title: P5 Equipment Manual
-order: 1
----
-
 # DEEPSOUND P5 Product Manual
 
 - **Hardware Version**: v3.0.5
@@ -41,7 +36,7 @@ order: 1
 - 일체형 구조로 설계되어 현장 이동성이 높으며, 고사양 하드웨어를 바탕으로 실시간 데이터 처리 및 고해상도 이미지 구현이 가능합니다.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/P5/1234/p5_catalog_main.png" width="600">
+  <img src="/images/manuals/p5/p5_catalog_main.png" width="600">
   <p>DEEPSOUND P5 장비 전면 외형</p>
 </div>
 
@@ -62,7 +57,7 @@ order: 1
 - **전용 하드 케이스**: 충격 및 습기로부터 장비를 보호하는 폼(Foam) 내장형 이동식 하드 케이스
 
 <div align="center">
-  <img src="/images/03_Resources/Image/P5/_-_p5/asset/_3.jpg" width="340">
+  <img src="/images/manuals/p5/p5_package_3.jpg" width="600">
   <p>DEEPSOUND P5 기본 패키지 및 전용 케이스</p>
 </div>
 
@@ -96,8 +91,8 @@ order: 1
 - **Power Button**: 장비 상단 우측에 위치한 물리 버튼으로, 시스템의 전원을 제어합니다. 버튼 상단에 전원 아이콘이 각인되어 있어 직관적인 식별이 가능합니다.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/P5/1234/p5_omni_port_1.png" width="300">
-  <img src="/images/03_Resources/Image/P5/1234/p5_i-o_port.png" width="250">
+  <img src="/images/manuals/p5/p5_omni_port_1.png" width="300">
+  <img src="/images/manuals/p5/p5_i.o_port.png" width="250">
   <p>DEEPSOUND P5 좌/우 측면 주요 포트 및 인터페이스 구성</p>
 </div>
 

@@ -1,13 +1,4 @@
----
-title: P5 Equipment Manual
-description: Official product manual for the DEEPSOUND P5 high-performance PAUT system.
-version: v1.0
-releaseDate: 2026-04-29
-author: SEONGSANLAB Co., Ltd.
-order: 1
----
-
-# P5 Product Manual
+# DEEPSOUND P5 Product Manual
 
 - **Hardware Version**: v3.0.5
 - **Manual Version**: v1.0
@@ -45,7 +36,7 @@ order: 1
 - Its integrated structure provides high field mobility, and its high-specification hardware enables real-time data processing and high-resolution imaging.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/P5/1234/p5_catalog_main.png" width="600">
+  <img src="/images/manuals/p5/p5_catalog_main.png" width="600">
   <p>DEEPSOUND P5 Front View</p>
 </div>
 
@@ -66,7 +57,7 @@ order: 1
 - **Dedicated Hard Case**: Portable hard case with built-in foam to protect the device from impact and moisture.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/P5/_-_p5/asset/_3.jpg" width="340">
+  <img src="/images/manuals/p5/p5_package_3.jpg" width="600">
   <p>DEEPSOUND P5 Standard Package and Dedicated Case</p>
 </div>
 
@@ -100,8 +91,8 @@ order: 1
 - **Power Button**: A physical button located at the top right of the device that controls system power. The power icon is engraved on top for intuitive identification.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/P5/1234/p5_omni_port_1.png" width="300">
-  <img src="/images/03_Resources/Image/P5/1234/p5_i-o_port.png" width="250">
+  <img src="/images/manuals/p5/p5_omni_port_1.png" width="300">
+  <img src="/images/manuals/p5/p5_i.o_port.png" width="250">
   <p>DEEPSOUND P5 Left/Right Side Major Ports and Interface Configuration</p>
 </div>
 

@@ -1,0 +1,6 @@
+=== FULL AUDIT OF ROOT FOLDER: E:\DS_LSC\dsvault\Marketing\08. Sub Website ===
+
+[DIR]  dspaut-support                      (6245 files, 3700.19 MB)
+[FILE] Sub webwite Plan.md                 (969 bytes)
+[FILE] Sub_Website_Implementation_Plan.md  (4210 bytes)
+[FILE] sub_website_root_audit.txt          (0 bytes)

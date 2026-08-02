@@ -974,15 +974,15 @@ UT Connector는 실행 시 Check 박스를 클릭하여 PAUT에서 UT로 전환�
 
 
 
-![](/images/03_Resources/Image/T3/t3_top_1.png)
-![](/images/03_Resources/Image/R5/upload_pending/3.png)
+![](/images/manuals/t3/t3_top_1.png)
+![](/images/manuals/r5/3.png)
 
 
 **#3 Port 확인 후 Transmitter / Receiver 설정**
 
 
 
-![](/images/03_Resources/Image/T3/tofd_1.png)
+![](/images/manuals/t3/tofd_1.png)
 
 
 > **중요:** Port 1개만 사용할 경우 Tx / Rx 동일하게 기재 / TOFD로 사용할 경우 Port 2개에 대한 Tx / Rx Port 숫자 기재

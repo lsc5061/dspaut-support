@@ -1,8 +1,3 @@
----
-title: DSVision Manual
-order: 1
----
-
 # DSVision Software Manual
 
 ---
@@ -39,23 +34,23 @@ order: 1
 - Unzip the installation file (.zip), copy the entire program folder to a USB drive, and insert it into the USB hub on the right side of the device.
 - Connect a keyboard and mouse to the dedicated ports or USB hub for operation and access the standard Windows 10 desktop interface.
 <div align="center">
-  <img src="/images/03_Resources/kor-install_program/images/2.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsv_install_2.png" width="600">
   <p><Preparing USB Drive and Installation Folder></p>
 </div>
 - Before starting the installation, right-click the active program icon in the taskbar and select 'Close window' to terminate all currently running programs.
 <div align="center">
-  <img src="/images/03_Resources/kor-install_program/images/4.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsv_install_4.png" width="600">
   <p><Checking Termination of Running Programs></p>
 </div>
 - Double-click the installation file (e.g., DSVision_Setup.exe) on the USB drive, and click the 'Install' button in the installation window to proceed.
 - When the message for specifying the installation path appears, keep the default settings and click 'Next' to complete the installation.
 <div align="center">
-  <img src="/images/03_Resources/kor-install_program/images/5.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsv_install_5.png" width="600">
   <p><Running and Proceeding with Installation Program></p>
 </div>
 - Reboot the device after installation is complete; the program will run automatically. Finally, verify the update by checking the software version number at the bottom right of the screen.
 <div align="center">
-  <img src="/images/03_Resources/kor-install_program/images/6.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsv_install_6.png" width="600">
   <p><Verifying Software Version></p>
 </div>
 
@@ -63,30 +58,30 @@ order: 1
 - This device is configured to run the software automatically upon system startup. If manual configuration is needed, follow these steps:
 - Press 'Windows Key + R' on the keyboard to open the Run window, and type shell:startup in the input box to open the 'Startup' folder.
 <div align="center">
-  <img src="/images/03_Resources/korhow-to-register-a-program-for-automatic-startup/image/3.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsv_autostart_3.png" width="600">
   <p><Typing shell:startup in Run Window></p>
 </div>
 - Navigate to the folder where the software is installed and create a shortcut for the executable file (DSVision.exe).
 <div align="center">
-  <img src="/images/03_Resources/korhow-to-register-a-program-for-automatic-startup/image/4.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsv_autostart_4.png" width="600">
   <p><Example of Executable File Image></p>
 </div>
 <div align="center">
-  <img src="/images/03_Resources/korhow-to-register-a-program-for-automatic-startup/image/5.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsv_autostart_5.png" width="600">
   <p><Process of Creating Shortcut on Desktop></p>
 </div>
 - Copy the shortcut file created on the desktop and paste it into the 'Startup' folder window opened earlier.
 <div align="center">
-  <img src="/images/03_Resources/korhow-to-register-a-program-for-automatic-startup/image/7.png" width="150" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsv_autostart_7.png" width="150">
   <p><Copying and Moving Shortcut Icon></p>
 </div>
 <div align="center">
-  <img src="/images/03_Resources/korhow-to-register-a-program-for-automatic-startup/image/8.png" width="300" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsv_autostart_8.png" width="300">
   <p><Pasting into Startup Folder></p>
 </div>
 - Ensure all settings are finished and registration in the system folder is complete.
 <div align="center">
-  <img src="/images/03_Resources/korhow-to-register-a-program-for-automatic-startup/image/9.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsv_autostart_9.png" width="600">
   <p><Completion of Startup Folder Registration></p>
 </div>
 - Reboot the system to finaly verify that the program activates automatically.
@@ -130,8 +125,6 @@ Detailed definitions of major technical terms and abbreviations used in this man
 
 # 4. Device Software Functions
 - DSVision is a dedicated software for real-time data acquisition and multi-angle analysis for ultrasonic NDT.
-- **Boot & Instant Execution**: The device is engineered to run the OS and automatically launch the software directly into the **real-time measurement screen (e.g., PA-1 channel)** without requiring any connection setup or beam wizard, enabling rapid onsite inspection.
-- **Preset Management (.set)**: Comprehensive hardware control is managed via **Preferences (Gear Icon) → Setup**. A `.set` preset file stores probe/wedge specifications, beam type, angles, resolution, specimen geometry, and encoder calibrations. These can be saved, loaded, deleted, or copied to an external USB.
 - **Real-time Data Acquisition**: Provides lag-free real-time images through high-speed signal processing.
 - **Support for Various Modes**: Inspection modes such as PA, TOFD, and Conventional can be operated individually or simultaneously within the software.
 - **Data Storage**: Acquired raw data and analyzed data are stored within the software.
@@ -160,27 +153,9 @@ The menu of the DSVision program consists of four areas—Top, Bottom, Left, and
 - **Inspection Optimization**: The software automatically optimizes and displays the screen configuration based on the selected inspection mode (PA, TOFD, Conventional).
 
 <div align="center">
-  <img src="/images/03_Resources/Image/Manual/Toolbar/main-view.png" width="340" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsv_main_view.png" width="600">
   <p>DSVision Main Screen Configuration</p>
 </div>
-
-### 5.1.1 A-Scan Display Characteristics
-- **Axes**: The vertical axis represents the ultrasonic depth (Ultrasound Axis, Purple/Pink, 0-140mm) while the horizontal axis represents signal amplitude (Amplitude, 0-100%).
-- **Hamburger Menu (PA-1 Title)**: Tapping the hamburger icon next to the active channel name provides three wave analysis tools:
-  - `Grid`: Toggles the background grid pattern on and off.
-  - `Set Envelope`: Accumulates the maximum peak trajectory of successive A-Scan waveforms over time (Peak Hold).
-  - `Clear`: Flashes and resets the accumulated envelope history.
-- **Persistent TCG Curve**: Once TCG (Time Corrected Gain) calibration is completed, the compensation curve (Cyan line) and corresponding gain values (e.g., `5.9 dB`) along with the `Ref` line remain permanently overlaid on the A-Scan background. This allows real-time monitoring of attenuation correction during scans.
-
-### 5.1.2 S-Scan (Sectorial Scan) Display Characteristics
-- **Axes & Reference**: The horizontal axis shows the lateral range (Index Axis, Green, -60mm to 60mm). The blue dot at the top vertex marks the beam emission origin (Near Field).
-- **Steering Line (Green Dashed Line)**: Represents the angle of the active A-Scan beam currently selected.
-  - Inspectors can drag the steering line directly on the screen or use the `AScan Index` arrows (◀▶) on the panel.
-  - **Refraction Angle Display**: Refraction angle digits are not printed on the control panel, but are instead displayed in real-time at the bottom of the S-Scan view (e.g., `0.0°` highlighted in blue).
-- **Gate Visual Representation**: Gates are projected onto the S-Scan based on the selected Echo Type:
-  - *Sound Path Mode*: Gate is plotted as an **Arc (curved dashed line)**.
-  - *True Depth Mode*: Gate is plotted as a **Horizontal dashed line**.
-  - **Gate Color Coding**: Gate A = **Red**, Gate B = **Blue**, Gate I = **Green**.
 
 ## 5.2 Toolbar explanations
 Each toolbar in the software is placed in an optimized position by function, allowing users to monitor and control simultaneously according to the inspection situation. The Top and Bottom areas are used to check inspection reliability by constantly exposing real-time data values and calibration status, while the Left and Right areas provide a control interface for actual inspection operation and detailed parameter settings to maximize work efficiency. Detailed functions and operation methods for sub-menus included in each toolbar area are as follows.
@@ -189,7 +164,7 @@ Each toolbar in the software is placed in an optimized position by function, all
 The top toolbar is an area for real-time monitoring of core values and system status during inspection. It is configured so that inspectors can check major parameters or immediately adjust Gain while analyzing center images.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/Manual/Toolbar/top-toolbar.png" width="340" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsv_top_toolbar.png" width="600">
   <p>Top Toolbar Configuration Overview</p>
 </div>
 
@@ -199,20 +174,19 @@ A function to adjust the amplification of the inspection signal in real-time.
 - **Fine Control**: Provides the ability to finely adjust in 0.1 dB increments within a maximum 10 dB range or quickly increase/decrease values in 6 dB increments.
 
 <div align="center">
-  <img src="/images/03_Resources/kor-program_introduction/images/16.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsvision_step_13_16.png" width="400">
   <p>Gain Control Keypad Screen</p>
 </div>
 
 ### 5.3.2 Information Panel (Amplitude, P, D, S)
 Outputs real-time measurement information of the signal captured based on the active Gate.
-- **Dynamic Gate Switching**: The header metrics are not static. The abbreviations and readings dynamically switch based on the specific gate selected (touched/activated) by the inspector (e.g., displays PA/DA/SA for Gate A, PB/DB/SB for Gate B, and PI/DI/SI for Gate I).
-- **Amplitude (%)**: Displays the height intensity of the maximum echo signal detected within the gate as a percentage of Full Screen Height (FSH).
-- **Primary (P - Projected Distance)**: The horizontal projected distance from the probe's front emission point (Toe) to the signal reflector.
-- **Depth (D - True Depth)**: The vertical depth from the specimen's top surface to the signal reflector.
-- **Sound Path (S - Beam Path)**: The actual physical distance traveled by the sound beam to the signal reflector.
+- **Amplitude (%)**: Displays the intensity of the maximum echo detected within the gate as a percentage.
+- **Primary (P)**: Indicates the straight-line distance from the probe to the point where the signal is detected.
+- **Depth (D)**: Indicates the vertical depth of the point where the signal is detected within the test object.
+- **Sound (S)**: Outputs the position distance on the Sound Path.
 
 <div align="center">
-  <img src="/images/03_Resources/kor-program_introduction/images/15.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsv_info_panel_15.png" width="600">
   <p>Gate Measurement Information Panel</p>
 </div>
 
@@ -222,7 +196,7 @@ Monitors real-time position information transmitted from the current scanner or 
 - **Warning Status**: If measured values exceed pre-set inspection ranges or an anomaly occurs in the encoder signal, the numerical display area is highlighted in red to provide a visual warning.
 
 <div align="center">
-  <img src="/images/03_Resources/kor-program_introduction/images/slide_74_img_15.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsvision_step_15_slide_74_img_15.png" width="400">
   <p>Encoder Position and Warning Notification</p>
 </div>
 
@@ -230,7 +204,7 @@ Monitors real-time position information transmitted from the current scanner or 
 The left toolbar is the area for controlling major operational functions and configuring system environment. Inspectors can operate inspection status while keeping an eye on real-time data on the center screen. The toolbar includes functions for starting and stopping inspections, Auto Gain, and screen zoom or full-screen mode for detailed analysis.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/Manual/Toolbar/left-toolbar.png" width="50" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsv_left_toolbar.png" width="50">
   <p>Left Toolbar Configuration</p>
 </div>
 
@@ -238,25 +212,25 @@ The left toolbar is the area for controlling major operational functions and con
 Calls up system settings and various data management menus.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/12.png" width="50" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsv_eng_pref_12.png" width="50">
   <p>Preferences Icon</p>
 </div>
 
 * **Setup**: A menu to manage parameter setting values. Performs **Save** (save current settings to internal drive), **Load** (load saved setting files), **Delete**, and **Copy** (copy files to external USB).
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_50_img_10.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsv_eng_setup_slide50.png" width="600">
   <p>Setup Configuration Screen</p>
 </div>
 
 * **Image**: Manages the list of images saved through the Screen Shot function. Provides a preview when an image is selected, and allows for **Copy** to USB or **Delete**.
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_51_img_15.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsv_eng_image_slide51.png" width="600">
   <p>Image Management Screen</p>
 </div>
 
 * **Data**: Manages the list of acquired raw inspection data. Supports data preview and includes **Copy** to USB, **Delete**, and **Open Viewer** functions. It also displays the remaining storage capacity of the device's internal drive.
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_52_img_19.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsv_eng_data_slide52.png" width="600">
   <p>Data Management Screen</p>
 </div>
 
@@ -266,7 +240,7 @@ Calls up system settings and various data management menus.
     - **Information**: Check hardware specifications and software version.
     - **Minimize**: Minimizes the program and switches to the Windows 10 desktop.
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_54_img_6.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsv_eng_device_slide54.png" width="600">
   <p>Device Configuration Screen</p>
 </div>
 
@@ -274,7 +248,7 @@ Calls up system settings and various data management menus.
 Controls real-time data acquisition and recording modes.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_57_img_15.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsvision_inspect_buttons_crop.png" width="200">
   <p>List Configuration During Inspection Save</p>
 </div>
 
@@ -283,7 +257,7 @@ Controls real-time data acquisition and recording modes.
 * **Stop**: Active only during inspection mode. Terminating data acquisition brings up a window to name the file and finally save the acquired data.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/13.png" width="300" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsv_inspect_active_real.png" width="300">
   <p>Example of Active Inspection Mode</p>
 </div>
 
@@ -291,7 +265,7 @@ Controls real-time data acquisition and recording modes.
 Immediately saves the entire current display, including the center screen area, as an image file.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_59_img_5.png" width="100" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsvision_step_24_slide_59_img_5.png" width="100">
   <p>Screen Shot Icon</p>
 </div>
 
@@ -300,7 +274,7 @@ Immediately saves the entire current display, including the center screen area, 
 * **Default Save Path**: `C:\DEEPSOUND\DSVision\Bin\RES\User\Image`
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_59_img_11.png" width="500" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsvision_step_25_slide_59_img_11.png" width="500">
   <p>Saved Image Verification Screen</p>
 </div>
 
@@ -308,20 +282,17 @@ Immediately saves the entire current display, including the center screen area, 
 Immediately adjusts the amplitude of the measured signal to a pre-set target value.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_61_img_4.png" width="100" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsvision_step_26_slide_61_img_4.png" width="100">
   <p>Auto Gain Icon</p>
 </div>
 
-- **Working Principle**: Automatically detects the highest peak among signals currently located within the **Gate A** area and adjusts the amplification.
-- **Physical Decibel Conversion**: Calculated using the physical amplitude ratio formula:
-  $$\Delta\text{Gain} = 20 \log_{10}\left(\frac{\text{Target \%}}{\text{Current Peak \%}}\right)$$
-  For instance, if the current peak is at 40% and the target is 80% (a 2x ratio), the system adds exactly **`+6 dB`** of gain, verifying physical mathematical consistency.
-- **Standard Value Setting**: Adjusts the signal height based on the percentage (%) specified in the **Auto FSH** (Full Screen Height) parameter (typically 80% FSH as per industry calibration standards, but adjustable to 30% or 50% for customized procedures).
-- **Usage**: Normalizes the signal to a standard height required by specifications with a single click, eliminating the need to manually adjust Gain multiple times.
+* **Working Principle**: Automatically detects the highest peak among signals currently located within the **A Gate** area and adjusts the amplification.
+* **Standard Value Setting**: Adjusts the signal height based on the percentage (%) specified in the **Auto FSH** list of the right configuration menu.
+* **Usage**: Normalizes the signal to a standard height required by specifications (e.g., 80% FSH) with a single click, eliminating the need to manually adjust Gain multiple times.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_61_img_15.png" width="250" style="max-width: 100%; height: auto; border-radius: 6px;">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_61_img_17.png" width="250" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsvision_step_27_slide_61_img_15.png" width="250">
+  <img src="/images/manuals/dsvision/dsvision_step_28_slide_61_img_17.png" width="250">
   <p>Comparison Before (Left) and After (Right) applying Auto Gain</p>
 </div>
 
@@ -329,7 +300,7 @@ Immediately adjusts the amplitude of the measured signal to a pre-set target val
 Performs detailed analysis by zooming into specific screen areas or restoring them to their initial state.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/14.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsvision_zoom_reset_crop.png" width="200">
   <p>Zoom and Reset Icons</p>
 </div>
 
@@ -341,7 +312,7 @@ Performs detailed analysis by zooming into specific screen areas or restoring th
 Maximizes visibility during defect detection and precision measurement by extending the center data output area to the full screen.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_65_img_19.png" width="100" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsvision_step_30_slide_65_img_19.png" width="100">
   <p>Full Screen Icon</p>
 </div>
 
@@ -350,7 +321,7 @@ Maximizes visibility during defect detection and precision measurement by extend
 * **How to Exit**: Click the **Exit** icon displayed at the bottom right of the screen to return to the original view.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_65_img_31.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsvision_step_31_slide_65_img_31.png" width="600">
   <p>Active Full Screen Mode</p>
 </div>
 
@@ -358,7 +329,7 @@ Maximizes visibility during defect detection and precision measurement by extend
 Displays an information box on the screen to check all measurement indicators and detailed data for the active Gate at a glance.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_67_img_5.png" width="100" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsvision_step_32_slide_67_img_5.png" width="100">
   <p>Information Box Icon</p>
 </div>
 
@@ -368,7 +339,7 @@ Displays an information box on the screen to check all measurement indicators an
 * **How to Exit**: Click the **X** button at the top right of the information box to hide it from the screen.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_67_img_15.png" width="600" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsvision_step_33_slide_67_img_15.png" width="600">
   <p>Active Information Box Screen</p>
 </div>
 
@@ -376,7 +347,7 @@ Displays an information box on the screen to check all measurement indicators an
 The right configuration toolbar is the area for setting and controlling all detailed software parameters. All numerical values required for inspection—from ultrasound generation settings to test object information and gate management—are input and adjusted here.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/Manual/Toolbar/asset.png" width="340" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsv_param_icons.png" width="600">
   <p>Configuration of Right Toolbar and 9 Functional Groups</p>
 </div>
 
@@ -396,7 +367,7 @@ The right configuration toolbar is the area for setting and controlling all deta
 This is the most basic control panel for the device, where the inspector determines the depth (Depth) to be viewed and the physical intensity (Voltage) of the signal. Like adjusting zoom and brightness on a camera, this parameter group sets the optimal viewing environment before starting an inspection.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_8_img_3.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsvision_step_35_slide_8_img_3.png" width="400">
   <p>General Settings Components</p>
 </div>
 
@@ -410,12 +381,12 @@ This is the most basic control panel for the device, where the inspector determi
     - **Image Sharpness**: Defect shapes are observed more sharply and clearly on the S-Scan, increasing interpretation accuracy.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/Manual/focus-position/position-25mm.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsvision_step_36_Position_25mm.png" width="400">
   <p>25mm Setting: Captures sharp surface defects by focusing on shallow depths</p>
 </div>
 
 <div align="center">
-  <img src="/images/03_Resources/Image/Manual/focus-position/position-70mm.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsvision_step_37_Position_70mm.png" width="400">
   <p>70mm Setting: Enhances internal resolution of thick base metals by focusing on deep levels</p>
 </div>
 
@@ -448,12 +419,12 @@ Compensates for the time ultrasound travels through the wedge to accurately calc
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_Resources/Image/Manual/Wedgedelay/wedgedelay_0us.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
+    <img src="/images/manuals/dsvision/wedgedelay_0us.png" width="400">
     <div align="center">Before Correction (0.0µs): Signal appears shallower than actual position</div>
   </div>
   <!-- slide -->
   <div align="center">
-    <img src="/images/03_Resources/Image/Manual/Wedgedelay/wedgedelay_8us.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
+    <img src="/images/manuals/dsvision/wedgedelay_8us.png" width="400">
     <div align="center">After Correction (0.8µs): Signal accurately aligned with actual physical depth</div>
   </div>
 </div>
@@ -465,11 +436,12 @@ Adjusts the temporal duration of electrical energy applied to the transducer.
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_Resources/Image/Manual/pulse-width/probe-pulse-width.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
+    <img src="/images/manuals/dsvision/dsv_main_view.png" width="400">
     <div align="center">Matched: Secured sharp and clear signals even with low Gain (42.2dB)</div>
   </div>
   <!-- slide -->
   <div align="center">
+    <img src="/images/manuals/dsvision/dsv_main_view.png" width="400">
     <div align="center">Mismatched: Signal weakens, requiring high Gain (56.9dB) and increasing noise</div>
   </div>
 </div>
@@ -498,22 +470,20 @@ Defines the physical boundaries and acoustic characteristics of the test object.
     - **Velocity Calibration**: Supports a function to calculate actual sound velocity using reference blocks of known thickness. Calculated values are automatically applied to the system upon completion.
 * **Thickness**: Enter the actual thickness of the test object. This serves as a spatial boundary for calculating beam reflection points (Legs).
     - **Reflection**: Changing thickness values moves the Backwall line on the S-Scan in real-time to check alignment with actual echo signals.
-    - **Flat Specimen Optimization**: DSVision is optimized for flat plate specimens. It does not support curved/pipe specimen profiles.
+    - **Curved Surface Handling**: Visualizes accurate beam paths not only for plates but also by combining diameter and thickness for curved specimens like pipes.
 * **Legs**: Displays points where the ultrasonic beam reflects inside the specimen as guide lines on the screen.
     - **B (Bottom)**: Bottom reflection points (B0, B2, etc.)
     - **T (Top)**: Top reflection points (T1, T3, etc.)
-    - **Leg Calculation Mechanism**: The vertical depth of the B0 and T1 lines is strictly governed by the **Thickness** setting and is calculated automatically.
-    - **A-Scan Indicator**: Activating Legs displays red vertical bars in the A-Scan graph, signifying the corresponding depth range zones.
     - **Usage**: If a defect signal is found between B0 and T1, it proves that it was captured in the section reflecting back up from the bottom (1-Skip).
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_Resources/eng-program_introduction/images/slide_13_img_21.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
+    <img src="/images/manuals/dsvision/dsv_main_view.png" width="400">
     <div align="center">Specimen Thickness Configuration Screen</div>
   </div>
   <!-- slide -->
   <div align="center">
-    <img src="/images/03_Resources/eng-program_introduction/images/slide_14_img_11.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
+    <img src="/images/manuals/dsvision/dsv_calib_velocity_slide43.png" width="400">
     <div align="center">Visualization Example of Legs (B0, T1) on S-Scan</div>
   </div>
 </div>
@@ -530,32 +500,31 @@ Configures weld profile and specifications to interpret whether a defect is loca
 * **Geometric Parameters**:
     - **Groove Angle**: Sets the bevel angle to increase accuracy in interpreting Fusion Line defects at weld boundaries.
     - **Fill / Land Height**: Sets actual weld bead and root land heights.
-    - **B0 Alignment**: The bottom boundary line **B0** is geometrically locked to the root land bottom line of the weld graphic. Adjusting `Land Height` scales the V-groove upward while keeping the root base fixed to the B0 depth.
     - **Land Offset (Gap)**: Visualizes horizontal gap between base metals to assist in root defect interpretation.
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_Resources/eng-program_introduction/images/slide_19_img_3.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
+    <img src="/images/manuals/dsvision/dsv_calib_wedgedelay_9.png" width="400">
     <div align="center">Weld Type Selection Screen (V, X, etc.)</div>
   </div>
   <!-- slide -->
   <div align="center">
-    <img src="/images/03_Resources/eng-program_introduction/images/slide_20_img_3.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
+    <img src="/images/manuals/dsvision/dsv_calib_sensitivity_10.png" width="400">
     <div align="center">Implementation of Asymmetrical Weld Structure using Flat Left/Right</div>
   </div>
 </div>
 
 * **HAZ (Heat-Affected Zone)**: Sets the width of the section where metal structure has been altered by heat from the weld boundary.
-    - **Double Outline Visualization**: When set to a value greater than 0mm (e.g., 5mm), an outer boundary outline parallel to the weld profile is generated. This creates a shaded double-boundary area indicating the Heat-Affected Zone.
+    - **Function**: Provides a shaded guide to immediately distinguish whether a defect signal is within the weld or the HAZ section, where defect frequency is high.
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_Resources/eng-program_introduction/images/slide_21_img_10.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
+    <img src="/images/manuals/dsvision/dsv_calib_tcg_slide46.png" width="400">
     <div align="center">Before Profile Setting: Difficult to determine spatial position of signal</div>
   </div>
   <!-- slide -->
   <div align="center">
-    <img src="/images/03_Resources/eng-program_introduction/images/slide_21_img_3.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
+    <img src="/images/manuals/dsvision/dsv_calib_encoder_slide47.png" width="400">
     <div align="center">After Profile and HAZ Setting: Clearly confirms signal is within the HAZ</div>
   </div>
 </div>
@@ -564,7 +533,7 @@ Configures weld profile and specifications to interpret whether a defect is loca
 Synchronizes the physical position of the probe with the software coordinate system.
 
 * **Probe Offset**: Enter the distance the probe is away from the weld centerline.
-    - **Index Offset**: Offset distance perpendicular to the weld line. Adjusting this shifts the virtual weld overlay graphic relative to the S-Scan beam coordinates to line up physical signals.
+    - **Index Offset**: Offset distance perpendicular to the weld line.
     - **Scan Offset**: Distance correction in the scan direction.
 * **Skew Angle**: Select the direction the probe is facing from 0°, 90°, 180°, or 270°. The software's data acquisition axis is automatically synchronized based on the set angle.
 
@@ -580,8 +549,7 @@ Defines unique transducer specifications and range of transmitting/receiving ele
 
 * **Probe Type**: Select the appropriate type according to the sensor's element array method.
     - **PA Linear**: The most common Phased Array transducer with elements arranged in a single line (1D).
-    - **PA Dual (Pitch-Catch)**: Transmitting and receiving arrays are isolated. Improves near-surface detection (reduces dead zones) and SNR in highly attenuative materials like austenitic welds.
-      - **Pin Allocation**: Switching to `PA Dual` automatically assigns **Tx elements to 1-16** and **Rx elements to 33-48** to match hardware switching boards and prevent channel crosstalk.
+    - **PA Dual (Pitch-Catch)**: A type where transmitting and receiving element arrays are independent. Reduces dead zones near the surface and provides high signal quality when inspecting materials with high attenuation or thick base metals.
     - **Single / Dual UT**: Single element or split transmit/receive conventional ultrasonic transducers.
 * **Probe Wizard**: A function to automatically load transducer specifications by selecting model names from a built-in database.
     - **Automatic Entry**: Pitch, Frequency, total number of Elements, etc., are automatically filled to prevent input errors.
@@ -589,7 +557,7 @@ Defines unique transducer specifications and range of transmitting/receiving ele
     - **First Element**: Defines which element of the device port each probe starts from in multi-probe configurations to prevent data interference.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/4.png" width="450" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsvision_step_48_4.png" width="450">
   <div align="center">Wizard Location Explanation Screen</div>
 </div>
 
@@ -598,15 +566,16 @@ Controls the status of the wedge attached to the bottom of the transducer to phy
 
 * **Why Use a Wedge?**: Ultrasound naturally travels only vertically. When beams must be sent at an angle, as in weld inspection, a wedge machined at a specific angle is used to refract the beam. It also improves coupling with the test object to reduce signal loss.
 * **Wedge On/Off**: Determines whether to include travel time delay within the wedge in the calculation engine.
-* **Wedge Reverse**: Reverses the data mapping and S-Scan display by 180 degrees. This provides an instant software correction if the probe is physically mounted backward, saving teardown time.
+* **Wedge Reverse**: Used when the probe is physically mounted in a direction 180 degrees opposite to the wedge.
+    - **Function**: Reverses acquisition logic and visual guides with a single button, allowing correct data acquisition without hardware remounting.
 * **Wedge Parameters**: For special wedges not in the database, optimize by directly inputting the following physical values:
-    - **Wedge Angle**: The physical angle of the wedge face.
-    - **Wedge Velocity**: Propagation speed of ultrasound in the wedge material (typically Rexolite, ~2337 m/s).
-    - **Primary Offset (Primary Axis / X-Offset)**: The horizontal distance from the front tip (Toe) of the wedge to the first transducer element. This is input as a **negative (-) value** because the element sits behind the front toe reference point.
-    - **Height at First Element (Height / Z-Offset)**: This is **not the total block height** of the wedge. It must be the vertical distance from the wedge bottom to the first active element to compute correct True Depth (DA/DB/DI).
+    - **Wedge Angle**: The physical angle between the bottom of the wedge and the surface the transducer sits on. This must be accurate to calculate the final refraction angle into the test object.
+    - **Wedge Velocity**: Speed of ultrasound in the wedge material. Refractive index varies with material sound velocity, so precise input is required.
+    - **Primary Offset (X-Offset)**: Horizontal distance from the first element of the transducer to the front end (Toe) of the wedge. Core reference point for calculating defect distance from the transducer.
+    - **Height at First Element (Z-Offset)**: Vertical height from the bottom of the wedge to the first element. Essential for calculating actual True Depth of defects.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/6.png" width="450" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsv_main_view.png" width="450">
   <div align="center">Wedge Menu Explanation Screen</div>
 </div>
 
@@ -632,12 +601,12 @@ This parameter group specifies a particular area for analysis among the numerous
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_Resources/eng-program_introduction/images/slide_28_img_5.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
+    <img src="/images/manuals/dsvision/dsv_main_view.png" width="400">
     <div align="center">Sound Path Mode: Arc-shaped Gate Line</div>
   </div>
   <!-- slide -->
   <div align="center">
-    <img src="/images/03_Resources/eng-program_introduction/images/slide_28_img_13.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
+    <img src="/images/manuals/dsvision/dsv_main_view.png" width="400">
     <div align="center">True Depth Mode: Horizontal Gate Line</div>
   </div>
 </div>
@@ -651,12 +620,12 @@ This parameter group measures the physical distance traveled by the transducer a
 Select an acquisition method suitable for inspection purpose and hardware environment.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_30_img_3.png" width="150" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsvision_step_52_slide_30_img_3.png" width="150">
   <div align="center">Encoder Settings and Scanner Type Selection Screen</div>
 </div>
 
 * **One Line**: Acquisition method using only a single axis (Scan Axis) by moving the transducer in a straight line. Most commonly used for general inspections like finding defects along a weld's length.
-* **Raster**: Utilizes both Main Scan and Index axes to scan a specific area in a zigzag pattern. Essential for planar (C-scan) images confirming defect distribution over wide areas, such as in corrosion mapping.
+* **Raster**: Utilizes both Main Scan and Index axes to scan a specific area in a zigzag pattern. Essential for 평면 images confirming defect distribution over wide areas, such as in corrosion mapping.
 * **Time (Time-based)**: Used in environments without an encoder device. Acquires data at regular time intervals at a constant speed.
 
 #### **Key Parameters**
@@ -671,20 +640,13 @@ Select an acquisition method suitable for inspection purpose and hardware enviro
 DSVision assigns unique colors to each data axis for intuitive analysis, synchronized with numerical colors in the status bar for immediate data identification.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_35_img_10.png" width="450" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsvision_axis_color_mapping.png" width="600">
   <div align="center">Axis Color Definitions: Scan (Blue), Index (Green), Ultrasound (Purple/Pink)</div>
 </div>
 
 * **Scan (Blue)**: Position information in the transducer's main travel direction.
 * **Index (Green)**: Position information for spacing between scan lines.
 * **Ultrasound (Purple/Pink)**: Actual travel path of ultrasound and depth information within metal.
-
-#### **Encoder Calibration**
-To ensure the encoder pulses translate accurately into physical millimeters, perform this 4-step field calibration:
-1. Select the target axis to calibrate (**Scan** or **Index**).
-2. Align the scanner to a physical starting mark and tap **Record Start Position** (sets the initial reference pulse count).
-3. Physically roll the scanner along a precision ruler for a set distance (e.g., exactly `100 mm`) and tap **Record End Position** to capture the final pulse count.
-4. Input the actual traveled distance (e.g., `100`) in the pop-up dialog. The system automatically computes the corrected resolution (pulses/mm) and applies it to **Scan Resolution** to achieve 0% error.
 
 ### 5.5.7 Display Settings
 A group of tools for optimizing the visual configuration of analysis screens and precisely measuring defect size and position. You can adjust screens to match inspection environments and extract quantitative analysis data using digital cursors.
@@ -699,7 +661,7 @@ A group of tools for optimizing the visual configuration of analysis screens and
 DSVision's cursors are core tools for quantifying defect length, depth, and amplitude. Precision measurement is possible without complex operation through a dedicated controller.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_34_img_11.png" width="150" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsvision_step_54_slide_34_img_11.png" width="150">
   <div align="center">Cursor Operation Interface: 8-way Controller</div>
 </div>
 
@@ -713,15 +675,12 @@ A function to divide hardware resources to build and manage multiple independent
 
 #### **Core Functions**
 * **Add**: Creates a new independent channel based on the currently selected configuration (Config).
-  - Config options: `PA` (Phased Array), `LA` (Linear Array), or `Conventional` (switches center view to standalone full A-Scan).
-* **Copy**: Duplicates all parameters of an existing channel (Gain, Gate, Calibration values V/W/S/T, and geometric settings) to create a new one.
-  - *Practical NDT Benefit*: Extremely useful for dual-probe or split-scan inspections where symmetric setups are deployed, avoiding duplicate setup times.
+* **Copy**: Duplicates all parameters of an existing channel (Gain, Gate, Calibration, etc.) to create a new one. Reduces preparation time in multi-probe environments requiring similar settings.
 * **Rename**: Assigns unique names to each channel based on inspection area or purpose to increase identification.
-* **Remove**: Deletes unnecessary channels from the active group.
-  - **Integrity Rule**: If only a single channel remains in the project, the **Remove** button is automatically grayed out and disabled to maintain project integrity.
+* **Remove**: Deletes unnecessary channels from the active group to organize the workspace.
 
 <div align="center">
-  <img src="/images/03_Resources/kor-program_introduction/images/slide_39_img_10.png" width="150" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsvision_channel_management.png" width="600">
   <p>Channel Addition and Management Menu</p>
 </div>
 
@@ -735,21 +694,15 @@ To effectively configure multi-channels, it is essential to define which physica
 Dynamically adjusts analysis screen configuration through various viewing templates. Screen combinations such as A, B, S, and C-Scan can be selected based on inspection situations, and data from each channel can be efficiently arranged and monitored during multi-channel operation.
 
 <div align="center">
-  <img src="/images/03_Resources/kor-program_introduction/images/slide_41_img_3.png" width="150" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsvision_layout_templates.png" width="600">
   <p>Layout Template Selection Screen</p>
 </div>
 
 * **Layout Templates**: Provides a list of layouts optimized according to the active channel's configuration. Users can select and immediately apply templates ranging from single to multi-split screens.
-  - **A**: A-Scan full screen.
-  - **S**: S-Scan (Sectorial Scan) full screen.
-  - **AS**: Side-by-side A-Scan and S-Scan (standard live view).
-  - **AS/B**: 3-split layout displaying A-Scan, S-Scan, and B-Scan (depth cross-section) simultaneously.
-  - **AS/C**: 3-split layout displaying A-Scan, S-Scan, and C-Scan (accumulated planar mapping) simultaneously.
-  - **S/B/C**: 3-split layout displaying S-Scan, B-Scan, and C-Scan for spatial defect evaluation.
 * **Multi-Channel Layout Management**: Adding or duplicating channels automatically allocates their data to the layout grid. Allows simultaneous visualization of data from multiple groups, and displays the A-Scan associated with each channel group as default to reduce screen complexity.
 
 <div align="center">
-  <img src="/images/03_Resources/kor-program_introduction/images/slide_41_img_12.png" width="150" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsvision_multichannel_layout.png" width="600">
   <p>Example of Multi-Channel Layout Application</p>
 </div>
 
@@ -763,7 +716,7 @@ A procedure to accurately synchronize the unique sound velocity of each inspecti
 *   **Result**: Calculated sound velocity is automatically applied to the system and the **V** indicator at the bottom lights up.
 
 <div align="center">
-  <img src="/images/03_Resources/kor-program_introduction/images/slide_43_img_10.png" width="450" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsvision_step_58_slide_43_img_10.png" width="450">
   <p>Velocity Calibration: Automatic Material Sound Velocity Calculation via High-Resolution Time Analysis</p>
 </div>
 
@@ -773,7 +726,7 @@ Compensates for time differences between ultrasound emitted from each element of
 *   **Result**: Clicking **Finish** applies delay values per element and lights up the **W** indicator. Signals across all angles are now aligned with actual physical depth.
 
 <div align="center">
-  <img src="/images/03_Resources/kor-program_introduction/images/9.png" width="450" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsvision_step_59_9.png" width="450">
   <p>Wedge Delay Calibration: Visual Alignment Process to Match Zero-points of All Beam Angles</p>
 </div>
 
@@ -783,7 +736,7 @@ Compensates for minute sensitivity differences due to element-specific character
 *   **Result**: The **S** indicator lights up, and defect size can be evaluated with consistent sensitivity regardless of detection angle.
 
 <div align="center">
-  <img src="/images/03_Resources/kor-program_introduction/images/10.png" width="450" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsvision_step_60_10.png" width="450">
   <p>Sensitivity Calibration: Sensitivity Flattening to Secure Uniform Signal Response Performance Across All Angles</p>
 </div>
 
@@ -794,7 +747,7 @@ Compensates for the physical phenomenon where ultrasonic energy attenuates as it
 *   **Result**: The **T** indicator lights up, and sensitivity differences due to depth are perfectly compensated.
 
 <div align="center">
-  <img src="/images/03_Resources/kor-program_introduction/images/slide_46_img_17.png" width="450" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsvision_step_61_slide_46_img_17.png" width="450">
   <p>TCG Calibration: Digital Gain Control Curve Design to Compensate for Attenuation by Depth and Angle</p>
 </div>
 
@@ -805,7 +758,7 @@ A procedure to match physical transducer travel distance with software coordinat
 *   **Result**: Digital coordinates and actual physical scan positions are perfectly synchronized.
 
 <div align="center">
-  <img src="/images/03_Resources/kor-program_introduction/images/slide_47_img_3.png" width="450" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsvision_step_62_slide_47_img_3.png" width="450">
   <p>Encoder Calibration: Real-time Synchronization of Physical Travel Distance and Digital Pulses</p>
 </div>
 
@@ -826,7 +779,7 @@ Displays icons for current battery level (%) and power connection (charging) sta
 *   **Temperature**: Displays current internal temperature of the device to monitor operating environment.
 
 <div align="center">
-  <img src="/images/03_Resources/Image/Manual/Toolbar/bottom-toolbar.png" width="340" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsv_bottom_toolbar.png" width="600">
   <p>Status Monitoring via Bottom Toolbar (V, W, S, T Indicators and System Info)</p>
 </div>
 
@@ -844,12 +797,12 @@ Supports two measurement modes based on reference points for calculating signal 
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_Resources/eng-program_introduction/images/slide_28_img_5.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
+    <img src="/images/manuals/dsvision/dsv_left_toolbar.png" width="400">
     <div align="center">Sound Path Mode: Arc-shaped Gate Visualization</div>
   </div>
   <!-- slide -->
   <div align="center">
-    <img src="/images/03_Resources/eng-program_introduction/images/slide_28_img_13.png" width="400" style="max-width: 100%; height: auto; border-radius: 6px;">
+    <img src="/images/manuals/dsvision/cursor_before.png" width="400">
     <div align="center">True Depth Mode: Horizontal Gate Visualization</div>
   </div>
 </div>
@@ -859,14 +812,13 @@ DSVision provides a **Gate Synchronization** function to maintain stable defect 
 
 *   **Gate I (Interface Gate) & Sync**:
     - **Interface Gate (I)**: A special gate that tracks specimen surface (Interface) echoes in real-time.
-    - **Synchronization (Sync)**: When active, the system locks onto the surface echo captured by Gate I and dynamically re-defines its peak location as the new time-of-flight zero point (T=0).
-    - **Practical NDT Benefit**: Even if the coupling thickness (Water Path) fluctuates due to scanner wobbling or rough surface scanning, Gates A and B dynamically follow the surface shifts to accurately monitor defects at consistent material depths.
+    - **Synchronization (Sync)**: Sets the surface signal captured by Gate I as the temporal reference point (T=0). This synchronizes Gates A and B to always maintain a constant depth from the surface to monitor for defects, even if specimen surface height varies.
 *   **Detection Mode**:
     - **Peak**: Measures the point with the highest amplitude within the gate area. Favorable for determining maximum defect size.
-    - **Edge**: Measures where the signal first meets the gate threshold. Favorable for precisely capturing where a defect begins or measuring thickness from the edge crossing.
+    - **Edge**: Measures where the signal first meets the gate threshold. Favorable for precisely capturing where a defect begins.
 
 <div align="center">
-  <img src="/images/03_Resources/eng-program_introduction/images/slide_27_img_3.png" width="150" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <img src="/images/manuals/dsvision/dsvision_gate_sync_control.png" width="600">
   <div align="center">Interface for Gate Parameters and Synchronization Logic Settings</div>
 </div>
 
@@ -916,11 +868,12 @@ When cursors are active, the distance difference between them is displayed as **
 
 <div carousel>
   <div align="center">
-    <img src="/images/03_Resources/Image/Manual/Cursor/cursor.png" width="120" style="max-width: 100%; height: auto; border-radius: 6px;">
+    <img src="/images/manuals/dsvision/dsv_calib_encoder_slide47.png" width="600">
     <div align="center">Cursors Inactive: Only overall signal flow can be grasped</div>
   </div>
   <!-- slide -->
   <div align="center">
+    <img src="/images/manuals/dsvision/dsvision_68_cursor_.png" width="600">
     <div align="center">Cursors Active: Precision defect size calculation via ΔH, ΔV values</div>
   </div>
 </div>
@@ -928,16 +881,10 @@ When cursors are active, the distance difference between them is displayed as **
 ### 5.8.4 Defect Sizing (6dB Drop Method)
 The sizing procedure using the **6dB Drop (50% Attenuation method)**, most widely used in the field, is as follows:
 
-1.  **Peak Search**: Manipulate the probe to find the point where the defect echo reaches its absolute maximum amplitude.
-2.  **Reference Setting**: Align the **Ref Cursor** (Red crosshair) precisely over this maximum peak.
-3.  **Boundary Search**: 
-    - Using the 8-way controller:
-      - Double arrows (`◀◀`, `▶▶`, `▲▲`, `▼▼`) for fast positioning (**Coarse** mode).
-      - Single arrows (`◀`, `▶`, `▲`, `▼`) for precise positioning (**Fine** mode).
-    - Move the **Measurement Cursor** (Blue crosshair) away from the Ref Cursor until the signal amplitude drops to exactly half of the peak height (-6dB down, e.g., from 80% to 40% FSH).
-4.  **Size Determination**:
-    - **Length Measurement**: The **ΔH** (Horizontal Delta) displayed on the bottom status bar at the lateral boundary limits defines the physical **Length** of the defect.
-    - **Height Measurement**: The **ΔV** (Vertical Delta) displayed at the depth boundary limits defines the physical **Height** (through-wall size) of the defect.
+1.  **Peak Search**: Move the probe to find the point where the defect signal is highest.
+2.  **Reference Setting**: Place the **Ref Cursor** at that peak point.
+3.  **Boundary Search**: Move the **Measurement Cursor** left/right or up/down until the signal amplitude drops to half (6dB down) of the peak.
+4.  **Size Determination**: The **ΔH** or **ΔV** value displayed on the status bar at this point becomes the actual physical size (length or height) of the defect.
 
 # 6. Specialized Inspection Modes
 - Description of advanced functions and modes optimized for specific inspection purposes.
